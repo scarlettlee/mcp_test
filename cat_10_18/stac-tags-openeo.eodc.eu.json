@@ -1,0 +1,4765 @@
+{
+  "stacApiUrl": "https://openeo.eodc.eu/v1.0/",
+  "exportedAt": "2025-10-19T14:30:04.533Z",
+  "collections": [
+    {
+      "type": "Collection",
+      "id": "AUT_DEM",
+      "stac_version": "1.0.0",
+      "description": "Austrian High Resolution DEM is generated from Airborne Laser Scanning data with a grid of 10m x 10m.",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/AUT_DEM/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/AUT_DEM",
+          "type": "application/json"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/AUT_DEM/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            9.3,
+            17.3
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            46.2,
+            49.2
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2018-01-01T00:00:00Z",
+              null
+            ]
+          ]
+        },
+        "bands": {
+          "type": "bands",
+          "values": [
+            "DEM"
+          ]
+        }
+      },
+      "title": "Austrian High Resolution DEM",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              9.3,
+              46.2,
+              17.3,
+              49.2
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-01-01T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "providers": [
+        {
+          "name": "EODC",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        }
+      ],
+      "summaries": {
+        "eo:bands": [
+          {
+            "name": "DEM",
+            "description": "Austrian high resolution DEM from airborne laser scanning data"
+          }
+        ],
+        "gsd": 10
+      },
+      "accessibility": "Auth",
+      "userNote": "available"
+    },
+    {
+      "type": "Collection",
+      "id": "DOP_AUT_K_KLAGENFURT",
+      "stac_version": "1.0.0",
+      "description": "Orthofotos des Flugblockes Klagenfurt",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_KLAGENFURT/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_KLAGENFURT",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/DOP_AUT_K_KLAGENFURT/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_KLAGENFURT/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            13.967485195000119,
+            15.080333273626895
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            46.36541188061731,
+            46.721472911972235
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2022-05-19T00:00:00Z",
+              "2022-06-20T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "title": "Digital Orthophotos (DOP) Austria - Land Kärnten: Orthofotos Flugblock Klagenfurt",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.967485195000119,
+              46.36541188061731,
+              15.080333273626895,
+              46.721472911972235
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-05-19T00:00:00Z",
+              "2022-06-20T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "orthophotos",
+        "orthoimage",
+        "carinthia",
+        "klagenfurt"
+      ],
+      "providers": [
+        {
+          "name": "Land Kärnten - KAGIS",
+          "description": "Kontakt: kagis@ktn.gv.at",
+          "roles": [
+            "processor",
+            "licensor"
+          ],
+          "url": "https://kagis.ktn.gv.at"
+        },
+        {
+          "name": "Earth Observation Data Centre",
+          "description": "EODC Earth Observation Data Centre for Water Resources Monitoring GmbH",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        },
+        {
+          "name": "IBV Krank GmbH",
+          "roles": [
+            "producer"
+          ]
+        }
+      ],
+      "summaries": {
+        "mission": [
+          "2022460 Orthofotos Flugblock Klagenfurt"
+        ],
+        "proj:epsg": [
+          "31255"
+        ]
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/DOP_AUT_K_KLAGENFURT.png",
+          "type": "image/png",
+          "title": "DOP_AUT_K_KLAGENFURT collection thumbnail.",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "type": "Collection",
+      "id": "DOP_AUT_K_OSTTIROL",
+      "stac_version": "1.0.0",
+      "description": "Orthofotos des Flugblockes Osttirol",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_OSTTIROL/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_OSTTIROL",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/DOP_AUT_K_OSTTIROL/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_OSTTIROL/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            12.66239337053699,
+            13.022709336961602
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            46.59655104088551,
+            47.037629467133534
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2021-09-02T00:00:00Z",
+              "2021-09-24T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "title": "Digital Orthophotos (DOP) Austria - Land Kärnten: Orthofotos Flugblock Osttirol",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.66239337053699,
+              46.59655104088551,
+              13.022709336961602,
+              47.037629467133534
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-09-02T00:00:00Z",
+              "2021-09-24T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "orthophotos",
+        "orthoimage",
+        "Osttirol",
+        "east tyrol"
+      ],
+      "providers": [
+        {
+          "name": "Land Kärnten - KAGIS",
+          "description": "Kontakt: kagis@ktn.gv.at",
+          "roles": [
+            "processor",
+            "licensor"
+          ],
+          "url": "https://kagis.ktn.gv.at"
+        },
+        {
+          "name": "Earth Observation Data Centre",
+          "description": "EODC Earth Observation Data Centre for Water Resources Monitoring GmbH",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        },
+        {
+          "name": "Vermessung AVT-",
+          "roles": [
+            "producer"
+          ]
+        }
+      ],
+      "summaries": {
+        "mission": [
+          "2021160 Orthofotos Flugblock Osttirol"
+        ],
+        "proj:epsg": [
+          "31255"
+        ]
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/DOP_AUT_K_OSTTIROL.png",
+          "type": "image/png",
+          "title": "DOP_AUT_K_OSTTIROL collection thumbnail.",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "type": "Collection",
+      "id": "DOP_AUT_K_TAMSWEG",
+      "stac_version": "1.0.0",
+      "description": "Orthofotos des Flugblockes Tamsweg",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_TAMSWEG/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_TAMSWEG",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/DOP_AUT_K_TAMSWEG/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/DOP_AUT_K_TAMSWEG/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_TAMSWEG/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            12.987009545265067,
+            14.006810065443387
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            47.018112421462206,
+            47.11002553041674
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2021-09-02T00:00:00Z",
+              "2021-09-23T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "title": "Digital Orthophotos (DOP) Austria - Land Kärnten: Orthofotos Flugblock Tamsweg",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.987009545265067,
+              47.018112421462206,
+              14.006810065443387,
+              47.11002553041674
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-09-02T00:00:00Z",
+              "2021-09-23T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "orthophotos",
+        "orthoimage",
+        "tamsweg",
+        "carinthia"
+      ],
+      "providers": [
+        {
+          "name": "Land Kärnten - KAGIS",
+          "description": "Kontakt: kagis@ktn.gv.at",
+          "roles": [
+            "processor",
+            "licensor"
+          ],
+          "url": "https://kagis.ktn.gv.at"
+        },
+        {
+          "name": "Earth Observation Data Centre",
+          "description": "EODC Earth Observation Data Centre for Water Resources Monitoring GmbH",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        },
+        {
+          "name": "PRIMIS",
+          "roles": [
+            "producer"
+          ]
+        }
+      ],
+      "summaries": {
+        "mission": [
+          "2021360 Orthofotos Flugblock Tamsweg"
+        ],
+        "proj:epsg": [
+          "31255"
+        ]
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/DOP_AUT_K_TAMSWEG.png",
+          "type": "image/png",
+          "title": "DOP_AUT_K_TAMSWEG collection thumbnail.",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "type": "Collection",
+      "id": "DOP_AUT_K_VILLACH",
+      "stac_version": "1.0.0",
+      "description": "Orthofotos des Flugblockes Villach",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_VILLACH/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_VILLACH",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/DOP_AUT_K_VILLACH/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_VILLACH/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            12.987244329672953,
+            14.006810065443387
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            46.478418251763074,
+            47.038065513109295
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2022-06-18T00:00:00Z",
+              "2022-09-13T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "title": "Digital Orthophotos (DOP) Austria - Land Kärnten: Orthofotos Flugblock Villach",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.987244329672953,
+              46.478418251763074,
+              14.006810065443387,
+              47.038065513109295
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-06-18T00:00:00Z",
+              "2022-09-13T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "orthophotos",
+        "orthoimage",
+        "Villach",
+        "carinthia"
+      ],
+      "providers": [
+        {
+          "name": "Land Kärnten - KAGIS",
+          "description": "Kontakt: kagis@ktn.gv.at",
+          "roles": [
+            "processor",
+            "licensor"
+          ],
+          "url": "https://kagis.ktn.gv.at"
+        },
+        {
+          "name": "Earth Observation Data Centre",
+          "description": "EODC Earth Observation Data Centre for Water Resources Monitoring GmbH",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        },
+        {
+          "name": "Georeal",
+          "roles": [
+            "producer"
+          ]
+        }
+      ],
+      "summaries": {
+        "mission": [
+          "2022160 Orthofotos Flugblock Villach"
+        ],
+        "proj:epsg": [
+          "31255"
+        ]
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/DOP_AUT_K_VILLACH.png",
+          "type": "image/png",
+          "title": "DOP_AUT_K_VILLACH collection thumbnail.",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "type": "Collection",
+      "id": "DOP_AUT_K_WOLFSBERG",
+      "stac_version": "1.0.0",
+      "description": "Orthofotos des Flugblockes Wolfsberg",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_WOLFSBERG/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_WOLFSBERG",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/DOP_AUT_K_WOLFSBERG/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_WOLFSBERG/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            13.970101698798722,
+            15.050241586958041
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            46.692425077247385,
+            47.03580174699723
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2022-07-13T00:00:00Z",
+              "2022-07-21T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "title": "Digital Orthophotos (DOP) Austria - Land Kärnten: Orthofotos Flugblock Wolfsberg",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.970101698798722,
+              46.692425077247385,
+              15.050241586958041,
+              47.03580174699723
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-07-13T00:00:00Z",
+              "2022-07-21T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "orthophotos",
+        "orthoimage",
+        "Wolfsberg",
+        "carinthia"
+      ],
+      "providers": [
+        {
+          "name": "Land Kärnten - KAGIS",
+          "description": "Kontakt: kagis@ktn.gv.at",
+          "roles": [
+            "processor",
+            "licensor"
+          ],
+          "url": "https://kagis.ktn.gv.at"
+        },
+        {
+          "name": "Earth Observation Data Centre",
+          "description": "EODC Earth Observation Data Centre for Water Resources Monitoring GmbH",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        },
+        {
+          "name": "PRIMIS",
+          "roles": [
+            "producer"
+          ]
+        }
+      ],
+      "summaries": {
+        "mission": [
+          "2022360 Orthofotos Flugblock Wolfsberg"
+        ],
+        "proj:epsg": [
+          "31255"
+        ]
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/DOP_AUT_K_WOLFSBERG.png",
+          "type": "image/png",
+          "title": "DOP_AUT_K_WOLFSBERG collection thumbnail.",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "type": "Collection",
+      "id": "DOP_AUT_K_ZELTWEG",
+      "stac_version": "1.0.0",
+      "description": "Orthofotos des Flugblockes Zeltweg",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_ZELTWEG/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_ZELTWEG",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/DOP_AUT_K_ZELTWEG/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/DOP_AUT_K_ZELTWEG/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            13.973818068962956,
+            14.910953733717628
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            47.00924998081931,
+            47.09844028882999
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2022-09-23T00:00:00Z",
+              "2022-10-07T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "title": "Digital Orthophotos (DOP) Austria - Land Kärnten: Orthofotos Flugblock Zeltweg",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.973818068962956,
+              47.00924998081931,
+              14.910953733717628,
+              47.09844028882999
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-09-23T00:00:00Z",
+              "2022-10-07T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "orthophotos",
+        "orthoimage",
+        "carinthia"
+      ],
+      "providers": [
+        {
+          "name": "Land Kärnten - KAGIS",
+          "description": "Kontakt: kagis@ktn.gv.at",
+          "roles": [
+            "processor",
+            "licensor"
+          ],
+          "url": "https://kagis.ktn.gv.at"
+        },
+        {
+          "name": "Earth Observation Data Centre",
+          "description": "EODC Earth Observation Data Centre for Water Resources Monitoring GmbH",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        },
+        {
+          "name": "FMM",
+          "roles": [
+            "producer"
+          ]
+        }
+      ],
+      "summaries": {
+        "mission": [
+          "2022260 Orthofotos Flugblock Zeltweg"
+        ],
+        "proj:epsg": [
+          "31255"
+        ]
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/DOP_AUT_K_ZELTWEG.png",
+          "type": "image/png",
+          "title": "DOP_AUT_K_ZELTWEG collection thumbnail.",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "type": "Collection",
+      "id": "ERS_ENVISAT_NRB",
+      "stac_version": "1.0.0",
+      "description": "The ERS_ENVISAT_NRB collection provides Analysis Ready Data (ARD) derived from ERS and ENVISAT missions. It includes Normalized Radar Backscatter (NRB) products, developed with an aim to be compliant with CEOS ARD specifications.\n\n[https://ceos.org/ard/](https://ceos.org/ard/).",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/ERS_ENVISAT_NRB/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/ERS_ENVISAT_NRB",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/ERS_ENVISAT_NRB/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "license",
+          "href": "https://earth.esa.int/eogateway/documents/20142/1564626/Terms-and-Conditions-for-the-use-of-ESA-Data.pdf",
+          "title": "ESA's Earth Observation Terms and Conditions"
+        },
+        {
+          "rel": "cite-as",
+          "href": "https://doi.org/10.57780/esa-qxqckwg"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/ERS_ENVISAT_NRB/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/timestamps/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+        "https://stac-extensions.github.io/archive/v1.0.0/schema.json#",
+        "https://stac-extensions.github.io/alternate-assets/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+        "https://stac-extensions.github.io/card4l/v1.0.0/sar/product.json",
+        "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+        "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+      ],
+      "sci:doi": "10.57780/esa-qxqckwg",
+      "version": "2024.11",
+      "sci:citation": "ESA, EODC, 2024, ERS-1/2 SAR and ENVISAT ASAR ARD Normalized Radar Backscatter (NRB), 2024.11, ESA & EODC, https://doi.org/10.57780/esa-qxqckwg",
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            9.5,
+            17.2
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            46.4,
+            49
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "1991-07-31T00:00:00Z",
+              "2012-03-28T00:00:00Z"
+            ]
+          ]
+        },
+        "bands": {
+          "type": "bands",
+          "values": [
+            "vv",
+            "hh"
+          ]
+        }
+      },
+      "title": "ERS-1/2 SAR and ENVISAT ASAR ARD Normalized Radar Backscatter (NRB)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              9.5,
+              46.4,
+              17.2,
+              49
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1991-07-31T00:00:00Z",
+              "2012-03-28T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "keywords": [
+        "envisat",
+        "esa",
+        "asar",
+        "sar"
+      ],
+      "providers": [
+        {
+          "name": "ESA",
+          "roles": [
+            "producer",
+            "licensor"
+          ],
+          "url": "https://earth.esa.int/web/guest/home"
+        },
+        {
+          "name": "EODC",
+          "roles": [
+            "host",
+            "processor"
+          ],
+          "url": "https://eodc.eu/"
+        }
+      ],
+      "summaries": {
+        "eo:bands": [
+          {
+            "name": "vv"
+          },
+          {
+            "name": "hh"
+          }
+        ],
+        "platform": [
+          "ENVISAT",
+          "ERS1",
+          "ERS2"
+        ],
+        "proj:epsg": [
+          4326
+        ],
+        "providers": [
+          {
+            "url": "https://earth.esa.int/web/guest/home",
+            "name": "ESA",
+            "roles": [
+              "producer",
+              "licensor"
+            ]
+          },
+          {
+            "url": "https://eodc.eu/",
+            "name": "EODC",
+            "roles": [
+              "host",
+              "processor"
+            ]
+          }
+        ],
+        "instruments": [
+          "AMI",
+          "ASAR"
+        ],
+        "constellation": [
+          "ENVISAT",
+          "ERS"
+        ],
+        "sar:looks_range": [
+          1
+        ],
+        "sat:orbit_state": [
+          "ascending",
+          "descending"
+        ],
+        "processing:level": [
+          "Level-2"
+        ],
+        "sar:product_type": [
+          "NRB"
+        ],
+        "sar:looks_azimuth": [
+          1,
+          4
+        ],
+        "sar:polarizations": [
+          "HH",
+          "VV"
+        ],
+        "sar:frequency_band": [
+          "C"
+        ],
+        "sat:absolute_orbit": [
+          1,
+          52794
+        ],
+        "sat:relative_orbit": [
+          1,
+          1
+        ],
+        "sar:instrument_mode": [
+          "IMP",
+          "IMS"
+        ],
+        "sar:resolution_range": [
+          30
+        ],
+        "datetime": {
+          "minimum": "1991-07-31T00:00:00Z",
+          "maximum": "2012-03-28T00:00:00Z"
+        },
+        "published": {
+          "minimum": "2025-02-13T14:28:13Z",
+          "maximum": "None"
+        },
+        "end_datetime": {
+          "minimum": "1991-07-31T00:00:00Z",
+          "maximum": "2012-03-28T00:00:00Z"
+        },
+        "start_datetime": {
+          "minimum": "1991-07-31T00:00:00Z",
+          "maximum": "2012-03-28T00:00:00Z"
+        },
+        "processing:datetime": {
+          "minimum": "2025-02-13T14:28:13Z",
+          "maximum": "None"
+        }
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/ERS_ENVISAT_NRB.png",
+          "type": "image/png",
+          "title": "ERS_ENVISAT_NRB Colletion Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Restricted",
+      "userNote": "CORS Error"
+    },
+    {
+      "type": "Collection",
+      "id": "GFM",
+      "stac_version": "1.0.0",
+      "description": "The Global Flood Monitoring (GFM) product is a new component of the EU's Copernicus Emergency Management Service (CEMS) that provides continuous monitoring of floods worldwide, by processing and analysing in near real-time (NRT) all incoming Synthetic Aperture Radar (SAR) imagery acquired by the EU's Copernicus Sentinel-1 satellites, in Interferometric Wide Swath (IW) mode and as Ground Range Detected (GRD) products.",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM",
+          "type": "application/json"
+        },
+        {
+          "rel": "about",
+          "href": "https://extwiki.eodc.eu/en/GFM",
+          "title": "Global Flood Monitoring Wiki"
+        },
+        {
+          "rel": "cite-as",
+          "href": "https://doi.org/10.1109/IGARSS47720.2021.9554214"
+        },
+        {
+          "rel": "cite-as",
+          "href": "https://doi.org/10.3390/rs14153673"
+        },
+        {
+          "rel": "cite-as",
+          "href": "https://doi.org/10.1109/TGRS.2017.2737664"
+        },
+        {
+          "rel": "cite-as",
+          "href": "https://doi.org/10.1016/j.isprsjprs.2014.07.014"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json",
+        "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
+      ],
+      "sci:doi": "10.1109/IGARSS47720.2021.9554214",
+      "item_assets": {
+        "advisory_flags": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Advisory Flags",
+          "description": "GFM Advisory Flags"
+        },
+        "dlr_likelihood": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Likelihood (Intermediate output - DLR algorithm)",
+          "description": "GFM Likelihood (Intermediate output - DLR algorithm)"
+        },
+        "exclusion_mask": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Exclusion Mask (Final output - Ensemble algorithm)",
+          "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)"
+        },
+        "tuw_likelihood": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Uncertainties (Intermediate output - TUW algorithm)",
+          "description": "GFM Uncertainties (Intermediate output - TUW algorithm)"
+        },
+        "list_likelihood": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Likelihood (Intermediate output - LIST algorithm)",
+          "description": "GFM Likelihood (Intermediate output - LIST algorithm)"
+        },
+        "dlr_flood_extent": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)",
+          "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)"
+        },
+        "tuw_flood_extent": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)",
+          "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)"
+        },
+        "list_flood_extent": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)",
+          "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)"
+        },
+        "ensemble_likelihood": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Likelihood (Final output - Ensemble algorithm)",
+          "description": "GFM Likelihood (Final output - Ensemble algorithm)"
+        },
+        "reference_water_mask": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Reference Water Mask",
+          "description": "GFM Reference Water Mask"
+        },
+        "ensemble_flood_extent": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Observed Flood Extent (Final output - Ensemble algorithm)",
+          "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+        },
+        "ensemble_water_extent": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "GFM Observed Water Extent (Final output - Ensemble algorithm)",
+          "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)"
+        }
+      },
+      "sci:citation": "P. Salamon et al., 'The New, Systematic Global Flood Monitoring Product of the Copernicus Emergency Management Service,' 2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS, Brussels, Belgium, 2021, pp. 1053-1056",
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            -180,
+            180
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            -90,
+            90
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2015-01-01T00:00:00Z",
+              null
+            ]
+          ]
+        },
+        "bands": {
+          "type": "bands",
+          "values": [
+            "advisory_flags",
+            "exclusion_mask",
+            "ensemble_flood_extent",
+            "ensemble_likelihood",
+            "ensemble_water_extent",
+            "reference_water_mask",
+            "dlr_flood_extent",
+            "dlr_likelihood",
+            "list_flood_extent",
+            "list_likelihood",
+            "tuw_flood_extent",
+            "tuw_likelihood"
+          ]
+        }
+      },
+      "sci:publications": [
+        {
+          "doi": "10.3390/rs14153673",
+          "citation": "Bauer-Marschallinger, B., Cao, S., Tupas, M. E., Roth, F., Navacchi, C., Melzer, T., Freeman, V. & Wagner, W. 2022. Satellite-Based Flood Mapping through Bayesian Inference from a Sentinel-1 SAR Datacube. Remote Sensing, 14(15), 3673"
+        },
+        {
+          "doi": "10.1109/TGRS.2017.2737664",
+          "citation": "Chini M., R. Hostache, L. Giustarini, P. Matgen. 2017. A Hierarchical Split-Based Approach for parametric thresholding of SAR images: flood inundation as a test case, IEEE Transactions on Geoscience and Remote Sensing, 55 (12), 6975-6988, 2017"
+        },
+        {
+          "doi": "10.1016/j.isprsjprs.2014.07.014",
+          "citation": "Martinis, S., A. Twele, J. Kersten. 2015. A fully automated TerraSAR-X based flood service. ISPRS Journal of Photogrammetry and Remote Sensing, 104, 203-212"
+        }
+      ],
+      "title": "Global Flood Monitoring",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "keywords": [
+        "sentinel",
+        "copernicus",
+        "esa",
+        "jrc",
+        "flood",
+        "emergency"
+      ],
+      "providers": [
+        {
+          "name": "JRC CEMS",
+          "roles": [
+            "licensor"
+          ],
+          "url": "https://emergency.copernicus.eu/"
+        },
+        {
+          "name": "EODC",
+          "roles": [
+            "processor",
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        }
+      ],
+      "summaries": {
+        "eo:bands": [
+          {
+            "name": "advisory_flags",
+            "description": "GFM Advisory Flags"
+          },
+          {
+            "name": "exclusion_mask",
+            "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)"
+          },
+          {
+            "name": "ensemble_flood_extent",
+            "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+          },
+          {
+            "name": "ensemble_likelihood",
+            "description": "GFM Likelihood (Final output - Ensemble algorithm)"
+          },
+          {
+            "name": "ensemble_water_extent",
+            "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)"
+          },
+          {
+            "name": "reference_water_mask",
+            "description": "GFM Reference Water Mask"
+          },
+          {
+            "name": "dlr_flood_extent",
+            "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)"
+          },
+          {
+            "name": "dlr_likelihood",
+            "description": "GFM Likelihood (Intermediate output - DLR algorithm)"
+          },
+          {
+            "name": "list_flood_extent",
+            "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)"
+          },
+          {
+            "name": "list_likelihood",
+            "description": "GFM Likelihood (Intermediate output - LIST algorithm)"
+          },
+          {
+            "name": "tuw_flood_extent",
+            "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)"
+          },
+          {
+            "name": "tuw_likelihood",
+            "description": "GFM Uncertainties (Intermediate output - TUW algorithm)"
+          }
+        ],
+        "platform": [
+          "sentinel-1a",
+          "sentinel-1b"
+        ],
+        "constellation": [
+          "sentinel-1"
+        ]
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/gfm_collection_thumbnail_light_grey.png",
+          "type": "image/png",
+          "title": "GFM collection thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "type": "Collection",
+      "id": "SENTINEL1_GRD",
+      "stac_version": "1.0.0",
+      "description": "Sentinel-1 Level-1 Ground Range Detected (GRD) products consist of focused SAR data that has been detected, multi-looked and projected to ground range using the Earth ellipsoid model WGS84. The ellipsoid projection of the GRD products is corrected using the terrain height specified in the product general annotation. The terrain height used varies in azimuth but is constant in range (but can be different for each IW/EW sub-swath). Ground range coordinates are the slant range coordinates projected onto the ellipsoid of the Earth. Pixel values represent detected amplitude. Phase information is lost. The resulting product has approximately square resolution pixels and square pixel spacing with reduced speckle at a cost of reduced spatial resolution. For the IW and EW GRD products, multi-looking is performed on each burst individually. All bursts in all sub-swaths are then seamlessly merged to form a single, contiguous, ground range, detected image per polarisation.",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/SENTINEL1_GRD/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "license",
+          "href": "https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions",
+          "title": "Sentinel License"
+        },
+        {
+          "rel": "about",
+          "href": "https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-1-sar/products-algorithms/level-1-algorithms/ground-range-detected",
+          "title": "Sentinel-1 Ground Range Detected (GRD) Technical Guide"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/timestamps/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/alternate-assets/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+      ],
+      "item_assets": {
+        "hh": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "HH Data",
+          "description": "HH polarization backscattering coefficient, 16-bit DN."
+        },
+        "hv": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "HV Data",
+          "description": "HV polarization backscattering coefficient, 16-bit DN."
+        },
+        "vh": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "VH Data",
+          "description": "VH polarization backscattering coefficient, 16-bit DN."
+        },
+        "vv": {
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "VV Data",
+          "description": "VV polarization backscattering coefficient, 16-bit DN."
+        },
+        "thumbnail": {
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ],
+          "title": "Preview Image",
+          "description": "An averaged, decimated preview image in PNG format. Single polarization products are represented with a grey scale image. Dual polarization products are represented by a single composite colour image in RGB with the red channel (R) representing the  co-polarization VV or HH), the green channel (G) represents the cross-polarization (VH or HV) and the blue channel (B) represents the ratio of the cross an co-polarizations."
+        },
+        "safe-manifest": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "Manifest File",
+          "description": "General product metadata in XML format. Contains a high-level textual description of the product and references to all of product's components, the product metadata, including the product identification and the resource references, and references to the physical location of each component file contained in the product."
+        },
+        "schema-noise-hh": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "HH Noise Schema",
+          "description": "Estimated thermal noise look-up tables"
+        },
+        "schema-noise-hv": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "HV Noise Schema",
+          "description": "Estimated thermal noise look-up tables"
+        },
+        "schema-noise-vh": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "VH Noise Schema",
+          "description": "Estimated thermal noise look-up tables"
+        },
+        "schema-noise-vv": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "VV Noise Schema",
+          "description": "Estimated thermal noise look-up tables"
+        },
+        "schema-product-hh": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "HH Product Schema",
+          "description": "Describes the main characteristics corresponding to the band: state of the platform during acquisition, image properties, Doppler information, geographic location, etc."
+        },
+        "schema-product-hv": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "HV Product Schema",
+          "description": "Describes the main characteristics corresponding to the band: state of the platform during acquisition, image properties, Doppler information, geographic location, etc."
+        },
+        "schema-product-vh": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "VH Product Schema",
+          "description": "Describes the main characteristics corresponding to the band: state of the platform during acquisition, image properties, Doppler information, geographic location, etc."
+        },
+        "schema-product-vv": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "VV Product Schema",
+          "description": "Describes the main characteristics corresponding to the band: state of the platform during acquisition, image properties, Doppler information, geographic location, etc."
+        },
+        "schema-calibration-hh": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "HH Calibration Schema",
+          "description": "Calibration metadata including calibration information and the beta nought, sigma nought, gamma and digital number look-up tables that can be used for absolute product calibration."
+        },
+        "schema-calibration-hv": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "HV Calibration Schema",
+          "description": "Calibration metadata including calibration information and the beta nought, sigma nought, gamma and digital number look-up tables that can be used for absolute product calibration."
+        },
+        "schema-calibration-vh": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "VH Calibration Schema",
+          "description": "Calibration metadata including calibration information and the beta nought, sigma nought, gamma and digital number look-up tables that can be used for absolute product calibration."
+        },
+        "schema-calibration-vv": {
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "VV Calibration Schema",
+          "description": "Calibration metadata including calibration information and the beta nought, sigma nought, gamma and digital number look-up tables that can be used for absolute product calibration."
+        }
+      },
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            -180,
+            180
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            -90,
+            90
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2014-10-03T00:00:00Z",
+              null
+            ]
+          ]
+        },
+        "bands": {
+          "type": "bands",
+          "values": [
+            "VH",
+            "HH",
+            "HV",
+            "VV"
+          ]
+        }
+      },
+      "title": "Sentinel-1 SAR L1 GRD",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-10-03T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "keywords": [
+        "sentinel",
+        "copernicus",
+        "esa",
+        "sar",
+        "radar"
+      ],
+      "providers": [
+        {
+          "name": "ESA",
+          "roles": [
+            "producer",
+            "processor",
+            "licensor"
+          ],
+          "url": "https://earth.esa.int/web/guest/home"
+        },
+        {
+          "name": "EODC",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        }
+      ],
+      "summaries": {
+        "eo:bands": [
+          {
+            "name": "VH",
+            "description": "VH band: vertical transmit and horizontal receive"
+          },
+          {
+            "name": "HH",
+            "description": "HH band: horizontal transmit and horizontal receive"
+          },
+          {
+            "name": "HV",
+            "description": "HV band: horizontal transmit and vertical receive"
+          },
+          {
+            "name": "VV",
+            "description": "VV band: vertical transmit and vertical receive"
+          }
+        ],
+        "platform": [
+          "sentinel-1a",
+          "sentinel-1b"
+        ],
+        "published": [
+          "2023-06-19T13:16:22Z"
+        ],
+        "constellation": [
+          "sentinel-1"
+        ],
+        "sar:looks_range": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "sat:orbit_state": [
+          "ascending",
+          "descending"
+        ],
+        "sar:product_type": [
+          "GRD"
+        ],
+        "sar:looks_azimuth": [
+          1,
+          2,
+          6
+        ],
+        "sar:polarizations": [
+          "HH",
+          "VV",
+          "HV",
+          "VH",
+          [
+            "HH",
+            "HV"
+          ],
+          [
+            "VV",
+            "VH"
+          ]
+        ],
+        "sar:frequency_band": [
+          "C"
+        ],
+        "sar:instrument_mode": [
+          "IW",
+          "EW",
+          "SM"
+        ],
+        "sar:center_frequency": [
+          5.405
+        ],
+        "sar:resolution_range": [
+          9,
+          20,
+          23,
+          50,
+          93
+        ],
+        "sar:resolution_azimuth": [
+          9,
+          22,
+          23,
+          50,
+          87
+        ],
+        "sar:pixel_spacing_range": [
+          3.5,
+          10,
+          25,
+          40
+        ],
+        "sar:observation_direction": [
+          "right"
+        ],
+        "sar:pixel_spacing_azimuth": [
+          3.5,
+          10,
+          25,
+          40
+        ],
+        "sar:looks_equivalent_number": [
+          3.7,
+          29.7,
+          398.4,
+          4.4,
+          81.8,
+          2.8,
+          10.7,
+          123.7
+        ]
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/SENTINEL1_GRD.png",
+          "type": "image/png",
+          "title": "SENTINEL1_GRD collection thumbnail.",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "type": "Collection",
+      "id": "SENTINEL1_HPAR",
+      "stac_version": "1.0.0",
+      "description": "The Harmonic model describes the typical seasonal Sentinel-1 backscatter variation on a 20 m pixel level. It was designed as a smoothed time-series approximation, removing short-term perturbations, such as speckle and transient events (like floods for instance). Hence, the model is suited to discern the seasonal changes brought about by varying water content, e.g., inundation or soil moisture, and progression of vegetation structure.\nThe complete Sentinel-1 time-series dataset is challenging to analyse, primarily due to its sheer data volume of at the (global) scale of Petabytes. As a user-friendly alternative, this dataset provides a Harmonic (Fourier) series model that reduces the SAR backscatter seasonality to a relative small number of harmonic coefficient values. Seven coefficients computed using (harmonic) least squares regression, along with the standard deviation of residuals and number of observations, comprise the harmonic parametner set. The parameters are being operationally used to determine the expected SAR backscatter signal for any day of the year as part of the TU Wien's method contributing to GFM's ensemble flood monitoring effort (Bauer-Marschallinger et. al, 2022 https://www.mdpi.com/2072-4292/14/15/3673). The Global Harmonic Parameters (HPARs) were derived from the whole Sentinel-1 VV temporal stack for the period 2019-2020 by least squares regression with a harmonic model formulation, running three sinusoidal iterations (k=3).\nThis dataset was generated by the Remote Sensing Group of the TU Wien Department of Geodesy and Geoinformation,  within Framework Contract (No. 939866-IPR-2020) as part of the provision of an automated, global, satellite-based flood monitoring product for the Copernicus Emergency Management Service (CEMS) managed by the European Commission. The Global Flood Monitoring (GFM) product is integrated within the user interface of the Global Flood Awareness System (GloFAS) of the CEMS. ",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_HPAR/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_HPAR",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://dev.stac.eodc.eu/api/v1/collections/SENTINEL1_HPAR/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "license",
+          "href": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "type": "text/html",
+          "title": "TUWien Harmonic Parameter Data License"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_HPAR/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            -180,
+            180
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            -90,
+            90
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2019-01-01T00:00:00Z",
+              "2021-12-31T00:00:00Z"
+            ]
+          ]
+        },
+        "bands": {
+          "type": "bands",
+          "values": [
+            "C1",
+            "C2",
+            "C3",
+            "M0",
+            "S1",
+            "S2",
+            "S3",
+            "STD",
+            "NOBS"
+          ]
+        }
+      },
+      "title": "SENTINEL1 Harmonic Parameters",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-01-01T00:00:00Z",
+              "2021-12-31T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "providers": [
+        {
+          "name": "TU Wien",
+          "roles": [
+            "processor",
+            "licensor"
+          ],
+          "url": "https://www.tuwien.at/mg/geo"
+        },
+        {
+          "name": "EODC",
+          "roles": [
+            "processor",
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        }
+      ],
+      "summaries": {
+        "eo:bands": [
+          {
+            "name": "C1",
+            "description": "Cosine component coefficient of iteration 1"
+          },
+          {
+            "name": "C2",
+            "description": "Cosine component coefficient of iteration 2"
+          },
+          {
+            "name": "C3",
+            "description": "Cosine component coefficient of iteration 3"
+          },
+          {
+            "name": "M0",
+            "description": "Effective mean of the time series stacks, also called the harmonic residual in other literature."
+          },
+          {
+            "name": "S1",
+            "description": "Sine component coefficient of iteration 1"
+          },
+          {
+            "name": "S2",
+            "description": "Sine component coefficient of iteration 2"
+          },
+          {
+            "name": "S3",
+            "description": "Sine component coefficient of iteration 3"
+          },
+          {
+            "name": "STD",
+            "description": "Standard deviation of residuals, a proxy for model goodness of fit."
+          },
+          {
+            "name": "NOBS",
+            "description": "Number of valid observations used for the least squares regression, also an indicator of solution quality."
+          }
+        ],
+        "platform": [
+          "sentinel-1a",
+          "sentinel-1b"
+        ],
+        "constellation": "sentinel-1"
+      },
+      "accessibility": "Restricted",
+      "userNote": "CORS Error"
+    },
+    {
+      "type": "Collection",
+      "id": "SENTINEL1_MPLIA",
+      "stac_version": "1.0.0",
+      "description": "The projected local incidence angle (PLIA) is the angle between the surface normal and the looking direction of the satellite (local incidence angle - LIA) which is further projected into the range plane. It can be computed for each individual Sentinel-1 acquisition during the terrain correction using SNAP Sentinel-1 Toolbox. The PLIA for all Sentinel-1 GRDH scenes in the year 2020 have been proudced. Due to high accuracy and stability of Sentinel-1 orbit, the difference between PLIAs from different passes of the same relative orbit are neglectable, in particular for non-interferometry application. The PLIA are further aggregated to the mean PLIA per each relative orbit. \nThis colleciton includes global mean PLIA per relative orbit at 20 m sampling in Eqiu7 tiling system. The original data has been encoded by multiplying 100 and are stored in integer 16-bits data type in order to minimize file size.",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_MPLIA/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_MPLIA",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://dev.stac.eodc.eu/api/v1/collections/SENTINEL1_MPLIA/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_MPLIA/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            -180,
+            180
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            -90,
+            90
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2020-01-01T00:00:00Z",
+              "2020-12-31T00:00:00Z"
+            ]
+          ]
+        },
+        "bands": {
+          "type": "bands",
+          "values": [
+            "MPLIA",
+            "NOBS"
+          ]
+        }
+      },
+      "title": "SENTINEL1 Mean PLIA",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01T00:00:00Z",
+              "2020-12-31T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "providers": [
+        {
+          "name": "TU Wien",
+          "roles": [
+            "processor",
+            "licensor"
+          ],
+          "url": "https://www.tuwien.at/mg/geo"
+        },
+        {
+          "name": "EODC",
+          "roles": [
+            "processor",
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        }
+      ],
+      "summaries": {
+        "eo:bands": [
+          {
+            "name": "MPLIA",
+            "description": "The mean MPLIA of this orbit"
+          },
+          {
+            "name": "NOBS",
+            "description": "Number of valid observations used Mean PLIA calculation."
+          }
+        ],
+        "platform": [
+          "sentinel-1a",
+          "sentinel-1b"
+        ],
+        "constellation": "sentinel-1"
+      },
+      "accessibility": "Restricted",
+      "userNote": "CORS Error"
+    },
+    {
+      "type": "Collection",
+      "id": "SENTINEL1_SIG0_20M",
+      "stac_version": "1.0.0",
+      "description": "Sentinel-1 Sigma Nought (SIG0) Products are radiometric calibrated and georeferenced backscatter data generated from Sentinel-1 level-1 Interferometric Wide (IW) Swath Ground Range Detected (GRD) High resolution products using TUWien Sentinel-1 preprocesssing workflow. The preprocessing workflow includes following steps: applying precise orbit file, radiometric calibration, thermal noise removal, and range doppler terrain correction. In the end, Sigma0 backscatter image is reprojected and resampled into Equi7 Grid system at 20m pixels spacing.",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_SIG0_20M/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_SIG0_20M",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/SENTINEL1_SIG0_20M/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_SIG0_20M/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            -180,
+            180
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            -90,
+            90
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2014-10-01T00:00:00Z",
+              null
+            ]
+          ]
+        },
+        "bands": {
+          "type": "bands",
+          "values": [
+            "VV",
+            "VH",
+            "HH",
+            "HV"
+          ]
+        }
+      },
+      "title": "SENTINEL1 Sigma Nought (SIG0) Backscatter in 20 meter resolution",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-10-01T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "providers": [
+        {
+          "name": "TU Wien",
+          "roles": [
+            "processor",
+            "licensor"
+          ],
+          "url": "https://www.tuwien.at/mg/geo"
+        },
+        {
+          "name": "EODC",
+          "roles": [
+            "processor",
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        }
+      ],
+      "summaries": {
+        "gsd": [
+          20
+        ],
+        "eo:bands": [
+          {
+            "name": "VV",
+            "common_name": "Sigma0_VV",
+            "description": "Sigma Nought in VV polarization",
+            "center_wavelength": 55465.76
+          },
+          {
+            "name": "VH",
+            "common_name": "Sigma0_VH",
+            "description": "Sigma Nought in VH polarization",
+            "center_wavelength": 55465.76
+          },
+          {
+            "name": "HH",
+            "common_name": "Sigma0_HH",
+            "description": "Sigma Nought in HH polarization",
+            "center_wavelength": 55465.76
+          },
+          {
+            "name": "HV",
+            "common_name": "Sigma0_HV",
+            "description": "Sigma Nought in HV polarization",
+            "center_wavelength": 55465.76
+          }
+        ],
+        "platform": [
+          "sentinel-1a",
+          "sentinel-1b"
+        ],
+        "item_assets": {
+          "HH": {
+            "type": "image/tiff; application=geotiff",
+            "title": "Sigma Nought (HH)",
+            "eo:bands": [
+              {
+                "name": "HH",
+                "common_name": "Sigma0_HH",
+                "center_wavelength": 55465.76
+              }
+            ],
+            "description": "Sigma Nought in HH polarization"
+          },
+          "HV": {
+            "type": "image/tiff; application=geotiff",
+            "title": "Sigma Nought (HV)",
+            "eo:bands": [
+              {
+                "name": "HV",
+                "common_name": "Sigma0_HV",
+                "center_wavelength": 55465.76
+              }
+            ],
+            "description": "Sigma Nought in HV polarization"
+          },
+          "VH": {
+            "type": "image/tiff; application=geotiff",
+            "title": "Sigma Nought (VH)",
+            "eo:bands": [
+              {
+                "name": "VH",
+                "common_name": "Sigma0_VH",
+                "center_wavelength": 55465.76
+              }
+            ],
+            "description": "Sigma Nought in VH polarization"
+          },
+          "VV": {
+            "type": "image/tiff; application=geotiff",
+            "title": "Sigma Nought (VV)",
+            "eo:bands": [
+              {
+                "name": "VV",
+                "common_name": "Sigma0_VV",
+                "center_wavelength": 55465.76
+              }
+            ],
+            "description": "Sigma Nought in VV polarization"
+          },
+          "thumbnail": {
+            "type": "image/png",
+            "roles": [
+              "thumbnail"
+            ],
+            "title": "Thumbnail",
+            "description": "A medium sized thumbnail"
+          }
+        },
+        "constellation": "sentinel-1"
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/SENTINEL1_SIG0_20M.png",
+          "type": "image/png",
+          "title": "SENTINEL1_SIG0_20M collection thumbnail.",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Restricted",
+      "userNote": "CORS Error"
+    },
+    {
+      "type": "Collection",
+      "id": "SENTINEL2_L1C",
+      "stac_version": "1.0.0",
+      "description": "SENTINEL-2 is a wide-swath, high-resolution, multi-spectral imaging mission, supporting Copernicus Land Monitoring studies, including the monitoring of vegetation, soil and water cover, as well as observation of inland waterways and coastal areas.\nThe SENTINEL-2 Multispectral Instrument (MSI) samples 13 spectral bands: four bands at 10 metres, six bands at 20 metres and three bands at 60 metres spatial resolution.\nThe acquired data, mission coverage and high revisit frequency provides for the generation of geoinformation at local, regional, national and international scales. The data is designed to be modified and adapted by users interested in thematic areas such as:\n - spatial planning\n - agro-environmental monitoring\n - water monitoring\n - forest and vegetation monitoring\n - land carbon,\n - natural resource monitoring\n - global crop monitoring.\n\n[https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi/overview](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi/overview)\n\nThe Level-1C product is composed of 100x100 km2 tiles (ortho-images in UTM/WGS84 projection). The Level-1C product results from using a Digital Elevation Model (DEM) to project the image in cartographic geometry. Per-pixel radiometric measurements are provided in Top Of Atmosphere (TOA) reflectances along with the parameters to transform them into radiances. Level-1C products are resampled with a constant Ground Sampling Distance (GSD) of 10, 20 and 60 m depending on the native resolution of the different spectral bands. In Level-1C products, pixel coordinates refer to the upper left corner of the pixel.\nLevel-1C products will additionally include Cloud Masks and ECMWF data (total column of ozone, total column of water vapour and mean sea level pressure).\n\n[https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi/product-types/level-1c](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi/product-types/level-1c).",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL2_L1C/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL2_L1C",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/SENTINEL2_L1C/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "items",
+          "href": "https://dev.stac.eodc.eu/ingestion/v1/collections/SENTINEL2_L1C/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL2_L1C/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL2_L1C/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "cite-as",
+          "href": "https://doi.org/10.5270/S2_-d8we2fl",
+          "type": "text/html;charset=UTF-8"
+        },
+        {
+          "rel": "cite-as",
+          "href": "https://doi.org/10.5270/S2_-742ikth",
+          "type": "text/html;charset=UTF-8"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL2_L1C/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/alternate-assets/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/timestamps/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.1.0/schema.json"
+      ],
+      "item_assets": {
+        "B01": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 1 - Coastal aerosol - 60m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B02": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 2 - Blue - 10m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B03": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 3 - Green - 10m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B04": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 4 - Red - 10m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B05": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 5 - Vegetation red edge 1 - 20m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B06": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 6 - Vegetation red edge 2 - 20m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B07": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 7 - Vegetation red edge 3 - 20m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B08": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 8 - NIR - 10m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B09": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 9 - Water vapor - 60m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B10": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 10 - SWIR - Cirrus - 60m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B11": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 11 - SWIR (1.6) - 20m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B12": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 12 - SWIR (2.2) - 20m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "B8A": {
+          "roles": [
+            "data"
+          ],
+          "title": "Band 8A - Vegetation red edge 4 - 20m",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2"
+        },
+        "visual": {
+          "roles": [
+            "data"
+          ],
+          "title": "True color image",
+          "media_type": "image/jp2"
+        },
+        "safe-zip": {
+          "roles": [
+            "data"
+          ],
+          "title": "ZIP Archive",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "application/zip",
+          "description": "Entire product as a ZIP archive. Contains the SAFE archive and all other assets."
+        },
+        "thumbnail": {
+          "roles": [
+            "thumbnail"
+          ],
+          "title": "Preview Image",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/jp2",
+          "description": "PVI Preview Image file provided in ground geometry. The preview image is a single file in JPEG2000 format with GML geo-location information; it contains 3 visiblebands (490nm, 560nm, 665nm) in ground geometry at 320m resolution and in display order (RGB)."
+        },
+        "safe-manifest": {
+          "roles": [
+            "metadata"
+          ],
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "application/xml"
+        },
+        "thumbnail-png": {
+          "roles": [
+            "thumbnail"
+          ],
+          "title": "Preview Image (converted)",
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "image/png",
+          "description": "PVI Preview Image in PNG format. Converted from JPEG2000 format on the fly using OpenCV."
+        },
+        "granule-metadata": {
+          "roles": [
+            "metadata"
+          ],
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "application/xml"
+        },
+        "inspire-metadata": {
+          "roles": [
+            "metadata"
+          ],
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "application/xml"
+        },
+        "product-metadata": {
+          "roles": [
+            "metadata"
+          ],
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "application/xml"
+        },
+        "datastrip-metadata": {
+          "roles": [
+            "metadata"
+          ],
+          "alternate": {
+            "dhus": {
+              "title": "Location of the asset on the DHuS."
+            },
+            "local": {
+              "title": "Local file path of the asset."
+            }
+          },
+          "media_type": "application/xml"
+        }
+      },
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            -180,
+            180
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            -90,
+            90
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2015-07-04T00:00:00Z",
+              null
+            ]
+          ]
+        },
+        "bands": {
+          "type": "bands",
+          "values": [
+            "B01",
+            "B02",
+            "B03",
+            "B04",
+            "B05",
+            "B06",
+            "B07",
+            "B08",
+            "B8A",
+            "B09",
+            "B10",
+            "B11",
+            "B12"
+          ]
+        }
+      },
+      "sci:publications": [
+        {
+          "doi": "10.5270/S2_-d8we2fl",
+          "citation": "Copernicus Sentinel-2 (processed by ESA), 2021, MSI Level-1C TOA Reflectance Product. Collection 0. European Space Agency"
+        },
+        {
+          "doi": "10.5270/S2_-d8we2fl",
+          "citation": "Copernicus Sentinel-2 (processed by ESA), 2021, MSI Level-1C TOA Reflectance Product. Collection 0. European Space Agency"
+        }
+      ],
+      "title": "Sentinel-2 MSI Products: Level-1C data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-07-04T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "keywords": [
+        "sentinel",
+        "copernicus",
+        "esa",
+        "imagery",
+        "reflectance"
+      ],
+      "providers": [
+        {
+          "name": "ESA",
+          "roles": [
+            "producer",
+            "processor",
+            "licensor"
+          ],
+          "url": "https://earth.esa.int/web/guest/home"
+        },
+        {
+          "name": "EODC",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        }
+      ],
+      "summaries": {
+        "gsd": [
+          10,
+          20,
+          60
+        ],
+        "eo:bands": [
+          {
+            "name": "B01",
+            "common_name": "coastal",
+            "description": "Band 1 - Coastal aerosol",
+            "center_wavelength": 0.443,
+            "full_width_half_max": 0.027
+          },
+          {
+            "name": "B02",
+            "common_name": "blue",
+            "description": "Band 2 - Blue",
+            "center_wavelength": 0.49,
+            "full_width_half_max": 0.098
+          },
+          {
+            "name": "B03",
+            "common_name": "green",
+            "description": "Band 3 - Green",
+            "center_wavelength": 0.56,
+            "full_width_half_max": 0.045
+          },
+          {
+            "name": "B04",
+            "common_name": "red",
+            "description": "Band 4 - Red",
+            "center_wavelength": 0.665,
+            "full_width_half_max": 0.038
+          },
+          {
+            "name": "B05",
+            "common_name": "rededge",
+            "description": "Band 5 - Vegetation red edge 1",
+            "center_wavelength": 0.704,
+            "full_width_half_max": 0.019
+          },
+          {
+            "name": "B06",
+            "common_name": "rededge",
+            "description": "Band 6 - Vegetation red edge 2",
+            "center_wavelength": 0.74,
+            "full_width_half_max": 0.018
+          },
+          {
+            "name": "B07",
+            "common_name": "rededge",
+            "description": "Band 7 - Vegetation red edge 3",
+            "center_wavelength": 0.783,
+            "full_width_half_max": 0.028
+          },
+          {
+            "name": "B08",
+            "common_name": "nir",
+            "description": "Band 8 - NIR",
+            "center_wavelength": 0.842,
+            "full_width_half_max": 0.145
+          },
+          {
+            "name": "B8A",
+            "common_name": "rededge",
+            "description": "Band 8A - Vegetation red edge 4",
+            "center_wavelength": 0.865,
+            "full_width_half_max": 0.033
+          },
+          {
+            "name": "B09",
+            "description": "Band 9 - Water vapor",
+            "center_wavelength": 0.945,
+            "full_width_half_max": 0.026
+          },
+          {
+            "name": "B10",
+            "description": "Band 10 - SWIR - Cirrus",
+            "center_wavelength": 1.3735,
+            "full_width_half_max": 0.075
+          },
+          {
+            "name": "B11",
+            "common_name": "swir16",
+            "description": "Band 11 - SWIR (1.6)",
+            "center_wavelength": 1.61,
+            "full_width_half_max": 0.143
+          },
+          {
+            "name": "B12",
+            "common_name": "swir22",
+            "description": "Band 12 - SWIR (2.2)",
+            "center_wavelength": 2.19,
+            "full_width_half_max": 0.242
+          }
+        ],
+        "platform": [
+          "sentinel-2a",
+          "sentinel-2b"
+        ],
+        "providers": [
+          {
+            "url": "https://earth.esa.int/web/guest/home",
+            "name": "ESA",
+            "roles": [
+              "producer",
+              "processor",
+              "licensor"
+            ]
+          },
+          {
+            "url": "https://eodc.eu/",
+            "name": "EODC",
+            "roles": [
+              "host"
+            ]
+          }
+        ],
+        "constellation": [
+          "sentinel-2"
+        ],
+        "s2:product_type": [
+          "S2MSI1C"
+        ],
+        "processing:level": [
+          "L2"
+        ],
+        "sci:publications": [
+          {
+            "doi": "10.5270/S2_-d8we2fl",
+            "citation": "Copernicus Sentinel-2 (processed by ESA), 2021, MSI Level-1C TOA Reflectance Product. Collection 0. European Space Agency"
+          },
+          {
+            "doi": "10.5270/S2_-d8we2fl",
+            "citation": "Copernicus Sentinel-2 (processed by ESA), 2021, MSI Level-1C TOA Reflectance Product. Collection 0. European Space Agency"
+          }
+        ],
+        "s2:processing_baseline": [
+          "02.02",
+          "02.04",
+          "02.05",
+          "02.06",
+          "02.07",
+          "02.08",
+          "02.09",
+          "02.10",
+          "02.11",
+          "02.12",
+          "02.13",
+          "02.14",
+          "03.00",
+          "03.01",
+          "04.00"
+        ],
+        "datetime": {
+          "minimum": "2015-07-04T00:00:00Z",
+          "maximum": "None"
+        },
+        "published": {
+          "minimum": "2023-06-01T08:46:54Z",
+          "maximum": "None"
+        },
+        "end_datetime": {
+          "minimum": "2015-07-04T00:00:00Z",
+          "maximum": "None"
+        },
+        "eo:cloud_cover": {
+          "minimum": 0,
+          "maximum": 100
+        },
+        "start_datetime": {
+          "minimum": "2015-07-04T00:00:00Z",
+          "maximum": "None"
+        },
+        "s2:mean_solar_zenith": {
+          "minimum": 0,
+          "maximum": 360
+        },
+        "s2:mean_solar_azimuth": {
+          "minimum": 0,
+          "maximum": 360
+        },
+        "s2:degraded_msi_data_percentage": {
+          "minimum": 0,
+          "maximum": 100
+        },
+        "raster:bands": {
+          "spatial_resolution": [
+            10,
+            20,
+            60
+          ]
+        }
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/SENTINEL2_L1C.png",
+          "type": "image/png",
+          "title": "SENTINEL2_L1C collection thumbnail.",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Restricted",
+      "userNote": "CORS Error"
+    },
+    {
+      "type": "Collection",
+      "id": "SENTINEL2_L2A",
+      "stac_version": "1.0.0",
+      "description": "SENTINEL-2 is a wide-swath, high-resolution, multi-spectral imaging mission, supporting Copernicus Land Monitoring studies, including the monitoring of vegetation, soil and water cover, as well as observation of inland waterways and coastal areas.\nThe SENTINEL-2 Multispectral Instrument (MSI) samples 13 spectral bands: four bands at 10 metres, six bands at 20 metres and three bands at 60 metres spatial resolution.\nThe acquired data, mission coverage and high revisit frequency provides for the generation of geoinformation at local, regional, national and international scales. The data is designed to be modified and adapted by users interested in thematic areas such as:\n - spatial planning\n - agro-environmental monitoring\n - water monitoring\n - forest and vegetation monitoring\n - land carbon,\n - natural resource monitoring\n - global crop monitoring.\n\n[https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi/overview](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi/overview)\n\nThe Level-2A product provides Bottom Of Atmosphere (BOA) reflectance images derived from the associated Level-1C products. Each Level-2A product is composed of 100x100 km2 tiles in cartographic geometry (UTM/WGS84 projection).\n\n[https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi/product-types/level-2a](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi/product-types/level-2a).",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL2_L2A/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL2_L2A",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/ingestion/v1/collections/SENTINEL2_L2A/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "cite-as",
+          "href": "https://doi.org/10.5270/S2_-6eb6imz",
+          "type": "text/html;charset=UTF-8"
+        },
+        {
+          "rel": "cite-as",
+          "href": "https://doi.org/10.5270/S2_-znk9xsj",
+          "type": "text/html;charset=UTF-8"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL2_L2A/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json",
+        "https://stac-extensions.github.io/timestamps/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/alternate-assets/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            -180,
+            180
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            -90,
+            90
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2015-07-04T00:00:00Z",
+              null
+            ]
+          ]
+        },
+        "bands": {
+          "type": "bands",
+          "values": [
+            "B01",
+            "B02",
+            "B03",
+            "B04",
+            "B05",
+            "B06",
+            "B07",
+            "B08",
+            "B8A",
+            "B09",
+            "B10",
+            "B11",
+            "B12"
+          ]
+        }
+      },
+      "sci:publications": [
+        {
+          "doi": "10.5270/S2_-6eb6imz",
+          "citation": "Copernicus Sentinel-2 (processed by ESA), 2021, MSI Level-2A BOA Reflectance Product. Collection 0. European Space Agency"
+        },
+        {
+          "doi": "10.5270/S2_-znk9xsj",
+          "citation": "Copernicus Sentinel-2 (processed by ESA), 2021, MSI Level-2A BOA Reflectance Product. Collection 1. European Space Agency"
+        }
+      ],
+      "title": "Sentinel-2 MSI Products: Level-2A data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-07-04T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "keywords": [
+        "sentinel",
+        "copernicus",
+        "esa",
+        "imagery",
+        "reflectance",
+        "level-2a"
+      ],
+      "providers": [
+        {
+          "name": "ESA",
+          "roles": [
+            "producer",
+            "processor",
+            "licensor"
+          ],
+          "url": "https://earth.esa.int/web/guest/home"
+        },
+        {
+          "name": "EODC",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        }
+      ],
+      "summaries": {
+        "gsd": [
+          10,
+          20,
+          60
+        ],
+        "eo:bands": [
+          {
+            "name": "B01",
+            "common_name": "coastal",
+            "center_wavelength": 0.443,
+            "full_width_half_max": 0.027
+          },
+          {
+            "name": "B02",
+            "common_name": "blue",
+            "center_wavelength": 0.49,
+            "full_width_half_max": 0.098
+          },
+          {
+            "name": "B03",
+            "common_name": "green",
+            "center_wavelength": 0.56,
+            "full_width_half_max": 0.045
+          },
+          {
+            "name": "B04",
+            "common_name": "red",
+            "center_wavelength": 0.665,
+            "full_width_half_max": 0.038
+          },
+          {
+            "name": "B05",
+            "common_name": "rededge",
+            "center_wavelength": 0.704,
+            "full_width_half_max": 0.019
+          },
+          {
+            "name": "B06",
+            "common_name": "rededge",
+            "center_wavelength": 0.74,
+            "full_width_half_max": 0.018
+          },
+          {
+            "name": "B07",
+            "common_name": "rededge",
+            "center_wavelength": 0.783,
+            "full_width_half_max": 0.028
+          },
+          {
+            "name": "B08",
+            "common_name": "nir",
+            "center_wavelength": 0.842,
+            "full_width_half_max": 0.145
+          },
+          {
+            "name": "B8A",
+            "common_name": "nir08",
+            "center_wavelength": 0.865,
+            "full_width_half_max": 0.033
+          },
+          {
+            "name": "B09",
+            "common_name": "nir09",
+            "center_wavelength": 0.945,
+            "full_width_half_max": 0.026
+          },
+          {
+            "name": "B10",
+            "common_name": "cirrus",
+            "center_wavelength": 1.3735,
+            "full_width_half_max": 0.075
+          },
+          {
+            "name": "B11",
+            "common_name": "swir16",
+            "center_wavelength": 1.61,
+            "full_width_half_max": 0.143
+          },
+          {
+            "name": "B12",
+            "common_name": "swir22",
+            "center_wavelength": 2.19,
+            "full_width_half_max": 0.242
+          }
+        ],
+        "platform": [
+          "sentinel-2a",
+          "sentinel-2b"
+        ],
+        "providers": [
+          {
+            "url": "https://earth.esa.int/web/guest/home",
+            "name": "ESA",
+            "roles": [
+              "producer",
+              "processor",
+              "licensor"
+            ]
+          },
+          {
+            "url": "https://eodc.eu/",
+            "name": "EODC",
+            "roles": [
+              "host"
+            ]
+          }
+        ],
+        "constellation": [
+          "sentinel-2"
+        ],
+        "s2:product_type": [
+          "S2MSI2A"
+        ],
+        "sat:orbit_state": [
+          "ascending",
+          "descending"
+        ],
+        "processing:level": [
+          "L2"
+        ],
+        "sat:relative_orbit": [
+          1,
+          143
+        ],
+        "datetime": {
+          "minimum": "2015-07-04T00:00:00Z",
+          "maximum": "None"
+        },
+        "published": {
+          "minimum": "2024-02-27T13:13:09Z",
+          "maximum": "None"
+        },
+        "end_datetime": {
+          "minimum": "2015-07-04T00:00:00Z",
+          "maximum": "None"
+        },
+        "eo:cloud_cover": {
+          "minimum": 0,
+          "maximum": 100
+        },
+        "start_datetime": {
+          "minimum": "2015-07-04T00:00:00Z",
+          "maximum": "None"
+        },
+        "s2:mean_solar_zenith": {
+          "minimum": 0,
+          "maximum": 360
+        },
+        "s2:mean_solar_azimuth": {
+          "minimum": 0,
+          "maximum": 360
+        },
+        "s2:degraded_msi_data_percentage": {
+          "minimum": 0,
+          "maximum": 100
+        },
+        "raster:bands": {
+          "spatial_resolution": [
+            10,
+            20,
+            60
+          ]
+        }
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://objectstore.eodc.eu:2222/swift/v1/AUTH_68e13833a1624f43ba2cac01376a18af/thumbnails/SENTINEL2_L2A.png",
+          "type": "image/png",
+          "title": "SENTINEL2_L2A collection thumbnail.",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Restricted",
+      "userNote": "CORS Error"
+    },
+    {
+      "type": "Collection",
+      "id": "SENTINEL3_SRAL_L2",
+      "stac_version": "1.0.0",
+      "description": "Sentinel-3 is an European Earth Observation satellite mission developed to support Copernicus ocean, land, atmospheric, emergency, security and cryospheric applications.\n\nThe main objective of the Sentinel-3 mission is to measure sea surface topography, sea and land surface temperature, and ocean and land surface colour with high accuracy and reliability to support ocean forecasting systems, environmental monitoring and climate monitoring. The mission definition is driven by the need for continuity in provision of ERS, ENVISAT and SPOT vegetation data, with improvements in instrument performance and coverage.\n\nThe Sentinel-3 mission is jointly operated by ESA and EUMETSAT to deliver operational ocean and land observation services.\n\nThe spacecraft carries four main instruments:\n\n    OLCI: Ocean and Land Colour Instrument\n    SLSTR: Sea and Land Surface Temperature Instrument\n    SRAL: SAR Radar Altimeter\n    MWR: Microwave Radiometer.\n\nThese are complemented by three instruments for Precise Orbit Determination (POD):\n\n    DORIS: a Doppler Orbit Radio positioning system\n    GNSS: a GPS receiver, providing precise orbit determination and tracking multiple satellites simultaneously\n    LRR: to accurately locate the satellite in orbit using a Laser Retro-Reflector system.\n\n\n[https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-3/overview](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-3/overview)\n\nThe main application of the Sentinel-3 topography mission is the study of ocean topography including mean sea level, wave height, wind speed over the surface, sea-ice, ocean currents, Kelvin and Rossby waves, eddies and tides.\n\nThe geophysical parameters to be measured by the Sentinel-3 topography mission are:\n    Surface Height (SSH)\n    Significant Wave Height (SWH)\n    Wind Speed over ocean surface.\n\nThe goal of the Sentinel-3 mission is to provide operational measurements for 20 years using robust and stable altimetry technology already proven in previous ESA missions. The minimum baseline altimeter performance required shall be the same as Envisat and CRYOSAT altimeters.\n\nThe Sentinel-3 orbit (altitude, inclination and coverage) is almost the same as Envisat, allowing continuation of the ERS/Envisat time series.\n\nIn the Sentinel-3 SRAL mission, there are two main modes of operation:\n    High Resolution Mode commonly called Synthetic Aperture Radar (SAR) or delay Doppler altimetry (DDA)\n    Low Resolution Mode (LRM)\n\nThe default (or principal) mode for operation of SRAL is at High Resolution Mode, but LRM provides a backup and enables for consistency with earlier missions.\n\nLike many recent altimeters, Sentinel 3 operates at two frequencies (Ju and C band) in order to derive an ionospheric correction. A Level 2 SRAL/MWR complete product contains three data files:\n    a \"reduced\" (Red) data file, containing a subset of the main 1 Hz Ku band parameters\n    a \"standard\" (Std) data file containing the standard 1 Hz and 20 Hz Ku and C-band parameters\n    an \"enhanced\" (Enh) data file containing the standard 1 Hz and 20 Hz Ku and C-band parameters, the waveforms and the associated parameters necessary to reprocess the data.\n\nThe SRAL/MWR Level-2 products are generated in Standard Archive Format for Europe (SAFE) format. All the information relevant to the product is gathered into a single package. Inside this package, the specific objects containing measurement data are encoded in netCDF format.\n\nThere are different levels of data latency related to the availability of the auxiliary or ancillary data:\n    Near Real-Time (NRT): delivered less than 3 hours after data acquisition\n    Slow Time Critical (STC): delivered within 48 hours after data acquisition\n    Non-Time Critical (NTC): delivered within typically 1 month after data acquisition.\n\nThere are different data products associated with the three levels of processing of altimeter data:\n    Level-0 (L0) is the raw telemetered data\n    Level-1 (L1) is the Level-0 data corrected for instrumental effects\n    Level-2 (L2) is the Level-1 data corrected for geophysical effects\n\nLevel-1 and level-2 products are available to users. Level-0 products are not available to users and are considered only as inputs to Level-1 processing.\n\n[https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-altimetry/overview](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-altimetry/overview).",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL3_SRAL_L2/items",
+          "type": "application/geo+json"
+        },
+        {
+          "rel": "parent",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://stac.eodc.eu/api/v1/",
+          "type": "application/json"
+        },
+        {
+          "rel": "self",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL3_SRAL_L2",
+          "type": "application/json"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL3_SRAL_L2/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables"
+        }
+      ],
+      "stac_extensions": [
+        "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json",
+        "https://stac-extensions.github.io/timestamps/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/alternate-assets/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+      ],
+      "cube:dimensions": {
+        "x": {
+          "axis": "x",
+          "type": "spatial",
+          "extent": [
+            -180,
+            180
+          ]
+        },
+        "y": {
+          "axis": "y",
+          "type": "spatial",
+          "extent": [
+            -90,
+            90
+          ]
+        },
+        "t": {
+          "type": "temporal",
+          "extent": [
+            [
+              "2016-02-23T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "title": "Sentinel-3 Products: SRAL Level-2 data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-02-23T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "keywords": [
+        "sentinel",
+        "copernicus",
+        "esa",
+        "ocean",
+        "land",
+        "atmospheric",
+        "emergency",
+        "security",
+        "cryospheric",
+        "applications",
+        "temperature",
+        "colour",
+        "topography",
+        "olci",
+        "slstr",
+        "sral",
+        "mwr",
+        "doris",
+        "gnss",
+        "lrr",
+        "level-2"
+      ],
+      "providers": [
+        {
+          "name": "ESA",
+          "roles": [
+            "producer",
+            "processor",
+            "licensor"
+          ],
+          "url": "https://earth.esa.int/web/guest/home"
+        },
+        {
+          "name": "EODC",
+          "roles": [
+            "host"
+          ],
+          "url": "https://eodc.eu/"
+        }
+      ],
+      "summaries": {
+        "platform": [
+          "sentinel-3a",
+          "sentinel-3b"
+        ],
+        "providers": [
+          {
+            "url": "https://earth.esa.int/web/guest/home",
+            "name": "ESA",
+            "roles": [
+              "producer",
+              "processor",
+              "licensor"
+            ]
+          },
+          {
+            "url": "https://eodc.eu/",
+            "name": "EODC",
+            "roles": [
+              "host"
+            ]
+          }
+        ],
+        "constellation": [
+          "sentinel-3"
+        ],
+        "s3:product_type": [
+          "SR_2_WAT___",
+          "SR_2_LAN___",
+          "SR_2_LAN_HY",
+          "SR_2_LAN_LI",
+          "SR_2_LAN_SI"
+        ],
+        "sat:orbit_state": [
+          "ascending",
+          "descending"
+        ],
+        "processing:level": [
+          "L2"
+        ],
+        "sat:relative_orbit": [
+          1,
+          385
+        ],
+        "datetime": {
+          "minimum": "2016-02-23T00:00:00Z",
+          "maximum": "None"
+        },
+        "published": {
+          "minimum": "2024-02-29T18:44:06Z",
+          "maximum": "None"
+        },
+        "end_datetime": {
+          "minimum": "2016-02-23T00:00:00Z",
+          "maximum": "None"
+        },
+        "start_datetime": {
+          "minimum": "2016-02-23T00:00:00Z",
+          "maximum": "None"
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "cube:dimensions": {
+        "bands": {
+          "type": "bands",
+          "values": [
+            "B01"
+          ]
+        },
+        "t": {
+          "extent": [
+            [
+              "2012-01-01T00:00:00",
+              "2018-01-01T00:00:00"
+            ]
+          ],
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            1400000,
+            7900000
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            100000,
+            4500000
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        }
+      },
+      "description": "Tree Cover Density shows the level of tree cover density (ranging 0-100%). This collection is resampled and stored at a 10m x 10m resolution. \n For further information on Tree Cover Density see [here](https://land.copernicus.eu/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -32.091997820189285,
+              31.6977150076753,
+              55.116146716432254,
+              72.11413813793037
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00",
+              "2018-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "id": "tree_cover_density",
+      "item_assets": {},
+      "keywords": [
+        "EODC",
+        "Copernicus",
+        "ARD",
+        "Level-3"
+      ],
+      "license": "proprietary",
+      "links": [
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "root"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "parent"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collection/tree_cover_density",
+          "rel": "self"
+        }
+      ],
+      "properties": {},
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+        "https://github.com/stac-extensions/eo"
+      ],
+      "stac_version": "1.0.0",
+      "summaries": {
+        "constellation": {},
+        "eo:bands": [
+          {
+            "common_name": "band_1",
+            "name": "B01"
+          }
+        ],
+        "odc:file_format": {
+          "0": "GeoTIFF"
+        },
+        "odc:product_family": {
+          "0": "level3"
+        },
+        "platform": {}
+      },
+      "title": "High Resolution Layer: Tree Cover Density",
+      "type": "Collection",
+      "accessibility": "Restricted",
+      "userNote": "HTTP error! status: 404, message: {\"detail\":\"Not Found\"}"
+    },
+    {
+      "cube:dimensions": {
+        "bands": {
+          "type": "bands",
+          "values": [
+            "B01"
+          ]
+        },
+        "t": {
+          "extent": [
+            [
+              "2012-01-01T00:00:00",
+              "2018-01-01T00:00:00"
+            ]
+          ],
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            1400000,
+            7900000
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            100000,
+            4500000
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        }
+      },
+      "description": "Forest is type consists of both dominant leaf type (MMU 0.5 ha), and a support layer mapping trees under agricultural use, or in an urban context. This collection is resampled and stored at a 10m x 10m resolution. \n For further information on Forest Type see [here](https://land.copernicus.eu/pan-european/high-resolution-layers/forests/forest-type-1)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -32.091997820189285,
+              31.6977150076753,
+              55.116146716432254,
+              72.11413813793037
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-01T00:00:00",
+              "2018-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "id": "forest_type",
+      "item_assets": {},
+      "keywords": [
+        "EODC",
+        "Copernicus",
+        "ARD",
+        "Level-3"
+      ],
+      "license": "proprietary",
+      "links": [
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "root"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "parent"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collection/forest_type",
+          "rel": "self"
+        }
+      ],
+      "properties": {},
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+        "https://github.com/stac-extensions/eo"
+      ],
+      "stac_version": "1.0.0",
+      "summaries": {
+        "constellation": {},
+        "eo:bands": [
+          {
+            "common_name": "band_1",
+            "name": "B01"
+          }
+        ],
+        "odc:file_format": {
+          "0": "GeoTIFF"
+        },
+        "odc:product_family": {
+          "0": "level3"
+        },
+        "platform": {}
+      },
+      "title": "High Resolution Layer: Forest Type",
+      "type": "Collection",
+      "accessibility": "Restricted",
+      "userNote": "HTTP error! status: 404, message: {\"detail\":\"Not Found\"}"
+    },
+    {
+      "cube:dimensions": {
+        "bands": {
+          "type": "bands",
+          "values": [
+            "B02",
+            "B03",
+            "B04",
+            "B05",
+            "B06",
+            "B07"
+          ]
+        },
+        "t": {
+          "extent": [
+            [
+              "2015-01-04T12:00:00+00:00",
+              "2020-12-26T12:00:00+00:00"
+            ]
+          ],
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            4500000.052695129,
+            5400000.052695129
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            1100000.041661947,
+            2000000.041661947
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        }
+      },
+      "description": "Preprocessed analysis-ready-data (ARD) from Landsat-8 processed with FORCE. ARD data can only be combined with other ARD data or loaded results of previous processed jobs. ARD data cannot be combined with Level-1 collections! As this is Level-2 (ARD) data, ARD processes (``ard_normalized_radar_backscatter()``, ``ard_surface_reflectance()``, ``sar_backscatter()``, ``atmospheric_correction()``) cannot be applied.",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              5.014148226142465,
+              42.50120437013096,
+              18.59706624229073,
+              51.419674834228985
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-04T12:00:00+00:00",
+              "2020-12-26T12:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "id": "boa_landsat_8",
+      "item_assets": {
+        "cloud": {
+          "description": "The QAI dataset contains bit-wise stored quality information for each pixel. The cloud state is available in bit 1-2.",
+          "file:values": {
+            "0": {
+              "summary": "clear",
+              "values": [
+                0
+              ]
+            },
+            "1": {
+              "summary": "less confident cloud (i.e., buffered cloud)",
+              "values": [
+                1
+              ]
+            },
+            "2": {
+              "summary": "confident, opaque cloud",
+              "values": [
+                2
+              ]
+            },
+            "3": {
+              "summary": "cirrus",
+              "values": [
+                3
+              ]
+            }
+          },
+          "roles": [
+            "cloud",
+            "metadata"
+          ],
+          "type": "image/tiff; application=geotiff"
+        },
+        "cloud_shadow": {
+          "description": "The QAI dataset contains bit-wise stored quality information for each pixel. The cloud-shadow flag is available in bit 3.",
+          "file:values": {
+            "0": {
+              "summary": "no - no cloud-shadow on pixel",
+              "values": [
+                0
+              ]
+            },
+            "1": {
+              "summary": "yes - cloud-shadow on pixel",
+              "values": [
+                1
+              ]
+            }
+          },
+          "roles": [
+            "cloud-shadow",
+            "metadata"
+          ],
+          "type": "image/tiff; application=geotiff"
+        },
+        "saturation": {
+          "description": "The QAI dataset contains bit-wise stored quality information for each pixel. The saturation flag is available in bit 9.",
+          "file:values": {
+            "0": {
+              "summary": "no - pixel is NOT saturated",
+              "values": [
+                0
+              ]
+            },
+            "1": {
+              "summary": "yes - pixel is saturated",
+              "values": [
+                1
+              ]
+            }
+          },
+          "roles": [
+            "saturation",
+            "metadata"
+          ],
+          "type": "image/tiff; application=geotiff"
+        }
+      },
+      "keywords": [
+        "EODC",
+        "NASA",
+        "Landsat-8",
+        "Level-2"
+      ],
+      "license": "proprietary",
+      "links": [
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "root"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "parent"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collection/boa_landsat_8",
+          "rel": "self"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "about"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "cloud"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "related"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "water-vapor"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "cloud-shadow"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "card4l-document"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "elevation-model"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "atmospheric-scattering"
+        }
+      ],
+      "properties": {
+        "platform": "landsat-8"
+      },
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+        "https://github.com/stac-extensions/eo"
+      ],
+      "stac_version": "1.0.0",
+      "summaries": {
+        "constellation": {},
+        "eo:bands": [
+          {
+            "central_wavelength": 0.48,
+            "common_name": "band_1",
+            "name": "B02"
+          },
+          {
+            "central_wavelength": 0.56,
+            "common_name": "band_2",
+            "name": "B03"
+          },
+          {
+            "central_wavelength": 0.65,
+            "common_name": "band_3",
+            "name": "B04"
+          },
+          {
+            "central_wavelength": 0.86,
+            "common_name": "band_4",
+            "name": "B05"
+          },
+          {
+            "central_wavelength": 1.61,
+            "common_name": "band_5",
+            "name": "B06"
+          },
+          {
+            "central_wavelength": 2.2,
+            "common_name": "band_6",
+            "name": "B07"
+          }
+        ],
+        "instruments": [
+          "oli"
+        ],
+        "odc:file_format": {
+          "0": "GeoTIFF"
+        },
+        "odc:product_family": {
+          "0": "level2"
+        },
+        "platform": {
+          "0": "landsat-8"
+        }
+      },
+      "title": "Landsat-8 bottom of atmosphere at 30m resolution, limited area",
+      "type": "Collection",
+      "accessibility": "Restricted",
+      "userNote": "HTTP error! status: 404, message: {\"detail\":\"Not Found\"}"
+    },
+    {
+      "cube:dimensions": {
+        "bands": {
+          "type": "bands",
+          "values": [
+            "B01"
+          ]
+        },
+        "t": {
+          "extent": [
+            [
+              "2018-12-16T00:00:00",
+              "2022-04-04T00:00:00"
+            ]
+          ],
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            2400000,
+            8400000
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            0,
+            4800000
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        }
+      },
+      "description": "The Copernicus Global Land Surface Soil Moisture product (CGLS_SSM) displays the relative water content of the top few centimetres soil, describing how wet or dry the soil is in its topmost layer, expressed in percent saturation. Input for the product are the Sentinel-1 C-band SAR backscatter values. Further information can be found [here] (https://land.copernicus.eu/global/products/ssm) and in Bauer-Marschallinger et al., 2018. ",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -25.81979937879616,
+              31.602457597935924,
+              58.39398229109195,
+              76.95632595060702
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-12-16T00:00:00",
+              "2022-04-04T00:00:00"
+            ]
+          ]
+        }
+      },
+      "id": "CGLS_SSM_1KM",
+      "item_assets": {},
+      "keywords": [
+        "EODC",
+        "Copernicus",
+        "Level-3"
+      ],
+      "license": "proprietary",
+      "links": [
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "root"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "parent"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collection/CGLS_SSM_1KM",
+          "rel": "self"
+        }
+      ],
+      "properties": {
+        "platform": "Sentinel-1"
+      },
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+        "https://github.com/stac-extensions/eo"
+      ],
+      "stac_version": "1.0.0",
+      "summaries": {
+        "constellation": {},
+        "eo:bands": [
+          {
+            "common_name": "Band_1",
+            "name": "B01"
+          }
+        ],
+        "odc:file_format": {
+          "0": "GeoTiffProduct"
+        },
+        "odc:product_family": {
+          "0": "level3"
+        },
+        "platform": {
+          "0": "Sentinel-1"
+        }
+      },
+      "title": "Copernicus Global Land Surface Soil Moisture",
+      "type": "Collection",
+      "accessibility": "Restricted",
+      "userNote": "HTTP error! status: 404, message: {\"detail\":\"Not Found\"}"
+    },
+    {
+      "cube:dimensions": {
+        "bands": {
+          "type": "bands",
+          "values": [
+            "CLC"
+          ]
+        },
+        "t": {
+          "extent": [
+            [
+              "2000-12-15T00:00:00",
+              "2018-12-15T00:00:00"
+            ]
+          ],
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            1400000,
+            7900000
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            100000,
+            4500000
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        }
+      },
+      "description": "The CORINE Land Cover (CLC) inventory began in 1985, consisting of 44 land cover classes. This collection is resampled and stored at a 10m x 10m resolution. For further information on CORINE land cover see [here](https://land.copernicus.eu/pan-european/corine-land-cover)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -32.091997820189285,
+              31.6977150076753,
+              55.116146716432254,
+              72.11413813793037
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-12-15T00:00:00",
+              "2018-12-15T00:00:00"
+            ]
+          ]
+        }
+      },
+      "id": "corine_land_cover",
+      "item_assets": {},
+      "keywords": [
+        "EODC",
+        "Copernicus",
+        "ARD",
+        "Level-3"
+      ],
+      "license": "proprietary",
+      "links": [
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "root"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "parent"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collection/corine_land_cover",
+          "rel": "self"
+        }
+      ],
+      "properties": {},
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+        "https://github.com/stac-extensions/eo"
+      ],
+      "stac_version": "1.0.0",
+      "summaries": {
+        "constellation": {},
+        "eo:bands": [
+          {
+            "common_name": "band_1",
+            "name": "CLC"
+          }
+        ],
+        "odc:file_format": {
+          "0": "GeoTIFF"
+        },
+        "odc:product_family": {
+          "0": "level2"
+        },
+        "platform": {}
+      },
+      "title": "CORINE Land Cover",
+      "type": "Collection",
+      "accessibility": "Restricted",
+      "userNote": "HTTP error! status: 404, message: {\"detail\":\"Not Found\"}"
+    },
+    {
+      "cube:dimensions": {
+        "bands": {
+          "type": "bands",
+          "values": [
+            "B02",
+            "B03",
+            "B04",
+            "B05",
+            "B06",
+            "B07",
+            "B08",
+            "B08",
+            "B11",
+            "B12"
+          ]
+        },
+        "t": {
+          "extent": [
+            [
+              "2015-07-04T12:00:00+00:00",
+              "2021-06-22T12:00:00+00:00"
+            ]
+          ],
+          "type": "temporal"
+        },
+        "x": {
+          "axis": "x",
+          "extent": [
+            4100000,
+            5500000
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        },
+        "y": {
+          "axis": "y",
+          "extent": [
+            900000,
+            2200000
+          ],
+          "reference_system": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"latitude_of_center\",53],PARAMETER[\"longitude_of_center\",24],PARAMETER[\"false_easting\",5837287.81977],PARAMETER[\"false_northing\",2121415.69617],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+          "type": "spatial"
+        }
+      },
+      "description": "Preprocessed analysis-ready-data (ARD) from Sentinel-2 processed with FORCE. ARD data can only be combined with other ARD data or loaded results of previous processed jobs. ARD data cannot be combined with Level-1 collections! As this is Level-2 (ARD) data, ARD processes (``ard_normalized_radar_backscatter()``, ``ard_surface_reflectance()``, ``sar_backscatter()``, ``atmospheric_correction()``) cannot be applied.",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              1.4211922929976784,
+              41.388795496730424,
+              19.38022689396854,
+              52.43260595832486
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-07-04T12:00:00+00:00",
+              "2021-06-22T12:00:00+00:00"
+            ]
+          ]
+        }
+      },
+      "id": "boa_sentinel_2",
+      "item_assets": {
+        "cloud": {
+          "description": "The QAI dataset contains bit-wise stored quality information for each pixel. The cloud state is available in bit 1-2.",
+          "file:values": {
+            "0": {
+              "summary": "clear",
+              "values": [
+                0
+              ]
+            },
+            "1": {
+              "summary": "less confident cloud (i.e., buffered cloud)",
+              "values": [
+                1
+              ]
+            },
+            "2": {
+              "summary": "confident, opaque cloud",
+              "values": [
+                2
+              ]
+            },
+            "3": {
+              "summary": "cirrus",
+              "values": [
+                3
+              ]
+            }
+          },
+          "roles": [
+            "cloud",
+            "metadata"
+          ],
+          "type": "image/tiff; application=geotiff"
+        },
+        "cloud_shadow": {
+          "description": "The QAI dataset contains bit-wise stored quality information for each pixel. The cloud-shadow flag is available in bit 3.",
+          "file:values": {
+            "0": {
+              "summary": "no - no cloud-shadow on pixel",
+              "values": [
+                0
+              ]
+            },
+            "1": {
+              "summary": "yes - cloud-shadow on pixel",
+              "values": [
+                1
+              ]
+            }
+          },
+          "roles": [
+            "cloud-shadow",
+            "metadata"
+          ],
+          "type": "image/tiff; application=geotiff"
+        },
+        "saturation": {
+          "description": "The QAI dataset contains bit-wise stored quality information for each pixel. The saturation flag is available in bit 9.",
+          "file:values": {
+            "0": {
+              "summary": "no - pixel is NOT saturated",
+              "values": [
+                0
+              ]
+            },
+            "1": {
+              "summary": "yes - pixel is saturated",
+              "values": [
+                1
+              ]
+            }
+          },
+          "roles": [
+            "saturation",
+            "metadata"
+          ],
+          "type": "image/tiff; application=geotiff"
+        }
+      },
+      "keywords": [
+        "EODC",
+        "MSI",
+        "ESA",
+        "Copernicus",
+        "Sentinel-2",
+        "Level-2"
+      ],
+      "license": "proprietary",
+      "links": [
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "root"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "parent"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collection/boa_sentinel_2",
+          "rel": "self"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "about"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "cloud"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "snow-ice"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "land-water"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "water-vapor"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "cloud-shadow"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "card4l-document"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "elevation-model"
+        },
+        {
+          "href": "https://openeo.eodc.eu/openeo/1.1.0/collections",
+          "rel": "atmospheric-scattering"
+        }
+      ],
+      "properties": {},
+      "stac_extensions": [
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
+        "https://github.com/stac-extensions/eo"
+      ],
+      "stac_version": "1.0.0",
+      "summaries": {
+        "constellation": {
+          "0": "sentinel-2"
+        },
+        "eo:bands": [
+          {
+            "central_wavelength": 0.49,
+            "common_name": "band_1",
+            "name": "B02"
+          },
+          {
+            "central_wavelength": 0.56,
+            "common_name": "band_2",
+            "name": "B03"
+          },
+          {
+            "central_wavelength": 0.67,
+            "common_name": "band_3",
+            "name": "B04"
+          },
+          {
+            "central_wavelength": 0.7,
+            "common_name": "band_4",
+            "name": "B05"
+          },
+          {
+            "central_wavelength": 0.74,
+            "common_name": "band_5",
+            "name": "B06"
+          },
+          {
+            "central_wavelength": 0.78,
+            "common_name": "band_6",
+            "name": "B07"
+          },
+          {
+            "central_wavelength": 0.83,
+            "common_name": "band_7",
+            "name": "B08"
+          },
+          {
+            "central_wavelength": 0.86,
+            "common_name": "band_8",
+            "name": "B08"
+          },
+          {
+            "central_wavelength": 1.61,
+            "common_name": "band_9",
+            "name": "B11"
+          },
+          {
+            "central_wavelength": 2.2,
+            "common_name": "band_10",
+            "name": "B12"
+          }
+        ],
+        "instruments": [
+          "msi"
+        ],
+        "odc:file_format": {
+          "0": "GeoTIFF"
+        },
+        "odc:product_family": {
+          "0": "level2"
+        },
+        "platform": {}
+      },
+      "title": "Sentinel-2 bottom of atmosphere at 10m resolution, limited area",
+      "type": "Collection",
+      "accessibility": "Restricted",
+      "userNote": "HTTP error! status: 404, message: {\"detail\":\"Not Found\"}"
+    }
+  ]
+}
