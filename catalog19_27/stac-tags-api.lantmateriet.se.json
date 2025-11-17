@@ -1,0 +1,6025 @@
+{
+  "stacApiUrl": "https://api.lantmateriet.se/stac-hojd/v1/",
+  "exportedAt": "2025-10-19T22:21:29.541Z",
+  "collections": [
+    {
+      "id": "mhm-62_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 62_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.361093571536873,
+              55.93497611973894,
+              14.999999999999982,
+              56.84381181876087
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-11-28T00:00:00Z",
+              "2025-03-24T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Tingsryd",
+        "Alvesta",
+        "Älmhult",
+        "Markaryd",
+        "Växjö",
+        "Ljungby",
+        "Olofström",
+        "Ronneby",
+        "Karlshamn",
+        "Sölvesborg",
+        "Östra Göinge",
+        "Örkelljunga",
+        "Hörby",
+        "Höör",
+        "Bromölla",
+        "Osby",
+        "Perstorp",
+        "Klippan",
+        "Eslöv",
+        "Kristianstad",
+        "Hässleholm",
+        "Laholm"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 62_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available "
+    },
+    {
+      "id": "mhm-62_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 62_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999999999982,
+              55.93497611973894,
+              16.63890642846309,
+              56.84381181876087
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-03-13T00:00:00Z",
+              "2024-05-23T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Uppvidinge",
+        "Lessebo",
+        "Tingsryd",
+        "Växjö",
+        "Torsås",
+        "Mörbylånga",
+        "Emmaboda",
+        "Kalmar",
+        "Nybro",
+        "Borgholm",
+        "Karlskrona",
+        "Ronneby",
+        "Karlshamn"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 62_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-65_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 65_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              11.527116775512695,
+              58.5942268371582,
+              13.277807235717773,
+              59.52640914916992
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-11-18T01:00:00+01:00",
+              "2024-05-20T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Munkedal",
+        "Tanum",
+        "Dals-Ed",
+        "Färgelanda",
+        "Bengtsfors",
+        "Mellerud",
+        "Vänersborg",
+        "Åmål",
+        "Lidköping",
+        "Kil",
+        "Grums",
+        "Årjäng",
+        "Karlstad",
+        "Arvika",
+        "Säffle"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 65_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-64_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 64_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.277806282043457,
+              57.73098373413086,
+              15,
+              58.64030075073242
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-03-06T01:00:00+01:00",
+              "2024-05-18T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Ödeshög",
+        "Ydre",
+        "Boxholm",
+        "Motala",
+        "Vadstena",
+        "Mjölby",
+        "Aneby",
+        "Mullsjö",
+        "Habo",
+        "Jönköping",
+        "Nässjö",
+        "Eksjö",
+        "Tranås",
+        "Karlsborg",
+        "Herrljunga",
+        "Vara",
+        "Götene",
+        "Tibro",
+        "Töreboda",
+        "Ulricehamn",
+        "Mariestad",
+        "Lidköping",
+        "Skara",
+        "Skövde",
+        "Hjo",
+        "Tidaholm",
+        "Falköping"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 64_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-64_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 64_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999046325684,
+              57.73098373413086,
+              16.72219467163086,
+              58.64030075073242
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-05-09T02:00:00+02:00",
+              "2023-04-22T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Ydre",
+        "Kinda",
+        "Boxholm",
+        "Åtvidaberg",
+        "Finspång",
+        "Valdemarsvik",
+        "Linköping",
+        "Norrköping",
+        "Söderköping",
+        "Motala",
+        "Vadstena",
+        "Mjölby",
+        "Aneby",
+        "Eksjö",
+        "Tranås",
+        "Västervik",
+        "Vimmerby"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 64_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-63_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 63_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              18.285356037088015,
+              56.91184418956998,
+              19.000962416997925,
+              57.69762571095838
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-04-05T00:00:00Z",
+              "2024-04-28T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Gotland"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 63_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-64_2",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_2/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_2"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_2/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 64_2",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              11.000484522446708,
+              57.69537567053571,
+              11.643846493060574,
+              58.594230092912525
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-05-02T00:00:00Z",
+              "2024-05-19T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Öckerö",
+        "Tjörn",
+        "Orust",
+        "Sotenäs",
+        "Munkedal",
+        "Tanum",
+        "Kungälv",
+        "Lysekil",
+        "Uddevalla"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 64_2, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-66_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 66_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.1837287856784,
+              59.52640830558134,
+              14.999999999999982,
+              60.43627719580274
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-10-29T00:00:00Z",
+              "2024-05-16T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Kil",
+        "Torsby",
+        "Storfors",
+        "Munkfors",
+        "Forshaga",
+        "Sunne",
+        "Karlstad",
+        "Filipstad",
+        "Hagfors",
+        "Hällefors",
+        "Ljusnarsberg",
+        "Karlskoga",
+        "Nora",
+        "Lindesberg",
+        "Vansbro",
+        "Malung-Sälen",
+        "Gagnef",
+        "Ludvika"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 66_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-70_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 70_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999999999982,
+              63.11548987105237,
+              17.04565458125819,
+              64.02679492249189
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-07-27T00:00:00Z",
+              "2024-09-14T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Sollefteå",
+        "Ragunda",
+        "Bräcke",
+        "Krokom",
+        "Strömsund",
+        "Östersund",
+        "Dorotea",
+        "Åsele"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 70_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-66_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 66_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              18.53260040283203,
+              59.46382522583008,
+              19.657543182373047,
+              60.386810302734375
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-10-29T02:00:00+02:00",
+              "2025-06-01T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Österåker",
+        "Värmdö",
+        "Norrtälje",
+        "Östhammar"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 66_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-68_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 68_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.076789152625192,
+              61.321242626436884,
+              14.999999999999982,
+              62.23177006525853
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-06-21T00:00:00Z",
+              "2022-09-21T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Malung-Sälen",
+        "Orsa",
+        "Älvdalen",
+        "Mora",
+        "Ljusdal",
+        "Härjedalen"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 68_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-67_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 67_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.178666841620307,
+              60.41455014795262,
+              13.1837287856784,
+              61.321242626436884
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-09-13T00:00:00Z",
+              "2022-08-14T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Torsby",
+        "Malung-Sälen"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 67_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-72_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 72_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999999999982,
+              64.909146765257,
+              17.187028193848157,
+              65.82137295134855
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-09-09T00:00:00Z",
+              "2024-09-14T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Storuman",
+        "Sorsele",
+        "Dorotea",
+        "Vilhelmina"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 72_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-76_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-76_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-76_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-76_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 76_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              19.9008731842041,
+              68.35282135009766,
+              22.345033645629883,
+              69.07966613769531
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2013-08-24T02:00:00+02:00",
+              "2021-08-26T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Kiruna"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 76_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-70_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 70_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              11.957307815551758,
+              63.09921646118164,
+              13.017698287963867,
+              64.01239776611328
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-07-24T02:00:00+02:00",
+              "2024-09-14T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Åre"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 70_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-70_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 70_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              16.982301712036133,
+              63.079383850097656,
+              19.086605072021484,
+              64.01239776611328
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-05-18T02:00:00+02:00",
+              "2024-06-27T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Kramfors",
+        "Sollefteå",
+        "Örnsköldsvik",
+        "Nordmaling",
+        "Bjurholm",
+        "Åsele"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 70_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-67_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 67_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              16.81627082824707,
+              60.38680648803711,
+              18.64187240600586,
+              61.32124328613281
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-06-22T02:00:00+02:00",
+              "2025-05-18T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Älvkarleby",
+        "Tierp",
+        "Östhammar",
+        "Ockelbo",
+        "Gävle",
+        "Sandviken",
+        "Söderhamn"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 67_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-67_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 67_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              18.629341674373087,
+              60.38430540062914,
+              18.871571598514528,
+              60.51612325131754
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-09-23T00:00:00Z",
+              "2021-10-17T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Östhammar"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 67_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-67_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 67_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.132016334089142,
+              60.42389879708035,
+              14.999999999999982,
+              61.33408338625641
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-06-28T00:00:00Z",
+              "2024-05-16T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Torsby",
+        "Vansbro",
+        "Malung-Sälen",
+        "Gagnef",
+        "Leksand",
+        "Rättvik",
+        "Orsa",
+        "Älvdalen",
+        "Mora"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 67_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-64_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 64_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              18.356153506939393,
+              57.680714413728154,
+              19.363022580612927,
+              58.415846179018615
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-02-01T00:00:00Z",
+              "2024-02-03T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Gotland"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 64_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-68_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 68_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.106944721018595,
+              61.31710315466488,
+              13.132016334089142,
+              62.21843973821645
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-10-09T00:00:00Z",
+              "2022-09-21T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Härjedalen",
+        "Malung-Sälen",
+        "Älvdalen"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 68_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-69_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 69_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.017697995084033,
+              62.21843973821645,
+              14.999999999999982,
+              63.129339712894044
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-09-07T00:00:00Z",
+              "2024-07-20T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Ånge",
+        "Bräcke",
+        "Åre",
+        "Berg",
+        "Härjedalen",
+        "Östersund"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 69_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-72_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 72_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              19.222221731940376,
+              64.796242160308,
+              21.53788768715705,
+              65.75896228454786
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-07-11T00:00:00Z",
+              "2024-08-17T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Norsjö",
+        "Malå",
+        "Skellefteå",
+        "Arvidsjaur",
+        "Älvsbyn",
+        "Luleå",
+        "Piteå",
+        "Boden"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 72_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-70_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 70_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.954344749450684,
+              63.11548614501953,
+              15,
+              64.02680206298828
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-07-22T02:00:00+02:00",
+              "2024-09-14T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Krokom",
+        "Strömsund",
+        "Åre",
+        "Östersund"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 70_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-65_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 65_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              18.47739028930664,
+              58.92803955078125,
+              19.54492950439453,
+              59.49062728881836
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-04-05T02:00:00+02:00",
+              "2025-06-01T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Haninge",
+        "Österåker",
+        "Värmdö",
+        "Norrtälje"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 65_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-70_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-70_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 70_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              18.972582401175412,
+              63.16213722931868,
+              21.05310792140143,
+              63.96924707644621
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-06-29T00:00:00Z",
+              "2024-08-31T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Örnsköldsvik",
+        "Nordmaling",
+        "Bjurholm",
+        "Robertsfors",
+        "Vännäs",
+        "Umeå"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 70_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-71_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 71_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.949409484863281,
+              64.01239013671875,
+              15,
+              64.92414093017578
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-06-14T02:00:00+02:00",
+              "2024-09-14T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Krokom",
+        "Strömsund",
+        "Åre",
+        "Dorotea"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 71_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-73_8",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_8/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_8"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_8/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 73_8",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              21.537887573242188,
+              65.59817504882812,
+              23.89691734313965,
+              66.57233428955078
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2009-08-14T02:00:00+02:00",
+              "2023-06-16T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Haparanda",
+        "Överkalix",
+        "Kalix",
+        "Övertorneå",
+        "Gällivare",
+        "Luleå",
+        "Boden"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 73_8, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-73_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 73_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999046325684,
+              65.80574798583984,
+              17.26617431640625,
+              66.71678161621094
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-09-18T02:00:00+02:00",
+              "2023-06-29T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Storuman",
+        "Sorsele",
+        "Arjeplog"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 73_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-66_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 66_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999046325684,
+              59.526405334472656,
+              16.816272735595703,
+              60.436279296875
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-04-01T02:00:00+02:00",
+              "2024-05-16T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Heby",
+        "Enköping",
+        "Ljusnarsberg",
+        "Nora",
+        "Lindesberg",
+        "Skinnskatteberg",
+        "Surahammar",
+        "Hallstahammar",
+        "Norberg",
+        "Västerås",
+        "Sala",
+        "Fagersta",
+        "Köping",
+        "Arboga",
+        "Gagnef",
+        "Smedjebacken",
+        "Borlänge",
+        "Säter",
+        "Hedemora",
+        "Avesta",
+        "Ludvika",
+        "Hofors",
+        "Gävle",
+        "Sandviken"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 66_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-71_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 71_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              17.04565458125819,
+              63.96924707644621,
+              19.222221731940376,
+              64.909146765257
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-07-09T00:00:00Z",
+              "2024-09-07T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Örnsköldsvik",
+        "Bjurholm",
+        "Vindeln",
+        "Norsjö",
+        "Storuman",
+        "Vilhelmina",
+        "Åsele",
+        "Lycksele"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 71_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-71_8",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_8/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_8"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_8/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 71_8",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              21.19231112552203,
+              64.22993725677121,
+              21.661168656466543,
+              64.72273180681552
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-08-05T00:00:00Z",
+              "2024-07-10T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Robertsfors",
+        "Skellefteå"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 71_8, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-72_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 72_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.046917915344238,
+              64.92109680175781,
+              15,
+              65.82137298583984
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-08-19T02:00:00+02:00",
+              "2021-08-28T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Strömsund",
+        "Storuman",
+        "Dorotea",
+        "Vilhelmina"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 72_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-72_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 72_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              17.11372280646997,
+              64.86424010123797,
+              19.368233440455978,
+              65.80575139003491
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2013-07-25T00:00:00Z",
+              "2024-09-15T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Norsjö",
+        "Malå",
+        "Storuman",
+        "Sorsele",
+        "Lycksele",
+        "Arvidsjaur",
+        "Arjeplog"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 72_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-73_9",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_9/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_9"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_9/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 73_9",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              23.69044882997504,
+              65.5635858579291,
+              24.2034019762183,
+              66.17140207550354
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2009-08-16T00:00:00Z",
+              "2023-06-16T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Haparanda"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 73_9, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-75_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 75_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              17.351852416992188,
+              67.54752349853516,
+              19.871864318847656,
+              68.4846420288086
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-08-20T02:00:00+02:00",
+              "2024-09-06T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Jokkmokk",
+        "Gällivare",
+        "Kiruna"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 75_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-73_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 73_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              19.368233440455978,
+              65.68123088096472,
+              21.772561626930063,
+              66.65339786301122
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-08-31T00:00:00Z",
+              "2023-07-13T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Arvidsjaur",
+        "Jokkmokk",
+        "Gällivare",
+        "Älvsbyn",
+        "Luleå",
+        "Boden"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 73_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-75_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 75_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              19.69637947723608,
+              67.4628797308543,
+              22.301715837205244,
+              68.43773815081587
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-08-18T00:00:00Z",
+              "2022-09-09T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Gällivare",
+        "Kiruna"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 75_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-72_8",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_8/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_8"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_8/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 72_8",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              21.346668699146456,
+              64.89884456996452,
+              23.568608565825393,
+              65.68123088096472
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2009-08-03T00:00:00Z",
+              "2023-06-16T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Skellefteå",
+        "Kalix",
+        "Luleå",
+        "Piteå",
+        "Boden"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 72_8, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-72_9",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_9/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_9"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-72_9/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 72_9",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              23.68300248697787,
+              65.54455198902754,
+              23.797532268768606,
+              65.57292769448848
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-09-02T00:00:00Z",
+              "2018-09-02T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Haparanda"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 72_9, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-73_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 73_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.50162676548445,
+              65.82074784641112,
+              14.999999999999982,
+              66.1578084194213
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-09-15T00:00:00Z",
+              "2015-09-10T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Storuman",
+        "Sorsele"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 73_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-73_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-73_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 73_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              17.187026977539062,
+              65.75895690917969,
+              19.525827407836914,
+              66.70220947265625
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2009-09-12T02:00:00+02:00",
+              "2024-09-15T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Sorsele",
+        "Arvidsjaur",
+        "Arjeplog",
+        "Jokkmokk"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 73_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-74_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 74_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              15.736822128295898,
+              66.70220184326172,
+              17.35185432434082,
+              67.60887908935547
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-09-11T02:00:00+02:00",
+              "2022-12-14T01:00:00+01:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Arjeplog",
+        "Jokkmokk"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 74_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-74_8",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_8/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_8"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_8/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 74_8",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              21.772561626930063,
+              66.47525586021108,
+              24.026759966044295,
+              67.4628797308543
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-09-19T00:00:00Z",
+              "2022-07-13T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Överkalix",
+        "Övertorneå",
+        "Pajala",
+        "Gällivare",
+        "Kiruna"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 74_8, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-74_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 74_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              17.266172409057617,
+              66.65339660644531,
+              19.696380615234375,
+              67.5985107421875
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-06-15T02:00:00+02:00",
+              "2024-09-06T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Arjeplog",
+        "Jokkmokk",
+        "Gällivare"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 74_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-68_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 68_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              16.867983665910824,
+              61.308016826147266,
+              17.73963045920172,
+              62.21843973821645
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-05-24T00:00:00Z",
+              "2025-05-18T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Nordanstig",
+        "Söderhamn",
+        "Hudiksvall",
+        "Sundsvall"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 68_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-66_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 66_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              11.674493569226998,
+              59.49639898436571,
+              13.232234634270606,
+              60.42389879708035
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-06-04T00:00:00Z",
+              "2022-05-06T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Kil",
+        "Eda",
+        "Torsby",
+        "Grums",
+        "Årjäng",
+        "Sunne",
+        "Hagfors",
+        "Arvika"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 66_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-74_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-74_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 74_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              19.525827348453447,
+              66.572331778088,
+              22.026389611365502,
+              67.54752820974414
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-06-15T00:00:00Z",
+              "2023-07-12T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Jokkmokk",
+        "Pajala",
+        "Gällivare",
+        "Kiruna"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 74_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-66_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-66_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 66_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              16.767765045166016,
+              59.490623474121094,
+              18.629343032836914,
+              60.42390060424805
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-02-21T01:00:00+01:00",
+              "2023-05-11T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Upplands Väsby",
+        "Vallentuna",
+        "Österåker",
+        "Järfälla",
+        "Upplands-Bro",
+        "Täby",
+        "Norrtälje",
+        "Sigtuna",
+        "Håbo",
+        "Knivsta",
+        "Heby",
+        "Tierp",
+        "Uppsala",
+        "Enköping",
+        "Östhammar",
+        "Strängnäs",
+        "Västerås",
+        "Sala",
+        "Gävle",
+        "Sandviken"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 66_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-75_8",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_8/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_8"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_8/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 75_8",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              22.026389611365502,
+              67.37756520667809,
+              23.7848339438309,
+              68.35282218916358
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-06-11T00:00:00Z",
+              "2022-08-24T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Pajala",
+        "Kiruna"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 75_8, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-76_8",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-76_8/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-76_8"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-76_8/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 76_8",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              22.301715837205244,
+              68.31947844356131,
+              23.031287283965593,
+              68.48625764441948
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2013-08-24T00:00:00Z",
+              "2022-08-24T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Kiruna"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 76_8, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-76_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-76_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-76_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-76_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 76_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              18.116125106811523,
+              68.45481872558594,
+              19.399580001831055,
+              68.5919418334961
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-08-20T02:00:00+02:00",
+              "2024-09-06T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Kiruna"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 76_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-69_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 69_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999999999982,
+              62.21843973821645,
+              16.982302004915933,
+              63.129339712894044
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-06-23T00:00:00Z",
+              "2023-06-14T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Nordanstig",
+        "Ljusdal",
+        "Ånge",
+        "Timrå",
+        "Sundsvall",
+        "Sollefteå",
+        "Ragunda",
+        "Bräcke",
+        "Härjedalen",
+        "Östersund"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 69_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-63_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 63_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              11.643846493060574,
+              56.800817215045406,
+              13.361093571536873,
+              57.73098681045181
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-04-25T00:00:00Z",
+              "2025-03-22T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Gislaved",
+        "Ljungby",
+        "Hylte",
+        "Halmstad",
+        "Falkenberg",
+        "Varberg",
+        "Kungsbacka",
+        "Härryda",
+        "Partille",
+        "Öckerö",
+        "Bollebygd",
+        "Tranemo",
+        "Mark",
+        "Svenljunga",
+        "Göteborg",
+        "Mölndal",
+        "Borås",
+        "Ulricehamn"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 63_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-65_2",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_2/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_2"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_2/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 65_2",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              10.915718078613281,
+              58.57806396484375,
+              11.558300971984863,
+              59.12850570678711
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-02-26T01:00:00+01:00",
+              "2024-05-19T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Munkedal",
+        "Tanum",
+        "Strömstad"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 65_2, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-62_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 62_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.412639617919922,
+              55.92499542236328,
+              13.399218559265137,
+              56.83305740356445
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-04-03T02:00:00+02:00",
+              "2023-04-20T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Ljungby",
+        "Svalöv",
+        "Örkelljunga",
+        "Bjuv",
+        "Höör",
+        "Perstorp",
+        "Klippan",
+        "Åstorp",
+        "Båstad",
+        "Landskrona",
+        "Helsingborg",
+        "Höganäs",
+        "Eslöv",
+        "Ängelholm",
+        "Hylte",
+        "Halmstad",
+        "Laholm",
+        "Falkenberg"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 62_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-69_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 69_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.024184226989746,
+              62.204708099365234,
+              13.076789855957031,
+              63.1154899597168
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-07-11T02:00:00+02:00",
+              "2024-09-06T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Åre",
+        "Berg",
+        "Härjedalen",
+        "Älvdalen"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 69_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-62_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-62_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 62_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              16.624352147968676,
+              56.49575539675787,
+              16.884601404473937,
+              56.833055285656684
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-03-23T00:00:00Z",
+              "2023-05-30T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Mörbylånga",
+        "Borgholm"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 62_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-63_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 63_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              16.63890642846309,
+              56.800817215045406,
+              18.356153506939393,
+              57.73098681045181
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-05-01T00:00:00Z",
+              "2024-04-28T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Mönsterås",
+        "Oskarshamn",
+        "Västervik",
+        "Borgholm",
+        "Gotland"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 63_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-68_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-68_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 68_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999046325684,
+              61.32123947143555,
+              16.9232120513916,
+              62.231773376464844
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-07-02T02:00:00+02:00",
+              "2025-05-19T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Rättvik",
+        "Orsa",
+        "Ovanåker",
+        "Nordanstig",
+        "Ljusdal",
+        "Söderhamn",
+        "Bollnäs",
+        "Hudiksvall",
+        "Sundsvall",
+        "Härjedalen"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 68_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-65_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 65_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              16.72219324685044,
+              58.594230092912525,
+              18.532602040633417,
+              59.52640830558134
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-05-17T00:00:00Z",
+              "2025-05-31T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Upplands Väsby",
+        "Vallentuna",
+        "Österåker",
+        "Värmdö",
+        "Järfälla",
+        "Ekerö",
+        "Huddinge",
+        "Botkyrka",
+        "Salem",
+        "Haninge",
+        "Tyresö",
+        "Upplands-Bro",
+        "Nykvarn",
+        "Täby",
+        "Danderyd",
+        "Sollentuna",
+        "Stockholm",
+        "Södertälje",
+        "Nacka",
+        "Sundbyberg",
+        "Solna",
+        "Lidingö",
+        "Vaxholm",
+        "Nynäshamn",
+        "Håbo",
+        "Enköping",
+        "Gnesta",
+        "Nyköping",
+        "Oxelösund",
+        "Flen",
+        "Eskilstuna",
+        "Strängnäs",
+        "Trosa",
+        "Norrköping",
+        "Västerås"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 65_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-75_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-75_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 75_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              16.470375061035156,
+              67.59850311279297,
+              17.40439224243164,
+              68.13873291015625
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-08-30T02:00:00+02:00",
+              "2022-08-24T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Jokkmokk",
+        "Gällivare"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 75_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-71_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 71_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999999999982,
+              64.01239249972136,
+              17.11372280646997,
+              64.92413839801469
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2013-06-09T00:00:00Z",
+              "2024-09-15T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Sollefteå",
+        "Strömsund",
+        "Storuman",
+        "Dorotea",
+        "Vilhelmina",
+        "Åsele"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 71_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-69_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-69_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 69_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              16.923210847374772,
+              62.183687911559055,
+              18.762858616892395,
+              63.11548987105237
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-05-28T00:00:00Z",
+              "2025-05-15T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Timrå",
+        "Härnösand",
+        "Sundsvall",
+        "Kramfors",
+        "Sollefteå",
+        "Örnsköldsvik",
+        "Ragunda"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 69_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-63_2",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_2/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_2"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_2/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 63_2",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              11.5601133793724,
+              57.606839712012864,
+              11.652123439877895,
+              57.69762571095838
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-11-29T00:00:00Z",
+              "2019-11-29T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Öckerö",
+        "Göteborg"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 63_2, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-61_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-61_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-61_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-61_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 61_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.63945484161377,
+              55.32598876953125,
+              13.423750877380371,
+              55.93497848510742
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-11-26T01:00:00+01:00",
+              "2025-02-19T01:00:00+01:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Svalöv",
+        "Staffanstorp",
+        "Burlöv",
+        "Vellinge",
+        "Kävlinge",
+        "Lomma",
+        "Svedala",
+        "Höör",
+        "Malmö",
+        "Lund",
+        "Landskrona",
+        "Helsingborg",
+        "Eslöv",
+        "Trelleborg"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 61_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-64_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 64_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              11.558300018310547,
+              57.69762420654297,
+              13.320688247680664,
+              58.6287727355957
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-11-29T01:00:00+01:00",
+              "2024-05-20T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Härryda",
+        "Partille",
+        "Öckerö",
+        "Stenungsund",
+        "Tjörn",
+        "Orust",
+        "Munkedal",
+        "Färgelanda",
+        "Ale",
+        "Lerum",
+        "Vårgårda",
+        "Bollebygd",
+        "Grästorp",
+        "Essunga",
+        "Mellerud",
+        "Lilla Edet",
+        "Herrljunga",
+        "Vara",
+        "Götene",
+        "Göteborg",
+        "Kungälv",
+        "Lysekil",
+        "Uddevalla",
+        "Vänersborg",
+        "Trollhättan",
+        "Alingsås",
+        "Borås",
+        "Ulricehamn",
+        "Lidköping",
+        "Skara",
+        "Falköping"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 64_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-61_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-61_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-61_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-61_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 61_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.39921760559082,
+              55.35114288330078,
+              14.366878509521484,
+              55.9437141418457
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-04-15T02:00:00+02:00",
+              "2025-02-19T01:00:00+01:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Svedala",
+        "Skurup",
+        "Sjöbo",
+        "Hörby",
+        "Höör",
+        "Tomelilla",
+        "Lund",
+        "Eslöv",
+        "Ystad",
+        "Trelleborg",
+        "Kristianstad",
+        "Simrishamn"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 61_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-64_6",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_6/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_6"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-64_6/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 64_6",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              16.67931234857666,
+              57.72030571620658,
+              17.410468091093232,
+              58.62877104977122
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-10-25T00:00:00Z",
+              "2025-05-29T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Nyköping",
+        "Oxelösund",
+        "Valdemarsvik",
+        "Norrköping",
+        "Söderköping",
+        "Västervik"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 64_6, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-65_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 65_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.232234634270606,
+              58.62877104977122,
+              14.999999999999982,
+              59.538349129564075
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2013-05-03T00:00:00Z",
+              "2024-05-18T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Motala",
+        "Karlsborg",
+        "Gullspång",
+        "Götene",
+        "Töreboda",
+        "Mariestad",
+        "Lidköping",
+        "Kil",
+        "Storfors",
+        "Hammarö",
+        "Forshaga",
+        "Karlstad",
+        "Kristinehamn",
+        "Säffle",
+        "Lekeberg",
+        "Laxå",
+        "Hallsberg",
+        "Degerfors",
+        "Hällefors",
+        "Örebro",
+        "Kumla",
+        "Askersund",
+        "Karlskoga",
+        "Nora"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 65_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-71_3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_3/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 71_3",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              12.748154640197754,
+              64.00936889648438,
+              12.954345703125,
+              64.07965850830078
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-07-24T02:00:00+02:00",
+              "2024-07-30T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Åre"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 71_3, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-65_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-65_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 65_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999046325684,
+              58.62876892089844,
+              16.76776695251465,
+              59.53834915161133
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-10-23T02:00:00+02:00",
+              "2024-05-03T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Vingåker",
+        "Nyköping",
+        "Flen",
+        "Katrineholm",
+        "Eskilstuna",
+        "Strängnäs",
+        "Finspång",
+        "Linköping",
+        "Norrköping",
+        "Motala",
+        "Lekeberg",
+        "Hallsberg",
+        "Örebro",
+        "Kumla",
+        "Askersund",
+        "Nora",
+        "Lindesberg",
+        "Kungsör",
+        "Hallstahammar",
+        "Västerås",
+        "Köping",
+        "Arboga"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 65_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-71_7",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_7/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_7"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-71_7/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 71_7",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              19.08660316467285,
+              63.908058166503906,
+              21.32035255432129,
+              64.86424255371094
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-06-06T02:00:00+02:00",
+              "2024-08-29T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Bjurholm",
+        "Vindeln",
+        "Robertsfors",
+        "Norsjö",
+        "Vännäs",
+        "Umeå",
+        "Lycksele",
+        "Skellefteå"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 71_7, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-63_4",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_4/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_4"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_4/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 63_4",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.32068765142331,
+              56.833055285656684,
+              14.999999999999982,
+              57.742118505460006
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-04-11T00:00:00Z",
+              "2023-05-07T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Gnosjö",
+        "Gislaved",
+        "Vaggeryd",
+        "Jönköping",
+        "Nässjö",
+        "Värnamo",
+        "Sävsjö",
+        "Vetlanda",
+        "Eksjö",
+        "Alvesta",
+        "Växjö",
+        "Ljungby",
+        "Hylte",
+        "Tranemo",
+        "Ulricehamn"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 63_4, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-67_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-67_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 67_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999046325684,
+              60.42389678955078,
+              16.867984771728516,
+              61.334083557128906
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-05-28T02:00:00+02:00",
+              "2025-05-19T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Gagnef",
+        "Leksand",
+        "Rättvik",
+        "Orsa",
+        "Mora",
+        "Falun",
+        "Borlänge",
+        "Säter",
+        "Hedemora",
+        "Ockelbo",
+        "Hofors",
+        "Ovanåker",
+        "Gävle",
+        "Sandviken",
+        "Söderhamn",
+        "Bollnäs"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 67_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    },
+    {
+      "id": "mhm-63_5",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_5/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_5"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://api.lantmateriet.se/stac-hojd/v1/collections/mhm-63_5/queryables"
+        }
+      ],
+      "title": "Markhöjdmodell 63_5",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              14.999999046325684,
+              56.83305358886719,
+              16.67931365966797,
+              57.74211883544922
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-12-28T01:00:00+01:00",
+              "2024-05-22T02:00:00+02:00"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "keywords": [
+        "Ydre",
+        "Aneby",
+        "Vetlanda",
+        "Eksjö",
+        "Uppvidinge",
+        "Lessebo",
+        "Växjö",
+        "Högsby",
+        "Hultsfred",
+        "Mönsterås",
+        "Kalmar",
+        "Nybro",
+        "Oskarshamn",
+        "Västervik",
+        "Vimmerby",
+        "Borgholm"
+      ],
+      "providers": [
+        {
+          "name": "Lantmäteriet",
+          "roles": [
+            "licensor",
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Markhöjdmodell för området 63_5, som höjdgrid med 1 meters upplösning i formatet GeoTIFF/COG",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available"
+    }
+  ]
+}
