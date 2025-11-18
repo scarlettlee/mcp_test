@@ -1,0 +1,184 @@
+NEW PROMPT
+ESG Data Mapping Prompt - Excel Output Format
+
+Role: Act as an experienced ESG data analyst specializing in matching geospatial and environmental datasets to specific sustainability metrics.
+
+Critical Instructions
+1. Match data to WHAT IS ACTUALLY BEING MEASURED: Only assign datasets that directly measure or enable calculation of the specific metric. Climate projections are NOT measurements of current energy use, water consumption, or operational data.
+
+2. Evaluate dataset relevance systematically:
+   • What variables/bands does this dataset contain?
+   • What does it actually measure vs. project/model?
+   • Does it measure the metric's unit (GJ, m³, %, etc.)?
+   • What spatial/temporal resolution and coverage?
+
+3. Prioritize measurement datasets over projection datasets:
+   • Satellite imagery > Climate models for current conditions
+   • Operational data sources > Risk assessments for metrics
+   • Direct measurements > Indirect indicators
+
+4. Put each metric that is separated by commas into its own row
+
+Task
+Create a comprehensive mapping showing which datasets support each SASB metric, organized by relevance category. Include ALL 33 metrics even if no supporting data is found. Use ONE consolidated table for all catalogs.
+
+Template Structure - MANDATORY
+Your output MUST contain exactly these 33 rows in this exact order with these exact columns:
+
+Row | Sector | Topic | Metric | Category | Unit of Measure | Code
+----|--------|-------|--------|----------|-----------------|------
+1 | Software & IT Services | Environmental Footprint of Hardware Infrastructure | Total energy consumed | Quantitative | Gigajoules | TC0102-01
+2 | Software & IT Services | Environmental Footprint of Hardware Infrastructure | Percentage grid electricity | Quantitative | Percentage (%) | TC0102-01
+3 | Software & IT Services | Environmental Footprint of Hardware Infrastructure | Percentage renewable energy | Quantitative | Percentage (%) | TC0102-01
+4 | Software & IT Services | Environmental Footprint of Hardware Infrastructure | Total water withdrawn | Quantitative | Cubic meters (m³) | TC0102-02
+5 | Software & IT Services | Environmental Footprint of Hardware Infrastructure | Percentage recycled | Quantitative | Percentage (%) | TC0102-02
+6 | Software & IT Services | Environmental Footprint of Hardware Infrastructure | Percentage in regions with High or Extremely High Baseline Water Stress | Quantitative | Percentage (%) | TC0102-02
+7 | Software & IT Services | Environmental Footprint of Hardware Infrastructure | Description of the integration of environmental considerations to strategic planning for data center needs | Discussion and Analysis | n/a | TC0102-03
+8 | Software & IT Services | Data Privacy & Freedom of Expression | Discussion of policies and practices relating to collection, usage, and retention of customers' information and personally identifiable information | Discussion and Analysis | n/a | TC0102-04
+9 | Software & IT Services | Data Privacy & Freedom of Expression | Percentage of users whose customer information is collected for secondary purpose | Quantitative | Percentage (%) | TC0102-05
+10 | Software & IT Services | Data Privacy & Freedom of Expression | Percentage who have opted-in | Quantitative | Percentage (%) | TC0102-05
+11 | Software & IT Services | Data Privacy & Freedom of Expression | Amount of legal and regulatory fines and settlements associated with customer privacy | Quantitative | U.S. dollars ($) | TC0102-06
+12 | Software & IT Services | Data Privacy & Freedom of Expression | Number of government or law enforcement requests for customer information | Quantitative | Number | TA03-04-01
+13 | Software & IT Services | Data Privacy & Freedom of Expression | Number of records requested | Quantitative | Number | TA03-04-01
+14 | Software & IT Services | Data Privacy & Freedom of Expression | Percentage resulting in disclosure | Quantitative | Percentage (%) | TA03-04-01
+15 | Software & IT Services | Data Privacy & Freedom of Expression | List of countries where core products or services are subject to government-required monitoring, blocking, content filtering, or censoring | Discussion and Analysis | n/a | TC0102-08
+16 | Software & IT Services | Data Security | Number of data security breaches | Quantitative | Number | TA03-06-01
+17 | Software & IT Services | Data Security | Percentage involving customers' personally identifiable information (PII) | Quantitative | Percentage (%) | TA03-06-01
+18 | Software & IT Services | Data Security | Number of customers affected | Quantitative | Number | TA03-06-01
+19 | Software & IT Services | Data Security | Discussion of management approach to identifying and addressing data security risks | Discussion and Analysis | n/a | TC0102-10
+20 | Software & IT Services | Data Security | Percentage of operations, by revenue, independently certified to a suitable third-party cybersecurity management standard | Quantitative | Percentage (%) | TA03-05-01
+21 | Software & IT Services | Recruiting & Managing a Global, Diverse Skilled Workforce | Percentage of employees that are foreign nationals | Quantitative | Percentage (%) | TC0102-11
+22 | Software & IT Services | Recruiting & Managing a Global, Diverse Skilled Workforce | Percentage of employees located offshore | Quantitative | Percentage (%) | TC0102-11
+23 | Software & IT Services | Recruiting & Managing a Global, Diverse Skilled Workforce | Employee engagement as a percentage | Quantitative | Percentage (%) | TC0102-12
+24 | Software & IT Services | Recruiting & Managing a Global, Diverse Skilled Workforce | Percentage of gender and racial/ethnic group representation for executives | Quantitative | Percentage (%) | TC0102-13
+25 | Software & IT Services | Recruiting & Managing a Global, Diverse Skilled Workforce | Percentage of gender and racial/ethnic group representation for all others | Quantitative | Percentage (%) | TC0102-13
+26 | Software & IT Services | Managing Systemic Risks from Technology Disruptions | Number of performance issues | Quantitative | Number | TC0102-14
+27 | Software & IT Services | Managing Systemic Risks from Technology Disruptions | Number of service disruptions | Quantitative | Number | TC0102-14
+28 | Software & IT Services | Managing Systemic Risks from Technology Disruptions | Total customer downtime | Quantitative | Days | TC0102-14
+29 | Software & IT Services | Managing Systemic Risks from Technology Disruptions | Discussion of business continuity risks related to disruptions of operations | Discussion and Analysis | n/a | TC0102-15
+30 | Software & IT Services | Intellectual Property Protection & Competitive Behavior | Number of patent litigation cases | Quantitative | Number | TC0102-16
+31 | Software & IT Services | Intellectual Property Protection & Competitive Behavior | Number successful | Quantitative | Number | TC0102-16
+32 | Software & IT Services | Intellectual Property Protection & Competitive Behavior | Number as patent holder | Quantitative | Number | TC0102-16
+33 | Software & IT Services | Intellectual Property Protection & Competitive Behavior | Amount of legal and regulatory fines and settlements associated with anti-competitive practices | Quantitative | U.S. dollars ($) | TC0102-17
+
+Additional columns for dataset mappings:
+• Direct Measurement
+• Risk Assessment
+• Risk Insights
+• Trend Analysis
+• Benchmarking
+• Regulatory Support
+
+Relevance Categories - Strict Definitions
+Assign each dataset to ONLY ONE category based on the strongest relationship:
+
+• Direct Measurement: Dataset contains variables that directly quantify the metric in its specified unit of measure (e.g., energy in GJ, water in m³). Must be actual measurements, not projections.
+
+• Risk Assessment: Dataset helps identify locations/facilities at risk related to the metric (e.g., water stress indices, climate hazard maps, biodiversity risk zones)
+
+• Risk Insights: Dataset provides contextual information that informs understanding of risks but doesn't directly assess them (e.g., land cover for understanding site context)
+
+• Trend Analysis: Dataset enables monitoring changes over time in the metric or related conditions. Must have temporal component suitable for tracking (daily/monthly/yearly observations)
+
+• Benchmarking: Dataset provides comparative data (industry standards, regional averages, peer comparisons) or enables normalization
+
+• Regulatory Support: Dataset specifically designed for or commonly used in regulatory reporting/compliance for this metric type
+
+Data Point Formatting Requirements - CRITICAL
+For each cell containing datasets:
+
+1. Format: [catalog-name]-#. Dataset_ID, Dataset_Title (matching reason)
+
+2. Catalog naming: Use the filename without .json:
+   • stac-tags-explorer.digitalearth.africa.json → explorer.digitalearth.africa
+   • stac-tags-stac.geobon.org.json → stac.geobon.org
+   • etc.
+
+3. Numbering - CRITICAL CORRECTION:
+   The number after [catalog-name]- should restart at 1 for each new catalog source within each relevance category column.
+
+   ❌ INCORRECT Example:
+   gep-supersites-stac.terradue.com-1. csk-nicaragua-supersite...
+   gep-supersites-stac.terradue.com-2. csk-san-andrea-supersite...
+   gep-supersites-stac.terradue.com-3. csk-turkey-event-supersite...
+   geoservice.dlr.de-4. TIMELINE_AVHRR_P1M_LSTD...
+   planetarycomputer.microsoft.com-5. modis-11A2-061...
+   planetarycomputer.microsoft.com-6. modis-11A1-061...
+
+   ✓ CORRECT Example:
+   gep-supersites-stac.terradue.com-1. csk-nicaragua-supersite...
+   gep-supersites-stac.terradue.com-2. csk-san-andrea-supersite...
+   gep-supersites-stac.terradue.com-3. csk-turkey-event-supersite...
+   geoservice.dlr.de-1. TIMELINE_AVHRR_P1M_LSTD...
+   planetarycomputer.microsoft.com-1. modis-11A2-061...
+   planetarycomputer.microsoft.com-2. modis-11A1-061...
+   planetarycomputer.microsoft.com-3. era5-pds...
+   planetarycomputer.microsoft.com-4. terraclimate...
+   eocat.esa.int-1. Swarm.Geodesy_Gravity...
+
+4. Multiple datasets: Separate entries with ; (semicolon) or line break
+
+5. Include matching reason: Add brief explanation in parentheses explaining why the dataset matches
+
+6. Single consolidated table: Do NOT create separate tables for each STAC catalog
+
+Complete Example for One Cell:
+explorer.digitalearth.africa-1. cmip6-annual-precipitation, CMIP6 Annual Precipitation (assesses projected changes in precipitation and temperature extremes that may influence cooling energy demand); explorer.digitalearth.africa-2. sentinel-2-l2a, Sentinel-2 Level-2A (monitors land surface changes around data centers); stac.geobon.org-1. chelsa-clim-proj, CHELSA Climatologies Projections (assesses future climate shifts that may drive habitat degradation)
+
+Analysis Process for Each Metric
+For every metric, systematically evaluate:
+
+1. What is being measured? [metric name and unit]
+
+2. Available datasets that could measure this:
+   • List datasets containing relevant variables from ALL catalogs
+   • Specify which variables/bands are relevant
+   • Note spatial/temporal characteristics
+
+3. Best relevance category for each dataset:
+   • Apply strict category definitions
+   • Choose ONE category per dataset
+   • Justify the selection briefly in your working
+
+Special Considerations
+• Climate projections (CMIP6, downscaled data): Use for Risk Assessment (future climate risks) or Trend Analysis (long-term patterns), NOT for measuring current operations
+
+• Satellite imagery: Prioritize for Direct Measurement when variables match metric units
+
+• Ocean/atmospheric data: Relevant for environmental context and risk assessment
+
+• Land cover/biodiversity: Use for Risk Insights and contextual understanding
+
+• Historical archives: Strong for Trend Analysis if temporal coverage adequate
+
+Output Requirements
+1. Preserve ALL original metric information exactly from the template (all 33 rows)
+2. Include ALL metrics even with no matches (leave cells blank)
+3. Consolidate all datasets from all catalogs into ONE table
+4. Format dataset entries as: [catalog-name]-#. Dataset_ID, Dataset_Title (matching reason)
+5. Number datasets starting from 1 for EACH catalog within each relevance category column (restart numbering when switching to a new catalog)
+6. Separate multiple entries with ; or line break
+7. Each dataset appears in ONLY ONE category per metric
+8. Empty cells remain truly empty (no placeholder text)
+9. Format table for direct Excel import
+
+Quality Checks Before Finalizing
+✓ Does your table contain exactly 33 rows matching the template structure?
+✓ Are all Sector, Topic, Metric, Category, Unit of Measure, and Code values exactly as shown in the template?
+✓ Does numbering restart at 1 for each new catalog within each relevance category column?
+✓ Are climate models used appropriately (risk/trends, not direct measurement)?
+✓ Do Direct Measurement datasets actually measure the metric's unit?
+✓ Are satellite/sensor datasets prioritized for current conditions?
+✓ Is each dataset in its single most relevant category?
+✓ Are all original metric details preserved exactly?
+✓ Are dataset IDs and titles exactly as provided in source JSON?
+✓ Is there ONE consolidated table (not separate tables per catalog)?
+✓ Are all dataset entries properly formatted with catalog prefix and matching reason?
+
+Key Changes in This Revision:
+1. Explicitly listed all 33 template rows with exact values for Sector, Topic, Metric, Category, Unit of Measure, and Code
+2. Clarified numbering format with visual examples (❌ incorrect vs. ✓ correct)
+3. Emphasized that numbering restarts at 1 for each new catalog within each relevance category column
+4. Added template compliance as first quality check
+5. Added numbering format check to quality checks
+6. Made template structure non-negotiable and clearly visible
