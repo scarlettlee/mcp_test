@@ -1,0 +1,104 @@
+Topics,,,,,,,,,,
+Sector,Topic,Accounting Metric,Category,Unit of Measure,Code,Sector,Industry,Code_C,Sector_Industry,Code_M
+Software & IT Services,Environmental Footprint of Hardware Infrastructure,"Total energy consumed, percentage grid
+electricity, percentage renewable energy",Quantitative,"Gigajoules,
+Percentage (%)","TA03
+-04-01",,,,,
+Software & IT Services,Environmental Footprint of Hardware Infrastructure,"Total water withdrawn, percentage recycled,
+percentage in regions with High or Extremely High
+Baseline Water Stress",Quantitative,"Cubic meters
+(m3),
+Percentage (%)",TC0102-02,,,,,
+Software & IT Services,Environmental Footprint of Hardware Infrastructure,"Description of the integration of environmental
+considerations to strategic planning for data
+center needs",Discussion and Analysis,n/a,TC0102-03,,,,,
+Software & IT Services,"Data Privacy &
+Freedom of
+Expression","Discussion of policies and practices relating to
+collection, usage, and retention of customers’
+information and personally identifiable
+information",Discussion and Analysis,n/a,TC0102-04,,,,,
+Software & IT Services,"Data Privacy &
+Freedom of
+Expression","Percentage of users whose customer information
+is collected for secondary purpose, percentage
+who have opted-in",Quantitative,Percentage (%),TC0102-05,,,,,
+Software & IT Services,"Data Privacy &
+Freedom of
+Expression","Amount of legal and regulatory fines and
+settlements associated with customer privacy",Quantitative,U.S. dollars ($),TC0102-06,,,,,
+Software & IT Services,"Data Privacy &
+Freedom of
+Expression","Number of government or law enforcement
+requests for customer information, number of
+records requested, percentage resulting in
+disclosure",Quantitative,"Number,
+Percentage (%)","TA03-04-
+01",,,,,
+Software & IT Services,"Data Privacy &
+Freedom of
+Expression","List of countries where core products or services
+are subject
+to government-required monitoring, blocking,
+content filtering, or censoring",Discussion and Analysis,n/a,TC0102-08,,,,,
+Software & IT Services,Data Security,"Number of data security breaches and,
+percentage involving customers’ personally
+identifiable iinformation (PII), number of
+customers affected",Quantitative,"Number,
+Percentage (%)","TA03-06-
+01",,,,,
+Software & IT Services,Data Security,"Discussion of management approach to
+identifying and addressing data security risks",Discussion and Analysis,n/a,TC0102-10,,,,,
+Software & IT Services,Data Security,"Percentage of operations, by revenue,
+independently certified to a suitable third-party
+cybersecurity management standard",Quantitative,Percentage (%),TA03-05-01,,,,,
+Software & IT Services,"Recruiting &
+Managing a
+Global, Diverse
+Skilled
+Workforce","Percentage of employees that are (1) foreign
+nationals and (2) located offshore",Quantitative,Percentage (%),TC0102-11,,,,,
+Software & IT Services,"Recruiting &
+Managing a
+Global, Diverse
+Skilled
+Workforce",Employee engagement as a percentage,Quantitative,Percentage (%),TC0102-12,,,,,
+Software & IT Services,"Recruiting &
+Managing a
+Global, Diverse
+Skilled
+Workforce","Percentage of gender and racial/ethnic group
+representation for: (1) executives and (2) all
+others",Quantitative,Percentage (%),TC0102-13,,,,,
+Software & IT Services,"Managing
+Systemic Risks
+from
+Technology
+Disruptions","Number of (1) performance issues and (2) service
+disruptions; total customer downtime",Quantitative,"Number, Days",TC0102-14,,,,,
+Software & IT Services,"Managing
+Systemic Risks
+from
+Technology
+Disruptions","Discussion of business continuity risks related to
+disruptions of operations",Discussion and Analysis,n/a,TC0102-15,,,,,
+Software & IT Services,"Intellectual
+Property
+Protection &
+Competitive
+Behavior","Number of patent litigation cases, number
+successful, and number as patent holder",Quantitative,Number,TC0102-16,,,,,
+Software & IT Services,"Intellectual
+Property
+Protection &
+Competitive
+Behavior","Amount of legal and regulatory fines and
+settlements associated with anti-competitive
+practices",Quantitative,U.S. dollars ($),TC0102-17,,,,,
+,,,,,,,,,,
+Metrics:,,,,,,,,,,
+Sector,Activity Metric,Category,Unit of Measure,Code,,,,,,
+Software & IT Services,"Number of licenses or subscriptions, percentage cloud-
+based",Quantitative,Number,TC0102-A,,,,,,
+Software & IT Services,"Data processing capacity, percentage outsourced",Quantitative,See note,TC0102-B,,,,,,
+Software & IT Services,"Petabytes of data storage, percentage outsourced",Quantitative,"Petabytes, Percentage",TC0102-C,,,,,,
