@@ -1,0 +1,4221 @@
+{
+  "stacApiUrl": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD",
+  "exportedAt": "2025-10-10T00:09:30.982Z",
+  "collections": [
+    {
+      "type": "Collection",
+      "id": "Daymet_Daily_V4R1_2129_4.1",
+      "title": "Daymet: Daily Surface Weather Data on a 1-km Grid for North America, Version 4 R1",
+      "description": "This dataset provides Daymet Version 4 R1 data as gridded estimates of daily weather parameters for North America, Hawaii, and Puerto Rico. Daymet variables include the following parameters: minimum temperature, maximum temperature, precipitation, shortwave radiation, vapor pressure, snow water equivalent, and day length. The dataset covers the period from January 1, 1980, to December 31 (or December 30 in leap years) of the most recent full calendar year for the Continental North America and Hawaii spatial regions. Data for Puerto Rico is available starting in 1950. Each subsequent year is processed individually at the close of a calendar year. Daymet variables are provided as individual files, by variable and year, at a 1 km x 1 km spatial resolution and a daily temporal resolution. Areas of Hawaii and Puerto Rico are available as files separate from the continental North America. Data are in a North America Lambert Conformal Conic projection and are distributed in a standardized Climate and Forecast (CF)-compliant netCDF file format. In Version 4 R1, all 2020 and 2021 files were updated to improve predictions especially in high-latitude areas. It was found that input files used for deriving 2020 and 2021 data had, for a significant portion of Canadian weather stations, missing daily variable readings for the month of January. NCEI has corrected issues with the Environment Canada ingest feed which led to the missing readings. The revised 2020 and 2021 Daymet V4 R1 files were derived with new GHCNd inputs. Files outside of 2020 and 2021 have not changed from the previous V4 release.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -178.133,
+              14.0749,
+              -53.0567,
+              82.9143
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-01-01T00:00:00.000Z",
+              "2024-12-31T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/DAYMET/guides/Daymet_Daily_V4R1_Fig1.png",
+          "title": "Download Daymet_Daily_V4R1_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/DAYMET/guides/Daymet_Daily_V4R1_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=Daymet_Daily_V4R1_2129&ac=true",
+          "title": "Direct Download",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/2129",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_daymet_Daymet_Daily_V4R1_data": {
+          "href": "s3://ornl-cumulus-prod-protected/daymet/Daymet_Daily_V4R1/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_daymet_Daymet_Daily_V4R1_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_daymet_Daymet_Daily_V4R1": {
+          "href": "s3://ornl-cumulus-prod-public/daymet/Daymet_Daily_V4R1",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_daymet_Daymet_Daily_V4R1",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2532426483-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2532426483-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2532426483-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2532426483-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2532426483-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2532426483-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2532426483-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/Daymet_Daily_V4R1_2129_4.1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/Daymet_Daily_V4R1_2129_4.1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC TEMPERATURE",
+        "SURFACE TEMPERATURE",
+        "MAXIMUM/MINIMUM TEMPERATURE",
+        "PRECIPITATION",
+        "PRECIPITATION AMOUNT",
+        "24 HOUR PRECIPITATION AMOUNT",
+        "SNOW WATER EQUIVALENT",
+        "ATMOSPHERIC RADIATION",
+        "SHORTWAVE RADIATION",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR INDICATORS",
+        "VAPOR PRESSURE"
+      ],
+      "summaries": {
+        "platform": [
+          "MODELS"
+        ],
+        "instruments": [
+          "Computer"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata registration/authentication for netCDF data (S3/HTTPS) downloads. JPEG previews available. Primary use for scientific analysis and research."
+    },
+    {
+      "type": "Collection",
+      "id": "GEDI_L4A_AGB_Density_V2_1_2056_2.1",
+      "title": "GEDI L4A Footprint Level Aboveground Biomass Density, Version 2.1",
+      "description": "This dataset contains Global Ecosystem Dynamics Investigation (GEDI) Level 4A (L4A) Version 2 predictions of the aboveground biomass density (AGBD; in Mg/ha) and estimates of the prediction standard error within each sampled geolocated laser footprint. In this version, the granules are in sub-orbits. The algorithm setting group selection used for GEDI02_A Version 2 has been modified for Evergreen Broadleaf Trees in South America to reduce false positive errors resulting from the selection of waveform modes above ground elevation as the lowest mode. The footprints are located within the global latitude band observed by the International Space Station (ISS), nominally 51.6 degrees N and S and reported for the period 2019-04-18 to 2025-03-19. No acquisitions occurred while the GEDI instrument was in storage on the International Space Station (ISS) from March 2023 to April 2024. The GEDI instrument consists of three lasers producing a total of eight beam ground transects, which instantaneously sample eight ~25 m footprints spaced approximately every 60 m along-track. The GEDI beam transects are spaced approximately 600 m apart on the Earth's surface in the cross-track direction, for an across-track width of ~4.2 km. Footprint AGBD was derived from parametric models that relate simulated GEDI Level 2A (L2A) waveform relative height (RH) metrics to field plot estimates of AGBD. Height metrics from simulated waveforms associated with field estimates of AGBD from multiple regions and plant functional types (PFTs) were compiled to generate a calibration dataset for models representing the combinations of world regions and PFTs (i.e., deciduous broadleaf trees, evergreen broadleaf trees, evergreen needleleaf trees, deciduous needleleaf trees, and the combination of grasslands, shrubs, and woodlands). For each of the eight beams, additional data are reported with the AGBD estimates, including the associated uncertainty metrics, quality flags, model inputs, and other information about the GEDI L2A waveform for this selected algorithm setting group. Model inputs include the scaled and transformed GEDI L2A RH metrics, footprint geolocation variables and land cover input data including PFTs and the world region identifiers. Additional model outputs include the AGBD predictions for each of the six GEDI L2A algorithm setting groups with AGBD in natural and transformed units and associated prediction uncertainty for each GEDI L2A algorithm setting group. Providing these ancillary data products will allow users to evaluate and select alternative algorithm setting groups. Also provided are outputs of parameters and variables from the L4A models used to generate AGBD predictions that are required as input to the GEDI04_B algorithm to generate 1-km gridded products.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -53,
+              180,
+              55.8
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-04-17T00:00:00.000Z",
+              "2025-03-19T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/GEDI/guides/GEDI_L4A_AGB_Density_V2_1_Fig1.png",
+          "title": "Download GEDI_L4A_AGB_Density_V2_1_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/GEDI/guides/GEDI_L4A_AGB_Density_V2_1_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=GEDI_L4A_AGB_Density_V2_1_2056&ac=true",
+          "title": "Direct Download",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/2056",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_gedi_GEDI_L4A_AGB_Density_V2_1_data": {
+          "href": "s3://ornl-cumulus-prod-protected/gedi/GEDI_L4A_AGB_Density_V2_1/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_gedi_GEDI_L4A_AGB_Density_V2_1_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_gedi_GEDI_L4A_AGB_Density_V2_1": {
+          "href": "s3://ornl-cumulus-prod-public/gedi/GEDI_L4A_AGB_Density_V2_1",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_gedi_GEDI_L4A_AGB_Density_V2_1",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2237824918-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2237824918-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2237824918-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2237824918-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2237824918-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2237824918-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2237824918-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/GEDI_L4A_AGB_Density_V2_1_2056_2.1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/GEDI_L4A_AGB_Density_V2_1_2056_2.1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "BIOSPHERE",
+        "VEGETATION",
+        "CANOPY CHARACTERISTICS",
+        "DECIDUOUS VEGETATION",
+        "SPECTRAL/ENGINEERING",
+        "LIDAR",
+        "LIDAR WAVEFORM",
+        "EVERGREEN VEGETATION",
+        "ECOSYSTEMS",
+        "TERRESTRIAL ECOSYSTEMS",
+        "GRASSLANDS",
+        "FORESTS",
+        "SHRUBLAND/SCRUB",
+        "BIOMASS"
+      ],
+      "summaries": {
+        "platform": [
+          "ISS",
+          "COMPUTERS"
+        ],
+        "instruments": [
+          "GEDI",
+          "Computer"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires NASA Earthdata registration for direct data access (HTTP/S3). Available formats include HDF5 data, JPEG images, and XML metadata. Primary usage is direct data download for analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "Global_Veg_Greenness_GIMMS_3G_2187_1",
+      "title": "Global Vegetation Greenness (NDVI) from AVHRR GIMMS-3G+, 1981-2022",
+      "description": "This dataset holds the Global Inventory Modeling and Mapping Studies-3rd Generation V1.2 (GIMMS-3G+) data for the Normalized Difference Vegetation Index (NDVI). NDVI was based on corrected and calibrated measurements from Advanced Very High Resolution Radiometer (AVHRR) data with a spatial resolution of 0.0833 degree and global coverage for 1982 to 2022. Maximum NDVI values are reported within twice monthly compositing periods (two values per month). The dataset was assembled from different AVHRR sensors and accounts for various deleterious effects, such as calibration loss, orbital drift, and volcanic eruptions. The data are provided in NetCDF format.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1982-01-01T00:00:00.000Z",
+              "2022-12-31T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/VEGETATION/guides/Global_Veg_Greenness_GIMMS_3G_Fig1.jpg",
+          "title": "Download Global_Veg_Greenness_GIMMS_3G_Fig1.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/VEGETATION/guides/Global_Veg_Greenness_GIMMS_3G_Fig1.jpg",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=Global_Veg_Greenness_GIMMS_3G_2187&ac=true",
+          "title": "Direct Download",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/2187",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_global_vegetation_Global_Veg_Greenness_GIMMS_3G_data": {
+          "href": "s3://ornl-cumulus-prod-protected/global_vegetation/Global_Veg_Greenness_GIMMS_3G/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_global_vegetation_Global_Veg_Greenness_GIMMS_3G_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_global_vegetation_Global_Veg_Greenness_GIMMS_3G": {
+          "href": "s3://ornl-cumulus-prod-public/global_vegetation/Global_Veg_Greenness_GIMMS_3G",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_global_vegetation_Global_Veg_Greenness_GIMMS_3G",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2759076389-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2759076389-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2759076389-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2759076389-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2759076389-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2759076389-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2759076389-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/Global_Veg_Greenness_GIMMS_3G_2187_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/Global_Veg_Greenness_GIMMS_3G_2187_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "LAND SURFACE",
+        "LAND USE/LAND COVER",
+        "LAND USE/LAND COVER CLASSIFICATION",
+        "VEGETATION INDEX",
+        "BIOSPHERE",
+        "VEGETATION",
+        "NORMALIZED DIFFERENCE VEGETATION INDEX (NDVI)"
+      ],
+      "summaries": {
+        "platform": [
+          "NOAA POES",
+          "METOP-A",
+          "METOP-B",
+          "METOP-C"
+        ],
+        "instruments": [
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires NASA Earthdata account or S3 credentials for access. Provides NetCDF data, JPEG browse/thumbnails, and metadata. Primarily for data download, analysis, visualization, and scientific modeling."
+    },
+    {
+      "type": "Collection",
+      "id": "ABoVE_Arctic_CAP_1658_1",
+      "title": "ABoVE: Atmospheric Profiles of CO, CO2 and CH4 Concentrations from Arctic-CAP, 2017",
+      "description": "This dataset provides in situ airborne measurements of atmospheric carbon monoxide (CO), carbon dioxide (CO2), methane (CH4), and water vapor concentrations, plus air temperature, pressure, relative humidity, and wind speed values over Alaska and the Yukon and Northwest Territories of Canada during the Arctic Carbon Aircraft Profile (Arctic-CAP) monthly sampling campaigns from April-November 2017. Observations have been averaged to a 10-second interval and are reported with the number of samples (N) and standard deviation. During each of the six monthly campaigns, flights over the Arctic-Boreal Vulnerability Experiment (ABoVE) domain included 25 vertical profiles, from the surface up to 6 km altitude, at locations selected to complement regular long-term vertical profiles, remote sensing data, and ground-based flux tower measurements.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -166.045,
+              40.0387,
+              -104.112,
+              71.2874
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-04-26T00:00:00.000Z",
+              "2017-11-05T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_Arctic_CAP_Fig1.png",
+          "title": "Download ABoVE_Arctic_CAP_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_Arctic_CAP_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ABoVE_Arctic_CAP_1658&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ABoVE_Arctic_CAP_1658": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ABoVE_Arctic_CAP_1658.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/1658",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_above_ABoVE_Arctic_CAP_data": {
+          "href": "s3://ornl-cumulus-prod-protected/above/ABoVE_Arctic_CAP/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_above_ABoVE_Arctic_CAP_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_above_ABoVE_Arctic_CAP": {
+          "href": "s3://ornl-cumulus-prod-public/above/ABoVE_Arctic_CAP",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_above_ABoVE_Arctic_CAP",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2162185379-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2162185379-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2162185379-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2162185379-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2162185379-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2162185379-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2162185379-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_Arctic_CAP_1658_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_Arctic_CAP_1658_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "ATMOSPHERIC CARBON DIOXIDE",
+        "ATMOSPHERIC CARBON MONOXIDE",
+        "ATMOSPHERIC TEMPERATURE",
+        "UPPER AIR TEMPERATURE",
+        "METHANE",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR INDICATORS",
+        "HUMIDITY",
+        "ATMOSPHERIC WINDS",
+        "UPPER LEVEL WINDS",
+        "WIND SPEED"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA DC-8"
+        ],
+        "instruments": [
+          "PICARRO G2401-mc CO2, CH4, CO, H2O INSTRUMENT",
+          "HUMIDITY SENSORS",
+          "WIND MONITOR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata login or S3 credentials. Data formats include JPEG, ZIP, NetCDF. Primary uses are data download, visualization, and analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "ABoVE_CO2_CH4_Flux_Estimates_2121_1",
+      "title": "Gridded CO2 and CH4 Flux Estimates for pan-Arctic and Boreal Regions, 2003-2015",
+      "description": "This dataset provides gridded estimates of gross primary productivity (GPP), ecosystem respiration (Reco), net ecosystem CO2 exchange (NEE =  Reco - GPP), and methane (CH4) emissions from tundra and boreal wetland soils, across the pan-Arctic and Boreal zone (>49 degrees north) at 1-km spatial resolution. The data were produced through simulations of the Arctic Terrestrial Carbon Flux Model (TCFM-Arctic) and are provided at the daily time step for the years 2003-2015. TCFM-Arctic uses a light-use efficiency approach driven by satellite estimates of FPAR (fraction of absorbed photosynthetically active radiation) to estimate GPP, and autotrophic respiration (Rauto) is estimated as a fraction of GPP. Heterotrophic respiration (Rhetero) is estimated using decomposition rates with environmental constraints applied to three near-surface soil organic carbon (SOC) pools, and Reco is determined as the sum of Ra and Rh. Methane production is estimated using optimal CH4 production rates with environmental constraints applied to the labile carbon pool, and transfer of CH4 from the soil to the atmosphere is modeled through vegetation, soil diffusion, and water ebullition pathways. The model estimates were calibrated and evaluated using >60 tower eddy covariance (EC) sites. Baseline carbon pools were initialized by continuously cycling (spinning-up) the model for 1,000 model years using recent climatology from 1985 to 2002 to reach a dynamic steady-state between estimated net primary productivity (NPP = GPP - Rauto) and near-surface SOC pools. The TCFM-Arctic simulations were extended to the full Arctic-boreal domain at a 1-km spatial resolution using land cover maps representing high latitude vegetation communities. The data are provided in NetCDF and comma-separated values (CSV) formats.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              49,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2003-01-01T00:00:00.000Z",
+              "2015-12-31T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_CO2_CH4_Flux_Estimates_Fig1.png",
+          "title": "Download ABoVE_CO2_CH4_Flux_Estimates_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_CO2_CH4_Flux_Estimates_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ABoVE_CO2_CH4_Flux_Estimates_2121&ac=true",
+          "title": "Direct Download",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/2121",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_above_ABoVE_CO2_CH4_Flux_Estimates_data": {
+          "href": "s3://ornl-cumulus-prod-protected/above/ABoVE_CO2_CH4_Flux_Estimates/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_above_ABoVE_CO2_CH4_Flux_Estimates_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_above_ABoVE_CO2_CH4_Flux_Estimates": {
+          "href": "s3://ornl-cumulus-prod-public/above/ABoVE_CO2_CH4_Flux_Estimates",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_above_ABoVE_CO2_CH4_Flux_Estimates",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2909734357-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2909734357-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2909734357-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2909734357-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2909734357-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2909734357-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2909734357-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_CO2_CH4_Flux_Estimates_2121_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_CO2_CH4_Flux_Estimates_2121_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "BIOSPHERE",
+        "ECOLOGICAL DYNAMICS",
+        "ECOSYSTEM FUNCTIONS",
+        "RESPIRATION RATE",
+        "BIOGEOCHEMICAL CYCLES",
+        "PRIMARY PRODUCTION"
+      ],
+      "summaries": {
+        "platform": [
+          "MODELS"
+        ],
+        "instruments": [
+          "Computer"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata account registration for data download, S3 credentials for direct S3 access. Available in NetCDF, CSV, and JPEG formats. Primarily used for data analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ABoVE_Domain_Projected_LULC_2353_1",
+      "title": "Land Use and Land Cover Change Projection in the ABoVE Domain",
+      "description": "This dataset provides projections of land use and land cover (LULC) change within the Arctic Boreal Vulnerability Experiment (ABoVE) domain, spanning from 2015 to 2100 with a spatial resolution of 0.25 degrees. It includes LULC change under two Shared Socioeconomic Pathways (SSP126 and SSP585) derived from Global Change Analysis Model (GCAM) at an annual scale. The specific land types include: needleleaf evergreen tree-temperate, needleleaf evergreen tree-boreal, needleleaf deciduous tree-boreal, broadleaf evergreen tree-tropical, broadleaf evergreen tree-temperate, broadleaf deciduous tree-tropical, broadleaf deciduous tree-temperate, broadleaf deciduous tree-boreal, broadleaf evergreen shrub-temperate, broadleaf deciduous shrub-temperate, broadleaf deciduous shrub-boreal, C3 arctic grass, C3 grass, C4 grass, and C3 unmanaged rainfed crop. The data were generated by integrating regional LULC projections from GCAM with high-resolution MODIS land cover data and applying two alternative spatial downscaling models: FLUS and Demeter. Data are provided in NetCDF format.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -169,
+              49,
+              -81,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00.000Z",
+              "2100-12-31T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_Domain_Projected_LULC_Fig1.png",
+          "title": "Download ABoVE_Domain_Projected_LULC_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_Domain_Projected_LULC_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ABoVE_Domain_Projected_LULC_2353&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ABoVE_Domain_Projected_LULC_2353": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ABoVE_Domain_Projected_LULC_2353.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/2353",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_above_ABoVE_Domain_Projected_LULC_data": {
+          "href": "s3://ornl-cumulus-prod-protected/above/ABoVE_Domain_Projected_LULC/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_above_ABoVE_Domain_Projected_LULC_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_above_ABoVE_Domain_Projected_LULC": {
+          "href": "s3://ornl-cumulus-prod-public/above/ABoVE_Domain_Projected_LULC",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_above_ABoVE_Domain_Projected_LULC",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3255116494-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C3255116494-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3255116494-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3255116494-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3255116494-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3255116494-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3255116494-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_Domain_Projected_LULC_2353_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_Domain_Projected_LULC_2353_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "BIOSPHERE",
+        "ECOSYSTEMS",
+        "ANTHROPOGENIC/HUMAN INFLUENCED ECOSYSTEMS",
+        "AGRICULTURAL LANDS",
+        "LAND SURFACE",
+        "LAND USE/LAND COVER",
+        "LAND USE/LAND COVER CLASSIFICATION",
+        "TERRESTRIAL ECOSYSTEMS",
+        "FORESTS",
+        "LAND USE CLASSES"
+      ],
+      "summaries": {
+        "platform": [
+          "COMPUTERS"
+        ],
+        "instruments": [
+          "Computer"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata account registration. Data available in NetCDF, JPEG, XML formats. Primarily for direct download, geospatial analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ABoVE_ForestDisturbance_Agents_1924_1",
+      "title": "ABoVE: Landsat-derived Annual Disturbance Agents Across ABoVE Core Domain, 1987-2012",
+      "description": "This dataset provides spatial data on disturbance agents of fire, insects, and logging in the Arctic Boreal Vulnerability Experiment (ABoVE) core domain at an annual time step from 1987-2012 and 30 m resolution. Using a time-series of Landsat data, the three disturbance types were identified by abrupt changes in Tasseled Cap (dTC) indices of brightness, greenness, and wetness. Disturbances were detected by a Continuous Change Detection and Classification (CCDC) harmonic regression model applied to the time series. The dTC indices and disturbance results are provided.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -169.96,
+              50.259,
+              -98.974,
+              75.6853
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1985-01-01T00:00:00.000Z",
+              "2012-12-31T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_ForestDisturbance_Agents_Fig1.png",
+          "title": "Download ABoVE_ForestDisturbance_Agents_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_ForestDisturbance_Agents_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ABoVE_ForestDisturbance_Agents_1924&ac=true",
+          "title": "Direct Download",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/1924",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_above_ABoVE_ForestDisturbance_Agents_data": {
+          "href": "s3://ornl-cumulus-prod-protected/above/ABoVE_ForestDisturbance_Agents/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_above_ABoVE_ForestDisturbance_Agents_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_above_ABoVE_ForestDisturbance_Agents": {
+          "href": "s3://ornl-cumulus-prod-public/above/ABoVE_ForestDisturbance_Agents",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_above_ABoVE_ForestDisturbance_Agents",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2226005584-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2226005584-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2226005584-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2226005584-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2226005584-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2226005584-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2226005584-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_ForestDisturbance_Agents_1924_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_ForestDisturbance_Agents_1924_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "BIOSPHERE",
+        "ECOSYSTEMS",
+        "TERRESTRIAL ECOSYSTEMS",
+        "FORESTS",
+        "ECOLOGICAL DYNAMICS",
+        "FIRE ECOLOGY",
+        "FIRE DISTURBANCE",
+        "LAND SURFACE",
+        "LAND USE/LAND COVER",
+        "LAND USE/LAND COVER CLASSIFICATION",
+        "VEGETATION",
+        "VEGETATION COVER"
+      ],
+      "summaries": {
+        "platform": [
+          "LANDSAT",
+          "LANDSAT-5"
+        ],
+        "instruments": [
+          "ETM+",
+          "TM"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login or S3 credentials for access. Provides NetCDF data and image previews/thumbnails. Primarily used for direct download, scientific analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ABoVE_PBand_SAR_1657_1",
+      "title": "ABoVE: Active Layer and Soil Moisture Properties from AirMOSS P-band SAR in Alaska",
+      "description": "This dataset provides estimates of soil geophysical properties derived from Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) P-band polarimetric synthetic aperture radar (PolSAR) data collected in August and October of 2014, 2015, and 2017 over 12 study sites (with some exceptions) across Northern Alaska. Soil properties reported include the active layer thickness (ALT), dielectric constant, soil moisture profile, surface roughness, and their respective uncertainty estimates at 30-m spatial resolution over the 12 flight transects. Most of the study sites are located within the continuous permafrost zone and where the aboveground vegetation consisting mainly of dwarf shrub and tussock/sedge/moss tundra has a minimal impact on P-band radar backscatter.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -167.944,
+              64.7127,
+              -150.249,
+              70.8774
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-08-16T00:00:00.000Z",
+              "2017-10-10T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_PBand_SAR_Fig1.png",
+          "title": "Download ABoVE_PBand_SAR_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_PBand_SAR_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ABoVE_PBand_SAR_1657&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ABoVE_PBand_SAR_1657": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ABoVE_PBand_SAR_1657.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/1657",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_above_ABoVE_PBand_SAR_data": {
+          "href": "s3://ornl-cumulus-prod-protected/above/ABoVE_PBand_SAR/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_above_ABoVE_PBand_SAR_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_above_ABoVE_PBand_SAR": {
+          "href": "s3://ornl-cumulus-prod-public/above/ABoVE_PBand_SAR",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_above_ABoVE_PBand_SAR",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2170972048-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2170972048-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2170972048-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2170972048-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2170972048-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2170972048-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2170972048-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_PBand_SAR_1657_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_PBand_SAR_1657_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "LAND SURFACE",
+        "SOILS",
+        "SOIL MOISTURE/WATER CONTENT",
+        "TOPOGRAPHY",
+        "SURFACE ROUGHNESS",
+        "SOIL DEPTH",
+        "FROZEN GROUND",
+        "ACTIVE LAYER"
+      ],
+      "summaries": {
+        "platform": [
+          "G-III",
+          "MODELS"
+        ],
+        "instruments": [
+          "RADAR",
+          "Computer"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires free NASA Earthdata account registration. Data available as NetCDF4, ZIP bundles, and browse images. Primarily for scientific analysis, download, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ABoVE_ReSALT_InSAR_PolSAR_V3_2004_3",
+      "title": "ABoVE: Active Layer Thickness from Airborne L- and P- band SAR, Alaska, 2017, Ver. 3",
+      "description": "This dataset provides estimates of seasonal subsidence, active layer thickness (ALT), the vertical soil moisture profile, and uncertainties at a 30 m resolution for 51 sites across the ABoVE domain, including 39 sites in Alaska and 12 sites in Northwest Canada. The ALT and soil moisture profile retrievals simultaneously use L- and P-band synthetic aperture radar (SAR) data acquired by the NASA/JPL Uninhabited Aerial Vehicle Synthetic Aperture Radar (UAVSAR) instruments during the 2017 Arctic Boreal Vulnerability Experiment (ABoVE) airborne campaign. The data are provided in NetCDF Version 4 format along with a python script for estimating soil volumetric water content from data.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -166.733,
+              57.8294,
+              -110.418,
+              71.5212
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-06-19T00:00:00.000Z",
+              "2017-09-16T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_ReSALT_InSAR_PolSAR_V3_Fig1.png",
+          "title": "Download ABoVE_ReSALT_InSAR_PolSAR_V3_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_ReSALT_InSAR_PolSAR_V3_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ABoVE_ReSALT_InSAR_PolSAR_V3_2004&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ABoVE_ReSALT_InSAR_PolSAR_V3_2004": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ABoVE_ReSALT_InSAR_PolSAR_V3_2004.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/2004",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_above_ABoVE_ReSALT_InSAR_PolSAR_V3_data": {
+          "href": "s3://ornl-cumulus-prod-protected/above/ABoVE_ReSALT_InSAR_PolSAR_V3/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_above_ABoVE_ReSALT_InSAR_PolSAR_V3_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_above_ABoVE_ReSALT_InSAR_PolSAR_V3": {
+          "href": "s3://ornl-cumulus-prod-public/above/ABoVE_ReSALT_InSAR_PolSAR_V3",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_above_ABoVE_ReSALT_InSAR_PolSAR_V3",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2432584227-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2432584227-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2432584227-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2432584227-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2432584227-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2432584227-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2432584227-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_ReSALT_InSAR_PolSAR_V3_2004_3",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_ReSALT_InSAR_PolSAR_V3_2004_3/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "CRYOSPHERE",
+        "FROZEN GROUND",
+        "ACTIVE LAYER",
+        "LAND SURFACE",
+        "SOILS",
+        "PERMAFROST",
+        "SOIL MOISTURE/WATER CONTENT",
+        "CLIMATE INDICATORS",
+        "TERRESTRIAL HYDROSPHERE INDICATORS",
+        "PERMAFROST MELT"
+      ],
+      "summaries": {
+        "platform": [
+          "GULFSTREAM 1000 (695A)"
+        ],
+        "instruments": [
+          "UAVSAR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires Earthdata login/registration; S3 credentials for direct access. Available formats: NetCDF (.nc4), images (PNG/JPEG), and metadata. Primary usage: data download, visualization, and scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "ABoVE_SnowModel_Data_2105_1",
+      "title": "Daily SnowModel Outputs Covering the ABoVE Core Domain, 3-km Resolution, 1980-2020",
+      "description": "This dataset provides daily SnowModel simulation outputs on a 3-km grid for the period 1 September 1980 through 31 August 2020, covering the Core ABoVE Domain. The daily outputs include: air temperature (deg C), relative humidity (%), wind speed (m/s), wind direction (deg from True North), total precipitation (rain+snow) (m), rainfall (m), snowfall (m), snow melt (m), snow sublimation (m), runoff (m), surface temperature (deg C), bulk snowpack thermal resistance (K/W), snow depth (m), snow density (kg/m3), and snow-water-equivalent (SWE) depth (m). Model data inputs included land cover and topography, ground-based observations of snow, remote sensing observations of snow from satellites and aircraft, and meteorological forcing data from weather stations and reanalysis data. The SnowModel includes the processing modules MicroMet, Enbal, SnowDunes, SnowAssin, SnowPack, and SnowTran-3D. The data are provided in NetCDF format.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -176.915,
+              49.8038,
+              -84.3282,
+              75.8357
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1980-09-01T00:00:00.000Z",
+              "2020-08-31T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_SnowModel_Data_Fig1.png",
+          "title": "Download ABoVE_SnowModel_Data_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ABOVE/guides/ABoVE_SnowModel_Data_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ABoVE_SnowModel_Data_2105&ac=true",
+          "title": "Direct Download",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/2105",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_above_ABoVE_SnowModel_Data_data": {
+          "href": "s3://ornl-cumulus-prod-protected/above/ABoVE_SnowModel_Data/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_above_ABoVE_SnowModel_Data_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_above_ABoVE_SnowModel_Data": {
+          "href": "s3://ornl-cumulus-prod-public/above/ABoVE_SnowModel_Data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_above_ABoVE_SnowModel_Data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600317177-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2600317177-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600317177-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600317177-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600317177-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600317177-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600317177-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_SnowModel_Data_2105_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ABoVE_SnowModel_Data_2105_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "PRECIPITATION",
+        "SOLID PRECIPITATION",
+        "SNOW",
+        "LIQUID PRECIPITATION",
+        "RAIN",
+        "ATMOSPHERIC WINDS",
+        "SURFACE WINDS",
+        "WIND SPEED",
+        "CRYOSPHERE",
+        "SNOW/ICE",
+        "SNOW DENSITY",
+        "SNOW MELT",
+        "ATMOSPHERIC TEMPERATURE",
+        "SURFACE TEMPERATURE",
+        "AIR TEMPERATURE",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR INDICATORS",
+        "HUMIDITY",
+        "SNOW WATER EQUIVALENT",
+        "SKIN TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "MODELS"
+        ],
+        "instruments": [
+          "Computer"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires free NASA Earthdata login/S3 credentials for direct data access. Available in NetCDF data, image previews, and metadata formats. Primarily used for scientific analysis, download, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ACTAMERICA-PICARRO_Ground_1568_1.1",
+      "title": "ACT-America: L2 In Situ CO2, CO, and CH4 Concentrations from Towers, Eastern USA",
+      "description": "This dataset provides atmospheric carbon dioxide (CO2), carbon monoxide (CO), and methane (CH4) concentrations as measured on a network of instrumented communications towers operated by the Atmospheric Carbon and Transport-America (ACT-America) project. ACT-America's mission spans five years and includes five 6-week intensive field campaigns covering all 4 seasons and 3 regions of the central and eastern United States. Tower-based measurements began in early 2015 and are continuously collecting CO2, CO, and CH4 data to characterize ground-level (>100 m) carbon background conditions to support the periodic airborne measurement campaigns and transport modeling conducted by ACT-America. The towers are instrumented with infrared cavity ring-down spectrometer systems (CRDS; Picarro Inc.). Data are reported for the highest sampling port on each tower. The averaging interval standard deviation and uncertainty derived from periodic flask sample to in-situ measurement comparisons are provided. Complete tower location, elevation, instrument height, and date/time information are also provided.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -98.588,
+              30.1951,
+              -76.4188,
+              44.0502
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00.000Z",
+              "2017-12-31T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ACTAMERICA/guides/ACTAMERICA-PICARRO_Ground_Fig1.png",
+          "title": "Download ACTAMERICA-PICARRO_Ground_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ACTAMERICA/guides/ACTAMERICA-PICARRO_Ground_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ACTAMERICA-PICARRO_Ground_1568&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ACTAMERICA-PICARRO_Ground_1568": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ACTAMERICA-PICARRO_Ground_1568.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/1568",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_actamerica_ACTAMERICA_PICARRO_Ground_data": {
+          "href": "s3://ornl-cumulus-prod-protected/actamerica/ACTAMERICA-PICARRO_Ground/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_actamerica_ACTAMERICA_PICARRO_Ground_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_actamerica_ACTAMERICA_PICARRO_Ground": {
+          "href": "s3://ornl-cumulus-prod-public/actamerica/ACTAMERICA-PICARRO_Ground",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_actamerica_ACTAMERICA_PICARRO_Ground",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706398349-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2706398349-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706398349-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706398349-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706398349-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706398349-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706398349-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ACTAMERICA-PICARRO_Ground_1568_1.1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ACTAMERICA-PICARRO_Ground_1568_1.1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR PROFILES",
+        "WATER VAPOR MIXING RATIO PROFILES",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "METHANE",
+        "ATMOSPHERIC CARBON DIOXIDE",
+        "ATMOSPHERIC CARBON MONOXIDE"
+      ],
+      "summaries": {
+        "platform": [
+          "FIXED OBSERVATION STATIONS"
+        ],
+        "instruments": [
+          "SPECTROMETERS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires free Earthdata Login registration. Data available as NetCDF for analysis, direct download, and S3 programmatic access; images for visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ACTAMERICA_MFFLL_1649_1.1",
+      "title": "ACT-America: L2 Remotely Sensed Column-average CO2 by Airborne Lidar, Eastern USA",
+      "description": "This dataset provides Level 2 (L2) remotely sensed column-average carbon dioxide (CO2) concentrations measured during airborne campaigns in Summer 2016, Winter 2017, Fall 2017, and Spring 2018 conducted over central and eastern regions of the United States for the Atmospheric Carbon and Transport (ACT-America) project. Column-average CO2 concentrations were measured at 0.1 second frequency during flights of the C-130 Hercules aircraft at altitudes up to 8 km with a Multi-functional Fiber Laser Lidar (MFLL; Harris Corporation). The MFLL is a set of Continuous-Wave (CW) lidar instruments consisting of an intensity modulated multi-frequency single-beam synchronous-detection Laser Absorption Spectrometer (LAS) operating at 1571 nm for measuring the column amount of CO2 number density and range between the aircraft and the surface or to cloud tops, and surface reflectance and a Pseudo-random Noise (PN) altimeter at 1596 nm for measuring the path length from the aircraft to the scattering surface and/or cloud tops. The MFLL was onboard all ACT-America seasonal campaigns, except Summer 2019. Complete aircraft flight information, interpolated to the 0.1 second column CO2 reporting frequency, are included, but not limited to, latitude, longitude, altitude, and attitude. Processing for this Level 2 (L2) product included additional processing and calibration procedures described in this document as applied to retrieval of column CO2 from L1 MFLL data. Data users should use this L2 data unless different CO2 retrieval criteria are preferred.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -106.054,
+              27.2303,
+              -71.9109,
+              49.1083
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-05-27T00:00:00.000Z",
+              "2018-05-20T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ACTAMERICA/guides/ACTAMERICA_MFFLL_Fig1.png",
+          "title": "Download ACTAMERICA_MFFLL_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ACTAMERICA/guides/ACTAMERICA_MFFLL_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ACTAMERICA_MFFLL_1649&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ACTAMERICA_MFFLL_1649": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ACTAMERICA_MFFLL_1649.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/1649",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_actamerica_ACTAMERICA_MFFLL_data": {
+          "href": "s3://ornl-cumulus-prod-protected/actamerica/ACTAMERICA_MFFLL/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_actamerica_ACTAMERICA_MFFLL_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_actamerica_ACTAMERICA_MFFLL": {
+          "href": "s3://ornl-cumulus-prod-public/actamerica/ACTAMERICA_MFFLL",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_actamerica_ACTAMERICA_MFFLL",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706335063-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2706335063-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706335063-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706335063-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706335063-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706335063-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706335063-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ACTAMERICA_MFFLL_1649_1.1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ACTAMERICA_MFFLL_1649_1.1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "ATMOSPHERIC CARBON DIOXIDE"
+      ],
+      "summaries": {
+        "platform": [
+          "C-130"
+        ],
+        "instruments": [
+          "LIDAR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for authenticated access. Data available as NetCDF, ZIP, and images. Primarily for scientific data download and analysis, with visualization/discovery support."
+    },
+    {
+      "type": "Collection",
+      "id": "ACTAMERICA_MFLL_L1_1817_1",
+      "title": "ACT-America: L1 DAOD Measurements by Airborne CO2 Lidar, Eastern USA",
+      "description": "This dataset provides Level 1 (L1) remotely sensed differential absorption optical depth (DAOD) measurements made through the Multi-Functional Fiber Laser Lidar (MFLL; Harris Corporation) during airborne campaigns in Summer 2016, Winter 2017, Fall 2017, and Spring 2018 conducted over central and eastern regions of the United States for the Atmospheric Carbon and Transport (ACT-America) project. DAOD were measured at 0.1 second frequency during flights of the C-130 Hercules aircraft at altitudes up to 8 km with MFLL. The MFLL is a set of Continuous-Wave (CW) lidar instruments consisting of an intensity modulated multi-frequency single-beam synchronous-detection Laser Absorption Spectrometer (LAS) operating at 1571 nm for measuring the column amount of CO2 number density and range between the aircraft and the surface or to cloud tops, and surface reflectance and a Pseudo-random Noise (PN) altimeter at 1596 nm for measuring the path length from the aircraft to the scattering surface and/or cloud tops. The MFLL was onboard all ACT-America seasonal campaigns, except Summer 2019. Complete aircraft flight information, interpolated to the 0.1 second column CO2 reporting frequency, are included, but not limited to, latitude, longitude, altitude, and attitude. Data users should note that a Level 2 (L2) MFLL data product is available (related dataset) that contains all data variables (plus the column-average CO2) included in this L1 MFLL data product but has undergone additional processing and calibrations and is recommended for most use cases.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -106.054,
+              27.2303,
+              -71.9109,
+              49.1083
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-05-27T00:00:00.000Z",
+              "2018-05-20T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ACTAMERICA/guides/ACTAMERICA_MFLL_L1_Fig1.png",
+          "title": "Download ACTAMERICA_MFLL_L1_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ACTAMERICA/guides/ACTAMERICA_MFLL_L1_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ACTAMERICA_MFLL_L1_1817&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ACTAMERICA_MFLL_L1_1817": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ACTAMERICA_MFLL_L1_1817.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/1817",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_actamerica_ACTAMERICA_MFLL_L1_data": {
+          "href": "s3://ornl-cumulus-prod-protected/actamerica/ACTAMERICA_MFLL_L1/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_actamerica_ACTAMERICA_MFLL_L1_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_actamerica_ACTAMERICA_MFLL_L1": {
+          "href": "s3://ornl-cumulus-prod-public/actamerica/ACTAMERICA_MFLL_L1",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_actamerica_ACTAMERICA_MFLL_L1",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705731187-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2705731187-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705731187-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705731187-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705731187-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705731187-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705731187-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ACTAMERICA_MFLL_L1_1817_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ACTAMERICA_MFLL_L1_1817_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "ATMOSPHERIC CARBON DIOXIDE"
+      ],
+      "summaries": {
+        "platform": [
+          "C-130"
+        ],
+        "instruments": [
+          "LIDAR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Earthdata Login required for data access. Provides NetCDF data, ZIP bundles, and image previews/thumbnails. Primary usage includes direct download for scientific analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ACTAMERICA_PICARRO_1556_1.2",
+      "title": "ACT-America: L2 In Situ Atmospheric CO2, CO, CH4, and O3 Concentrations, Eastern USA",
+      "description": "This dataset provides atmospheric carbon dioxide (CO2), carbon monoxide (CO), methane (CH4), water vapor (H2O), and ozone (O3) concentrations collected during airborne campaigns conducted by the Atmospheric Carbon and Transport-America (ACT-America) project. ACT-America's mission spanned 4 years and included five 6-week airborne campaigns covering all 4 seasons and 3 regions of the central and eastern United States. This dataset provides results from all five campaigns, including Summer 2016, Winter 2017, Fall 2017, Spring 2018, and Summer 2019. Two instrumented aircraft platforms, the NASA Langley Beechcraft B200 King Air and the NASA Goddard Space Flight Center's C-130H Hercules, were used to collect high-quality in situ measurements across a variety of continental surfaces and atmospheric conditions. CO2, CO, CH4, and H2O were collected with an infrared cavity ring-down spectrometer system (CRDS; Picarro Inc.). Ozone data were collected with a dual beam differential UV absorption ozone monitor (Model 205; 2B Technologies). Both aircraft hosted identical arrays of in situ sensors. Complete aircraft flight information including, but not limited to, latitude, longitude, altitude, and meteorological conditions are also provided.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -110,
+              25,
+              -70,
+              50.5498
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-07-11T00:00:00.000Z",
+              "2019-07-27T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ACTAMERICA/guides/ACTAMERICA_PICARRO_Fig1.png",
+          "title": "Download ACTAMERICA_PICARRO_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ACTAMERICA/guides/ACTAMERICA_PICARRO_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ACTAMERICA_PICARRO_1556&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ACTAMERICA_PICARRO_1556": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ACTAMERICA_PICARRO_1556.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/1556",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_actamerica_ACTAMERICA_PICARRO_data": {
+          "href": "s3://ornl-cumulus-prod-protected/actamerica/ACTAMERICA_PICARRO/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_actamerica_ACTAMERICA_PICARRO_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_actamerica_ACTAMERICA_PICARRO": {
+          "href": "s3://ornl-cumulus-prod-public/actamerica/ACTAMERICA_PICARRO",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_actamerica_ACTAMERICA_PICARRO",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706347267-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2706347267-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706347267-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706347267-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706347267-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706347267-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2706347267-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ACTAMERICA_PICARRO_1556_1.2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ACTAMERICA_PICARRO_1556_1.2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "ATMOSPHERIC CARBON DIOXIDE",
+        "METHANE",
+        "ATMOSPHERIC CARBON MONOXIDE",
+        "OXYGEN COMPOUNDS",
+        "ATMOSPHERIC OZONE"
+      ],
+      "summaries": {
+        "platform": [
+          "B-200",
+          "C-130"
+        ],
+        "instruments": [
+          "PICARRO G2401-mc CO2, CH4, CO, H2O INSTRUMENT",
+          "UV OZONE DETECTORS",
+          "PICARRO G2401-mc CO2, CH4, CO, H2O INSTRUMENT",
+          "UV OZONE DETECTORS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires free NASA Earthdata account or S3 credentials. Data available in raw file formats (.ict, .zip) and imagery. Primary usage: scientific analysis, research, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ACT_CASA_Ensemble_Prior_Fluxes_1675_1.1",
+      "title": "ACT-America: Gridded Ensembles of Surface Biogenic Carbon Fluxes, 2003-2019",
+      "description": "This data set provides gridded, model-derived gross primary productivity (GPP), ecosystem respiration (RECO), and net ecosystem exchange (NEE) of CO2 biogenic fluxes and their uncertainties at monthly and 3-hourly time scales over 2003-2019 on a 463-m spatial resolution grid for the conterminous United States (CONUS) and on both 5-km and half-degree spatial resolution grids for North America (NA). The biogeochemical model Carnegie Ames Stanford Approach (CASA) was used.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -176,
+              0.5,
+              -24.5,
+              70.5
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2003-01-01T00:00:00.000Z",
+              "2019-12-31T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ACTAMERICA/guides/ACT_CASA_Ensemble_Prior_Fluxes_Fig1.png",
+          "title": "Download ACT_CASA_Ensemble_Prior_Fluxes_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ACTAMERICA/guides/ACT_CASA_Ensemble_Prior_Fluxes_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ACT_CASA_Ensemble_Prior_Fluxes_1675&ac=true",
+          "title": "Direct Download",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/1675",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_actamerica_ACT_CASA_Ensemble_Prior_Fluxes_data": {
+          "href": "s3://ornl-cumulus-prod-protected/actamerica/ACT_CASA_Ensemble_Prior_Fluxes/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_actamerica_ACT_CASA_Ensemble_Prior_Fluxes_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_actamerica_ACT_CASA_Ensemble_Prior_Fluxes": {
+          "href": "s3://ornl-cumulus-prod-public/actamerica/ACT_CASA_Ensemble_Prior_Fluxes",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_actamerica_ACT_CASA_Ensemble_Prior_Fluxes",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705715010-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2705715010-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705715010-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705715010-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705715010-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705715010-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2705715010-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ACT_CASA_Ensemble_Prior_Fluxes_1675_1.1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ACT_CASA_Ensemble_Prior_Fluxes_1675_1.1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "BIOSPHERE",
+        "ECOLOGICAL DYNAMICS",
+        "ECOSYSTEM FUNCTIONS",
+        "PRIMARY PRODUCTION",
+        "ECOSYSTEMS",
+        "RESPIRATION RATE"
+      ],
+      "summaries": {
+        "platform": [
+          "MODELS"
+        ],
+        "instruments": [
+          "Computer"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata account registration for data access. Available formats include NetCDF4, images, and metadata. Primarily for scientific analysis, download, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ASCENDS_LAS_IN_Sept_2014_2116_1",
+      "title": "ASCENDS: Airborne CO2 LAS Retrieval, Indianapolis, IN, USA, 2014",
+      "description": "This dataset provides in situ airborne measurements of atmospheric carbon dioxide (CO2) over Indianapolis, Indiana (IN) on September 3, 2014 during the morning commuter period with heavy traffic emissions. Stationary source emissions are also included. The observed CO2 plume downwind of the urban area, along with the prevailing wind speed and direction, enabled estimations of emission rates. CO2 was measured with an airborne CO2 Laser Absorption Spectrometer (JPL CO2LAS) developed at NASA's Jet Propulsion Laboratory (JPL) to demonstrate the airborne Integrated Path Differential-Absorption (IPDA) lidar technique as a stepping stone to a capability for global measurements of CO2 concentrations from space. The CO2LAS measures the weighted, column averaged carbon dioxide between the aircraft and the ground using a continuous-wave heterodyne technique. The instrument operates at a 2.05 micron wavelength optimized for enhancing sensitivity to boundary layer carbon dioxide. Measurements were taken onboard a DC-8 aircraft during this Active Sensing of CO2 Emissions over Nights, Days and Seasons (ASCENDS) airborne deployment. The data are provided in HDF-5 format.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -86.5214,
+              39.4707,
+              -85.7582,
+              40.153
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-09-03T00:00:00.000Z",
+              "2014-09-03T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ASCENDS/guides/ASCENDS_LAS_IN_Sept_2014_Fig1.png",
+          "title": "Download ASCENDS_LAS_IN_Sept_2014_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ASCENDS/guides/ASCENDS_LAS_IN_Sept_2014_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ASCENDS_LAS_IN_Sept_2014_2116&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ASCENDS_LAS_IN_Sept_2014_2116": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ASCENDS_LAS_IN_Sept_2014_2116.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/2116",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_ascends_ASCENDS_LAS_IN_Sept_2014_data": {
+          "href": "s3://ornl-cumulus-prod-protected/ascends/ASCENDS_LAS_IN_Sept_2014/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_ascends_ASCENDS_LAS_IN_Sept_2014_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_ascends_ASCENDS_LAS_IN_Sept_2014": {
+          "href": "s3://ornl-cumulus-prod-public/ascends/ASCENDS_LAS_IN_Sept_2014",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_ascends_ASCENDS_LAS_IN_Sept_2014",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2734422038-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2734422038-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2734422038-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2734422038-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2734422038-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2734422038-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2734422038-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ASCENDS_LAS_IN_Sept_2014_2116_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ASCENDS_LAS_IN_Sept_2014_2116_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AIR QUALITY",
+        "EMISSIONS",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "ATMOSPHERIC CARBON DIOXIDE"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA DC-8"
+        ],
+        "instruments": [
+          "LASER SPECTROMETER",
+          "CO2LAS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires NASA Earthdata authentication for direct data download. Provides HDF-5 data, PNG previews, and diverse metadata formats. Primarily for data download, scientific analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ATom_Aerosol_Properties_V2_2111_2.1",
+      "title": "ATom: Comprehensive Aerosol Properties, 2016-2018, Version 2",
+      "description": "This dataset contains comprehensive measurements of aerosol microphysical, chemical, and optical properties derived for both dry and ambient conditions from in situ measurements made during the four ATom campaigns. The dataset includes composition-resolved size distributions the integrated mass of sulfate, organics, nitrate, sea salt, dust, black carbon, and other compounds in coarse and fine fractions; extinction and absorption coefficients from each species at both dry and ambient conditions; asymmetry parameters; Angstrom exponents; and fitted lognormal functions to describe the size distribution. Optical parameters are calculated for 10 wavelengths from the near UV to the near IR, and size distributions range from 3 nm to 50 um in diameter. One file contains these data at 1-minute time intervals. Another file contains a subset of these data averaged into 1-km vertical bins for each vertical profile the aircraft made, as well as composition-resolved integrated aerosol optical depth derived from each profile. The concentration of cloud condensation nuclei is calculated for 5 supersaturations.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -86.5,
+              180,
+              82.9313
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-07-29T00:00:00.000Z",
+              "2018-05-22T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ATOM/guides/ATom_Aerosol_Properties_V2_Fig1.png",
+          "title": "Download ATom_Aerosol_Properties_V2_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ATOM/guides/ATom_Aerosol_Properties_V2_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ATom_Aerosol_Properties_V2_2111&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ATom_Aerosol_Properties_V2_2111": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ATom_Aerosol_Properties_V2_2111.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/2111",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_atom_ATom_Aerosol_Properties_V2_data": {
+          "href": "s3://ornl-cumulus-prod-protected/atom/ATom_Aerosol_Properties_V2/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_atom_ATom_Aerosol_Properties_V2_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_atom_ATom_Aerosol_Properties_V2": {
+          "href": "s3://ornl-cumulus-prod-public/atom/ATom_Aerosol_Properties_V2",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_atom_ATom_Aerosol_Properties_V2",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2698465642-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2698465642-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2698465642-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2698465642-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2698465642-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2698465642-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2698465642-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ATom_Aerosol_Properties_V2_2111_2.1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ATom_Aerosol_Properties_V2_2111_2.1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "SEA SALT",
+        "AEROSOL PARTICLE PROPERTIES",
+        "AEROSOL SIZE DISTRIBUTION",
+        "BLACK CARBON"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA DC-8"
+        ],
+        "instruments": [
+          "LASER SPECTROMETER"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata login/S3 credentials for protected direct data download (.nc, .zip) for analysis. Offers browse images (jpeg) for visualization and various metadata formats."
+    },
+    {
+      "type": "Collection",
+      "id": "ATom_CESM2_1878_1",
+      "title": "ATom: CAM-chem/CESM2 Model Outputs Along Flight Tracks, 2016-2018",
+      "description": "This dataset contains CAM-chem (Community Atmosphere Model with Chemistry) model outputs along ATom flight tracks. CAM-chem is a component of the Community Earth System Model Version 2 (CESM2) and is used for simulations of global tropospheric and stratospheric atmospheric composition and for studies of chemistry-climate interactions. In general, CAM-chem uses the MOZART chemical mechanism, with various choices of complexity for tropospheric and stratospheric chemistry. For this dataset, CAM-chem used the MOZART-TS1 chemical mechanism, and the model was nudged to reanalysis meteorology from MERRA2.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -86.1768,
+              180,
+              82.9404
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-07-29T00:00:00.000Z",
+              "2018-05-21T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ATOM/guides/ATom_CESM2_Fig1.jpg",
+          "title": "Download ATom_CESM2_Fig1.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ATOM/guides/ATom_CESM2_Fig1.jpg",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ATom_CESM2_1878&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ATom_CESM2_1878": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ATom_CESM2_1878.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/1878",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_atom_ATom_CESM2_data": {
+          "href": "s3://ornl-cumulus-prod-protected/atom/ATom_CESM2/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_atom_ATom_CESM2_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_atom_ATom_CESM2": {
+          "href": "s3://ornl-cumulus-prod-public/atom/ATom_CESM2",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_atom_ATom_CESM2",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704885339-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2704885339-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704885339-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704885339-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704885339-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704885339-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704885339-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ATom_CESM2_1878_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ATom_CESM2_1878_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "NITROGEN COMPOUNDS",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "HALOCARBONS AND HALOGENS"
+      ],
+      "summaries": {
+        "platform": [
+          "CLIMATE MODELS"
+        ],
+        "instruments": [
+          "Computer"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires NASA Earthdata registration and S3 credentials. Data in NetCDF, ZIP, JPEG, XML formats. Primarily for direct data download and analysis, plus visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ATom_CO_GEOS_1604_1",
+      "title": "ATom: Observed and GEOS-5 Simulated CO Concentrations with Tagged Tracers for ATom-1",
+      "description": "This dataset contains carbon monoxide (CO) observations at 10-second intervals from flights during the ATom-1 campaign in 2016 and simulated CO concentrations from the Goddard Earth Observing System version 5 (GEOS-5) model for the corresponding locations along the ATom flight tracks. The Atmospheric Tomography Mission (ATom) is a NASA Earth Venture Suborbital-2 mission studying the impact of human-produced air pollution on greenhouse gases and on chemically reactive gases in the atmosphere. The airborne observations were collected using the Quantum Cascade Laser System (QCLS) instrument, a high-frequency laser spectroscopy instrument for in situ atmospheric gas sampling. This dataset provides a direct comparison of observational and simulated CO that will be used to inform future atmospheric modeling experiments. The dataset also contains simulated tagged-CO tracer concentrations, which represent the contribution of specific regional sources to the total simulated CO. This dataset contributes to one of the ATom mission objectives to create an observation-based chemical climatology of important atmospheric constituents and their reactivity in the remote troposphere.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -179.999,
+              -65.3316,
+              179.983,
+              80.0086
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-07-29T00:00:00.000Z",
+              "2016-08-23T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ATOM/guides/ATom_CO_GEOS_Fig1.png",
+          "title": "Download ATom_CO_GEOS_Fig1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ATOM/guides/ATom_CO_GEOS_Fig1.png",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ATom_CO_GEOS_1604&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ATom_CO_GEOS_1604": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ATom_CO_GEOS_1604.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/1604",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_atom_ATom_CO_GEOS_data": {
+          "href": "s3://ornl-cumulus-prod-protected/atom/ATom_CO_GEOS/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_atom_ATom_CO_GEOS_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_atom_ATom_CO_GEOS": {
+          "href": "s3://ornl-cumulus-prod-public/atom/ATom_CO_GEOS",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_atom_ATom_CO_GEOS",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704963648-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C2704963648-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704963648-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704963648-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704963648-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704963648-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2704963648-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ATom_CO_GEOS_1604_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ATom_CO_GEOS_1604_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "ATMOSPHERIC CARBON MONOXIDE"
+      ],
+      "summaries": {
+        "platform": [
+          "MODELS",
+          "NASA DC-8"
+        ],
+        "instruments": [
+          "Computer",
+          "SPECTROMETERS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires NASA Earthdata Login. Available formats: NetCDF, ZIP, JPEG, and metadata. Primary usage: data download for analysis, with browse images for visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ATom_Clouds_Aerosols_2250_1",
+      "title": "ATom: Development of Cloud Indicator Algorithm Using Airborne Observations from CAPS",
+      "description": "This dataset is the basis for the development of the Cloud Indicator, a novel algorithm that automatically detects and classifies measurement periods inside clouds. The included data were used in the analysis and development of figures for the related publication. The Cloud Indicator algorithm was developed based on particle size distribution measurements from a second-generation Cloud, Aerosol, and Precipitation Spectrometer (CAPS) combined with measurements of relative humidity and temperature from other sensors, to automatically detect flight sequences in clouds and classify the cloud type. Measurements were collected on 2016-08-20 as part of the Atmospheric Tomography Mission (ATom-1) Campaign and on 2017-04-20 as part of the Absorbing aerosol layers in a changing climate: aging, LIFEtime and dynamics (A-LIFE) project. As an additional criterion for the Cloud Indicator, a cloud-aerosol volume factor was established to ensure a precise and robust distinction between clouds and aerosol layers such as mineral dust or biomass burning to reduce misclassifications. Data are provided in netCDF (*.nc) format.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-07-01T00:00:00.000Z",
+              "2019-09-30T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://daac.ornl.gov/ATOM/guides/ATom_Clouds_Aerosols_Fig1.jpg",
+          "title": "Download ATom_Clouds_Aerosols_Fig1.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://daac.ornl.gov/ATOM/guides/ATom_Clouds_Aerosols_Fig1.jpg",
+          "title": "Thumbnail",
+          "description": "Browse Image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=ATom_Clouds_Aerosols_2250&ac=true",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "gov/protected/bundle/ATom_Clouds_Aerosols_2250": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/protected/bundle/ATom_Clouds_Aerosols_2250.zip",
+          "title": "Direct Download [1]",
+          "description": "Collection Bundle URL",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.3334/ORNLDAAC/2250",
+          "title": "Provider Metadata",
+          "description": "Data set Landing Page DOI URL",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_ornl_cumulus_prod_protected_atom_ATom_Clouds_Aerosols_data": {
+          "href": "s3://ornl-cumulus-prod-protected/atom/ATom_Clouds_Aerosols/data",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_protected_atom_ATom_Clouds_Aerosols_data",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_ornl_cumulus_prod_public_atom_ATom_Clouds_Aerosols": {
+          "href": "s3://ornl-cumulus-prod-public/atom/ATom_Clouds_Aerosols",
+          "roles": [
+            "data"
+          ],
+          "title": "ornl_cumulus_prod_public_atom_ATom_Clouds_Aerosols",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ornldaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3237458908-ORNL_CLOUD.xml",
+          "title": "CMR XML metadata for C3237458908-ORNL_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "ORNL_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3237458908-ORNL_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3237458908-ORNL_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3237458908-ORNL_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3237458908-ORNL_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3237458908-ORNL_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ATom_Clouds_Aerosols_2250_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/ORNL_CLOUD/collections/ATom_Clouds_Aerosols_2250_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "CLIMATE INDICATORS",
+        "ATMOSPHERIC/OCEAN INDICATORS",
+        "CLOUD INDICATORS"
+      ],
+      "summaries": {
+        "platform": [
+          "COMPUTERS"
+        ],
+        "instruments": [
+          "Computer"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ornl-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for direct data access via HTTPS or S3. Available in NetCDF (.nc) for analysis and ZIP for bundles, with JPEG for visualization."
+    }
+  ]
+}

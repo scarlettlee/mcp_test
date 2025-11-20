@@ -1,0 +1,3673 @@
+{
+  "stacApiUrl": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC",
+  "exportedAt": "2025-10-10T00:31:26.412Z",
+  "collections": [
+    {
+      "type": "Collection",
+      "id": "rssmif16d_7",
+      "title": "RSS SSMIS OCEAN PRODUCT GRIDS DAILY FROM DMSP F16 NETCDF V7",
+      "description": "The RSS SSMIS Ocean Product Grids Daily from DMSP F16 netCDF dataset is part of the collection of Special Sensor Microwave/Imager (SSM/I) and Special Sensor Microwave Imager Sounder (SSMIS) data products produced as part of NASA's MEaSUREs Program. Remote Sensing Systems generates SSM/I and SSMIS binary data products using a unified, physically based algorithm to simultaneously retrieve ocean wind speed, water vapor, cloud water, and rain rate. The SSMIS data have been carefully intercalibrated to the brightness temperature level of the previous SSM/I and therefore extend this important time series of ocean winds, vapor, cloud and rain values. This algorithm is a product of 20 years of refinements, improvements, and verifications. The Global Hydrology Resource Center has reformatted the binary data into a netCDF data product for each temporal group for each satellite. The netCDF SSMI/SSMIS collection will be available for F16 daily.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2003-10-26T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/rssmif16d__7/browse/",
+          "title": "Download ",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/rssmif16d__7/browse/2008/f16_ssmis_20080101v7_A_CW.png",
+          "title": "Thumbnail [0]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/rssmif16d__7/browse/",
+          "title": "Thumbnail [1]",
+          "description": "Browse Imagery",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=rssmif16d",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_rssmif16d__7_": {
+          "href": "s3://ghrcw-protected/rssmif16d__7/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_rssmif16d__7_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996546500-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1996546500-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996546500-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996546500-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996546500-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996546500-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996546500-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/rssmif16d_7",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/rssmif16d_7/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Atmosphere",
+        "Precipitation",
+        "Precipitation Rate",
+        "Oceans",
+        "Ocean Winds",
+        "Surface Winds",
+        "Liquid Precipitation",
+        "Rain",
+        "Atmospheric Winds",
+        "Clouds",
+        "Cloud Microphysics",
+        "Cloud Liquid Water/Ice",
+        "Atmospheric Water Vapor",
+        "Water Vapor Indicators",
+        "Water Vapor"
+      ],
+      "summaries": {
+        "platform": [
+          "DMSP 5D-3/F16"
+        ],
+        "instruments": [
+          "SSMIS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login account for direct and S3 access. Available as NetCDF files, plus browse imagery. Primary usage for scientific analysis, download, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "2dimpacts_1",
+      "title": "Two-Dimensional Video Disdrometer (2DVD) IMPACTS V1",
+      "description": "The Two-Dimensional Video Disdrometer (2DVD) IMPACTS data were collected in support of the Investigation of Microphysics and Precipitation for Atlantic Coast-Threatening Snowstorms (IMPACTS) campaign. The IMPACTS field campaign addressed providing observations critical to understanding the mechanisms of snowband formation, organization, and evolution, examining how the microphysical characteristics and likely growth mechanisms of snow particles vary across snowbands, and improving snowfall remote sensing interpretation and modeling to significantly advance prediction capabilities. These data consist of the size, equivalent diameter, fall speed, oblateness, cross-sectional area of raindrops, particle concentration, total number of drops, total drop concentration, liquid water content, rain rate, reflectivity, and rain event characteristics. Data files are available from January 15, 2020 through February 28, 2020 in ASCII format.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -75.4912,
+              37.9194,
+              -75.4462,
+              37.9543
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-15T01:37:06.000Z",
+              "2020-02-28T20:41:44.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=2dimpacts",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_2dimpacts__1_": {
+          "href": "s3://ghrcw-protected/2dimpacts__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_2dimpacts__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1995564612-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1995564612-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1995564612-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1995564612-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1995564612-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1995564612-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1995564612-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/2dimpacts_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/2dimpacts_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Atmosphere",
+        "Clouds",
+        "Cloud Microphysics",
+        "Cloud Droplet Concentration/Size",
+        "Precipitation",
+        "Droplet Size",
+        "Precipitation Rate"
+      ],
+      "summaries": {
+        "platform": [
+          "GROUND STATIONS"
+        ],
+        "instruments": [
+          "2DVD"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata login for S3 credentials and direct downloads. Data is primarily in ASCII format. Intended for direct download and scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "aamhcpex_1",
+      "title": "AAMH CPEX",
+      "description": "The AAMH CPEX dataset contains products obtained from the MetOp-A, MetOp-B, NOAA-18, and NOAA-19 satellites. These data were collected in support of the NASA Convective Processes Experiment (CPEX) field campaign. The CPEX field campaign took place in the North Atlantic-Gulf of America-Caribbean Sea region from 25 May to 25 June 2017. CPEX conducted a total of sixteen DC-8 missions from 27 May to 24 June. The CPEX campaign collected data to help explain convective storm initiation, organization, growth, and dissipation in the North Atlantic-Gulf of America-Caribbean Oceanic region during the early summer of 2017. These data are available from May 26, 2017, through July 15, 2017, and are available in netCDF-4 format.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              154.716,
+              0.6408,
+              -19.5629,
+              44.9689
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-05-26T00:29:00.000Z",
+              "2017-07-16T00:53:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/portal/ghrc/search?q=aamhcpex&ghrccloud/data/",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_aamhcpex__1_": {
+          "href": "s3://ghrcw-protected/aamhcpex__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_aamhcpex__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2645106424-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C2645106424-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2645106424-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2645106424-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2645106424-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2645106424-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2645106424-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aamhcpex_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aamhcpex_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Atmosphere",
+        "Atmospheric Temperature",
+        "Atmospheric Temperature Indices",
+        "Precipitation",
+        "Atmospheric Precipitation Indices",
+        "Atmospheric Water Vapor",
+        "Water Vapor Indicators",
+        "Atmospheric Pressure",
+        "Atmospheric Pressure Measurements"
+      ],
+      "summaries": {
+        "platform": [
+          "METOP-A",
+          "NOAA-19",
+          "METOP-B",
+          "NOAA-18"
+        ],
+        "instruments": [
+          "Computer",
+          "Computer",
+          "Computer",
+          "Computer"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires Earthdata Login for S3 credentials. Data is available in netCDF-4 format. Primarily for direct download and scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "aces1am_1",
+      "title": "ACES Aircraft and Mechanical Data",
+      "description": "The ACES Aircraft and Mechanical Data consist of aircraft (e.g. pitch, roll, yaw) and mechanical (e.g. aircraft engine speed, tail commands, fuel levels) data recorded by the Altus II Unmanned Aerial Vehicle (Altus II UAV) system during the Altus Cumulus Electrification Study (ACES) based at the Naval Air Facility Key West in Florida. ACES aimed to provide extensive observations of the cloud electrification process and its effects by using the Altus II UAV to collect cloud top observations of thunderstorms. The campaign also worked to validate satellite lightning measurements. The Altus II aircraft and mechanical data files are available from July 10 through August 30, 2002 in MATLAB data format (.mat). ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85,
+              23,
+              -81,
+              26
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-07-10T00:00:00.000Z",
+              "2002-08-30T23:59:59.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=aces1am",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_aces1am__1_": {
+          "href": "s3://ghrcw-protected/aces1am__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_aces1am__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977826980-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1977826980-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977826980-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977826980-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977826980-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977826980-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977826980-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1am_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1am_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Platform Characteristics",
+        "Flight Data Logs"
+      ],
+      "summaries": {
+        "platform": [
+          "ALTUS"
+        ],
+        "instruments": [
+          "GPS",
+          "INS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for access to protected S3 data. Available in raw data (.tar, .mat) and metadata formats. Primary usage is direct download and scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "aces1cont_1",
+      "title": "ACES CONTINUOUS DATA V1",
+      "description": "The ALTUS Cloud Electrification Study (ACES) was based at the Naval Air Facility Key West in Florida. During August, 2002, ACES researchers conducted overflights of thunderstorms over the southwestern corner of Florida. For the first time in NASA research, an uninhabited aerial vehicle (UAV) named ALTUS was used to collect cloud electrification data. Carrying field mills, optical sensors, electric field sensors and other instruments, ALTUS allowed scientists to collect cloudelectrification data for the first time from above the storm, from its birth through dissipation. This experiment allowed scientists to achieve the dual goals of gathering weather data safely and testing new aircraft technology. This dataset consists of data collected from seven instruments: the Slow/Fast antenna, Electric Field Mill, Dual Optical Pulse Sensor, Searchcoil Magnetometer, Accelerometers, Gerdien Conductivity Probe, and the Fluxgate Magnetometer. Data consists of sensor reads at 50HZ throughout the flight from all 64 channels.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85,
+              23,
+              -81,
+              26
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-07-10T00:00:00.000Z",
+              "2002-08-30T23:59:59.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=aces1cont",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_aces1cont__1_": {
+          "href": "s3://ghrcw-protected/aces1cont__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_aces1cont__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847043-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1977847043-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847043-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847043-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847043-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847043-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847043-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1cont_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1cont_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Atmosphere",
+        "Atmospheric Winds",
+        "Wind Dynamics",
+        "Turbulence",
+        "Spectral/Engineering",
+        "Radio Wave",
+        "Radio Wave Flux",
+        "Weather Events",
+        "Lightning",
+        "Solid Earth",
+        "Geomagnetism",
+        "Magnetic Field",
+        "Atmospheric Electricity",
+        "Atmospheric Conductivity",
+        "Electric Field"
+      ],
+      "summaries": {
+        "platform": [
+          "ALTUS"
+        ],
+        "instruments": [
+          "ACCELEROMETERS",
+          "DOPS",
+          "ELECTRIC FIELD MILL",
+          "FLUXGATE MAGNETOMETERS",
+          "GERDIEN CONDUCTIVITY PROBE",
+          "RF ANTENNA",
+          "SCM"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires NASA Earthdata Login for direct download or S3 access. Data is available as raw data archives (.tar) and metadata. Primarily for scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "aces1efm_1",
+      "title": "ACES ELECTRIC FIELD MILL V1",
+      "description": "The ALTUS Cloud Electrification Study (ACES) was based at the Naval Air Facility Key West in Florida.  During August 2002, ACES researchers conducted overflights of thunderstorms over the southwestern corner of Florida. For the first time in NASA research, an uninhabited aerial vehicle (UAV) named ALTUS was used to collect cloud electrification data. Carrying field mills, optical sensors, electric field sensors and other instruments, ALTUS allowed scientists to collect cloud electrification data for the first time from above the storm, from it's birth through dissipation. This experiment allowed scientists to achieve the dual goals of gathering weather data safely and testing new aircraft technology. This dataset consists of data from Electric Field Mills, which yield information about the atmospheric electrical fields above the instruments.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85,
+              23,
+              -81,
+              26
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-07-10T00:00:00.000Z",
+              "2002-08-30T23:59:59.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=aces1efm",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_aces1efm__1_": {
+          "href": "s3://ghrcw-protected/aces1efm__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_aces1efm__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847178-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1977847178-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847178-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847178-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847178-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847178-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977847178-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1efm_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1efm_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Atmosphere",
+        "Atmospheric Electricity",
+        "Electric Field"
+      ],
+      "summaries": {
+        "platform": [
+          "ALTUS"
+        ],
+        "instruments": [
+          "ELECTRIC FIELD MILL"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for S3 credentials or direct download. Provides raw data (TAR) and XML metadata. Primarily for scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "aces1log_1",
+      "title": "ACES LOG DATA",
+      "description": "The ALTUS Cloud Electrification Study (ACES) was based at the Naval Air Facility Key West in Florida. During August 2002, ACES researchers conducted overflights of thunderstorms over the southwestern corner of Florida. For the first time in NASA research, an uninhabited aerial vehicle (UAV) named ALTUS was used to collect cloud electrification data. Carrying field mills, optical sensors, electric field sensors and other instruments, ALTUS allowed scientists to collect cloud electrification data for the first time from above the storm, from its birth through dissipation. This experiment allowed scientists to achieve the dual goals of gathering weather data safely and testing new aircraft technology. This dataset consists of log data from each flight, and yields instrument and aircraft status throughout the flight.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85,
+              23,
+              -81,
+              26
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-07-10T00:00:00.000Z",
+              "2002-08-30T23:59:59.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=aces1log",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_aces1log__1_": {
+          "href": "s3://ghrcw-protected/aces1log__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_aces1log__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977853903-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1977853903-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977853903-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977853903-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977853903-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977853903-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977853903-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1log_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1log_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Platform Characteristics",
+        "Flight Data Logs"
+      ],
+      "summaries": {
+        "platform": [
+          "ALTUS"
+        ],
+        "instruments": [
+          "ALTUS DATA COLLECTION SYSTEM"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires NASA Earthdata account and S3 credentials. Data is available as raw TAR archives and XML metadata. Primary use is direct download for scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "aces1time_1",
+      "title": "ACES TIMING DATA",
+      "description": "The ALTUS Cloud Electrification Study (ACES) was based at the Naval Air Facility Key West in Florida. During August or 2002, ACES researchers overflights of thunderstorms over the southwestern corner of Florida. For the first time in NASA research, an uninhabited aerial vehicle (UAV) named ALTUS was used to collect cloud electrification data. Carrying field mills, optical sensors, electric field sensors and other instruments, ALTUS allowed scientists to collect cloud electrification data for the first time from above the storm, from its birth through dissipation. This experiment allowed scientists to achieve the dual goals of gathering weather data safely and testing new aircraft technology. This dataset consists of timing data used for the experiment. When used it provides: syncclock_time = time found at the syncclock (VSI-SYnCCLOCK-32) in seconds from first file name, syncclock_m_time = time found at the syncclock (VSI-SYnCCLOCK-32) in Matlab dateform format, system_time = system time in seconds from first file name, system_m_time = system time in dateform format, gps_time = time found at the GPS unit in seconds from first file name, gps_m_time = time found at GPS unit in dateform, cmos_time = time found at the computer CMOS in seconds from first file name, cmos_m_time = time found at the computer CMOS in dateform.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85,
+              23,
+              -81,
+              26
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-07-10T00:00:00.000Z",
+              "2002-08-30T23:59:59.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=aces1time",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_aces1time__1_": {
+          "href": "s3://ghrcw-protected/aces1time__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_aces1time__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977855412-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1977855412-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977855412-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977855412-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977855412-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977855412-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977855412-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1time_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1time_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Platform Characteristics",
+        "Data Synchronization Time"
+      ],
+      "summaries": {
+        "platform": [
+          "ALTUS"
+        ],
+        "instruments": [
+          "CLOCKS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login/API keys for S3 access. Provides raw data files (e.g., .tar) and metadata. Primarily for direct download and scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "aces1trig_1",
+      "title": "ACES TRIGGERED DATA",
+      "description": "The ALTUS Cloud Electrification Study (ACES) was based at the Naval Air Facility Key West in Florida. During August 2002, ACES researchers conducted overflights of thunderstorms over the southwestern corner of Florida. For the first time in NASA research, an uninhabited aerial vehicle (UAV) named ALTUS was used to collect cloud electrification data. Carrying field mills, optical sensors, electric field sensors and other instruments, ALTUS allowed scientists to collect cloud electrification data for the first time from above the storm, from its birth through dissipation. This experiment allowed scientists to achieve the dual goals of gathering weather data safely and testing new aircraft technology. This dataset consists of data collected from the following instruments: Slow/Fast antenna, Electric Field Mill, Optical Pulse Sensors, Searchcoil Magnetometer, Accelerometer, and Gerdien Conductivity Probe. These data were collected at 200KHz from the first 16 telemetry items collected on the aircraft, were initiated by an operator selected trigger (e.g. DOPS), and continued collecting for as long as the trigger continued.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85,
+              23,
+              -81,
+              26
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-07-10T00:00:00.000Z",
+              "2002-08-30T23:59:59.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=aces1trig",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_aces1trig__1_": {
+          "href": "s3://ghrcw-protected/aces1trig__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_aces1trig__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858342-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1977858342-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858342-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858342-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858342-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858342-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858342-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1trig_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/aces1trig_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Atmosphere",
+        "Atmospheric Electricity",
+        "Electric Field",
+        "Spectral/Engineering",
+        "Radio Wave",
+        "Radio Wave Flux",
+        "Weather Events",
+        "Lightning",
+        "Solid Earth",
+        "Geomagnetism",
+        "Magnetic Field",
+        "Atmospheric Winds",
+        "Wind Dynamics",
+        "Turbulence"
+      ],
+      "summaries": {
+        "platform": [
+          "ALTUS"
+        ],
+        "instruments": [
+          "ACCELEROMETERS",
+          "DOPS",
+          "ELECTRIC FIELD MILL",
+          "GERDIEN CONDUCTIVITY PROBE",
+          "RF ANTENNA",
+          "SCM"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires free Earthdata Login for S3 credentials or direct download access. Raw data files (e.g., .tar) and metadata are available for scientific analysis and programmatic use."
+    },
+    {
+      "type": "Collection",
+      "id": "ampraloft_1",
+      "title": "Advanced Microwave Precipitation Radiometer (AMPR) ALOFT",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) ALOFT dataset consists of brightness temperature measurements collected by the Advanced Microwave Precipitation Radiometer (AMPR) onboard the NASA ER-2 high-altitude research aircraft. AMPR provides multi-frequency microwave imagery, with high spatial and temporal resolution for deriving cloud, precipitation, water vapor, and surface properties. These measurements were taken during the Airborne Lightning Observatory for Fly’s Eye Geostationary Lightning Mapper Simulator and Terrestrial Gamma-ray Flashes (ALOFT) field campaign. ALOFT aimed to study terrestrial gamma-ray flashes (TGFs) and gamma-ray glows in thunderstorms and to validate observations from the International Space Station Lightning Imaging Sensor (ISS LIS) and the Geostationary Lightning Mapper (GLM). Data files are available from June 15, 2023, through July 31, 2023, in netCDF-4 format.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -119.209,
+              10.416,
+              -79.882,
+              36.334
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-06-15T17:33:21.000Z",
+              "2023-07-31T17:51:46.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?portal=ghrc&q=ampr%20+%20aloft",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_ampraloft__1_": {
+          "href": "s3://ghrcw-protected/ampraloft__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_ampraloft__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3632619964-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C3632619964-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3632619964-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3632619964-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3632619964-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3632619964-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3632619964-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/ampraloft_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/ampraloft_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "MICROWAVE",
+        "BRIGHTNESS TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ER-2"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for direct download or S3 access. Data in NetCDF-4 format, metadata in XML/JSON. Primarily for scientific data analysis and research."
+    },
+    {
+      "type": "Collection",
+      "id": "amprimpacts_1",
+      "title": "Advanced Microwave Precipitation Radiometer (AMPR) IMPACTS",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) IMPACTS dataset consists of brightness temperature measurements collected by the Advanced Microwave Precipitation Radiometer (AMPR) onboard the NASA ER-2 high-altitude research aircraft. AMPR provides multi-frequency microwave imagery, with high spatial and temporal resolution for deriving cloud, precipitation, water vapor, and surface properties. These measurements were taken during the Investigation of Microphysics and Precipitation for Atlantic Coast-Threatening Snowstorms (IMPACTS) campaign. Funded by NASA’s Earth Venture program, IMPACTS is the first comprehensive study of East Coast snowstorms in 30 years. Data files are available from December 16, 2019, through March 2, 2023, in netCDF-4 format.  ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -124.259,
+              26.507,
+              -64.366,
+              49.31
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-12-16T21:17:28.000Z",
+              "2023-03-02T17:06:51.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/portal/ghrc/search?q=amprimpacts",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_amprimpacts__1_": {
+          "href": "s3://ghrcw-protected/amprimpacts__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_amprimpacts__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2004708841-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C2004708841-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2004708841-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2004708841-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2004708841-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2004708841-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2004708841-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprimpacts_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprimpacts_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Microwave",
+        "Brightness Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ER-2"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires free Earthdata login for direct downloads or S3 credentials. Data is available in NetCDF-4 and XML formats. Primary usage is direct download for scientific analysis of geophysical measurements."
+    },
+    {
+      "type": "Collection",
+      "id": "amprtbcx1_2",
+      "title": "AMPR BRIGHTNESS TEMPERATURE CAMEX-1",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) was deployed during the Convection and Moisture Experiments (CAMEX-1) conducted at Wallops Island, VA. AMPR data were collected at a combination of frequencies (10.7, 19.35, 37.1, and 85.5 GHz) during the time period of September 26 - October 5, 1993. The geographic domain of the CAMEX region was between 25.5N - 43N latitude and 70W - 83W longitude.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -83.8511,
+              23.9917,
+              -68.2377,
+              42.6325
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1993-09-26T19:00:32.000Z",
+              "1993-10-05T23:27:36.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx1__2/browse/",
+          "title": "Download ",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx1__2/browse/camex1_ampr_19930930_202808-211832.gif",
+          "title": "Thumbnail [0]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx1__2/browse/camex1_ampr_19930929_022826-031847.gif",
+          "title": "Thumbnail [1]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_2": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx1__2/browse/",
+          "title": "Thumbnail [2]",
+          "description": "Browse Imagery",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=amprtbcx1",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_amprtbcx1__2_": {
+          "href": "s3://ghrcw-protected/amprtbcx1__2/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_amprtbcx1__2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858400-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1977858400-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858400-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858400-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858400-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858400-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858400-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbcx1_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbcx1_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Microwave",
+        "Brightness Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ER-2"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Earthdata Login registration/S3 credentials required. Provides raw scientific data (TXT), JPEG/GIF previews, XML metadata. Primarily for data download, analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "amprtbcx2_2",
+      "title": "AMPR BRIGHTNESS TEMPERATURE CAMEX-2",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) was deployed during the Convection and Moisture Experiment 2 (CAMEX-2). AMPR data were collected at a combination of frequencies (10.7, 19.35, 37.1, and 85.5 GHz) during the time period of August 23 - August 30, 1995. The geographic domain of the CAMEX-2 region was between 25.5 N - 43 N latitude and 83 W - 70 W longitude.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -78.907,
+              30.0262,
+              -72.3661,
+              41.0703
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1995-08-23T20:26:21.000Z",
+              "1995-08-30T05:58:32.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx2__2/browse/",
+          "title": "Download ",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx2__2/browse/camex2_ampr_19950823_204150-213229.gif",
+          "title": "Thumbnail [0]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx2__2/browse/camex2_ampr_19950830_045600-054644.gif",
+          "title": "Thumbnail [1]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_2": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx2__2/browse/",
+          "title": "Thumbnail [2]",
+          "description": "Browse Imagery",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=amprtbcx2",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_amprtbcx2__2_": {
+          "href": "s3://ghrcw-protected/amprtbcx2__2/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_amprtbcx2__2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858440-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1977858440-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858440-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858440-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858440-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858440-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858440-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbcx2_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbcx2_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Microwave",
+        "Brightness Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ER-2"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata registration and S3 credentials. Provides raw data (.txt) and preview images (JPEG, GIF) for download, visualization, and analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "amprtbcx3_1",
+      "title": "CAMEX-3 AMPR BRIGHTNESS TEMPERATURE (TB) V1",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) was deployed during the Third Convection and Moisture Experiment (CAMEX-3). AMPR data were collected at four microwave frequencies (10.7, 19.35, 37.1 and 85.5 GHz) for the period of August 8, 1998 -  September 27, 1998. The purpose of the CAMEX-3 mission was to study hurricanes over land and ocean in the U.S. Gulf of America, Caribbean, and Western Atlantic Ocean in coordination with multiple aircraft and research-quality radar, lightning, radiosonde and rain gauge sites.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.5462,
+              13.606,
+              -62.51,
+              35.6076
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1998-08-08T16:01:05.000Z",
+              "1998-09-27T20:55:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx3__1/browse/",
+          "title": "Download ",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx3__1/browse/camex3_ampr_19980808_160105-195108.gif",
+          "title": "Thumbnail [0]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://ghrc.nsstc.nasa.gov/pub/fieldCampaigns/ampr/camex3/browse/camex3_ampr_19980823_173129-000153.gif",
+          "title": "Thumbnail [1]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_2": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbcx3__1/browse/",
+          "title": "Thumbnail [2]",
+          "description": "Browse Imagery",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=amprtbcx3",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_amprtbcx3__1_": {
+          "href": "s3://ghrcw-protected/amprtbcx3__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_amprtbcx3__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858455-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1977858455-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858455-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858455-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858455-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858455-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858455-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbcx3_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbcx3_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Microwave",
+        "Brightness Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ER-2"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login authentication for direct and programmatic S3 data access. Available as compressed TXT.GZ, JPEG/GIF previews, and XML/JSON metadata. Primary usage for analysis, direct download, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "amprtbf3a_1",
+      "title": "AMPR FIRE III ACE",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) was deployed during the First ISCCP Regional Experiment-III Arctic Cloud Experiment (FIRE-III/ACE). AMPR data were collected at four microwave frequencies (10.7, 19.35, 37.1 and 85.5 GHz) for the time period of May 18, 1998 through June 6, 1998. The FIRE-III/ACE mission studied sea-ice melting, sea-ice drift, and other sea-ice properties. The experiment was focused on the Arctic Ocean in and near the Beaufort Sea off the northern coast of Alaska, in coordination with the ice-bound research ship, Sheba.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -174.291,
+              64.7934,
+              -147.234,
+              78.1863
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1998-05-18T19:41:20.000Z",
+              "1998-06-06T22:50:34.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbf3a__1/browse/",
+          "title": "Download ",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbf3a__1/browse/fire_ampr_19980604_185532-001449.gif",
+          "title": "Thumbnail [0]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbf3a__1/browse/fire_ampr_19980518_203705-215813.gif",
+          "title": "Thumbnail [1]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_2": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbf3a__1/browse/",
+          "title": "Thumbnail [2]",
+          "description": "Browse Data Files",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=amprtbf3a",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_amprtbf3a__1_": {
+          "href": "s3://ghrcw-protected/amprtbf3a__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_amprtbf3a__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977859380-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1977859380-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977859380-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977859380-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977859380-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977859380-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1977859380-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbf3a_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbf3a_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Microwave",
+        "Brightness Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ER-2"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login authentication."
+    },
+    {
+      "type": "Collection",
+      "id": "amprtbjax_2",
+      "title": "AMPR JACKSONVILLE BRIGHTNESS TEMPERATURE (TB)",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) was deployed in Jacksonville, FL for the initial AMPR instrument validation. AMPR data were collected at four microwave frequencies (10.7, 19.35, 37.1 and 85.5 GHz) for the period of 10 October 1990 through 19 October 1990. The purpose of the Jacksonville mission was to study convection over the land and ocean for validation, along with clear (dry) vertical columns of atmosphere over the ocean for calibration.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85.4487,
+              26.0128,
+              -79.3422,
+              31.5217
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1990-10-10T14:38:20.000Z",
+              "1990-10-18T17:50:12.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbjax__2/browse/",
+          "title": "Download ",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbjax__2/browse/ampr_JAX_f104_1990.291_v2.gif",
+          "title": "Thumbnail [0]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbjax__2/browse/ampr_JAX_f105_1990.292_v2.gif",
+          "title": "Thumbnail [1]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_2": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbjax__2/browse/",
+          "title": "Thumbnail [2]",
+          "description": "Browse Imagery",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=amprtbjax",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_amprtbjax__2_": {
+          "href": "s3://ghrcw-protected/amprtbjax__2/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_amprtbjax__2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079692-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1979079692-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079692-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079692-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079692-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079692-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079692-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbjax_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbjax_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Microwave",
+        "Brightness Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ER-2"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login authentication."
+    },
+    {
+      "type": "Collection",
+      "id": "amprtbkwj_1",
+      "title": "AMPR BRIGHTNESS TEMPERATURE (TB) KWAJEX",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) was deployed during the First Kwajelein Experiment (KWAJEX), which provided Ground Validation for instruments onboard the Tropical Rain Measurement Mission (TRMM). AMPR brightness temperature data were collected at four microwave frequencies suited to study rain cloud systems (10.7, 19.35, 37.1 and 85.5 GHz) for the period of 30 July - 14 September 1999.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              165.962,
+              5.93167,
+              171.12,
+              11.0683
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1999-07-30T02:53:54.000Z",
+              "1999-09-14T07:01:36.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbkwj__1/browse/",
+          "title": "Download ",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbkwj__1/browse/kwajex_ampr_19990809_222131-013512.gif",
+          "title": "Thumbnail [0]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbkwj__1/browse/kwajex_ampr_19990730_033829-035318.gif",
+          "title": "Thumbnail [1]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_2": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbkwj__1/browse/",
+          "title": "Thumbnail [2]",
+          "description": "Browse Imagery",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=amprtbkwj",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_amprtbkwj__1_": {
+          "href": "s3://ghrcw-protected/amprtbkwj__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_amprtbkwj__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079822-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1979079822-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079822-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079822-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079822-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079822-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979079822-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbkwj_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbkwj_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Microwave",
+        "Brightness Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA DC-8"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login authentication."
+    },
+    {
+      "type": "Collection",
+      "id": "amprtblba_1",
+      "title": "TRMM LBA (LARGE SCALE BIOSPHERE-ATMOSPHERE) EXPERIMENT (AMPR) V1",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) was deployed during the Tropical Rainfall Measuring Mission - Large Scale Biosphere-Atmosphere Experiment (TRMM-LBA); the second of three TRMM ground validation missions.  AMPR data were collected at four distinct microwave frequencies (10.7, 19.35, 37.1 and 85.5 GHz) for the time period of January 23 through February 26, 1999.  The geographic domain of the TRMM-LBA region was wholly within Brazilian Amazon Basin between 16 S to 6N latitude and 76W to 49 W longitude.  The TRMM-LBA mission was to study convection over humid tropical land regions within the range of research-quality radar, lightning, radiosonde and raingage sites located in the Amazon Basin (Rondonia, Brazil).",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -62.9596,
+              -12.4343,
+              -56.5415,
+              -9.5957
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1999-01-24T17:41:10.000Z",
+              "1999-02-23T22:33:19.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtblba__1/browse/",
+          "title": "Download ",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtblba__1/browse/lba_ampr_19990207_173646-220744.gif",
+          "title": "Thumbnail [0]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtblba__1/browse/lba_ampr_19990124_182941-183847.gif",
+          "title": "Thumbnail [1]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_2": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtblba__1/browse/",
+          "title": "Thumbnail [2]",
+          "description": "Browse Imagery",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=amprtblba",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_amprtblba__1_": {
+          "href": "s3://ghrcw-protected/amprtblba__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_amprtblba__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080166-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1979080166-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080166-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080166-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080166-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080166-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080166-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtblba_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtblba_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Microwave",
+        "Brightness Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ER-2"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login authentication."
+    },
+    {
+      "type": "Collection",
+      "id": "amprtbta_1",
+      "title": "AMPR TEFLUN-A BRIGHTNESS TEMPERATURE (TB)",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) was deployed during the Texas-Florida Underflights (TEFLUN-A); the first of three TRMM ground validation missions. AMPR data were collected at four microwave frequencies (10.7, 19.35, 37.1 and 85.5 GHz) for the period of 15 April 1998 through 04 May 1998. The TEFLUN-A mission studied convection over sub-tropical land and ocean regions within the range of research-quality radar, lightning, radiosonde, and raingage sites in Florida and Texas.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -98.6646,
+              25.6215,
+              -81.3661,
+              33.0512
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1998-04-15T00:36:17.000Z",
+              "1998-05-05T00:43:01.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbta__1/browse/",
+          "title": "Download ",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbta__1/browse/tefluna_ampr_19980418_163207-212809.gif",
+          "title": "Thumbnail [0]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbta__1/browse/",
+          "title": "Thumbnail [1]",
+          "description": "Browse Files",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=amprtbta",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_amprtbta__1_": {
+          "href": "s3://ghrcw-protected/amprtbta__1/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_amprtbta__1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080326-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1979080326-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080326-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080326-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080326-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080326-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080326-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbta_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbta_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Microwave",
+        "Brightness Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ER-2"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login authentication."
+    },
+    {
+      "type": "Collection",
+      "id": "amprtbtc_2",
+      "title": "AMPR BRIGHTNESS TEMPERATURE (TB) TOGA COARE",
+      "description": "The Advanced Microwave Precipitation Radiometer (AMPR) data set was part of the atmospheric measurements collected during the intensive observation period of the Tropical Ocean Global Atmosphere-Coupled Ocean Atmosphere Response Experiment (TOGA COARE). AMPR brightness temperature data were collected at a combination of frequencies (10.7, 19.35, 37.1, and 85.5 GHz) and for the period Jan. 12, 1993 - Feb. 25, 1993. The TOGA COARE geographic domain pertinent to the AMPR data set was from the equator to 21 S latitude and 145 E - 161 E longitude.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              144.774,
+              -21.3571,
+              160.679,
+              0.22934
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1993-01-12T21:32:01.000Z",
+              "1993-02-25T03:13:58.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbtc__2/browse/",
+          "title": "Download ",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbtc__2/browse/ampr_TOGA_COARE_f104A_1993.026_v2.gif",
+          "title": "Thumbnail [0]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbtc__2/browse/ampr_TOGA_COARE_f103A_1993.020_v2.gif",
+          "title": "Thumbnail [1]",
+          "description": "Sample browse image",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_2": {
+          "href": "https://ghrc.earthdata.nasa.gov/browseui/#pub/amprtbtc__2/browse/",
+          "title": "Thumbnail [2]",
+          "description": "Browse Imagery",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=amprtbtc",
+          "title": "Direct Download",
+          "description": "Files may be downloaded directly to your workstation from this link",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_ghrcw_protected_amprtbtc__2_": {
+          "href": "s3://ghrcw-protected/amprtbtc__2/",
+          "roles": [
+            "data"
+          ],
+          "title": "ghrcw_protected_amprtbtc__2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.ghrc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080426-GHRC_DAAC.xml",
+          "title": "CMR XML metadata for C1979080426-GHRC_DAAC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GHRC_DAAC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080426-GHRC_DAAC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080426-GHRC_DAAC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080426-GHRC_DAAC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080426-GHRC_DAAC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1979080426-GHRC_DAAC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbtc_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GHRC_DAAC/collections/amprtbtc_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "Spectral/Engineering",
+        "Microwave",
+        "Brightness Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ER-2"
+        ],
+        "instruments": [
+          "AMPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "ghrcw-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login authentication."
+    }
+  ]
+}

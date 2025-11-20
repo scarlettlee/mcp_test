@@ -1,0 +1,4142 @@
+{
+  "stacApiUrl": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC",
+  "exportedAt": "2025-10-10T00:45:24.723Z",
+  "collections": [
+    {
+      "type": "Collection",
+      "id": "Aqua_AIRS_MODIS1km_IND_1",
+      "title": "Aqua AIRS-MODIS 1-km Matchup Indexes V1 (Aqua_AIRS_MODIS1km_IND) at GES_DISC",
+      "description": " This dataset includes Aqua AIRS to MODIS 1-km collocation index product, within the framework of the Multidecadal Satellite Record of Water Vapor, Temperature, and Clouds (PI: Eric Fetzer) funded by NASA’s Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, 2017. The dataset is built upon work by Wang et al. (doi: 10.3390/rs8010076) and Yue (doi:10.5194/amt-15-2099-2022).\n\nThe short name for this collections is Aqua_AIRS_MODIS1km_IND\n\n",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-08-31T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Fetzer/AIRS_MLS_H2O.jpg",
+          "title": "Download AIRS_MLS_H2O.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Fetzer/AIRS_MLS_H2O.jpg",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/AIRS_CloudSat/Aqua_AIRS_MODIS1km_IND": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/AIRS_CloudSat/Aqua_AIRS_MODIS1km_IND.1/",
+          "title": "Direct Download [0]",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=Aqua_AIRS_MODIS1km_IND",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/Aqua_AIRS_MODIS1km_IND_1.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_AIRS_CloudSat_Aqua_AIRS_MODIS1km_IND_1_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/AIRS_CloudSat/Aqua_AIRS_MODIS1km_IND.1/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_AIRS_CloudSat_Aqua_AIRS_MODIS1km_IND_1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2515837343-GES_DISC.xml",
+          "title": "CMR XML metadata for C2515837343-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2515837343-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2515837343-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2515837343-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2515837343-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2515837343-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/Aqua_AIRS_MODIS1km_IND_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/Aqua_AIRS_MODIS1km_IND_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "CLOUDS"
+      ],
+      "summaries": {
+        "platform": [
+          "Aqua"
+        ],
+        "instruments": [
+          "CrIS",
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "OMPS_NPP_NMSO2_PCA_L2_2",
+      "title": "OMPS/NPP PCA SO2 Total Column 1-Orbit L2 Swath 50x50km V2 (OMPS_NPP_NMSO2_PCA_L2) at GES DISC",
+      "description": "The OMPS_NPP_NMSO2_PCA_L2 product is part of the MEaSUREs (Making Earth Science Data Records for Use in Research Environments) suite of products.\n\nIt is retrieved from the NASA/NOAA Suomi National Polar-orbiting Partnership (SNPP) Ozone Mapping and Profiler Suite (OMPS) Nadir Mapper (NM) spectrometer and provides contiguous daily global monitoring of anthropogenic and volcanic sulfur dioxide (SO2), an important pollutant and aerosol precursor that affects both air quality and the climate. The product is based on the NASA Goddard Space Flight Center principal component analysis (PCA) spectral fitting algorithm (Li et al., 2013, 2017), and continues (Zhang et al., 2017) NASA's Earth Observing System (EOS) standard Aura/Ozone Monitoring Instrument SO2 product (OMSO2). \n\nThe latest OMPS_NPP_NMSO2_PCA_L2 V2 product uses new Jacobian lookup tables and more realistic model based a priori profiles in anthropogenic SO2 retrievals. This helps to more accurately account for the pixel-to-pixel variation in SO2 sensitivity due to different factors such as the vertical distribution of SO2, solar and viewing angles, surface reflectivity, and cloudiness. As compared with the previous OMPS_NPP_NMSO2_PCA_L2 V1.2 product that assumes the same SO2 sensitivity for all OMPS pixels, the new V2 anthropogenic SO2 retrievals have reduced retrieval biases especially over background regions (see Figure 1 for an example). The same updated PCA SO2 retrieval algorithm (Li et al., 2020) is also used to produce the recently released OMSO2 V2 product (doi:10.5067/Aura/OMI/DATA2022). The new OMPS_NPP_NMSO2_PCA_L2 V2 product thus offers enhanced consistency between the NASA EOS standard (OMI) and continuity (OMPS) SO2 data records\n\nSulfur Dioxide (SO2) is a short-lived gas primarily produced by volcanoes, power plants, refineries, metal smelting and burning of fossil fuels. Where SO2 remains near the Earth's surface, it is toxic, causes acid rain, and degrades air quality. Where SO2 is lofted into the free troposphere, it forms aerosols that can alter cloud reflectivity and precipitation. In the stratosphere, volcanic SO2 forms sulfate aerosols that can result in climate change.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-26T21:52:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Krotkov/OMPS_NPP_NMSO2_PCA_L2.v2.png",
+          "title": "Download OMPS_NPP_NMSO2_PCA_L2.v2.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Krotkov/OMPS_NPP_NMSO2_PCA_L2.v2.png",
+          "title": "Thumbnail",
+          "description": "Annual mean SO2 vertical column densities (VCDs) in Dobson Units (DU, 1 DU = 2.69 ×1016 molecules/cm2) for 2018 from the OMPS_NPP_NMSO2_PCA_L2 V2.0 product. Pixels with large cloud fractions (> 0.3) or solar zenith angles (> 65º) or near the edge of the swath (rows 1-2 and 35-36 out of 36 OMPS rows) or low sensitivities to SO2 (air mass factor, AMF < 0.3) have been excluded. In addition, days with large volcanic plumes from explosive eruptions have also been excluded. Areas having major anthropogenic SO2 sources (e.g., India, eastern China, the Middle East, and South Africa) or degassing volcanoes (e.g., Kilauea and Etna) can be identified from the map. ",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/SO2/OMPS_NPP_NMSO2_PCA_L2": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/SO2/OMPS_NPP_NMSO2_PCA_L2.2",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTP",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=OMPS_NPP_NMSO2_PCA_L2",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/OMPS_NPP_NMSO2_PCA_L2_2.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_SO2_OMPS_NPP_NMSO2_PCA_L2_2_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/SO2/OMPS_NPP_NMSO2_PCA_L2.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_SO2_OMPS_NPP_NMSO2_PCA_L2_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1917909223-GES_DISC.xml",
+          "title": "CMR XML metadata for C1917909223-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1917909223-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1917909223-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1917909223-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1917909223-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1917909223-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/OMPS_NPP_NMSO2_PCA_L2_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/OMPS_NPP_NMSO2_PCA_L2_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AIR QUALITY",
+        "SULFUR OXIDES",
+        "ATMOSPHERIC CHEMISTRY",
+        "SULFUR COMPOUNDS",
+        "SULFUR DIOXIDE",
+        "CLIMATE INDICATORS",
+        "PALEOCLIMATE INDICATORS",
+        "VOLCANIC ACTIVITY",
+        "HUMAN DIMENSIONS",
+        "NATURAL HAZARDS",
+        "VOLCANIC ERUPTIONS"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "OMPS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "TOMSN7AER_2",
+      "title": "TOMS/N7 Near UV Aerosol Index and LER 1-Orbit L2 50x50 km",
+      "description": "As part of the NASA's Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, this projects describes a multi-decadal Fundamental Climate Data Record (FCDR) of calibrated radiances as well as an Earth System Data Record (ESDR) of aerosol properties over the continents derived from a 40-year record of satellite near-UV observations by three sensors.  \n\nThe TOMS Nimbus 7 version 2 Level-2 orbital data product consists of cloud fraction, cloud optical depth, normalized radiance, reflectivity, residue, and UV aerosol index at approximately 50x50 km resolution (at nadir). This product also contains ancillary variables for ocean corrected surface albedo and terrain pressure.\n\nTotal Ozone Mapping Spectrometer (TOMS) instruments have been successfully flown in orbit aboard the Nimbus-7(Nov. 1978 - May 1993), Meteor-3 (Aug. 1991 - Dec. 1994), Earth Probe (June 1996 - December 2005), and ADEOS (Sep. 1996 - June 1997) satellites.\n\nThese Level-2 data are stored in the Hierarchical Data Format 5 (HDF5) and are available from the Goddard Earth Sciences (GES) Data and Information Services Center (DISC).",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1978-11-02T00:35:03.000Z",
+              "1993-05-06T21:45:14.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TOMSN7AER_002.png",
+          "title": "Download TOMSN7AER_002.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TOMSN7AER_002.png",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/AER/TOMSN7AER": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/AER/TOMSN7AER.2/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=TOMSN7AER_2",
+          "title": "Direct Download [1]",
+          "description": "Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/TOMSN7AER_2.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_AER_TOMSN7AER_2_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/AER/TOMSN7AER.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_AER_TOMSN7AER_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1418718313-GES_DISC.xml",
+          "title": "CMR XML metadata for C1418718313-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1418718313-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1418718313-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1418718313-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1418718313-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1418718313-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/TOMSN7AER_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/TOMSN7AER_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL BACKSCATTER",
+        "AEROSOL EXTINCTION",
+        "AEROSOL RADIANCE",
+        "AIR QUALITY"
+      ],
+      "summaries": {
+        "platform": [
+          "Nimbus-7"
+        ],
+        "instruments": [
+          "TOMS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "TOMSN7SO2_3",
+      "title": "TOMS/N7 MS SO2 Vertical Column 1-Orbit L2 Swath 50x50 km V3 (TOMSN7SO2) at GES DISC",
+      "description": "Version 3 is the current version of the data set. Older versions will no longer be available and have been superseded by Version 3.\nThe goal of this data set is to create and archive a Level 2 SO2 Earth Science Data Record (ESDR)  from backscatter Ultraviolet (BUV) measurements from Total Ozone Mapping Spectrometer (TOMS) flown on NASA's Nimbus - 7 satellite in 1978-1993. We apply TOMS ozone team  calibration techniques and consistent MEaSUREs SO2 (MS_SO2) algorithm, to obtain the best measurement-based ESDR of volcanic and anthropogenic SO2 masses and emissions. \n\nAs part of the NASA's Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, the Goddard Earth Science (GES) Data and Information Data Center (DISC) has released a new SO2 Earth System Data Record (ESDR), TOMSN7SO2, re-processed using new 4 UV wavelength bands MS_SO2 algorithm that spans the full Nimbus 7 data period. TOMSN7SO2 is a Level 2 orbital swath product, which will be used to study the fifteen-year SO2 record from the Nimbus-7 TOMS and to expand the historical database of known volcanic eruptions.\n\n Sulfur Dioxide (SO2) is a short-lived gas primarily produced by volcanoes, power plants, refineries, metal smelting and burning of fossil fuels. Where SO2 remains near the Earth s surface, it is toxic, causes acid rain, and degrades air quality. Where SO2 is lofted into the free troposphere, it forms aerosols that can alter cloud reflectivity and precipitation. In the stratosphere, volcanic SO2 forms sulfate aerosols that can result in climate change.\n",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1978-11-01T00:00:00.000Z",
+              "1993-05-07T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Krotkov/Pinatubo_sample_06191991.png",
+          "title": "Download Pinatubo_sample_06191991.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Krotkov/Pinatubo_sample_06191991.png",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/SO2/TOMSN7SO2": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/SO2/TOMSN7SO2.3",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTP",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=TOMSN7SO2",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/TOMSN7SO2_3.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_SO2_TOMSN7SO2_3_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/SO2/TOMSN7SO2.3/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_SO2_TOMSN7SO2_3_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1615905582-GES_DISC.xml",
+          "title": "CMR XML metadata for C1615905582-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1615905582-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1615905582-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1615905582-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1615905582-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1615905582-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/TOMSN7SO2_3",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/TOMSN7SO2_3/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AIR QUALITY",
+        "SULFUR OXIDES",
+        "ATMOSPHERIC CHEMISTRY",
+        "SULFUR COMPOUNDS",
+        "SULFUR DIOXIDE",
+        "CLIMATE INDICATORS",
+        "PALEOCLIMATE INDICATORS",
+        "VOLCANIC ACTIVITY",
+        "HUMAN DIMENSIONS",
+        "NATURAL HAZARDS",
+        "VOLCANIC ERUPTIONS"
+      ],
+      "summaries": {
+        "platform": [
+          "Nimbus-7"
+        ],
+        "instruments": [
+          "TOMS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "OMIAuraAER_1",
+      "title": "OMI/Aura Near UV Aerosol Index, Optical Depth and Single Scattering Albedo 1-Orbit L2 13x24km",
+      "description": "As part of the NASA's Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, this projects describes a multi-decadal Fundamental Climate Data Record (FCDR) of calibrated radiances as well as an Earth System Data Record (ESDR) of aerosol properties over the continents derived from a 32-year record of satellite near-UV observations by three sensors.  \n\nThe OMI/Aura Near UV (version 1) Aerosol Index, Optical Depth and Single Scattering Albedo data product consists of aerosol absorption optical depth, aerosol optical depth, aerosol single scattering albedo, cloud fraction, cloud optical depth, refractive index, radiance, reflectivity and residue at approximately 13x24km. This product also contains ancillary data for ocean corrected surface albedo and terrain pressure.\n\nThese Level-2 data are stored in the Hierarchical Data Format 5 (HDF5) and are available from the Goddard Earth Sciences (GES) Data and Information Services Center (DISC).",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2004-10-01T00:03:05.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMIAuraAER_001.png",
+          "title": "Download OMIAuraAER_001.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMIAuraAER_001.png",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/AER/OMIAuraAER": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/AER/OMIAuraAER.1/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=OMIAuraAER_1",
+          "title": "Direct Download [1]",
+          "description": "Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/OMIAuraAER_1.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_AER_OMIAuraAER_1_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/AER/OMIAuraAER.1/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_AER_OMIAuraAER_1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1460503190-GES_DISC.xml",
+          "title": "CMR XML metadata for C1460503190-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1460503190-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1460503190-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1460503190-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1460503190-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1460503190-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/OMIAuraAER_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/OMIAuraAER_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL EXTINCTION",
+        "AEROSOL SINGLE SCATTERING ALBEDO",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "AEROSOL OPTICAL DEPTH",
+        "UV AEROSOL INDEX"
+      ],
+      "summaries": {
+        "platform": [
+          "Aura"
+        ],
+        "instruments": [
+          "OMI"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "OMI_MINDS_NO2_1.1",
+      "title": "OMI/Aura NO2 Tropospheric, Stratospheric & Total Columns MINDS 1-Orbit L2 Swath 13 km x 24 km V1.1 (OMI_MINDS_NO2) at GES DISC",
+      "description": "As part of the NASA's Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, this project entitled “Multi-Decadal Nitrogen Dioxide and Derived Products from Satellites (MINDS)” will develop consistent long-term global trend-quality data records spanning the last two decades, over which remarkable changes in nitrogen oxides (NOx) emissions have occurred. The objective of the project Is to adapt Ozone Monitoring Instrument (OMI) operational algorithms to other satellite instruments and create consistent multi-satellite L2 and L3 nitrogen dioxide (NO2) columns and value-added L4 surface NO2 concentrations and NOx emissions data products, systematically accounting for instrumental differences. The instruments include Global Ozone Monitoring Experiment (GOME, 1996-2011), SCanning Imaging Absorption spectroMeter for Atmospheric CHartographY (SCIAMACHY, 2002-2012), OMI (2004-present), GOME-2 (2007-present), and TROPOspheric Monitoring Instrument (TROPOMI, 2018-present). The quality assured L2-L4 products will be made available to the scientific community via the NASA GES DISC website in Climate and Forecast (CF)-compliant Hierarchical Data Format (HDF5) and netCDF formats.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2004-10-01T00:03:05.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "1": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/MINDS/OMI_MINDS_NO2.1.1/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS",
+          "roles": [
+            "data"
+          ]
+        },
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMI_MINDS_NO2_1.1.png",
+          "title": "Download OMI_MINDS_NO2_1.1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/OMI_MINDS_NO2_1.1.png",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/search?q=OMI_MINDS_NO2_1": {
+          "href": "https://search.earthdata.nasa.gov/search?q=OMI_MINDS_NO2_1.1",
+          "title": "Direct Download [1]",
+          "description": "Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/OMI_MINDS_NO2_1.1.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_MINDS_OMI_MINDS_NO2_1_1_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/MINDS/OMI_MINDS_NO2.1.1/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_MINDS_OMI_MINDS_NO2_1_1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2212151771-GES_DISC.xml",
+          "title": "CMR XML metadata for C2212151771-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2212151771-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2212151771-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2212151771-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2212151771-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2212151771-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/OMI_MINDS_NO2_1.1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/OMI_MINDS_NO2_1.1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "NITROGEN COMPOUNDS",
+        "ATMOSPHERIC NITRIC ACID",
+        "NITRIC OXIDE",
+        "NITROGEN DIOXIDE",
+        "NITROGEN OXIDES",
+        "NITROUS OXIDE"
+      ],
+      "summaries": {
+        "platform": [
+          "Aura"
+        ],
+        "instruments": [
+          "OMI"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "TROPOMAER_1",
+      "title": "TROPOMI/Sentinel-5P Near UV Aerosol Optical Depth and Single Scattering Albedo L2 1-Orbit Snapshot 7.5 km x 3 km",
+      "description": "As part of the NASA's Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, this projects describes a multi-decadal Fundamental Climate Data Record (FCDR) of calibrated radiances as well as an Earth System Data Record (ESDR) of aerosol properties over the continents derived from a 32-year record of satellite near-UV observations by three sensors.  \n\nThe Corpenicus Sentinel-5P TROPOMI Near UV (version 1) Aerosol Optical Depth and Single Scattering Albedo data product consists of aerosol absorption optical depth, aerosol total optical depth, aerosol layer height, aerosol UV index, and aerosol single scattering albedo at approximately 7.5kmx3km. This product also contains ancillary data for ocean corrected surface albedo and terrain pressure.\n\nData since July 19, 2022 (orbit 24688) has been processed with the most recent calibrated L1B radiance data (version 2.0.1). Data prior to July 19, 2022, data was processed with version 2.0.0 L1B radiances. Soon, the entire record will be reprocessed using version 2.0.1 L1B data. Any upgrades will be posted here. \n\nThese Level-2 data are stored in the NetCDF-4 format and are available from the Goddard Earth Sciences (GES) Data and Information Services Center (DISC).",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-04-30T00:41:24.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TROPOMAER_1.png",
+          "title": "Download TROPOMAER_1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TROPOMAER_1.png",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/AER/TROPOMAER": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/AER/TROPOMAER.1/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=TROPOMAER_1",
+          "title": "Direct Download [1]",
+          "description": "Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/TROPOMAER_1.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_AER_TROPOMAER_1_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/AER/TROPOMAER.1/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_AER_TROPOMAER_1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2152047233-GES_DISC.xml",
+          "title": "CMR XML metadata for C2152047233-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2152047233-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2152047233-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2152047233-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2152047233-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2152047233-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/TROPOMAER_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/TROPOMAER_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL EXTINCTION",
+        "AEROSOL SINGLE SCATTERING ALBEDO",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "AEROSOL OPTICAL DEPTH",
+        "UV AEROSOL INDEX"
+      ],
+      "summaries": {
+        "platform": [
+          "Sentinel-5P"
+        ],
+        "instruments": [
+          "TROPOMI"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "SWDB_L2_004",
+      "title": "SeaWiFS Deep Blue Aerosol Optical Depth and Angstrom Exponent Level 2 Data V004 (SWDB_L2) at GES DISC V004",
+      "description": "The SeaWiFS Deep Blue (SWDB) Level 2 Product contains data corresponding to a single SeaWiFS swath using Deep Blue algorithm. There are about 15 Level 2 data files produced per day.  Each contains retrieved aerosol properties averaged to a resolution of 3x3 SeaWiFS pixels (13.5x13.5 km at the center of the swath given 4.5km SeaWiFS pixels). \n\n The primary data parameters are aerosol optical thickness, and Angstrom exponent.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1997-09-04T00:00:00.000Z",
+              "2010-12-11T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SWDB_L2_004.png",
+          "title": "Download SWDB_L2_004.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/SWDB_L2_004.png",
+          "title": "Thumbnail",
+          "description": "Solar Zenith Angle from SeaWiFS Deep Blue Aerosol product, version 004 (SWDB_L2.004), 13.5 km x 13.5 km at Equator,  April 1 2001 11:59:34Z",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/DeepBlueSeaWiFS_Level2/SWDB_L2": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/DeepBlueSeaWiFS_Level2/SWDB_L2.004/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS.",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=SWDB_L2",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/SWDB_L2_004.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_DeepBlueSeaWiFS_Level2_SWDB_L2_004_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/DeepBlueSeaWiFS_Level2/SWDB_L2.004/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_DeepBlueSeaWiFS_Level2_SWDB_L2_004_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1239900189-GES_DISC.xml",
+          "title": "CMR XML metadata for C1239900189-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1239900189-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1239900189-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1239900189-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1239900189-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1239900189-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/SWDB_L2_004",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/SWDB_L2_004/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "AOD",
+        "ANGSTROM EXPONENT",
+        "ATMOSPHERIC RADIATION",
+        "OPTICAL DEPTH/THICKNESS"
+      ],
+      "summaries": {
+        "platform": [
+          "OrbView-2"
+        ],
+        "instruments": [
+          "SeaWiFS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "NLDAS_FORA0125_H_2.0",
+      "title": "NLDAS Primary Forcing Data L4 Hourly 0.125 x 0.125 degree V2.0 (NLDAS_FORA0125_H) at GES DISC",
+      "description": "This data set contains the primary forcing hourly data \"File A\" for Phase 2 of the North American Land Data Assimilation System (NLDAS-2).  The data are in 1/8th degree grid spacing and range from Jan 1979 to the present. The temporal resolution is hourly.  The file format is netCDF (converted from the GRIB data files).\n\nThe non-precipitation land surface forcing fields for NLDAS-2 are derived from the analysis fields of the NCEP North American Regional Reanalysis (NARR).  NARR analysis fields are 32-km spatial resolution and 3-hourly temporal frequency.  Those NARR fields that are utilized to generate NLDAS-2 forcing fields are spatially interpolated to the finer resolution of the NLDAS 1/8th-degree grid and then temporally disaggregated to the NLDAS hourly frequency.  Additionally, the fields of surface pressure, surface downward longwave radiation, near-surface air temperature, and near-surface specific humidity are adjusted vertically to account for the vertical difference between the NARR and NLDAS fields of terrain height.  This vertical adjustment applies the traditional vertical lapse rate of 6.5 K/km for air temperature.  The details of the spatial interpolation, temporal disaggregation, and vertical adjustment are presented by Cosgrove et al. (2003).\n\nThe surface downward shortwave radiation field in \"File A\" is a bias-corrected field wherein a bias-correction algorithm was applied to the NARR surface downward shortwave radiation.  This bias correction utilizes five years (1996-2000) of the hourly 1/8th-degree GOES-based surface downward shortwave radiation fields derived by Pinker et al. (2003). The potential evaporation field in \"File A\" is that computed in NARR using the modified Penman scheme of Mahrt and Ek (1984).\n\nThe precipitation field in \"File A\" is not the NARR precipitation forcing, but is rather a product of a temporal disaggregation of a gauge-only CPC analysis of daily precipitation, performed directly on the NLDAS grid and including an orographic adjustment based on the widely-applied PRISM climatology.  The precipitation is temporally disaggregated into hourly fields by deriving hourly disaggregation weights from either WSR-88D Doppler radar-based precipitation estimates, 8-km CMORPH hourly precipitation analyses, or NARR-simulated precipitation (based on availability, in order).  The latter fields from radar, CMORPH, and NARR are used only to derive disaggregation weights and do not change the daily total precipitation.  The field in \"File A\" that gives the fraction of total precipitation that is convective is an estimate derived from the following two NARR precipitation fields (which are provided in \"File B\"): NARR total precipitation and NARR convective precipitation (the latter is less than or equal to the NARR total precipitation and can be zero). The Convective Available Potential Energy (CAPE) is the final variable in the forcing data set, also interpolated from NARR.\n\nThe hourly land surface forcing fields for NLDAS-2 are grouped into two files, \"File A\" and \"File B\". \"File A\" is the primary (default) forcing file and contains eleven meteorological forcing fields. Details about the generation of the NLDAS-2.0 forcing datasets can be found in Xia et al. (2012). \n",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125,
+              25,
+              -67,
+              53
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1979-01-01T13:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "2": {
+          "href": "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS_FORA0125_H.2.0/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS.",
+          "roles": [
+            "data"
+          ]
+        },
+        "browse": {
+          "href": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=NLDAS_FORA0125_H_2.0",
+          "title": "Download #dataKeyword=NLDAS_FORA0125_H_2.0",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NLDAS_FORA0125_H_2.0.png",
+          "title": "Thumbnail [0]",
+          "description": "NLDAS-2 Primary Forcing Hourly 0.125 degree Precipitation hourly total [kg m-2]  13Z January 1, 1979.",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=NLDAS_FORA0125_H_2.0",
+          "title": "Thumbnail [1]",
+          "description": "The GES-DISC Interactive Online Visualization ANd aNalysis Interface (Giovanni) is a web-based tool that allows users to interactively visualize and analyze data.",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=NLDAS_FORA0125_H",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/NLDAS_FORA0125_H_2.0.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_NLDAS_NLDAS_FORA0125_H_2_0_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/NLDAS/NLDAS_FORA0125_H.2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_NLDAS_NLDAS_FORA0125_H_2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033151148-GES_DISC.xml",
+          "title": "CMR XML metadata for C2033151148-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033151148-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033151148-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033151148-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033151148-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033151148-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/NLDAS_FORA0125_H_2.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/NLDAS_FORA0125_H_2.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC PRESSURE",
+        "SURFACE PRESSURE",
+        "ATMOSPHERIC RADIATION",
+        "LONGWAVE RADIATION",
+        "SHORTWAVE RADIATION",
+        "ATMOSPHERIC TEMPERATURE",
+        "SURFACE TEMPERATURE",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR PROCESSES",
+        "EVAPORATION",
+        "WATER VAPOR INDICATORS",
+        "HUMIDITY",
+        "ATMOSPHERIC WINDS",
+        "WIND DYNAMICS",
+        "CONVECTION",
+        "SURFACE WINDS",
+        "PRECIPITATION",
+        "LIQUID PRECIPITATION",
+        "RAIN",
+        "LAND SURFACE",
+        "SURFACE THERMAL PROPERTIES",
+        "LAND SURFACE TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "Forcing-LSM"
+        ],
+        "instruments": [
+          "NOT APPLICABLE"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "NLDAS_MOS0125_H_2.0",
+      "title": "NLDAS Mosaic Land Surface Model L4 Hourly 0.125 x 0.125 degree V2.0 (NLDAS_MOS0125_H) at GES DISC",
+      "description": "This data set contains thirty-eight fields simulated from the Mosaic land-surface model (LSM) for Phase 2 of the North American Land Data Assimilation System (NLDAS-2). The data are in 1/8th degree grid spacing and range from Jan 1979 to the present. The temporal resolution is hourly. The file format is netCDF (converted from the GRIB format).\n\nMosaic was developed by Koster and Suarez (1994, 1996) to account for subgrid vegetation variability with a tile approach. Each vegetation tile carries its own energy and water balance and soil moisture and temperature.  Each tile has three soil layers, with the first two in the root zone. In NLDAS, Mosaic is configured to support a maximum of 10 tiles per grid cell with a 5% cutoff that ignores vegetation classes covering less than 5% of the cell. Additionally in NLDAS, all tiles of Mosaic in a grid cell have a predominant soil type and three soil layers with fixed thickness values of 10, 30, and 160 cm (hence constant rooting depth of 40 cm and constant total column depth of 200 cm). \n\nDetails about the NLDAS-2 configuration of the Mosaic LSM can be found in Xia et al. (2012). ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125,
+              25,
+              -67,
+              53
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1979-01-02T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "2": {
+          "href": "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS_MOS0125_H.2.0/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS.",
+          "roles": [
+            "data"
+          ]
+        },
+        "browse": {
+          "href": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=NLDAS_MOS0125_H_2.0",
+          "title": "Download #dataKeyword=NLDAS_MOS0125_H_2.0",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NLDAS_MOS0125_H_2.0.png",
+          "title": "Thumbnail [0]",
+          "description": "NLDAS-2 Mosaic Hourly 0.125 degree Soil moisture content (0-10 cm)  [kg m-2]  00Z January 2, 1979.",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=NLDAS_MOS0125_H_2.0",
+          "title": "Thumbnail [1]",
+          "description": "The GES-DISC Interactive Online Visualization ANd aNalysis Interface (Giovanni) is a web-based tool that allows users to interactively visualize and analyze data.",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/search?q=NLDAS_MOS0125_H_2": {
+          "href": "https://search.earthdata.nasa.gov/search?q=NLDAS_MOS0125_H_2.0",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/NLDAS_MOS0125_H_2.0.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_NLDAS_NLDAS_MOS0125_H_2_0_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/NLDAS/NLDAS_MOS0125_H.2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_NLDAS_NLDAS_MOS0125_H_2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247178-GES_DISC.xml",
+          "title": "CMR XML metadata for C2069247178-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247178-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247178-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247178-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247178-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247178-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/NLDAS_MOS0125_H_2.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/NLDAS_MOS0125_H_2.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC RADIATION",
+        "HEAT FLUX",
+        "LONGWAVE RADIATION",
+        "SHORTWAVE RADIATION",
+        "ATMOSPHERIC TEMPERATURE",
+        "SURFACE TEMPERATURE",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR PROCESSES",
+        "EVAPORATION",
+        "EVAPOTRANSPIRATION",
+        "PRECIPITATION",
+        "LIQUID PRECIPITATION",
+        "RAIN",
+        "SOLID PRECIPITATION",
+        "SNOW",
+        "BIOSPHERE",
+        "VEGETATION",
+        "CANOPY CHARACTERISTICS",
+        "LEAF CHARACTERISTICS",
+        "VEGETATION COVER",
+        "LAND SURFACE",
+        "SOILS",
+        "SOIL MOISTURE/WATER CONTENT",
+        "SOIL TEMPERATURE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "ALBEDO",
+        "SURFACE THERMAL PROPERTIES",
+        "LAND SURFACE TEMPERATURE",
+        "TERRESTRIAL HYDROSPHERE",
+        "SNOW/ICE",
+        "SNOW WATER EQUIVALENT",
+        "SURFACE WATER",
+        "SURFACE WATER PROCESSES/MEASUREMENTS",
+        "RUNOFF"
+      ],
+      "summaries": {
+        "platform": [
+          "Mosaic-LSM"
+        ],
+        "instruments": [
+          "NOT APPLICABLE"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "PRECIP_SSMI_F13_1",
+      "title": "NASA MEASURES Precipitation Ensemble based on SSM/I DMSP F13 NASA PPS L1C V06 Tbs 1-orbit L2 Swath 12x12km V1 (PRECIP_SSMI_F13) at GES DISC",
+      "description": "The data presented in this level 2 orbital product are rain rate estimates expressed as mm/hour determined from brightness temperatures (Tbs) obtained from the Special Sensor Microwave/Imager (SSM/I) flown on the US Defense Meteorological Satellite Program (DMSP) F13 mission. Most of the products generated in this data set are based upon the algorithms developed for the 3rd Algorithm Intercomparison Project (AIP-3) of the Global Precipitation Climatology Project (GPCP).  Details of these 15 algorithms and development of a quality score which is a measure of confidence in the estimate, along with processing and algorithmic flags, can be found in the Algorithm Theoretical Basis Document  (ATBD).  The data in this product cover the period from 1995 to 2009 with one file per orbit.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1995-05-03T15:09:53.000Z",
+              "2009-11-20T01:09:01.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/PRECIP_SSMI_F13.png",
+          "title": "Download PRECIP_SSMI_F13.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/PRECIP_SSMI_F13.png",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/Precipitation/PRECIP_SSMI_F13": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/Precipitation/PRECIP_SSMI_F13.1/",
+          "title": "Direct Download [0]",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=PRECIP_SSMI_F13",
+          "title": "Direct Download [1]",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datasets/PRECIP_SSMI_F13_1/summary",
+          "title": "Provider Metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_Precipitation_PRECIP_SSMI_F13_1_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/Precipitation/PRECIP_SSMI_F13.1/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_Precipitation_PRECIP_SSMI_F13_1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2368309102-GES_DISC.xml",
+          "title": "CMR XML metadata for C2368309102-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2368309102-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2368309102-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2368309102-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2368309102-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2368309102-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/PRECIP_SSMI_F13_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/PRECIP_SSMI_F13_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "PRECIPITATION",
+        "PRECIPITATION RATE"
+      ],
+      "summaries": {
+        "platform": [
+          "DMSP 5D-2/F13"
+        ],
+        "instruments": [
+          "SSM/I"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "NLDAS_NOAH0125_H_2.0",
+      "title": "NLDAS Noah Land Surface Model L4 Hourly 0.125 x 0.125 degree V2.0 (NLDAS_NOAH0125_H) at GES DISC",
+      "description": "This data set contains fifty-three fields simulated from the Noah land-surface model (LSM) for Phase 2 of the North American Land Data Assimilation System (NLDAS-2). The data are in 1/8th degree grid spacing and range from Jan 1979 to the present. The temporal resolution is hourly. The file format is netCDF (converted from the GRIB format). \n\nThe Noah model was developed as the land component of the NOAA NCEP mesoscale Eta model [Betts et al. (1997); Chen et al. (1997); Ek et al. (2003)].  As used in NLDAS-2, recent modifications were made to Noah's cold-season [Livneh et al. (2010)] and warm-season [Wei et al. (2012)] parameterizations.  Noah serves as the land component in the evolving Weather Research and Forecasting (WRF) regional atmospheric model, the NOAA NCEP coupled Climate Forecast System (CFS), and the Global Forecast System (GFS).  The model simulates the soil freeze-thaw process and its impact on soil heating/cooling and transpiration, following Koren et al. (1999).  The model has four soil layers with spatially invariant thicknesses of 10, 30, 60, and 100 cm.  The first three layers form the root zone in non-forested regions, with the fourth layer included in forested regions. \n\nDetails about the NLDAS-2 configuration of the Noah LSM can be found in Xia et al. (2012). ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125,
+              25,
+              -67,
+              53
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1979-01-02T01:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "2": {
+          "href": "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS_NOAH0125_H.2.0/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS.",
+          "roles": [
+            "data"
+          ]
+        },
+        "browse": {
+          "href": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=NLDAS_NOAH0125_H_2.0",
+          "title": "Download #dataKeyword=NLDAS_NOAH0125_H_2.0",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NLDAS_NOAH0125_H_2.0.png",
+          "title": "Thumbnail [0]",
+          "description": "NLDAS-2 Noah Hourly 0.125 degree Soil moisture content (0-10 cm) [kg m-2]  01Z January 02, 1979.",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=NLDAS_NOAH0125_H_2.0",
+          "title": "Thumbnail [1]",
+          "description": "The GES-DISC Interactive Online Visualization ANd aNalysis Interface (Giovanni) is a web-based tool that allows users to interactively visualize and analyze data.",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/search?q=NLDAS_NOAH0125_H_2": {
+          "href": "https://search.earthdata.nasa.gov/search?q=NLDAS_NOAH0125_H_2.0",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/NLDAS_NOAH0125_H_2.0.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_NLDAS_NLDAS_NOAH0125_H_2_0_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/NLDAS/NLDAS_NOAH0125_H.2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_NLDAS_NLDAS_NOAH0125_H_2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069246977-GES_DISC.xml",
+          "title": "CMR XML metadata for C2069246977-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069246977-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069246977-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069246977-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069246977-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069246977-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/NLDAS_NOAH0125_H_2.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/NLDAS_NOAH0125_H_2.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC RADIATION",
+        "HEAT FLUX",
+        "LONGWAVE RADIATION",
+        "SHORTWAVE RADIATION",
+        "ATMOSPHERIC TEMPERATURE",
+        "SURFACE TEMPERATURE",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR PROCESSES",
+        "EVAPORATION",
+        "EVAPOTRANSPIRATION",
+        "PRECIPITATION",
+        "LIQUID PRECIPITATION",
+        "RAIN",
+        "SOLID PRECIPITATION",
+        "SNOW",
+        "BIOSPHERE",
+        "VEGETATION",
+        "CANOPY CHARACTERISTICS",
+        "LEAF CHARACTERISTICS",
+        "VEGETATION COVER",
+        "LAND SURFACE",
+        "SOILS",
+        "SOIL MOISTURE/WATER CONTENT",
+        "SOIL TEMPERATURE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "ALBEDO",
+        "SURFACE THERMAL PROPERTIES",
+        "LAND SURFACE TEMPERATURE",
+        "TERRESTRIAL HYDROSPHERE",
+        "SNOW/ICE",
+        "SNOW WATER EQUIVALENT",
+        "SURFACE WATER",
+        "SURFACE WATER PROCESSES/MEASUREMENTS",
+        "RUNOFF"
+      ],
+      "summaries": {
+        "platform": [
+          "Noah-LSM"
+        ],
+        "instruments": [
+          "NOT APPLICABLE"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "SNPP_CrIS_VIIRS750m_IND_1",
+      "title": "SNPP CrIS-VIIRS 750-m Matchup Indexes V1 (SNPP_CrIS_VIIRS750m_IND) at GES_DISC",
+      "description": " This dataset includes SNPP VIIRS-CrIS collocation index product, within the framework of the Multidecadal Satellite Record of Water Vapor, Temperature, and Clouds (PI: Eric Fetzer) funded by NASA’s Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, 2017. The dataset is built upon work by Wang et al. (doi: 10.3390/rs8010076) and Yue (doi:10.5194/amt-15-2099-2022).\n\nThe short name for this collections is SNPP_CrIS_VIIRS750m_IND\n\n",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Fetzer/AIRS_MLS_H2O.jpg",
+          "title": "Download AIRS_MLS_H2O.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Fetzer/AIRS_MLS_H2O.jpg",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/AIRS_CloudSat/SNPP_CrIS_VIIRS750m_IND": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/AIRS_CloudSat/SNPP_CrIS_VIIRS750m_IND.1/",
+          "title": "Direct Download [0]",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=SNPP_CrIS_VIIRS750m_IND",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/SNPP_CrIS_VIIRS750m_IND_1.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_AIRS_CloudSat_SNPP_CrIS_VIIRS750m_IND_1_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/AIRS_CloudSat/SNPP_CrIS_VIIRS750m_IND.1/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_AIRS_CloudSat_SNPP_CrIS_VIIRS750m_IND_1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2278117672-GES_DISC.xml",
+          "title": "CMR XML metadata for C2278117672-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2278117672-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2278117672-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2278117672-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2278117672-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2278117672-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/SNPP_CrIS_VIIRS750m_IND_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/SNPP_CrIS_VIIRS750m_IND_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "CLOUDS"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "CrIS",
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "GOME_MINDS_NO2_1.1",
+      "title": "GOME/ERS-2 NO2 Tropospheric, Stratospheric and Total Columns MINDS 1-Orbit L2 Swath 40 km x 320 km V1.1 (GOME_MINDS_NO2) at GES DISC",
+      "description": "As part of the NASA's Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, this project entitled “Multi-Decadal Nitrogen Dioxide and Derived Products from Satellites (MINDS)” will develop consistent long-term global trend-quality data records spanning the last two decades, over which remarkable changes in nitrogen oxides (NOx) emissions have occurred. The objective of the project Is to adapt Ozone Monitoring Instrument (OMI) operational algorithms to other satellite instruments and create consistent multi-satellite L2 and L3 nitrogen dioxide (NO2) columns and value-added L4 surface NO2 concentrations and NOx emissions data products, systematically accounting for instrumental differences. The instruments include Global Ozone Monitoring Experiment (GOME, 1996-2003), SCanning Imaging Absorption spectroMeter for Atmospheric CHartographY (SCIAMACHY, 2002-2012), OMI (2004-present), GOME-2 (2007-present), and TROPOspheric Monitoring Instrument (TROPOMI, 2018-present). The quality assured L2-L4 products will be made available to the scientific community via the NASA GES DISC website in Climate and Forecast (CF)-compliant Hierarchical Data Format (HDF5) and netCDF formats.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1995-06-30T01:36:31.000Z",
+              "2003-06-22T12:31:19.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "1": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/MINDS/GOME_MINDS_NO2.1.1/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS",
+          "roles": [
+            "data"
+          ]
+        },
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/GOME_MINDS_NO2_1.1.png",
+          "title": "Download GOME_MINDS_NO2_1.1.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/GOME_MINDS_NO2_1.1.png",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/search?q=GOME_MINDS_NO2_1": {
+          "href": "https://search.earthdata.nasa.gov/search?q=GOME_MINDS_NO2_1.1",
+          "title": "Direct Download [1]",
+          "description": "Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/GOME_MINDS_NO2_1.1.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_MINDS_GOME_MINDS_NO2_1_1_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/MINDS/GOME_MINDS_NO2.1.1/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_MINDS_GOME_MINDS_NO2_1_1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2539362687-GES_DISC.xml",
+          "title": "CMR XML metadata for C2539362687-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2539362687-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2539362687-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2539362687-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2539362687-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2539362687-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/GOME_MINDS_NO2_1.1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/GOME_MINDS_NO2_1.1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "NITROGEN COMPOUNDS",
+        "ATMOSPHERIC NITRIC ACID",
+        "NITRIC OXIDE",
+        "NITROGEN DIOXIDE",
+        "NITROGEN OXIDES",
+        "NITROUS OXIDE"
+      ],
+      "summaries": {
+        "platform": [
+          "ERS-2"
+        ],
+        "instruments": [
+          "GOME"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "AIRSM_CPR_MAT_3.2",
+      "title": "AIRS-AMSU variables-CloudSat cloud mask, radar reflectivities, and cloud classification matchups V3.2 (AIRSM_CPR_MAT) at GES DISC",
+      "description": "This is AIRS-CloudSat collocated subset, in NetCDF 4 format. These data contain collocated: AIRS/AMSU retrievals at AMSU footprints, CloudSat radar reflectivities, and MODIS cloud mask. These data are created within the frames of the MEaSUREs project.\n\nThe basic task is to bring together retrievals of water vapor and cloud properties from multiple \"A-train\" instruments (AIRS, AMSR-E, MODIS, AMSU, MLS, CloudSat), classify each \"scene\" (instrument look) using the cloud information,\nand develop a merged, multi-sensor climatology of atmospheric water vapor as a\nfunction of altitude, stratified by the cloud classes. This is a large science\nanalysis project that will require the use of SciFlo technologies to discover and organize all of the datasets, move and cache datasets as required, find\nspace/time \"matchups\" between pairs of instruments, and process years of\nsatellite data to produce the climate data records.\n\nThe short name for this collection is AIRSM_CPR_MAT\n\nParameters contained in the data files include the following:\nVariable Name|Description|Units \n CH4_total_column|Retrieved total column CH4| (molecules/cm2)\n CloudFraction|CloudSat/CALIPSO Cloud Fraction| (None)\n CloudLayers| Number of hydrometeor layers| (count)\n clrolr|Clear-sky Outgoing Longwave Radiation|(Watts/m**2)\n CO_total_column|Retrieved total column CO| (molecules/cm2)\n CPR_Cloud_mask| CPR Cloud Mask |(None)\n Data_quality| Data Quality |(None)\n H2OMMRSat|Water vapor saturation mass mixing ratio|(gm/kg)\n H2OMMRStd|Water Vapor Mass Mixing Ratio |(gm/kg dry air)\n MODIS_Cloud_Fraction| MODIS 250m Cloud Fraction| (None)\n MODIS_scene_var |MODIS scene variability| (None)\n nSurfStd|1-based index of the first valid level|(None)\n O3VMRStd|Ozone Volume Mixing Ratio|(vmr)\n olr|All-sky Outgoing Longwave Radiation|(Watts/m**2)\n Radar_Reflectivity| Radar Reflectivity Factor| (dBZe)\n Sigma-Zero| Sigma-Zero| (dB*100)\n TAirMWOnlyStd|Atmospheric Temperature retrieved using only MW|(K)\n TCldTopStd|Cloud top temperature|(K)\n totH2OStd|Total precipitable water vapor| (kg/m**2)\n totO3Std|Total ozone burden| (Dobson)\n TSurfAir|Atmospheric Temperature at Surface|(K)\n TSurfStd|Surface skin temperature|(K)\nEnd of parameter information",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2006-06-15T00:00:00.000Z",
+              "2012-12-14T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "3": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/AIRS_CloudSat/AIRSM_CPR_MAT.3.2/",
+          "title": "Direct Download [0]",
+          "roles": [
+            "data"
+          ]
+        },
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRSM_CPR_MAT_3.2.png",
+          "title": "Download AIRSM_CPR_MAT_3.2.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRSM_CPR_MAT_3.2.png",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=AIRSM_CPR_MAT",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/AIRSM_CPR_MAT_3.2.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_AIRS_CloudSat_AIRSM_CPR_MAT_3_2_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/AIRS_CloudSat/AIRSM_CPR_MAT.3.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_AIRS_CloudSat_AIRSM_CPR_MAT_3_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224182-GES_DISC.xml",
+          "title": "CMR XML metadata for C1236224182-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224182-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224182-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224182-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224182-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224182-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/AIRSM_CPR_MAT_3.2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/AIRSM_CPR_MAT_3.2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "CLOUDS"
+      ],
+      "summaries": {
+        "platform": [
+          "Aqua",
+          "CloudSat"
+        ],
+        "instruments": [
+          "AIRS",
+          "CloudSat-CPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "TOMSEPAER_2",
+      "title": "TOMS/EP Near UV Aerosol Index and LER 1-Orbit L2 40x40km at GES DISC",
+      "description": "As part of the NASA's Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, this projects describes a multi-decadal Fundamental Climate Data Record (FCDR) of calibrated radiances as well as an Earth System Data Record (ESDR) of aerosol properties over the continents derived from a 32-year record of satellite near-UV observations by three sensors.  \n\nThe TOMS Earth Probe version 2 Level-2 orbital data product consists of cloud fraction, cloud optical depth, normalized radiance, reflectivity, residue, and UV aerosol index at approximately 40x40 km resolution (at nadir). This product also contains ancillary variables for ocean corrected surface albedo and terrain pressure.\n\nTotal Ozone Mapping Spectrometer (TOMS) instruments have been successfully flown in orbit aboard the Nimbus-7(Nov. 1978 - May 1993), Meteor-3 (Aug. 1991 - Dec. 1994), Earth Probe (June 1996 - December 2005), and ADEOS (Sep. 1996 - June 1997) satellites.\n\nThese Level-2 data are stored in the Hierarchical Data Format 5 (HDF5) and are available from the Goddard Earth Sciences (GES) Data and Information Services Center (DISC).",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1996-07-16T18:21:21.000Z",
+              "2002-01-01T00:20:26.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TOMSEPAER_002.png",
+          "title": "Download TOMSEPAER_002.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/TOMSEPAER_002.png",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/AER/TOMSEPAER": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/AER/TOMSEPAER.2/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=TOMSEPAER_2",
+          "title": "Direct Download [1]",
+          "description": "Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/TOMSEPAER_2.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_AER_TOMSEPAER_2_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/AER/TOMSEPAER.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_AER_TOMSEPAER_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1452994122-GES_DISC.xml",
+          "title": "CMR XML metadata for C1452994122-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1452994122-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1452994122-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1452994122-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1452994122-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1452994122-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/TOMSEPAER_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/TOMSEPAER_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "AEROSOL RADIANCE",
+        "CLOUDS",
+        "CLOUD MICROPHYSICS",
+        "CLOUD OPTICAL DEPTH/THICKNESS",
+        "CLOUD PROPERTIES",
+        "CLOUD FRACTION"
+      ],
+      "summaries": {
+        "platform": [
+          "EP-TOMS"
+        ],
+        "instruments": [
+          "TOMS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "AIRS_CPR_MAT_3.2",
+      "title": "AIRS-CloudSat cloud mask, radar reflectivities, and cloud classification matchups V3.2 (AIRS_CPR_MAT) at GES DISC",
+      "description": "This is AIRS-CloudSat collocated subset, in NetCDF-4 format. These data contain collocated: AIRS Level 1b radiances spectra, CloudSat radar reflectivities, and MODIS cloud mask. These data are created within the frames of the MEaSUREs project. \n\nThe basic task is to bring together retrievals of water vapor and cloud properties from multiple \"A-train\" instruments (AIRS, AMSR-E, MODIS, AMSU, MLS, CloudSat), classify each \"scene\" (instrument look) using the cloud information, and develop a merged, multi-sensor climatology of atmospheric water vapor as a function of altitude, stratified by the cloud classes. This is a large science analysis project that will require the use of SciFlo technologies to discover and organize all of the datasets, move and cache datasets as required, find space/time \"matchups\" between pairs of instruments, and process years of satellite data to produce the climate data records.\n\nThe short name for this collection is AIRS_CPR_MAT\n\nParameters contained in the data files include the following:\nVariable Name|Description|Units \n CldFrcStdErr|Cloud Fraction|(None)\n CloudLayers| Number of hydrometeor layers| (count)\n CPR_Cloud_mask| CPR Cloud Mask| (None)\n DEM_elevation| Digital Elevation Map| (m)\n dust_flag|Dust Flag|(None)\n latAIRS|AIRS IR latitude|(deg)\n Latitude|CloudSat Latitude |(degrees)\n LayerBase| Height of Layer Base| (m)\n LayerTop| Height of layer top| (m)\n lonAIRS|AIRS IR longitude|(deg)\n Longitude|CloudSat Longitude| (degrees)\n MODIS_cloud_flag| MOD35_bit_2and3_cloud_flag| (None)\n Radar_Reflectivity| Radar Reflectivity Factor| (dBZe)\n radiances|Radiances|(milliWatts/m**2/cm**-1/steradian)\n Sigma-Zero| Sigma-Zero| (dB*100)\n spectral_clear_indicator|Spectral Clear Indicator|(None)\n Vertical_binsize|CloudSat vertical binsize| (m)\nEnd of parameter information",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2006-06-15T00:00:00.000Z",
+              "2012-12-14T23:59:59.999Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "3": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/AIRS_CloudSat/AIRS_CPR_MAT.3.2/",
+          "title": "Direct Download [0]",
+          "roles": [
+            "data"
+          ]
+        },
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRS_CPR_MAT_3.2.png",
+          "title": "Download AIRS_CPR_MAT_3.2.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/AIRS_CPR_MAT_3.2.png",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=AIRS_CPR_MAT",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/AIRS_CPR_MAT_3.2.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_AIRS_CloudSat_AIRS_CPR_MAT_3_2_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/AIRS_CloudSat/AIRS_CPR_MAT.3.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_AIRS_CloudSat_AIRS_CPR_MAT_3_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224153-GES_DISC.xml",
+          "title": "CMR XML metadata for C1236224153-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224153-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224153-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224153-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224153-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1236224153-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/AIRS_CPR_MAT_3.2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/AIRS_CPR_MAT_3.2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "CLOUDS"
+      ],
+      "summaries": {
+        "platform": [
+          "Aqua",
+          "CloudSat"
+        ],
+        "instruments": [
+          "AIRS",
+          "CloudSat-CPR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "J1_CrIS_VIIRS750m_IND_1",
+      "title": "JPSS1 CrIS-VIIRS 750-m Matchup Indexes V1 (J1_CrIS_VIIRS750m_IND) at GES_DISC",
+      "description": " This dataset includes JPSS-1 VIIRS-CrIS collocation index product, within the framework of the Multidecadal Satellite Record of Water Vapor, Temperature, and Clouds (PI: Eric Fetzer) funded by NASA’s Making Earth System Data Records for Use in Research Environments (MEaSUREs) Program, 2017. The dataset is built upon work by Wang et al. (doi: 10.3390/rs8010076) and Yue (doi:10.5194/amt-15-2099-2022).\n\nThe short name for this collections is J1_CrIS_VIIRS750m_IND_1\n\n",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-01-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Fetzer/AIRS_MLS_H2O.jpg",
+          "title": "Download AIRS_MLS_H2O.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MEaSUREs/Fetzer/AIRS_MLS_H2O.jpg",
+          "title": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/data/AIRS_CloudSat/J1_CrIS_VIIRS750m_IND": {
+          "href": "https://measures.gesdisc.eosdis.nasa.gov/data/AIRS_CloudSat/J1_CrIS_VIIRS750m_IND.1/",
+          "title": "Direct Download [0]",
+          "roles": [
+            "data"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search?q=J1_CrIS_VIIRS750m_IND",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/J1_CrIS_VIIRS750m_IND_1.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_AIRS_CloudSat_J1_CrIS_VIIRS750m_IND_1_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/AIRS_CloudSat/J1_CrIS_VIIRS750m_IND.1/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_AIRS_CloudSat_J1_CrIS_VIIRS750m_IND_1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2592972977-GES_DISC.xml",
+          "title": "CMR XML metadata for C2592972977-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2592972977-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2592972977-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2592972977-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2592972977-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2592972977-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/J1_CrIS_VIIRS750m_IND_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/J1_CrIS_VIIRS750m_IND_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "CLOUDS"
+      ],
+      "summaries": {
+        "platform": [
+          "JPSS-1"
+        ],
+        "instruments": [
+          "CrIS",
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "NLDAS_VIC0125_H_2.0",
+      "title": "NLDAS VIC Land Surface Model L4 Hourly 0.125 x 0.125 degree V2.0 (NLDAS_VIC0125_H) at GES DISC",
+      "description": "This data set contains forty-four fields simulated from the VIC land-surface model (LSM) for Phase 2 of the North American Land Data Assimilation System (NLDAS-2). The data are in 1/8th degree grid spacing and range from Jan 1979 to the present. The temporal resolution is hourly. The file format is netCDF (converted from the GRIB format). \n\nThe VIC model was developed at the University of Washington and Princeton University as a macroscale, semi-distributed, grid-based, hydrologic model [Liang et al., 1994; Wood et al., 1997].  The full water and energy balance modes of VIC were used for NLDAS-2. VIC uses three soil layers, with thicknesses that vary spatially. The root zone depends on the vegetation type and its root distribution, and can span all three soil layers. The VIC model includes a two-layer energy balance snow model [Cherkauer et al., 2003]. \n\nDetails about the NLDAS-2 configuration of the VIC LSM can be found in Xia et al. (2012). The version of the VIC model for the NLDAS-2 VIC data available from the NASA GES DISC is VIC-4.0.3; this version of the VIC model is the same as used in Sheffield et al. (2003). ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125,
+              25,
+              -67,
+              53
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1979-01-02T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "2": {
+          "href": "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS_VIC0125_H.2.0/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS.",
+          "roles": [
+            "data"
+          ]
+        },
+        "browse": {
+          "href": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=NLDAS_VIC0125_H_2.0",
+          "title": "Download #dataKeyword=NLDAS_VIC0125_H_2.0",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NLDAS_VIC0125_H_2.0.png",
+          "title": "Thumbnail [0]",
+          "description": "NLDAS-2 VIC Hourly 0.125 degree Soil moisture content (0-100 cm) [kg m-2]  00Z January 02, 1979.",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=NLDAS_VIC0125_H_2.0",
+          "title": "Thumbnail [1]",
+          "description": "The GES-DISC Interactive Online Visualization ANd aNalysis Interface (Giovanni) is a web-based tool that allows users to interactively visualize and analyze data.",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/search?q=NLDAS_VIC0125_H_2": {
+          "href": "https://search.earthdata.nasa.gov/search?q=NLDAS_VIC0125_H_2.0",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/NLDAS_VIC0125_H_2.0.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_NLDAS_NLDAS_VIC0125_H_2_0_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/NLDAS/NLDAS_VIC0125_H.2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_NLDAS_NLDAS_VIC0125_H_2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247359-GES_DISC.xml",
+          "title": "CMR XML metadata for C2069247359-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247359-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247359-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247359-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247359-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2069247359-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/NLDAS_VIC0125_H_2.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/NLDAS_VIC0125_H_2.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC RADIATION",
+        "HEAT FLUX",
+        "LONGWAVE RADIATION",
+        "SHORTWAVE RADIATION",
+        "ATMOSPHERIC TEMPERATURE",
+        "SURFACE TEMPERATURE",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR PROCESSES",
+        "EVAPORATION",
+        "EVAPOTRANSPIRATION",
+        "PRECIPITATION",
+        "LIQUID PRECIPITATION",
+        "RAIN",
+        "SOLID PRECIPITATION",
+        "SNOW",
+        "BIOSPHERE",
+        "VEGETATION",
+        "CANOPY CHARACTERISTICS",
+        "LEAF CHARACTERISTICS",
+        "VEGETATION COVER",
+        "LAND SURFACE",
+        "SOILS",
+        "SOIL MOISTURE/WATER CONTENT",
+        "SURFACE RADIATIVE PROPERTIES",
+        "ALBEDO",
+        "SURFACE THERMAL PROPERTIES",
+        "LAND SURFACE TEMPERATURE",
+        "TERRESTRIAL HYDROSPHERE",
+        "SNOW/ICE",
+        "SNOW WATER EQUIVALENT",
+        "SURFACE WATER",
+        "SURFACE WATER PROCESSES/MEASUREMENTS",
+        "RUNOFF"
+      ],
+      "summaries": {
+        "platform": [
+          "VIC-LSM"
+        ],
+        "instruments": [
+          "NOT APPLICABLE"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    },
+    {
+      "type": "Collection",
+      "id": "NLDAS_FORB0125_H_2.0",
+      "title": "NLDAS Secondary Forcing Data L4 Hourly 0.125 x 0.125 degree V2.0 (NLDAS_FORB0125_H) at GES DISC",
+      "description": "This data set contains the secondary forcing hourly data \"File B\" for Phase 2 of the North American Land Data Assimilation System (NLDAS-2).  The data are in 1/8th degree grid spacing and range from Jan 1979 to the present. The temporal resolution is hourly.  The file format isnetCDF (converted from the GRIB data files).\n\nThe non-precipitation land surface forcing fields for NLDAS-2 are derived from the analysis fields of the NCEP North American Regional Reanalysis (NARR). NARR analysis fields are 32-km spatial resolution and 3-hourly temporal frequency.  Those NARR fields that are utilized to generate NLDAS-2 forcing fields are spatially interpolated to the finer resolution of the NLDAS 1/8th-degree grid and then temporally disaggregated to the NLDAS hourly frequency.  NLDAS-2 is providing a second forcing file, \"File B\", in which the surface temperature, humidity, and wind fields are represented not at 2-meters and 10-meters above the height of the NLDAS terrain, but rather at the same height above the NLDAS terrain as the height above the NARR terrain of the lowest prognostic level of the NARR assimilation system (namely, the same height above the model terrain as the lowest prognostic level of the mesoscale Eta model, which is the assimilating model in NARR). \n\nThe surface downward surface radiation field in \"File B\" is taken directly from NARR, without any bias correction.  The precipitation and convective precipitation fields in \"File B\" are also taken directly from NARR, and are used to calculate the convective fraction provided in \"File A\".  The aerodynamic conductance is \"File B\" is also taken from NARR.\n\nThe hourly land surface forcing fields for NLDAS-2 are grouped into two files, \"File A\" and \"File B\".  \"File B\" is the secondary (optional) forcing file and contains ten meteorological forcing fields. Details about the generation of the NLDAS-2 forcing datasets can be found in Xia et al. (2012). ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125,
+              25,
+              -67,
+              53
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1979-01-01T13:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "2": {
+          "href": "https://hydro1.gesdisc.eosdis.nasa.gov/data/NLDAS/NLDAS_FORB0125_H.2.0/",
+          "title": "Direct Download [0]",
+          "description": "Access the data via HTTPS.",
+          "roles": [
+            "data"
+          ]
+        },
+        "browse": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NLDAS_FORB0125_H_2.0.png",
+          "title": "Download NLDAS_FORB0125_H_2.0.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/NLDAS_FORB0125_H_2.0.png",
+          "title": "Thumbnail",
+          "description": "NLDAS-2 Secondary Forcing Hourly 0.125 degree Precipitation hourly total [kg m-2] 13Z January 1, 1979. ",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "gov/search?q=NLDAS_FORB0125_H_2": {
+          "href": "https://search.earthdata.nasa.gov/search?q=NLDAS_FORB0125_H_2.0",
+          "title": "Direct Download [1]",
+          "description": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://disc.gsfc.nasa.gov/datacollection/NLDAS_FORB0125_H_2.0.html",
+          "title": "Provider Metadata",
+          "description": "Access the dataset landing page from the GES DISC website.",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_gesdisc_cumulus_prod_protected_NLDAS_NLDAS_FORB0125_H_2_0_": {
+          "href": "s3://gesdisc-cumulus-prod-protected/NLDAS/NLDAS_FORB0125_H.2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "gesdisc_cumulus_prod_protected_NLDAS_NLDAS_FORB0125_H_2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033167496-GES_DISC.xml",
+          "title": "CMR XML metadata for C2033167496-GES_DISC",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "GES_DISC",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033167496-GES_DISC.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033167496-GES_DISC.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033167496-GES_DISC.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033167496-GES_DISC.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2033167496-GES_DISC.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/NLDAS_FORB0125_H_2.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/GES_DISC/collections/NLDAS_FORB0125_H_2.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ALTITUDE",
+        "GEOPOTENTIAL HEIGHT",
+        "ATMOSPHERIC PRESSURE",
+        "SURFACE PRESSURE",
+        "ATMOSPHERIC RADIATION",
+        "SHORTWAVE RADIATION",
+        "ATMOSPHERIC TEMPERATURE",
+        "SURFACE TEMPERATURE",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR INDICATORS",
+        "HUMIDITY",
+        "ATMOSPHERIC WINDS",
+        "WIND DYNAMICS",
+        "CONVECTION",
+        "SURFACE WINDS",
+        "PRECIPITATION",
+        "LIQUID PRECIPITATION",
+        "RAIN",
+        "LAND SURFACE",
+        "SURFACE THERMAL PROPERTIES",
+        "LAND SURFACE TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "Forcing-LSM"
+        ],
+        "instruments": [
+          "NOT APPLICABLE"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "gesdisc-cumulus-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login"
+    }
+  ]
+}

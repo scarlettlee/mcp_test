@@ -1,0 +1,2130 @@
+{
+  "stacApiUrl": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA",
+  "exportedAt": "2025-10-09T23:45:22.525Z",
+  "collections": [
+    {
+      "type": "Collection",
+      "id": "GE01_MSI_L1B_1",
+      "title": "GeoEye-1 Level 1B Multispectral 4-Band Satellite Imagery",
+      "description": "The GeoEye-1 Level 1B Multispectral 4-Band L1B Satellite Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the GeoEye-1 satellite using the GeoEye-1 Imaging System across the global land surface from September 2008 to the present. This satellite imagery is in the visible and near-infrared waveband range with data in the blue, green, red, and near-infrared wavelengths. The imagery has a spatial resolution of 1.84m at nadir (1.65m before summer 2013) and has a temporal resolution of approximately 3 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2009-01-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search",
+          "title": "Direct Download [0]",
+          "description": "Data download",
+          "roles": [
+            "data"
+          ]
+        },
+        "ds": {
+          "href": "https://csdap-staging.ds.io/signup/maxar/data-request-form/",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program MAXAR Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.57909/Maxar/GE01_MSI_L1B.001",
+          "title": "Provider Metadata",
+          "description": "GeoEye-1 Level 1B Multispectral 4-Band Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_csda_cumulus_prod_protected_5047_GE01_MSI_L1B___1_": {
+          "href": "s3://csda-cumulus-prod-protected-5047/GE01_MSI_L1B___1/",
+          "roles": [
+            "data"
+          ],
+          "title": "csda_cumulus_prod_protected_5047_GE01_MSI_L1B___1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2471470251-CSDA.xml",
+          "title": "CMR XML metadata for C2471470251-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2471470251-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2471470251-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2471470251-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2471470251-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2471470251-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/GE01_MSI_L1B_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/GE01_MSI_L1B_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY",
+        "VISIBLE RADIANCE",
+        "INFRARED WAVELENGTHS",
+        "INFRARED IMAGERY",
+        "INFRARED RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "GEOEYE-1"
+        ],
+        "instruments": [
+          "GIS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "csda-cumulus-prod-protected-5047",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires CSDA Program approval, NGA license, and S3 credentials for access. Data in NITF, GeoTIFF, XML, and JPEG formats. Primarily for high-resolution imagery download, analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "GE01_Pan_L1B_1",
+      "title": "GeoEye-1 Level 1B Panchromatic Satellite Imagery",
+      "description": "The GeoEye-1 Level 1B Panchromatic Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the GeoEye-1 satellite using the GeoEye-1 Imaging System across the global land surface from September 2008 to the present. This data product includes panchromatic imagery with a spatial resolution of 0.46m at nadir (0.41m before summer 2013) and a temporal resolution of approximately 3 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2009-01-03T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://csdap.earthdata.nasa.gov/signup/maxar/data-request-form/",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.57909/Maxar/GE01_Pan_L1B.001",
+          "title": "Provider Metadata",
+          "description": "GeoEye-1 Level 1B Panchromatic Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_csda_cumulus_prod_protected_5047_GE01_Pan_L1B___1_": {
+          "href": "s3://csda-cumulus-prod-protected-5047/GE01_Pan_L1B___1/",
+          "roles": [
+            "data"
+          ],
+          "title": "csda_cumulus_prod_protected_5047_GE01_Pan_L1B___1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497510652-CSDA.xml",
+          "title": "CMR XML metadata for C2497510652-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497510652-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497510652-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497510652-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497510652-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497510652-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/GE01_Pan_L1B_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/GE01_Pan_L1B_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY",
+        "VISIBLE RADIANCE",
+        "INFRARED WAVELENGTHS",
+        "INFRARED IMAGERY",
+        "INFRARED RADIANCE",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "GEOEYE-1"
+        ],
+        "instruments": [
+          "GIS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "csda-cumulus-prod-protected-5047",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires CSDA Program approval and S3 credentials. Available in NITF, GeoTIFF, JPEG, XML formats. Primarily for direct download, analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "PSScene3Band_1",
+      "title": "PlanetScope Satellite Imagery 3 Band Scene",
+      "description": "The Planet Scope 3 band collection contains satellite imagery obtained from Planet Labs, Inc by the Commercial SmallSat Data Acquisition (CSDA) Program. This satellite imagery is in the visible waveband range with data in the red, green, and blue wavelengths. These data are collected by Planets Dove, Super Dove, and Blue Super Dove instruments collected from across the global land surface from June 2014 to present. Data have a spatial resolution of 3.7 meters at nadir and provided in GeoTIFF format. Data access are restricted to US Government funded investigators approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-06-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "planet": {
+          "href": "https://www.planet.com/explorer",
+          "title": "Direct Download",
+          "description": "Data Download",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2112982481-CSDA",
+          "title": "Provider Metadata",
+          "description": "PlanetScope3band Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_csda_cumulus_prod_protected_5047_PSScene3Band___1_": {
+          "href": "s3://csda-cumulus-prod-protected-5047/PSScene3Band___1/",
+          "roles": [
+            "data"
+          ],
+          "title": "csda_cumulus_prod_protected_5047_PSScene3Band___1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2112982481-CSDA.xml",
+          "title": "CMR XML metadata for C2112982481-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2112982481-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2112982481-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2112982481-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2112982481-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2112982481-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/PSScene3Band_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/PSScene3Band_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY"
+      ],
+      "summaries": {
+        "platform": [
+          "PlanetScope"
+        ],
+        "instruments": [
+          "PS2.SD",
+          "PSB.SD",
+          "PS2",
+          "PS1",
+          "PS0"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "csda-cumulus-prod-protected-5047",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires approval for US Government-funded investigators and S3 credentials. Data is available as GeoTIFF, PNG, JPEG, XML, and JSON. Primarily for direct download, visualization, and cloud-optimized analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "WV01_Pan_L1B_1",
+      "title": "WorldView-1 Level 1B Panchromatic Satellite Imagery",
+      "description": "The WorldView-1 Level 1B Panchromatic Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Panchromatic imagery is collected by the DigitalGlobe WorldView-1 satellite using the WorldView-60 camera across the global land surface from September 2007 to the present. Data have a spatial resolution of 0.5 meters at nadir and a temporal resolution of approximately 1.7 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2007-10-10T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://csdap.earthdata.nasa.gov/signup/maxar/data-request-form/",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.57909/Maxar/WV01_Pan_L1B.001",
+          "title": "Provider Metadata",
+          "description": "WorldView-1 Level 1B Panchromatic Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_csda_cumulus_prod_protected_5047_WV01_Pan_L1B___1_": {
+          "href": "s3://csda-cumulus-prod-protected-5047/WV01_Pan_L1B___1/",
+          "roles": [
+            "data"
+          ],
+          "title": "csda_cumulus_prod_protected_5047_WV01_Pan_L1B___1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497387766-CSDA.xml",
+          "title": "CMR XML metadata for C2497387766-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497387766-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497387766-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497387766-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497387766-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497387766-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV01_Pan_L1B_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV01_Pan_L1B_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY",
+        "INFRARED WAVELENGTHS",
+        "INFRARED IMAGERY",
+        "INFRARED RADIANCE",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "WORLDVIEW-1"
+        ],
+        "instruments": [
+          "WV60"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "csda-cumulus-prod-protected-5047",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires CSDA Program approval and an NGA license. S3 credentials are for direct access. Available formats: GeoTIFF, NITF, JPEG, XML. Primary usage: high-resolution data download for analysis, research, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "WV02_MSI_L1B_1",
+      "title": "WorldView-2 Level 1B Multispectral 8-Band Satellite Imagery",
+      "description": "The WorldView-2 Level 1B Multispectral 8-Band Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the DigitalGlobe WorldView-2 satellite using the WorldView-110 camera across the global land surface from October 2009 to the present. This satellite imagery is in the visible and near-infrared waveband range with data in the coastal, blue, green, yellow, red, red edge, and near-infrared (2 bands) wavelengths. It has a spatial resolution of 1.85m at nadir and a temporal resolution of approximately 1.1 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2009-10-08T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://csdap.earthdata.nasa.gov/signup/maxar/data-request-form/",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.57909/Maxar/WV02_MSI_L1B.001",
+          "title": "Provider Metadata",
+          "description": "WorldView-2 Level 1B Multispectral 8-Band Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_csda_cumulus_prod_protected_5047_WV02_MSI_L1B___1_": {
+          "href": "s3://csda-cumulus-prod-protected-5047/WV02_MSI_L1B___1/",
+          "roles": [
+            "data"
+          ],
+          "title": "csda_cumulus_prod_protected_5047_WV02_MSI_L1B___1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497404794-CSDA.xml",
+          "title": "CMR XML metadata for C2497404794-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497404794-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497404794-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497404794-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497404794-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497404794-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV02_MSI_L1B_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV02_MSI_L1B_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY",
+        "INFRARED WAVELENGTHS",
+        "INFRARED IMAGERY",
+        "VISIBLE RADIANCE",
+        "INFRARED RADIANCE",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "WORLDVIEW-2"
+        ],
+        "instruments": [
+          "WV110"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "csda-cumulus-prod-protected-5047",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires CSDA Program approval, NGA license, and S3 credentials. Data available in NITF/GeoTIFF (raw), JPEG (browse/thumbnail), and XML (metadata). Primary use: high-resolution imagery download for analysis/visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "WV02_MSI_L2A_1",
+      "title": "WorldView-2 Level 2A Multispectral 8-Band Satellite Imagery",
+      "description": "The WorldView-2 Level 2A Multispectral 8-Band Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the DigitalGlobe WorldView-2 satellite using the WorldView-110 camera across the global land surface from October 2009 to the present. This satellite imagery is in the visible and near-infrared waveband range with data in the coastal, blue, green, yellow, red, red edge, and near-infrared (2 bands) wavelengths. It has a spatial resolution of 1.85m at nadir and a temporal resolution of approximately 1.1 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. These level 2A data have been processed and undergone radiometric correction, sensor correction, projected to a plane using a map projection and datum, and has a coarse DEM applied. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2009-10-08T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://csdap.earthdata.nasa.gov/signup/maxar/data-request-form/",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520304080-CSDA.html",
+          "title": "Provider Metadata",
+          "description": "WorldView-2 Level 2A Multispectral 8-Band Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_csda_cumulus_prod_protected_5047_WV02_MSI_L2A___1_": {
+          "href": "s3://csda-cumulus-prod-protected-5047/WV02_MSI_L2A___1/",
+          "roles": [
+            "data"
+          ],
+          "title": "csda_cumulus_prod_protected_5047_WV02_MSI_L2A___1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520304080-CSDA.xml",
+          "title": "CMR XML metadata for C2520304080-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520304080-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520304080-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520304080-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520304080-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520304080-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV02_MSI_L2A_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV02_MSI_L2A_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY",
+        "INFRARED WAVELENGTHS",
+        "INFRARED IMAGERY",
+        "VISIBLE RADIANCE",
+        "INFRARED RADIANCE",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "WORLDVIEW-2"
+        ],
+        "instruments": [
+          "WV110"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "csda-cumulus-prod-protected-5047",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires CSDA program approval and NGA license for S3 credentials. Data in GeoTIFF, NITF, JPEG, XML formats for analysis, processing, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "WV02_Pan_L1B_1",
+      "title": "WorldView-2 Level 1B Panchromatic Satellite Imagery",
+      "description": "The WorldView-2 Level 1B Panchromatic Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the DigitalGlobe WorldView-2 satellite using the WorldView-110 camera across the global land surface from October 2009 to the present. This data product includes panchromatic imagery with a spatial resolution of 0.46m and a temporal resolution of approximately 1.1 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2009-10-08T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://csdap.earthdata.nasa.gov/signup/maxar/data-request-form/",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi/10.57909/Maxar/WV02_Pan_L1B.001",
+          "title": "Provider Metadata",
+          "description": "WorldView-2 Level 1B Panchromatic Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_csda_cumulus_prod_protected_5047_WV02_Pan_L1B___1_": {
+          "href": "s3://csda-cumulus-prod-protected-5047/WV02_Pan_L1B___1/",
+          "roles": [
+            "data"
+          ],
+          "title": "csda_cumulus_prod_protected_5047_WV02_Pan_L1B___1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497398128-CSDA.xml",
+          "title": "CMR XML metadata for C2497398128-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497398128-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497398128-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497398128-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497398128-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497398128-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV02_Pan_L1B_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV02_Pan_L1B_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY",
+        "INFRARED WAVELENGTHS",
+        "INFRARED IMAGERY",
+        "VISIBLE RADIANCE",
+        "INFRARED RADIANCE",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "WORLDVIEW-2"
+        ],
+        "instruments": [
+          "WV110"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "csda-cumulus-prod-protected-5047",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires NGA license and CSDA Program approval, with S3 credentials. Data available in GeoTIFF, NITF, JPEG, XML formats for download, high-resolution imagery analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "WV03_MSI_L1B_1",
+      "title": "WorldView-3 Level 1B Multispectral 8-Band Satellite Imagery",
+      "description": "The WorldView-3 Level 1B Multispectral 8-Band Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the DigitalGlobe WorldView-3 satellite using the WorldView-110 camera across the global land surface from August 2014 to the present. This satellite imagery is in a range of wavebands with data in the coastal, blue, green, yellow, red, red edge, and near-infrared (2 bands) wavelengths. The imagery has a spatial resolution of 1.24m at nadir and a temporal resolution of less than one day. The data are provided in National Imagery Transmission Format (NITF). This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-08-13T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://csdap.earthdata.nasa.gov/signup/maxar/data-request-form/",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.57909/Maxar/WV03_MSI_L1B.001",
+          "title": "Provider Metadata",
+          "description": "WorldView-3 Level 1B Multispectral 8-Band Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_csda_cumulus_prod_protected_5047_WV03_Pan_L1B___1": {
+          "href": "s3://csda-cumulus-prod-protected-5047/WV03_Pan_L1B___1",
+          "roles": [
+            "data"
+          ],
+          "title": "csda_cumulus_prod_protected_5047_WV03_Pan_L1B___1",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497111771-CSDA.xml",
+          "title": "CMR XML metadata for C2497111771-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497111771-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497111771-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497111771-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497111771-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497111771-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV03_MSI_L1B_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV03_MSI_L1B_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY",
+        "INFRARED WAVELENGTHS",
+        "INFRARED IMAGERY",
+        "VISIBLE RADIANCE",
+        "INFRARED RADIANCE",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "WORLDVIEW-3"
+        ],
+        "instruments": [
+          "WV110"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "csda-cumulus-prod-protected-5047",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Restricted",
+      "userNote": "Requires CSDA Program approval via a data request form and S3 credentials. Data available as NITF, plus JPG previews and various metadata formats. Primary usage for analysis and visualization of high-resolution imagery."
+    },
+    {
+      "type": "Collection",
+      "id": "WV03_MSI_L2A_1",
+      "title": "WorldView-3 Level 2A Multispectral 8-Band Satellite Imagery",
+      "description": "The WorldView-3 Level 2A Multispectral 8-Band Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the DigitalGlobe WorldView-3 satellite using the WorldView-110 camera across the global land surface from August 2014 to the present. This satellite imagery is in a range of wavebands with data in the coastal, blue, green, yellow, red, red edge, and near-infrared (2 bands) wavelengths. The imagery has a spatial resolution of 1.24m at nadir and a temporal resolution of less than one day. The data are provided in National Imagery Transmission Format (NITF). These level 2A data have been processed and undergone radiometric correction, sensor correction, projected to a plane using a map projection and datum, and has a coarse DEM applied. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-08-13T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://csdap.earthdata.nasa.gov/signup/maxar/data-request",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.57909/Maxar/WV03_MSI_L2A.001",
+          "title": "Provider Metadata",
+          "description": "WorldView-3 Level 2A Multispectral 8-Band Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_csda_cumulus_prod_protected_5047_WV03_MSI_L2A___1_": {
+          "href": "s3://csda-cumulus-prod-protected-5047/WV03_MSI_L2A___1/",
+          "roles": [
+            "data"
+          ],
+          "title": "csda_cumulus_prod_protected_5047_WV03_MSI_L2A___1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520330358-CSDA.xml",
+          "title": "CMR XML metadata for C2520330358-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520330358-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520330358-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520330358-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520330358-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2520330358-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV03_MSI_L2A_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV03_MSI_L2A_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY",
+        "INFRARED WAVELENGTHS",
+        "INFRARED IMAGERY",
+        "VISIBLE RADIANCE",
+        "INFRARED RADIANCE",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "WORLDVIEW-3"
+        ],
+        "instruments": [
+          "WV110"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "csda-cumulus-prod-protected-5047",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires CSDA Program approval and S3 credentials. Available formats are NITF (raw data), JPEG (browse/thumbnail), and XML (metadata). Primarily used for download, analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "WV03_Pan_L1B_1",
+      "title": "WorldView-3 Level 1B Panchromatic Satellite Imagery",
+      "description": "The WorldView-3 Level 1B Panchromatic Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the DigitalGlobe WorldView-3 satellite using the WorldView-110 camera across the global land surface from August 2014 to the present. This imagery has a spatial resolution of 0.31m at nadir and a temporal resolution of less than one day. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-08-13T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://csdap.earthdata.nasa.gov/signup/maxar/data-request-form/",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.57909/Maxar/WV03_Pan_L1B.001",
+          "title": "Provider Metadata",
+          "description": "WorldView-3 Level 1B Panchromatic Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_csda_cumulus_prod_protected_5047_WV03_Pan_L1B___1_": {
+          "href": "s3://csda-cumulus-prod-protected-5047/WV03_Pan_L1B___1/",
+          "roles": [
+            "data"
+          ],
+          "title": "csda_cumulus_prod_protected_5047_WV03_Pan_L1B___1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497431983-CSDA.xml",
+          "title": "CMR XML metadata for C2497431983-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497431983-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497431983-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497431983-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497431983-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497431983-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV03_Pan_L1B_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV03_Pan_L1B_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE",
+        "INFRARED WAVELENGTHS",
+        "REFLECTED INFRARED",
+        "INFRARED RADIANCE",
+        "VISIBLE IMAGERY",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE",
+        "INFRARED IMAGERY"
+      ],
+      "summaries": {
+        "platform": [
+          "WORLDVIEW-3"
+        ],
+        "instruments": [
+          "WV110"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "csda-cumulus-prod-protected-5047",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires CSDA program approval and NGA license, often via S3 credentials. Formats include NITF, GeoTIFF, and JPEG. Used for high-resolution imagery download, analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "WV04_MSI_L1B_1",
+      "title": "WorldView-4 Level 1B Multispectral 4-Band Satellite Imagery",
+      "description": "The WorldView-4 Multispectral 4-Band Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery was collected by the DigitalGlobe WorldView-4 satellite using the SpaceView-110 camera across the global land surface from December 2016 to January 2019. This satellite imagery is in the visible and near-infrared waveband range with data in the blue, green, red, and near-infrared wavelengths. The multispectral imagery has a spatial resolution of 1.24m at nadir and has a temporal resolution of approximately 1.1 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a Maxar End User License Agreement for Worldview 4 imagery and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-12-01T00:00:00.000Z",
+              "2019-01-07T00:00:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://csdap.earthdata.nasa.gov/signup/maxar/data-request-form/",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.57909/Maxar/WV04_MSI_L1B.001",
+          "title": "Provider Metadata",
+          "description": "WorldView-4 Level 1B Multispectral 4-Band Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497446902-CSDA.xml",
+          "title": "CMR XML metadata for C2497446902-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497446902-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497446902-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497446902-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497446902-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497446902-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV04_MSI_L1B_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV04_MSI_L1B_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY",
+        "VISIBLE RADIANCE",
+        "INFRARED WAVELENGTHS",
+        "INFRARED IMAGERY",
+        "INFRARED RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "WORLDVIEW-4"
+        ],
+        "instruments": [
+          "WV110"
+        ]
+      },
+      "accessibility": "Restricted",
+      "userNote": "Error HTTP error! status: 404, message: {\"errors\":[\"Collection [WV04_MSI_L1B_1] may not be cloudhosted. Please try navigating to the equivalent /stac URL.\"]}"
+    },
+    {
+      "type": "Collection",
+      "id": "WV04_Pan_L1B_1",
+      "title": "WorldView-4 Level 1B Panchromatic Satellite Imagery",
+      "description": "The WorldView-4 Panchromatic Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery was collected by the DigitalGlobe WorldView-4 satellite using the WorldView-110 camera across the global land surface from December 2016 to January 2019. This data product includes panchromatic imagery with a spatial resolution of 0.31m at nadir and a temporal resolution of approximately 1.1 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a Maxar End User License Agreement for Worldview 4 imagery and investigators must be approved by the CSDA Program.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2016-12-01T00:00:00.000Z",
+              "2019-01-07T00:00:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://csdap.earthdata.nasa.gov/signup/maxar/data-public-use-form/",
+          "title": "Direct Download [1]",
+          "description": "CSDA Program Data Request Form",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.57909/Maxar/WV04_Pan_L1B.001",
+          "title": "Provider Metadata",
+          "description": "WorldView-4 Level 1B Panchromatic Imagery Landing Page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.csdap.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497439327-CSDA.xml",
+          "title": "CMR XML metadata for C2497439327-CSDA",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "CSDA",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497439327-CSDA.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497439327-CSDA.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497439327-CSDA.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497439327-CSDA.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2497439327-CSDA.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV04_Pan_L1B_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/CSDA/collections/WV04_Pan_L1B_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE IMAGERY",
+        "INFRARED WAVELENGTHS",
+        "INFRARED IMAGERY",
+        "INFRARED RADIANCE",
+        "LAND SURFACE",
+        "SURFACE RADIATIVE PROPERTIES",
+        "REFLECTANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "WORLDVIEW-4"
+        ],
+        "instruments": [
+          "WV110"
+        ]
+      },
+      "accessibility": "Restricted",
+      "userNote": "Error HTTP error! status: 404, message: {\"errors\":[\"Collection [WV04_Pan_L1B_1] may not be cloudhosted. Please try navigating to the equivalent /stac URL.\"]}"
+    }
+  ]
+}
