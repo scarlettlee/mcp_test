@@ -82,7 +82,10 @@ def memory_tool(args: Dict[str, Any], context: Dict[str, Any]) -> str:
 
 def weather_tool(args: Dict[str, Any], context: Dict[str, Any]) -> str:
     """
-    A mock weather tool (example of external data access simulation).
+    Real weather tool using OpenWeatherMap API.
+    
+    Requires API key in config.json: {"weather": {"api_key": "..."}}
+    Get a free API key at: https://openweathermap.org/api
     
     Args:
         args: Dictionary with:
@@ -90,20 +93,40 @@ def weather_tool(args: Dict[str, Any], context: Dict[str, Any]) -> str:
         context: Server context (not used)
     
     Returns:
-        String with weather information
+        String with weather information in simple format
     """
+    import requests
+    from config import get_api_key
+    
     city = args.get("city", "Unknown")
     
-    # This is a toy example - in real tools, you would call an API
-    mock_weather = {
-        "Beijing": "Sunny, 25°C",
-        "Shanghai": "Cloudy, 22°C",
-        "New York": "Rainy, 18°C",
-        "London": "Foggy, 15°C",
-        "San Francisco": "Partly Cloudy, 20°C",
-        "Tokyo": "Clear, 23°C"
-    }
+    # Get API key from configuration
+    api_key = get_api_key('weather')
     
-    weather = mock_weather.get(city, f"Weather data not available for: {city}")
-    return f"Weather in {city}: {weather}"
+    if not api_key:
+        return f"Weather data not available for: {city} (API key not configured)"
+    
+    # OpenWeatherMap API endpoint
+    base_url = "https://api.openweathermap.org/data/2.5/weather"
+    
+    try:
+        params = {
+            "q": city,
+            "appid": api_key,
+            "units": "metric"
+        }
+        
+        response = requests.get(base_url, params=params, timeout=10)
+        response.raise_for_status()
+        
+        data = response.json()
+        
+        # Extract simple weather information
+        temp = int(data["main"]["temp"])
+        description = data["weather"][0]["description"].title()
+        
+        return f"Weather in {city}: {description}, {temp}°C"
+        
+    except Exception:
+        return f"Weather data not available for: {city}"
 

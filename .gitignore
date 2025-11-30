@@ -31,3 +31,6 @@ stac_map.html
 .DS_Store
 Thumbs.db
 
+# API Configuration (sensitive data)
+config.json
+

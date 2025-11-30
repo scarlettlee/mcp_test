@@ -1,0 +1,3493 @@
+{
+  "stacApiUrl": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS",
+  "exportedAt": "2025-10-10T00:35:03.897Z",
+  "collections": [
+    {
+      "type": "Collection",
+      "id": "VNP03IMG_2",
+      "title": "VIIRS/NPP Imagery Resolution Terrain Corrected Geolocation 6-Min L1 Swath 375 m",
+      "description": "The VIIRS/NPP Imagery Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 375m, short-name VNP03IMG, product contains the derived line-of-sight (LOS) vectors for each of the 375-m image-resolution or I-bands.  The geolocation algorithm uses a number of inputs that include an Earth ellipsoid, geoid, and a digital terrain model along with the SNPP platform’s ephemeris and attitude data, and knowledge of the VIIRS sensor and satellite geometry.  It produces geodetic coordinates (latitude and longitude), and related parameters for each VIIRS L1 pixel.  The VNP03IMG product includes geodetic latitude, longitude, surface height above the geoid, solar zenith and azimuth angles, sensor zenith and azimuth angles, land/water mask, and quality flag for every pixel location.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5200/VNP03IMG/",
+          "title": "Direct Download [1]",
+          "description": "Direct access to VNP03IMG C1 data set.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/VNP03IMG.002",
+          "title": "Provider Metadata",
+          "description": "The product landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_VNP03IMG": {
+          "href": "s3://prod-lads/VNP03IMG",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_VNP03IMG",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092163-LAADS.xml",
+          "title": "CMR XML metadata for C2105092163-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092163-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092163-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092163-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092163-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092163-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP03IMG_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP03IMG_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SOLID EARTH",
+        "GEODETICS",
+        "COORDINATE REFERENCE SYSTEM",
+        "SPECTRAL/ENGINEERING",
+        "SENSOR CHARACTERISTICS",
+        "VIEWING GEOMETRY"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login and S3 credentials for access. Data available primarily in NetCDF format. Used for direct download and scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "VNP02IMG_2",
+      "title": "VIIRS/NPP Imagery Resolution 6-Min L1B Swath 375 m",
+      "description": "The VIIRS/NPP Imagery Resolution 6-Min L1B Swath 375 m product, short-name VNP02IMG is derived from the five image-resolution or I-bands, which have a 375-meter resolution at nadir. Ranging in wavelengths from 0.6 µm to 12.4 µm, the I-bands are sensitive to visible/reflective, near-, shortwave-, mediumwave-, and longwave-infrared wavelengths.  Derived from the NASA VIIRS L1A raw radiances, this product includes calibrated and geolocated radiance and reflectance data, quality flags, and granule- and collection-level metadata.  In contrast to a MODIS L1B product, which temporally spans 5 minutes, the VIIRS L1B calibrated radiances product contains a nominal temporal duration of 6 minutes.  The image dimensions of the 375-m swath product measure 6464 lines by 6400 pixels.\r\n",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5200/VNP02IMG/",
+          "title": "Direct Download [1]",
+          "description": "Direct access to VNP02IMG C2 data set.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/VNP02IMG.002",
+          "title": "Provider Metadata",
+          "description": "The product landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_VNP02IMG": {
+          "href": "s3://prod-lads/VNP02IMG",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_VNP02IMG",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091501-LAADS.xml",
+          "title": "CMR XML metadata for C2105091501-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091501-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091501-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091501-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091501-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091501-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP02IMG_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP02IMG_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "INFRARED WAVELENGTHS",
+        "INFRARED RADIANCE",
+        "REFLECTED INFRARED",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "CLDMSK_L2_VIIRS_SNPP_1",
+      "title": "VIIRS/Suomi-NPP Cloud Mask 6-Min Swath 750 m",
+      "description": "The VIIRS/Suomi-NPP Cloud Mask 6-Min Swath 750m product is a Level-2 product generated at 750-m (at nadir) spatial resolutions. The algorithm employs a series of visible and infrared threshold and consistency tests to specify confidence that an unobstructed view of the Earth's surface has been observed. An indication of shadows affecting the scene is also provided. Radiometrically-accurate radiances are required, thus holes in the Cloud Mask will appear wherever the input radiances are incomplete or of poor quality assurance.\r\n\r\nFor more information consult Product Page at: \r\nhttps://cimss.ssec.wisc.edu/MVCM/",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-03-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/1/CLDMSK_L2_VIIRS_SNPP--5110",
+          "title": "Direct Download",
+          "description": "Search and order products from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/CLDMSK_L2_VIIRS_SNPP.001",
+          "title": "Provider Metadata",
+          "description": "Data product's landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_CLDMSK_L2_VIIRS_SNPP": {
+          "href": "s3://prod-lads/CLDMSK_L2_VIIRS_SNPP",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_CLDMSK_L2_VIIRS_SNPP",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1562021084-LAADS.xml",
+          "title": "CMR XML metadata for C1562021084-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1562021084-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1562021084-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1562021084-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1562021084-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1562021084-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/CLDMSK_L2_VIIRS_SNPP_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/CLDMSK_L2_VIIRS_SNPP_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "CLOUDS",
+        "CLOUD PROPERTIES",
+        "CLOUD FREQUENCY",
+        "CLOUD HEIGHT",
+        "SPECTRAL/ENGINEERING",
+        "INFRARED WAVELENGTHS",
+        "INFRARED RADIANCE",
+        "REFLECTED INFRARED",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "VNP46A1_2",
+      "title": "VIIRS/NPP Daily Gridded Day Night Band 500 m Linear Lat Lon Grid Night",
+      "description": "The VIIRS/NPP Daily Gridded Day Night Band 500m Linear Lat Lon Grid Night product, short-name VNP46A1 is a daily, top-of-atmosphere, at-sensor nighttime radiance product. This product is available at 15 arc-second spatial resolution from January 2012 onward. The VNP46A1/VJ146A1 product contains 26 Science Data Sets (SDS) that include sensor radiance, zenith and azimuth angles (at-sensor, solar, and lunar), cloud-mask flags, time, shortwave IR radiance, brightness temperatures, VIIRS quality flags, moon phase angle, and moon illumination fraction. It also provides Quality Flag (QF) information specific to the cloud-mask, VIIRS moderate-resolution bands M10, M11, M12, M13, M15, M16, and DNB. \n\nThe current v2.0 collection contains several changes and differences relative to the previous v1.0 collection. These include radiance data format change from unsigned integer to floating-point, from exclusively for land surfaces coverage to both land and water surfaces, updated Mandatory_Quality_Flag layer, and others. Consult the v2.0-specific Black Marble User Guide for additional details at:\nhttps://landweb.modaps.eosdis.nasa.gov/data/userguide/BlackMarbleUserGuide_Collection2.0_20241203.pdf\n",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/VNP46A1--5200",
+          "title": "Direct Download",
+          "description": "Search and order VNP46A1 product from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/VNP46A1.002",
+          "title": "Provider Metadata",
+          "description": "Data product's landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_VNP46A1": {
+          "href": "s3://prod-lads/VNP46A1",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_VNP46A1",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2980666614-LAADS.xml",
+          "title": "CMR XML metadata for C2980666614-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2980666614-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2980666614-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2980666614-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2980666614-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2980666614-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP46A1_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP46A1_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "BIOSPHERE",
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "CLDMSK_L2_VIIRS_NOAA20_1",
+      "title": "VIIRS/NOAA20 Cloud Mask and Spectral Test Results 6-Min L2 Swath 750m",
+      "description": "The VIIRS/NOAA20 Cloud Mask and Spectral Test Results 6-Min L2 Swath 750m product Mask is one of three continuity products designed to sustain the long-term records of both Moderate Resolution Imaging Spectroradiometer (MODIS) and VIIRS heritages. CLDMSK_L2_VIIRS_NOAA20 is the shortname for the NOAA-20 VIIRS incarnation of the Cloud Mask continuity product derived from the MODIS-VIIRS cloud mask (MVCM) algorithm, which itself is based on the MODIS (MOD35) algorithm.  MVCM describes a continuity algorithm that is central to both MODIS data (from Terra and Aqua missions) and VIIRS data (from Suomi National Polar-orbiting Partnership (SNPP) and Joint Polar Satellite System missions).  Please bear in mind that the term MVCM does not appear as an attribute within the product’s metadata.  Implemented to consistently handle MODIS and VIIRS inputs, the NOAA-20 VIIRS collection-1 products use calibration-adjusted NASA VIIRS L1B as inputs.  The nominal spatial resolution of the NOAA-20 VIIRS L2 Cloud mask is 750 meters.\r\n\r\nFor more information consult Product Page at: \r\nhttps://cimss.ssec.wisc.edu/MVCM/",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-03-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/1/CLDMSK_L2_VIIRS_NOAA20--5110",
+          "title": "Direct Download",
+          "description": "Search and order products from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/CLDMSK_L2_VIIRS_NOAA20.001",
+          "title": "Provider Metadata",
+          "description": "Data product's landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_CLDMSK_L2_VIIRS_NOAA20": {
+          "href": "s3://prod-lads/CLDMSK_L2_VIIRS_NOAA20",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_CLDMSK_L2_VIIRS_NOAA20",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1964798938-LAADS.xml",
+          "title": "CMR XML metadata for C1964798938-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1964798938-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1964798938-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1964798938-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1964798938-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1964798938-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/CLDMSK_L2_VIIRS_NOAA20_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/CLDMSK_L2_VIIRS_NOAA20_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "CLOUDS",
+        "CLOUD PROPERTIES",
+        "CLOUD FREQUENCY",
+        "CLOUD HEIGHT",
+        "SPECTRAL/ENGINEERING",
+        "INFRARED WAVELENGTHS",
+        "INFRARED RADIANCE",
+        "REFLECTED INFRARED",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "NOAA-20"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "CLDMSK_L2_MODIS_Aqua_1",
+      "title": "MODIS/Aqua Cloud Mask 5-Min Swath 1000 m",
+      "description": "The MODIS-VIIRS Cloud Mask (MVCM) is designed to facilitate continuity in cloud detection between the MODIS (Moderate Resolution Imaging Spectroradiometer) on the Aqua and Terra platforms and the series of VIIRS (Visible Infrared Imaging Radiometer Suite) instruments, beginning with the Suomi NPP spacecraft. To establish continuity, this MODIS MVCM product does not use an algorithm identical to that used in the standard MODIS product (MOD35/MYD35). The MVCM-MODIS Cloud Mask product is Aqua MOIDS Level-2, 5-Min Swath product generated at 1000 m (at nadir) spatial resolution. The algorithm employs a series of visible through infrared threshold and consistency tests to specify confidence that an unobstructed view of the Earth's surface has been observed. Radiometrically-accurate radiances are required, thus holes in the cloud mask will appear wherever the input radiances are incomplete or of poor quality.\r\n\r\nFor more information consult Product Page at: \r\nhttps://cimss.ssec.wisc.edu/MVCM/",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-07-04T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/CLDMSK_L2_MODIS_Aqua--5110",
+          "title": "Direct Download",
+          "description": "Search and order products from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/MODIS/CLDMSK_L2_MODIS_Aqua.001",
+          "title": "Provider Metadata",
+          "description": "Data product's landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_CLDMSK_L2_MODIS_Aqua": {
+          "href": "s3://prod-lads/CLDMSK_L2_MODIS_Aqua",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_CLDMSK_L2_MODIS_Aqua",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1593392869-LAADS.xml",
+          "title": "CMR XML metadata for C1593392869-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1593392869-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1593392869-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1593392869-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1593392869-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1593392869-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/CLDMSK_L2_MODIS_Aqua_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/CLDMSK_L2_MODIS_Aqua_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "CLOUDS",
+        "CLOUD PROPERTIES",
+        "CLOUD FREQUENCY",
+        "CLOUD HEIGHT",
+        "SPECTRAL/ENGINEERING",
+        "INFRARED WAVELENGTHS",
+        "INFRARED RADIANCE",
+        "REFLECTED INFRARED",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "Aqua"
+        ],
+        "instruments": [
+          "MODIS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "VNP46A2_2",
+      "title": "VIIRS/NPP Gap-Filled Lunar BRDF-Adjusted Nighttime Lights Daily L3 Global 500m Linear Lat Lon Grid",
+      "description": "The SNPP VIIRS Gap-Filled Lunar BRDF-Adjusted Nighttime Lights Daily L3 Global 500m Linear Lat Lon Grid product, short-name VNP46A2 is a daily moonlight- and atmosphere-corrected Nighttime Lights (NTL) product. This product is available at 15 arc-second resolution and contains seven Science Data Sets (SDS) that include DNB BRDF-Corrected NTL, Gap-Filled DNB BRDF-Corrected NTL, DNB Lunar Irradiance, Latest High-Quality Retrieval, Mandatory Quality Flag, Cloud Mask Quality Flag, and Snow Flag. The VNP46A2 product files are provided in standard Hierarchical Data Format–Earth Observing System (HDF-EOS5) format.\n\nThe current v2.0 collection contains several changes and differences relative to the previous v1.0 collection. These include radiance data format change from unsigned integer to floating-point, from exclusively for land surfaces coverage to both land and water surfaces, updated Mandatory_Quality_Flag layer, and others. Consult the v2.0-specific Black Marble User Guide for additional details at:\nhttps://landweb.modaps.eosdis.nasa.gov/data/userguide/BlackMarbleUserGuide_Collection2.0_20241203.pdf",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/VNP46A2--5200",
+          "title": "Direct Download",
+          "description": "Search and order VNP46A1 product from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/VNP46A2.002",
+          "title": "Provider Metadata",
+          "description": "Data product's landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_VNP46A2": {
+          "href": "s3://prod-lads/VNP46A2",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_VNP46A2",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3365931269-LAADS.xml",
+          "title": "CMR XML metadata for C3365931269-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3365931269-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3365931269-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3365931269-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3365931269-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3365931269-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP46A2_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP46A2_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "BIOSPHERE",
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "AERDB_L2_VIIRS_SNPP_2",
+      "title": "VIIRS/SNPP Deep Blue Aerosol L2 6 Min Swath 6km",
+      "description": "The VIIRS/SNPP Deep Blue Aerosol L2 6-Min Swath 6 km product from the Visible Infrared Imaging Radiometer Suite (VIIRS) determines atmospheric aerosol loading for daytime cloud-free snow-free scenes. This orbit-level product (Short-name: AERDB_L2_VIIRS_SNPP) has an at-nadir resolution of 6 km x 6 km, and progressively increases away from nadir given the sensor’s scanning geometry and Earth’s curvature.  Viewed differently, this product’s resolution accommodates 8 x 8 native VIIRS moderate-resolution (M-band) pixels that nominally have ~750 m horizontal pixel size.  The L2 Deep Blue AOT data products, at 550 nanometers reference wavelengths, are derived from particular VIIRS bands using two primary AOT retrieval algorithms: Deep Blue algorithm over land, and the Satellite Ocean Aerosol Retrieval (SOAR) algorithm over ocean.  Although this product is called Deep Blue based on retrievals for the land algorithm, the data includes over-water retrievals as well.\r\n\r\nThis L2 description pertains to the VIIRS Deep Blue Aerosol collection version 2.0 (C2) product. Significant changes have been made to the V2.0 Deep Blue/SOAR algorithms to further improve the data quality. For C2.0, the aerosol products are available for NOAA20 VIIRS in addition to SNPP. Some  of changes in the retrieval algorithms and data products include, new SDS suite for prognostic uncertainties of 550 nm AOT over both land and ocean is added, surface pressure is better accounted for for both over-land and over-ocean retrievals by adding surface pressure nodes in the aerosol lookup table, and a number of other improvements which can be found from Product page at:\r\nhttps://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/AERDB_L2_VIIRS_SNPP\r\n\r\nFor more information consult Deep Blue aerosol team Page at: \r\nhttps://deepblue.gsfc.nasa.gov",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-03-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/opendap/RemoteResources/laads/allData/5200/AERDB_L2_VIIRS_SNPP/",
+          "title": "Direct Download [1]",
+          "description": "Direct access to LAADS archive for AERDB_L2_VIIRS_SNPP data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/AERDB_L2_VIIRS_SNPP.002",
+          "title": "Provider Metadata",
+          "description": "Product DOI landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_AERDB_L2_VIIRS_SNPP": {
+          "href": "s3://prod-lads/AERDB_L2_VIIRS_SNPP",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_AERDB_L2_VIIRS_SNPP",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600303218-LAADS.xml",
+          "title": "CMR XML metadata for C2600303218-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600303218-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600303218-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600303218-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600303218-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600303218-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/AERDB_L2_VIIRS_SNPP_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/AERDB_L2_VIIRS_SNPP_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "ANGSTROM EXPONENT"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "VNP03MOD_2",
+      "title": "VIIRS/NPP Moderate Resolution Terrain-Corrected Geolocation L1 6-Min Swath 750 m",
+      "description": "The VIIRS/NPP Moderate Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 750 m product, short-name  VNP03MOD, contains the derived line-of-sight (LOS) vectors for each of the 750-m moderate-resolution, or M-bands.  The geolocation algorithm uses a number of inputs that include an Earth ellipsoid, geoid, and a digital terrain model along with the SNPP platform’s ephemeris and attitude data, and knowledge of the VIIRS sensor and satellite geometry.  It produces geodetic coordinates (latitude and longitude), and related parameters for each VIIRS L1 pixel.  The VNP03MOD product includes geodetic latitude, longitude, surface height above the geoid, solar zenith and azimuth angles, sensor zenith and azimuth angles, land/water mask, and quality flag for every pixel location.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5200/VNP03MOD/",
+          "title": "Direct Download [1]",
+          "description": "Direct access to VNP03MOD C2 data set.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/VNP03MOD.002",
+          "title": "Provider Metadata",
+          "description": "The product landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_VNP03MOD": {
+          "href": "s3://prod-lads/VNP03MOD",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_VNP03MOD",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092427-LAADS.xml",
+          "title": "CMR XML metadata for C2105092427-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092427-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092427-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092427-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092427-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105092427-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP03MOD_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP03MOD_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SOLID EARTH",
+        "GEODETICS",
+        "COORDINATE REFERENCE SYSTEM",
+        "SPECTRAL/ENGINEERING",
+        "SENSOR CHARACTERISTICS",
+        "VIEWING GEOMETRY"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "VNP02MOD_2",
+      "title": "VNP02MOD | VIIRS/NPP Moderate Resolution 6-Min L1B Swath 750 m",
+      "description": "The VNP02MOD | VIIRS/NPP Moderate Resolution 6-Min L1B Swath 750m, short-name VNP02MOD contains the derived line-of-sight (LOS) vectors for each of the 750-m moderate-resolution, or M-bands.  The geolocation algorithm uses a number of inputs that include an Earth ellipsoid, geoid, and a digital terrain model along with the SNPP platform’s ephemeris and attitude data, and knowledge of the VIIRS sensor and satellite geometry.  It produces geodetic coordinates (latitude and longitude), and related parameters for each VIIRS L1 pixel.  The VNP03MOD product includes geodetic latitude, longitude, surface height above the geoid, solar zenith and azimuth angles, sensor zenith and azimuth angles, land/water mask, and quality flag for every pixel location.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5200/VNP02MOD/",
+          "title": "Direct Download [1]",
+          "description": "Direct access to VNP02MOD C2 data set.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/VNP02MOD.002",
+          "title": "Provider Metadata",
+          "description": "The product landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_VNP02MOD": {
+          "href": "s3://prod-lads/VNP02MOD",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_VNP02MOD",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105087643-LAADS.xml",
+          "title": "CMR XML metadata for C2105087643-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105087643-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105087643-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105087643-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105087643-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105087643-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP02MOD_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP02MOD_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "INFRARED WAVELENGTHS",
+        "INFRARED RADIANCE",
+        "REFLECTED INFRARED",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "AERDT_L2_VIIRS_SNPP_2",
+      "title": "VIIRS/SNPP Dark Target Aerosol L2 6-Min Swath 6 km V2",
+      "description": "The VIIRS/SNPP Dark Target Aerosol L2 6-Min Swath 6 km product provides satellite-derived measurements of Aerosol Optical Thickness (AOT) and their properties over land and ocean, and spectral AOT and their size parameters over oceans every 6 minutes, globally.  The Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS) incarnation of the dark target (DT) aerosol product is based on the same DT algorithm that was developed and used to derive products from the Terra and Aqua mission&#8217;s MODIS instruments.  Two separate and distinct DT algorithms exist.  One helps retrieve aerosol information over ocean (dark in visible and longer wavelengths), while the second aids retrievals over vegetated/dark-soiled land (dark in the visible).\r\n\r\nThis orbit-level product (Short-name: AERDT_L2_VIIRS_SNPP) has an at-nadir resolution of 6 km x 6 km, and progressively increases away from nadir given the sensor's scanning geometry and Earth's curvature. Viewed differently, this product's resolution accommodates 8 x 8 native VIIRS moderate-resolution (M-band) pixels that nominally have ~750 m horizontal pixel size. Hence, the Level-2 Dark Target Aerosol Optical Thickness data product incorporates 64 (750 m) pixels over a 6-minute acquisition. Version 2.0 constitutes the latest collection of the L2 Dark Target Aerosol product and contains improvements over its previous collection (v1.1).\r\n\r\nFor more information consult LAADS product description page at:\r\n\r\nhttps://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/AERDT_L2_VIIRS_SNPP\r\n\r\nOr, Dark Target aerosol team Page at: \r\nhttps://darktarget.gsfc.nasa.gov/",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-03-01T00:36:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/AERDT_L2_VIIRS_SNPP--5200",
+          "title": "Direct Download",
+          "description": "Search and order products from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_prod_lads_AERDT_L2_VIIRS_SNPP": {
+          "href": "s3://prod-lads/AERDT_L2_VIIRS_SNPP",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_AERDT_L2_VIIRS_SNPP",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2771506686-LAADS.xml",
+          "title": "CMR XML metadata for C2771506686-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2771506686-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2771506686-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2771506686-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2771506686-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2771506686-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/AERDT_L2_VIIRS_SNPP_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/AERDT_L2_VIIRS_SNPP_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "ANGSTROM EXPONENT",
+        "AEROSOL PARTICLE PROPERTIES"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "AERDT_L2_VIIRS_NOAA20_2",
+      "title": "VIIRS/NOAA20 Dark Target Aerosol 6-Min L2 Swath 6 km",
+      "description": "The VIIRS/NOAA20 Dark Target Aerosol L2 6-Min Swath 6 km product provides satellite-derived measurements of Aerosol Optical Thickness (AOT) and their properties over land and ocean, and spectral AOT and their size parameters over oceans every 6 minutes, globally.  The NOAA-20 - formerly the Joint Polar Satellite System-1 (JPSS-1) - Visible Infrared Imaging Radiometer Suite (VIIRS) incarnation of the dark target (DT) aerosol product is based on the same DT algorithm that was developed and used to derive products from the Terra and Aqua mission's MODIS instruments.  Two separate and distinct DT algorithms exist.  One helps retrieve aerosol information over ocean (dark in visible and longer wavelengths), while the second aids retrievals over vegetated/dark-soiled land (dark in the visible).\r\n\r\nThis orbit-level product (Short-name: AERDT_L2_VIIRS_NOAA20) has an at-nadir resolution of 6 km x 6 km, and progressively increases away from nadir given the sensor's scanning geometry and Earth's curvature. Viewed differently, this product's resolution accommodates 8 x 8 native VIIRS moderate-resolution (M-band) pixels that nominally have ~750 m horizontal pixel size. Hence, the Level-2 Dark Target Aerosol Optical Thickness data product incorporates 64 (750 m) pixels over a 6-minute acquisition. This Version-2 set of products is the first collection of the Level-2 Dark Target Aerosol derived from the NOAA-20 VIIRS source. Hence, it bears outlining the differences between the products derived from NOAA-20 VIIRS as against the Suomi National Polar-orbiting Partnership (SNPP) VIIRS.\r\n\r\nFor more information consult LAADS product description page at:\r\n\r\nhttps://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/AERDT_L2_VIIRS_NOAA20\r\n\r\nOr, Dark Target aerosol team Page at: \r\nhttps://darktarget.gsfc.nasa.gov/",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-02-17T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/AERDT_L2_VIIRS_NOAA20--5200",
+          "title": "Direct Download",
+          "description": "Search and order products from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_prod_lads_AERDT_L2_VIIRS_NOAA20": {
+          "href": "s3://prod-lads/AERDT_L2_VIIRS_NOAA20",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_AERDT_L2_VIIRS_NOAA20",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2772641628-LAADS.xml",
+          "title": "CMR XML metadata for C2772641628-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2772641628-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2772641628-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2772641628-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2772641628-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2772641628-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/AERDT_L2_VIIRS_NOAA20_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/AERDT_L2_VIIRS_NOAA20_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "ANGSTROM EXPONENT",
+        "AEROSOL PARTICLE PROPERTIES"
+      ],
+      "summaries": {
+        "platform": [
+          "NOAA-20"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "VNP03DNB_2",
+      "title": "VIIRS/NPP Day/Night Band Terrain Corrected Geolocation L1 6-Min Swath 750 m",
+      "description": "The VIIRS/NPP Day/Night Band Terrain Corrected Geolocation 6-Min L1 Swath 750m  product, short-name VNP03DNB includes the geolocation fields that are calculated for Visible-Infrared Imaging-Radiometer Suite (VIIRS) day-night band (DNB) Line of sight (LOS) for all orbits at the nominal resolution of 750 m. The locations and ancillary information correspond to the intersection of the centers of each Field of View (FOV) from 16 detectors in the DNB on the Earth's surface. The geolocation algorithm uses a number of inputs that include an Earth ellipsoid, geoid, and a digital terrain model along with the SNPP platform’s ephemeris and attitude data, and knowledge of the VIIRS sensor and satellite geometry.  It provides geodetic coordinates (latitude and longitude), and related parameters for each VIIRS L1 pixel.  The VNP03DNB product includes geodetic latitude, longitude, surface height above the geoid, solar zenith and azimuth angles, lunar zenith and azimuth angles, sensor zenith and azimuth angles, land/water mask, moon illumination fraction and phase angle, and quality flag for every pixel location.\r\n\r\n",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5200/VNP03DNB/",
+          "title": "Direct Download [1]",
+          "description": "Direct access to VNP03DNB C2 data set.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/VNP03DNB.002",
+          "title": "Provider Metadata",
+          "description": "The product landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_VNP03DNB": {
+          "href": "s3://prod-lads/VNP03DNB",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_VNP03DNB",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1344465347-LAADS.xml",
+          "title": "CMR XML metadata for C1344465347-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1344465347-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1344465347-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1344465347-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1344465347-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1344465347-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP03DNB_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP03DNB_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SOLID EARTH",
+        "GEODETICS",
+        "COORDINATE REFERENCE SYSTEM",
+        "SPECTRAL/ENGINEERING",
+        "SENSOR CHARACTERISTICS",
+        "VIEWING GEOMETRY"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "XAERDT_L2_MODIS_Terra_1",
+      "title": "MODIS/Terra Dark Target Aerosol 5-Min L2 Swath 10 km",
+      "description": "The MODIS/Terra Dark Target Aerosol 5-Min L2 Swath 10 km product, short-name XAERDT_L2_MODIS_Terra is provided at 10-km spatial resolution (at-nadir) and a 5-minute cadence that typically yields about 140 granules over the daylit hours of a 24-hour period.  The Terra/MODIS L2 collection record spans from January 2019 through December 2022.\r\n\r\n\r\nThe XAERDT_L2_MODIS_Terra product is a part of the Geostationary Earth Orbit (GEO)–Low-Earth Orbit (LEO) Dark Target Aerosol project under NASA’s Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, led by Robert Levy, uses a special version of the MODIS Dark Target (DT) aerosol retrieval algorithm to produce Aerosol Optical Depth (AOD) and other aerosol parameters derived independently from seven sensor/platform combinations, where 3 are in GEO and 4 are in LEO.  The 3 GEO sensors include Advanced Baseline Imagers (ABI) on both GOES-16 (GOES-East) and GOES-17 (GOES-West), and Advanced Himawari Imager (AHI) on Himawari-8. The 4 LEO sensors include MODIS on both Terra and Aqua, and VIIRS on both Suomi-NPP and NOAA-20.  Adding the LEO sensors reinforces a major goal of this project, which is to render a consistent science maturity level across DT aerosol products derived from both types and sources of orbital satellites.\r\n\r\n\r\nThe XAERDT_L2_MODIS_Terra product, in netCDF4 format, contains 45 Science Data Set (SDS) layers that include 8 geolocation and 37 geophysical SDSs.\r\n\r\n\r\nFor more information consult LAADS product description page at:\r\n\r\nhttps://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/XAERDT_L2_MODIS_Terra\r\n\r\nOr, Dark Target aerosol team Page at: \r\nhttps://darktarget.gsfc.nasa.gov/",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-01-01T00:00:00.000Z",
+              "2022-12-31T23:59:59.990Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/XAERDT_L2_MODIS_Terra--5019",
+          "title": "Direct Download",
+          "description": "Search and order products from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_prod_lads_XAERDT_L2_MODIS_Terra": {
+          "href": "s3://prod-lads/XAERDT_L2_MODIS_Terra",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_XAERDT_L2_MODIS_Terra",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859248304-LAADS.xml",
+          "title": "CMR XML metadata for C2859248304-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859248304-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859248304-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859248304-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859248304-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859248304-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/XAERDT_L2_MODIS_Terra_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/XAERDT_L2_MODIS_Terra_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "ANGSTROM EXPONENT",
+        "AEROSOL PARTICLE PROPERTIES"
+      ],
+      "summaries": {
+        "platform": [
+          "Terra"
+        ],
+        "instruments": [
+          "MODIS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "AERDB_L2_VIIRS_NOAA20_2",
+      "title": "VIIRS/NOAA20 Deep Blue Aerosol L2 6-Min Swath 6 km",
+      "description": "The VIIRS/NOAA20 Deep Blue Aerosol L2 6-Min Swath 6 km product from the Visible Infrared Imaging Radiometer Suite (VIIRS) determines atmospheric aerosol loading for daytime cloud-free snow-free scenes. This orbit-level product (Short-name: AERDB_L2_VIIRS_ NOAA20) has an at-nadir resolution of 6 km x 6 km, and progressively increases away from nadir given the sensor’s scanning geometry and Earth’s curvature.  Viewed differently, this product’s resolution accommodates 8 x 8 native VIIRS moderate-resolution (M-band) pixels that nominally have ~750 m horizontal pixel size.  The L2 Deep Blue AOT data products, at 550 nm reference wavelengths, are derived from particular VIIRS bands using two primary AOT retrieval algorithms: Deep Blue algorithm over land, and the Satellite Ocean Aerosol Retrieval (SOAR) algorithm over ocean.  Although this product is called Deep Blue based on retrievals for the land algorithm, the data includes over-water retrievals as well.\r\n\r\nThe Deep Blue algorithm draws its heritage from previous applications to retrieve AOT from Sea‐viewing Wide Field‐of‐view Sensor (SeaWiFS) over both land and ocean and Moderate Resolution Imaging Spectroradiometer (MODIS) measurements over land.  This L2 description pertains to the VIIRS Deep Blue Aerosol Version 2.0 (V2.0) product, whose record starts from February 17, 2018.\r\n\r\nThe L2 netCDF product, acquired every 6 minutes, contains 55 Science Data Set (SDS) layers. The V2.0 VIIRS deep blue aerosol products are available from both NOAA20 and SNPP platforms. Significant changes have been made to the V2.0 Deep Blue/SOAR algorithms to further improve the data quality.    A number of other improvements and changes have been added that can be found from Product page at:\r\nhttps://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/AERDB_L2_VIIRS_NOAA20\r\n\r\nConsult the VIIR Deep Blue product user guide for additional information regarding the global attributes, data field attributes, quality flags, software to handle and use these data products, etc., at: \r\nhttps://ladsweb.modaps.eosdis.nasa.gov/api/v2/content/archives/Document%20Archive/Science%20Data%20Product%20Documentation/VIIRS_Deep_Blue_Aerosol_User_Guide_v2.pdf",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-02-17T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/opendap/RemoteResources/laads/allData/5200/AERDB_L2_VIIRS_NOAA20/",
+          "title": "Direct Download [1]",
+          "description": "Direct access to LAADS archive for AERDB_L2_VIIRS_NOAA20 data.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/AERDB_L2_VIIRS_NOAA20.002",
+          "title": "Provider Metadata",
+          "description": "Product DOI landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_AERDB_L2_VIIRS_NOAA20": {
+          "href": "s3://prod-lads/AERDB_L2_VIIRS_NOAA20",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_AERDB_L2_VIIRS_NOAA20",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600305692-LAADS.xml",
+          "title": "CMR XML metadata for C2600305692-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600305692-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600305692-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600305692-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600305692-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2600305692-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/AERDB_L2_VIIRS_NOAA20_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/AERDB_L2_VIIRS_NOAA20_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "ANGSTROM EXPONENT"
+      ],
+      "summaries": {
+        "platform": [
+          "NOAA-20"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "VNP02DNB_2",
+      "title": "VIIRS/NPP Day/Night Band 6-Min L1B Swath 750 m",
+      "description": "The VIIRS/NPP Day/Night Band 6-Min L1B Swath 750 m product, short-name VNP02DNB, is a panchromatic Day-Night band (DNB) calibrated radiance product.  The DNB is one of the M-bands with an at-nadir spatial resolution of 750 meters (across the entire scan).  The panchromatic DNB’s spectral wavelength ranges from 0.5 µm to 0.9 µm.  It facilitates measuring night lights, reflected solar/lunar lights with a large dynamic range between a low of a quarter moon illumination to the brightest daylight.\r\nMore information is available at product page at:\r\nhttps://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/VNP02DNB/",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-01-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5200/VNP02DNB/",
+          "title": "Direct Download [1]",
+          "description": "Direct access to VNP02DNB C1 data set.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/VNP02DNB.002",
+          "title": "Provider Metadata",
+          "description": "The product landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_VNP02DNB": {
+          "href": "s3://prod-lads/VNP02DNB",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_VNP02DNB",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091380-LAADS.xml",
+          "title": "CMR XML metadata for C2105091380-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091380-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091380-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091380-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091380-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2105091380-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP02DNB_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VNP02DNB_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE",
+        "INFRARED WAVELENGTHS",
+        "INFRARED RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "XAERDT_L2_AHI_H08_1",
+      "title": "AHI/Himawari-08 Dark Target Aerosol 10-Min L2 Full Disk 10 km",
+      "description": "The AHI/Himawari-08 Dark Target Aerosol 10-Min L2 Full Disk 10 km product, short-name XAERDT_L2_AHI_H08 is provided at 10-km spatial resolution (at-nadir) and a 10-minute full-disk cadence that typically yields about 142 granules over the daylit hours of a 24-hour period (there are no images produced at 02:20 or 14:20 UTC for navigation purposes).  The Himawari-8 platform served in the operational Himawari position (near 140.7°E) between October 2014 and 13 December 2022.  Himawari-9 replaced Himawari-8 and is currently operational.  The Himawari-8/AHI collection record spans from January 2019 through 12th December 2022.  The final 19 days of 2022 (December 13 through 31) are served by L2 products derived from the Himawari-9/AHI instrument.\r\n\r\nThe XAERDT_L2_AHI_H08 product is a part of the Geostationary Earth Orbit (GEO)–Low-Earth Orbit (LEO) Dark Target Aerosol project under NASA’s Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, led by Robert Levy, uses a special version of the MODIS Dark Target (DT) aerosol retrieval algorithm to produce Aerosol Optical Depth (AOD) and other aerosol parameters derived independently from seven sensor/platform combinations, where 3 are in GEO and 4 are in LEO.  The 3 GEO sensors include Advanced Baseline Imagers (ABI) on both GOES-16 (GOES-East) and GOES-17 (GOES-West), and Advanced Himawari Imager (AHI) on Himawari-8. The 4 LEO sensors include MODIS on both Terra and Aqua, and VIIRS on both Suomi-NPP and NOAA-20.  Adding the LEO sensors reinforces a major goal of this project, which is to render a consistent science maturity level across DT aerosol products derived from both types and sources of orbital satellites.\r\n\r\nThe XAERDT_L2_AHI_H08 product, in netCDF4 format, contains 45 Science Data Set (SDS) layers that include 8 geolocation and 37 geophysical SDSs.\r\n\r\n\r\nFor more information consult LAADS product description page at:\r\n\r\nhttps://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/XAERDT_L2_AHI_H08\r\n\r\nOr, Dark Target aerosol team Page at: \r\nhttps://darktarget.gsfc.nasa.gov/",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-01-01T00:00:00.000Z",
+              "2022-12-15T00:00:00.990Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/XAERDT_L2_AHI_H08--5019",
+          "title": "Direct Download",
+          "description": "Search and order products from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_prod_lads_XAERDT_L2_AHI_H08": {
+          "href": "s3://prod-lads/XAERDT_L2_AHI_H08",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_XAERDT_L2_AHI_H08",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859255251-LAADS.xml",
+          "title": "CMR XML metadata for C2859255251-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859255251-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859255251-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859255251-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859255251-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2859255251-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/XAERDT_L2_AHI_H08_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/XAERDT_L2_AHI_H08_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "ANGSTROM EXPONENT",
+        "AEROSOL PARTICLE PROPERTIES"
+      ],
+      "summaries": {
+        "platform": [
+          "Himawari-8"
+        ],
+        "instruments": [
+          "AHI"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "CLDCR_L2_VIIRS_SNPP_1",
+      "title": "VIIRS/SNPP Cirrus Reflectance 6-min L2 Swath 750m",
+      "description": "The VIIRS/Suomi-NPP Cirrus Reflectance 6-Min Swath 750m product is a Level-2 product generated at 750-m (at nadir) spatial resolutions. The algorithm employs a series of visible and infrared threshold and consistency tests to specify confidence that an unobstructed view of the Earth's surface has been observed. An indication of shadows affecting the scene is also provided. Radiometrically-accurate radiances are required, thus holes in the Cloud Mask will appear wherever the input radiances are incomplete or of poor quality assurance.\r\n\r\nFor more information consult Product Page at: \r\nhttps://cimss.ssec.wisc.edu/MVCM/",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-03-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/1/CLDCR_L2_VIIRS_SNPP--5110",
+          "title": "Direct Download",
+          "description": "Search and order products from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/CLDCR_L2_VIIRS_SNPP.001",
+          "title": "Provider Metadata",
+          "description": "Data product's landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_CLDCR_L2_VIIRS_SNPP": {
+          "href": "s3://prod-lads/CLDCR_L2_VIIRS_SNPP",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_CLDCR_L2_VIIRS_SNPP",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2001636718-LAADS.xml",
+          "title": "CMR XML metadata for C2001636718-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2001636718-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2001636718-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2001636718-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2001636718-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2001636718-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/CLDCR_L2_VIIRS_SNPP_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/CLDCR_L2_VIIRS_SNPP_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "INFRARED WAVELENGTHS",
+        "INFRARED RADIANCE",
+        "REFLECTED INFRARED",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "VJ146A2_2",
+      "title": "VIIRS/JPSS1 Gap-Filled Lunar BRDF-Adjusted Nighttime Lights Daily L3 Global 500m Linear Lat Lon Grid",
+      "description": "The NOAA-20 VIIRS Gap-Filled Lunar BRDF-Adjusted Nighttime Lights Daily L3 Global 500m Linear Lat Lon Grid product, short-name VJ146A2 is a daily moonlight- and atmosphere-corrected Nighttime Lights (NTL) product. This product is available at 15 arc-second resolution and contains seven Science Data Sets (SDS) that include DNB BRDF-Corrected NTL, Gap-Filled DNB BRDF-Corrected NTL, DNB Lunar Irradiance, Latest High-Quality Retrieval, Mandatory Quality Flag, Cloud Mask Quality Flag, and Snow Flag. The VJ146A2 product files are provided in standard Hierarchical Data Format–Earth Observing System (HDF-EOS5) format.\n\nThe current v2.0 collection contains several changes and differences relative to the previous v1.0 collection. These include radiance data format change from unsigned integer to floating-point, from exclusively for land surfaces coverage to both land and water surfaces, updated Mandatory_Quality_Flag layer, and others. Consult the v2.0-specific Black Marble User Guide for additional details at:\nhttps://landweb.modaps.eosdis.nasa.gov/data/userguide/BlackMarbleUserGuide_Collection2.0_20241203.pdf",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-01-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/VJ146A2--5200",
+          "title": "Direct Download",
+          "description": "Search and order VJ146A1 product from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/VJ146A2.002",
+          "title": "Provider Metadata",
+          "description": "Data product's landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_VJ146A2": {
+          "href": "s3://prod-lads/VJ146A2",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_VJ146A2",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3370789118-LAADS.xml",
+          "title": "CMR XML metadata for C3370789118-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3370789118-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3370789118-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3370789118-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3370789118-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3370789118-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VJ146A2_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/VJ146A2_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "BIOSPHERE",
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "VISIBLE WAVELENGTHS",
+        "VISIBLE RADIANCE"
+      ],
+      "summaries": {
+        "platform": [
+          "NOAA-20"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    },
+    {
+      "type": "Collection",
+      "id": "FSNRAD_L2_VIIRS_CRIS_NOAA20_2",
+      "title": "NOAA20 VIIRS+CrIS Fusion 6-Min L2 Swath 750 m",
+      "description": "The VIIRS-CrIS Data Fusion Level-2 Product is designed to facilitate improved continuity in derived cloud and moisture products realized with the High Resolution Infrared Radiation Sounder (HIRS) and the Moderate resolution Imaging Spectroradiometer (MODIS) and to continue other applications that require IR absorption spectral bands. Based on data fusion with VIIRS (Visible Infrared Imaging Radiometer Suite) and CrIS (Cross-track Infrared Sounder), infrared (IR) absorption band radiances for VIIRS are constructed at 750m spatial resolution (i.e., M-band resolution). These spectral bands are similar to the MODIS spectral bands. The fusion radiances, and look-up tables required to compute the related brightness temperatures, are stored in compressed NetCDF4 files of 6-minutes duration.\r\n\r\nThis L2 NOAA-20 VIIRS+CrIS product release relates to Version-2.0 (v2.0) collection, which has undergone some improvements over its previous version.  In the v2.0 Fusion product, scanlines are checked for quality instead of the entire input granule as was done in the previous version of this product.  Such a process has helped salvage and use granules with continuous blocks of good data with good calibration.  The v2.0 product also includes a couple of improvements to the VIIRS-CrIS collocation.  The first relates to how VIIRS scan sync loss events are addressed while the other correctly characterizes VIIRS pixels that should have been identified as falling within a CrIS Field-of-View.  A final improvement in the v2.0 product attempts to correct an artifact detected over warm, dry surfaces in the water vapor channels that are derived using the MODIS Band-27 and -28 response functions that apparently manifest signs of surface features that should not exist for these channels.  Check the User Guide for further details on these improvements.\r\n\r\nThe L2 VIIRS+CrIS Fusion product has a horizontal pixel size of 750 m, which is the native VIIRS moderate-resolution (M) band pixel-size. Consult the VIIRS+CrIS Fusion product User Guide (https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/viirs/VIIRSCrISFusionUserGuidev1.11.pdf)  for additional information regarding this product’s algorithm, file format, global and data-field attributes, quality control flags, etc. ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-03-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/FSNRAD_L2_VIIRS_CRIS_NOAA20--5200",
+          "title": "Direct Download",
+          "description": "Search and order VIIRS+CrIS fusion Level 2 product from LAADS website.",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/VIIRS/FSNRAD_L2_VIIRS_CRIS_NOAA20.002",
+          "title": "Provider Metadata",
+          "description": "Data product's landing page",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_prod_lads_FSNRAD_L2_VIIRS_CRIS_NOAA20": {
+          "href": "s3://prod-lads/FSNRAD_L2_VIIRS_CRIS_NOAA20",
+          "roles": [
+            "data"
+          ],
+          "title": "prod_lads_FSNRAD_L2_VIIRS_CRIS_NOAA20",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.laadsdaac.earthdatacloud.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2230035528-LAADS.xml",
+          "title": "CMR XML metadata for C2230035528-LAADS",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LAADS",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2230035528-LAADS.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2230035528-LAADS.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2230035528-LAADS.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2230035528-LAADS.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2230035528-LAADS.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/FSNRAD_L2_VIIRS_CRIS_NOAA20_2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LAADS/collections/FSNRAD_L2_VIIRS_CRIS_NOAA20_2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "INFRARED WAVELENGTHS",
+        "INFRARED RADIANCE",
+        "BRIGHTNESS TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "NOAA-20"
+        ],
+        "instruments": [
+          "VIIRS",
+          "CrIS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "prod-lads",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login "
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 """
 STAC API Tools - Microsoft Planetary Computer Integration
 
+This is an example of student-developed tools created in a personal directory.
+This demonstrates how students can create their own tools following the MCP framework.
+
 These tools demonstrate how to integrate external APIs (STAC) with MCP.
 Students can use these as examples for creating tools that access web APIs.
 
@@ -9,10 +12,14 @@ Required packages: requests, planetary-computer, rasterio, folium, numpy
 
 import json
 import os
+import sys
 from typing import Dict, Any
 from datetime import datetime, timedelta
 import requests
 import folium
+
+# Add parent directory to path to import config
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../'))
 
 # Optional dependencies
 try:
@@ -35,7 +42,10 @@ except ImportError:
 def stac_list_collections_tool(args: Dict[str, Any], context: Dict[str, Any]) -> str:
     """List available collections from Microsoft Planetary Computer."""
     try:
-        stac_url = "https://planetarycomputer.microsoft.com/api/stac/v1"
+        from config import get_api_url
+        
+        # Get STAC API URL from configuration, default to Microsoft Planetary Computer
+        stac_url = get_api_url('stac', "https://planetarycomputer.microsoft.com/api/stac/v1")
         collections_url = f"{stac_url}/collections"
         
         response = requests.get(collections_url)
@@ -95,7 +105,9 @@ def stac_search_tool(args: Dict[str, Any], context: Dict[str, Any]) -> str:
         date_range = f"{start_date.strftime('%Y-%m-%d')}/{end_date.strftime('%Y-%m-%d')}"
         
         # STAC API request
-        stac_url = "https://planetarycomputer.microsoft.com/api/stac/v1"
+        from config import get_api_url
+        
+        stac_url = get_api_url('stac', "https://planetarycomputer.microsoft.com/api/stac/v1")
         search_url = f"{stac_url}/search"
         search_params = {
             "collections": [collection],

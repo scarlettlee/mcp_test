@@ -1,0 +1,4112 @@
+{
+  "stacApiUrl": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD",
+  "exportedAt": "2025-10-10T00:17:41.197Z",
+  "collections": [
+    {
+      "type": "Collection",
+      "id": "CYGNSS_L1_V3.2_3.2",
+      "title": "CYGNSS Level 1 Science Data Record Version 3.2",
+      "description": "This CYGNSS Level 1 (L1) science data record dataset contains the version 3.2 geo-located Delay Doppler Maps (DDMs) calibrated into Power Received (Watts) and Bistatic Radar Cross Section (BRCS) expressed in units of m2 from the Delay Doppler Mapping Instrument aboard the CYGNSS satellite constellation. This version supersedes Version 3.1: https://doi.org/10.5067/CYGNS-L1X31. Other useful scientific and engineering measurement parameters include the DDM of Normalized Bistatic Radar Cross Section (NBRCS), the Delay Doppler Map Average (DDMA) of the NBRCS near the specular reflection point, and the Leading Edge Slope (LES) of the integrated delay waveform. The L1 dataset contains a number of other engineering and science measurement parameters, including sets of quality flags/indicators, error estimates, and bias estimates as well as a variety of orbital, spacecraft/sensor health, timekeeping, and geolocation parameters. At most, 8 netCDF data files (each file corresponding to a unique spacecraft in the CYGNSS constellation) are provided each day; under nominal conditions, there are typically 6-8 spacecraft retrieving data each day, but this can be maximized to 8 spacecraft under special circumstances in which higher than normal retrieval frequency is needed (i.e., during tropical storms and or hurricanes). Latency is approximately 6 days (or better) from the last recorded measurement time. <br><br>\r\nThe correction for coarse quantization effects that was implemented in v3.1 for the signal portion of the DDM has been updated to include a correction to the noise floor portion of the DDM. This update is found to improve the sensitivity to soil moisture over land and to have a minimal effect on the sensitivity to wind speed over ocean. An update is made to the correction for the temperature dependence of the receiver electronics. This update reduces slow variations in calibration bias associated with a ~60 day oscillation in the mean temperature of the satellites. L1 variables over land and ocean are now combined in common netcdf data files, with additional details added regarding the specular point calculation over land. Nadir (science) antenna pattern and NBRCS rescaling has been updated to improve the inter-satellite consistency of the L1 calibration.<br><br>\r\nThe CYGNSS is a NASA Earth System Science Pathfinder Mission that is intended to collect the first frequent space‐based measurements of surface wind speeds in the inner core of tropical cyclones. Made up of a constellation of eight micro-satellites, the observatories provide nearly gap-free Earth coverage using an orbital inclination of approximately 35° from the equator, with a mean (i.e., average) revisit time of seven hours and a median revisit time of three hours. This inclination allows CYGNSS to measure ocean surface winds between approximately 38° N and 38° S latitude. This range includes the critical latitude band for tropical cyclone formation and movement.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -40,
+              180,
+              40
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/CYGNSS_L1_V3.2.jpg",
+          "title": "Download CYGNSS_L1_V3.2.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/CYGNSS_L1_V3.2.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2832195379-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_CYGNSS_L1_V3_2": {
+          "href": "s3://podaac-ops-cumulus-protected/CYGNSS_L1_V3.2",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_CYGNSS_L1_V3_2",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_CYGNSS_L1_V3_2": {
+          "href": "s3://podaac-ops-cumulus-public/CYGNSS_L1_V3.2",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_CYGNSS_L1_V3_2",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2832195379-POCLOUD.xml",
+          "title": "CMR XML metadata for C2832195379-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2832195379-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2832195379-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2832195379-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2832195379-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2832195379-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/CYGNSS_L1_V3.2_3.2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/CYGNSS_L1_V3.2_3.2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "RADAR",
+        "RADAR CROSS-SECTION",
+        "RADAR REFLECTIVITY"
+      ],
+      "summaries": {
+        "platform": [
+          "CYGNSS"
+        ],
+        "instruments": [
+          "DDMI"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for S3 credentials. Data is in NetCDF; previews are JPEG. Primarily for direct download, scientific analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "OPERA_L3_DSWX-S1_V1_1.0",
+      "title": "OPERA Dynamic Surface Water Extent from Sentinel-1 (Version 1)",
+      "description": "This dataset contains Level-3 Dynamic OPERA Surface Water Extent from Sentinel-1 (DSWx-S1) product version 1.  DSWx-S1 provides near-global geographical mapping of surface water extent over land at a spatial resolution of 30 meters over the Military Grid reference System (MGRS) grid system, with a temporal revisit frequency between 6-12 days. Using Sentinel-1 radar observations, DSWx-S1 maps open inland water bodies greater than 3 hectares and 200 meters in width, irrespective of cloud conditions and daylight illumination that often pose challenges to optical sensors. Forward production of the DSWx-S1 data record began in Sept 2024.  Each product is distributed as a set of 3 GeoTIFF (Geographic Tagged Image File Format) files including water classification and associated confidence layers.\n<br><br>\nThe OPERA DSWx-S1 product contains modified Copernicus Sentinel data (2024-2025).\n<br><br>\nTo access the calibration/validation database for OPERA Dynamic Surface Water Extent Products, please contact podaac@podaac.jpl.nasa.gov ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -84,
+              180,
+              84
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/OPERA_L3_DSWx-S1_V1.jpg",
+          "title": "Download OPERA_L3_DSWx-S1_V1.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/OPERA_L3_DSWx-S1_V1.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2949811996-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_OPERA_L3_DSWX_S1_V1": {
+          "href": "s3://podaac-ops-cumulus-protected/OPERA_L3_DSWX-S1_V1",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_OPERA_L3_DSWX_S1_V1",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_OPERA_L3_DSWX_S1_V1": {
+          "href": "s3://podaac-ops-cumulus-public/OPERA_L3_DSWX-S1_V1",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_OPERA_L3_DSWX_S1_V1",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2949811996-POCLOUD.xml",
+          "title": "CMR XML metadata for C2949811996-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2949811996-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2949811996-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2949811996-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2949811996-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2949811996-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/OPERA_L3_DSWX-S1_V1_1.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/OPERA_L3_DSWX-S1_V1_1.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "TERRESTRIAL HYDROSPHERE",
+        "SURFACE WATER",
+        "SURFACE WATER PROCESSES/MEASUREMENTS",
+        "TOTAL SURFACE WATER"
+      ],
+      "summaries": {
+        "platform": [
+          "Sentinel-1A",
+          "Sentinel-1B"
+        ],
+        "instruments": [
+          "SENTINEL-1 C-SAR",
+          "SENTINEL-1 C-SAR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires Earthdata Login or S3 credentials. Data available as GeoTIFF, with JPEG/PNG for previews. Primarily used for direct data download, analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "MUR-JPL-L4-GLOB-v4.1_4.1",
+      "title": "GHRSST Level 4 MUR Global Foundation Sea Surface Temperature Analysis (v4.1)",
+      "description": "A Group for High Resolution Sea Surface Temperature (GHRSST) Level 4 sea surface temperature analysis produced as a retrospective dataset (four day latency) and near-real-time dataset (one day latency) at the JPL Physical Oceanography DAAC using wavelets as basis functions in an optimal interpolation approach on a global 0.01 degree grid. The version 4 Multiscale Ultrahigh Resolution (MUR) L4 analysis is based upon nighttime GHRSST L2P skin and subskin SST observations from several instruments including the NASA Advanced Microwave Scanning Radiometer-EOS (AMSR-E), the JAXA Advanced Microwave Scanning Radiometer 2 on GCOM-W1, the Moderate Resolution Imaging Spectroradiometers (MODIS) on the NASA Aqua and Terra platforms, the US Navy microwave WindSat radiometer, the Advanced Very High Resolution Radiometer (AVHRR) on several NOAA satellites, and in situ SST observations from the NOAA iQuam project. The ice concentration data are from the archives at the EUMETSAT Ocean and Sea Ice Satellite Application Facility (OSI SAF) High Latitude Processing Center and are also used for an improved SST parameterization for the high-latitudes.  The dataset also contains additional variables for some granules including a SST anomaly derived from a MUR climatology and the temporal distance to the nearest IR measurement for each pixel.This dataset is funded by the NASA MEaSUREs program ( http://earthdata.nasa.gov/our-community/community-data-system-programs/measures-projects ), and created by a team led by Dr. Toshio M. Chin from JPL. It adheres to the GHRSST Data Processing Specification (GDS) version 2 format specifications. Use the file global metadata \"history:\" attribute to determine if a granule is near-realtime or retrospective.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-05-31T21:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/MUR-JPL-L4-GLOB-v4.1.jpg",
+          "title": "Download MUR-JPL-L4-GLOB-v4.1.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://soto.podaac.earthdatacloud.nasa.gov/?l=GHRSST_L4_MUR_Sea_Surface_Temperature,BlueMarble_ShadedRelief_Bathymetry,Coastlines_15m",
+          "title": "Thumbnail [0]",
+          "description": "SOTO (State of the Ocean) Visualization",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/MUR-JPL-L4-GLOB-v4.1.jpg",
+          "title": "Thumbnail [1]",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": " https://search.earthdata.nasa.gov/search/granules?p=C1996881146-POCLOUD ",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "1_combined-ref": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-docs/ghrsst/open/docs/MUR-JPL-L4-GLOB-v4.1_combined-ref.json",
+          "title": "Direct Download [2]",
+          "description": "Virtual data set reference file for first decade of MUR record in JSON (experimental)",
+          "roles": [
+            "data"
+          ]
+        },
+        "parq": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-docs/ghrsst/open/docs/MUR-JPL-L4-GLOB-v4.1_combined-ref.parq.zip",
+          "title": "Direct Download [3]",
+          "description": "Virtual data set reference file for first decade of MUR record in PARQUET (experimental)",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_MUR_JPL_L4_GLOB_v4_1_": {
+          "href": "s3://podaac-ops-cumulus-public/MUR-JPL-L4-GLOB-v4.1/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_MUR_JPL_L4_GLOB_v4_1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_MUR_JPL_L4_GLOB_v4_1_": {
+          "href": "s3://podaac-ops-cumulus-protected/MUR-JPL-L4-GLOB-v4.1/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_MUR_JPL_L4_GLOB_v4_1_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996881146-POCLOUD.xml",
+          "title": "CMR XML metadata for C1996881146-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996881146-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996881146-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996881146-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996881146-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1996881146-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/MUR-JPL-L4-GLOB-v4.1_4.1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/MUR-JPL-L4-GLOB-v4.1_4.1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN TEMPERATURE",
+        "SEA SURFACE TEMPERATURE",
+        "FOUNDATION SEA SURFACE TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "Aqua",
+          "CORIOLIS",
+          "Terra",
+          "NOAA-19",
+          "GCOM-W1",
+          "BUOYS"
+        ],
+        "instruments": [
+          "MODIS",
+          "AMSR-E",
+          "WINDSAT",
+          "MODIS",
+          "AVHRR-3",
+          "AMSR2",
+          "DRIFTING BUOYS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for direct data and S3 protected access. Available in NetCDF, JSON, Parquet, and JPEG. Primarily used for data download, analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ASCATB-L2-Coastal_Operational/Near-Real-Time",
+      "title": "MetOp-B ASCAT Level 2 Ocean Surface Wind Vectors Optimized for Coastal Ocean",
+      "description": "This dataset contains operational near-real-time Level 2 coastal ocean surface wind vector retrievals from the Advanced Scatterometer (ASCAT) on MetOp-B at 12.5 km sampling resolution (note: the effective resolution is 25 km). It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). This coastal dataset differs from the standard 12.5 and 25 km datasets in that it utilizes a spatial box filter (rather than the Hamming filter) to generate a spatial average of the Sigma-0 retrievals from the Level 1B dataset; all full resolution Sigma-0 retrievals within a 15 km radius of the wind vector cell centroid are used in the averaging. Since the full resolution L1B Sigma-0 retrievals are used, all non-sea retrievals are discarded prior to the Sigma-0 averaging. Each box average Sigma-0 is then used to compute the wind vector cell using the same CMOD5.n geophysical model function as in the standard OSI SAF ASCAT wind vector datasets. With this enhanced coastal retrieval, winds can be computed as close to ~15 km from the coast, as compared to the static ~35 km land mask in the standard 12.5 km dataset. Each file is provided in netCDF version 3 format, and contains one full orbit derived from 3-minute orbit granules. Latency is approximately 2 hours from the latest measurement. The beginning of the orbit is defined by the first wind vector cell measurement within the first 3-minute orbit granule that starts north of the Equator in the ascending node. ASCAT is a C-band dual swath fan beam radar scatterometer providing two independent swaths of backscatter retrievals in sun-synchronous polar orbit aboard the MetOp-B platform. For more information on the MetOp-B mission, please visit: https://www.eumetsat.int/our-satellites/metop-series . For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. Users are also highly advised to check the dataset user guide periodically for updates and new information on known problems and issues. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words \"copyright (year) EUMETSAT\" on each of the products used.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -89.6,
+              180,
+              89.6
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-10-29T01:03:01.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/ASCATB-L2-Coastal.jpg",
+          "title": "Download ASCATB-L2-Coastal.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/ASCATB-L2-Coastal.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2075141605-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_ASCATB_L2_Coastal_": {
+          "href": "s3://podaac-ops-cumulus-protected/ASCATB-L2-Coastal/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_ASCATB_L2_Coastal_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_ASCATB_L2_Coastal_": {
+          "href": "s3://podaac-ops-cumulus-public/ASCATB-L2-Coastal/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_ASCATB_L2_Coastal_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141605-POCLOUD.xml",
+          "title": "CMR XML metadata for C2075141605-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141605-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141605-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141605-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141605-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141605-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/ASCATB-L2-Coastal_Operational%2FNear-Real-Time",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/ASCATB-L2-Coastal_Operational%2FNear-Real-Time/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN WINDS",
+        "SURFACE WINDS",
+        "Ocean Surface Wind Vectors"
+      ],
+      "summaries": {
+        "platform": [
+          "METOP-B"
+        ],
+        "instruments": [
+          "ASCAT"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires free Earthdata account registration and EUMETSAT attribution. Data available in NetCDF, with JPEG/PNG for browse. Primary use cases include direct download for analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ASCATC-L2-Coastal_Operational/Near-Real-Time",
+      "title": "MetOp-C ASCAT Level 2 Ocean Surface Wind Vectors Optimized for Coastal Ocean",
+      "description": "This dataset contains operational near-real-time Level 2 coastal ocean surface wind vector retrievals from the Advanced Scatterometer (ASCAT) on MetOp-C at 12.5 km sampling resolution (note: the effective resolution is 25 km). It is a product of the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) Ocean and Sea Ice Satellite Application Facility (OSI SAF) provided through the Royal Netherlands Meteorological Institute (KNMI). This coastal dataset differs from the standard 12.5 and 25 km datasets in that it utilizes a spatial box filter (rather than the Hamming filter) to generate a spatial average of the Sigma-0 retrievals from the Level 1B dataset; all full resolution Sigma-0 retrievals within a 15 km radius of the wind vector cell centroid are used in the averaging. Since the full resolution L1B Sigma-0 retrievals are used, all non-sea retrievals are discarded prior to the Sigma-0 averaging. Each box average Sigma-0 is then used to compute the wind vector cell using the same CMOD7.n geophysical model function as in the standard OSI SAF ASCAT wind vector datasets. With this enhanced coastal retrieval, winds can be computed as close to ~15 km from the coast. Each file is provided in netCDF version 3 format, and contains one full orbit derived from 3-minute orbit granules. Latency is approximately 2 hours from the latest measurement. The beginning of the orbit is defined by the first wind vector cell measurement within the first 3-minute orbit granule that starts north of the Equator in the ascending node. ASCAT is a C-band dual swath fan beam radar scatterometer providing two independent swaths of backscatter retrievals in sun-synchronous polar orbit aboard the MetOp-C platform. For more information on the MetOp-C mission, please visit: https://www.eumetsat.int/our-satellites/metop-series . For more timely announcements, users are encouraged to register with the KNMI scatterometer email list: scat@knmi.nl. Users are also highly advised to check the dataset user guide periodically for updates and new information on known problems and issues. All intellectual property rights of the OSI SAF products belong to EUMETSAT. The use of these products is granted to every interested user, free of charge. If you wish to use these products, EUMETSAT's copyright credit must be shown by displaying the words \"copyright (year) EUMETSAT\" on each of the products used.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -89.6,
+              180,
+              89.6
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-10-22T16:42:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/ASCATC-L2-Coastal.jpg",
+          "title": "Download ASCATC-L2-Coastal.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/ASCATC-L2-Coastal.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2075141684-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_ASCATC_L2_Coastal_": {
+          "href": "s3://podaac-ops-cumulus-protected/ASCATC-L2-Coastal/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_ASCATC_L2_Coastal_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_ASCATC_L2_Coastal_": {
+          "href": "s3://podaac-ops-cumulus-public/ASCATC-L2-Coastal/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_ASCATC_L2_Coastal_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141684-POCLOUD.xml",
+          "title": "CMR XML metadata for C2075141684-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141684-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141684-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141684-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141684-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2075141684-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/ASCATC-L2-Coastal_Operational%2FNear-Real-Time",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/ASCATC-L2-Coastal_Operational%2FNear-Real-Time/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN WINDS",
+        "SURFACE WINDS",
+        "OCEAN SURFACE WIND VECTORS"
+      ],
+      "summaries": {
+        "platform": [
+          "METOP-C"
+        ],
+        "instruments": [
+          "ASCAT"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires free Earthdata account for NetCDF data download via HTTP or S3. Browse/thumbnail images are public. Primary usage is scientific analysis and visualization after download."
+    },
+    {
+      "type": "Collection",
+      "id": "OSCAR_L4_OC_FINAL_V2.0_2.0",
+      "title": "Ocean Surface Current Analyses Real-time (OSCAR) Surface Currents - Final 0.25 Degree (Version 2.0)",
+      "description": "Ocean Surface Current Analyses Real-time (OSCAR) is a global surface current database and NASA funded research project. OSCAR ocean mixed layer velocities are calculated from satellite-sensed sea surface height gradients, ocean vector winds, and sea surface temperature gradients using a simplified physical model for geostrophy, Ekman, and thermal wind dynamics. Daily averaged surface currents are provided on a global 0.25 x 0.25 degree grid as an average over an assumed well-mixed top 30 m of the ocean from 1993 to present day.  OSCAR currents are provided at three quality levels: final, interim and nrt with a respective latency of each of approximately 1 year, 1 month, and 2 days. OSCAR is generated by Earth & Space Research (ESR) https://www.esr.org/research/oscar/.  More details on the source datasets, file structure, and methodology can be found in oscarv2guide.pdf.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -89.75,
+              180,
+              89.75
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1993-01-01T00:00:00.000Z",
+              "2022-08-05T00:00:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/OSCAR_L4_OC_FINAL_V2.0.png",
+          "title": "Download OSCAR_L4_OC_FINAL_V2.0.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/OSCAR_L4_OC_FINAL_V2.0.png",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2098858642-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Search Granules",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_OSCAR_L4_OC_FINAL_V2_": {
+          "href": "s3://podaac-ops-cumulus-protected/OSCAR_L4_OC_FINAL_V2/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_OSCAR_L4_OC_FINAL_V2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_OSCAR_L4_OC_FINAL_V2_": {
+          "href": "s3://podaac-ops-cumulus-public/OSCAR_L4_OC_FINAL_V2/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_OSCAR_L4_OC_FINAL_V2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2098858642-POCLOUD.xml",
+          "title": "CMR XML metadata for C2098858642-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2098858642-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2098858642-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2098858642-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2098858642-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2098858642-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/OSCAR_L4_OC_FINAL_V2.0_2.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/OSCAR_L4_OC_FINAL_V2.0_2.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN CIRCULATION",
+        "OCEAN CURRENTS"
+      ],
+      "summaries": {
+        "platform": [
+          "NOAA-14",
+          "JASON-1",
+          "TOPEX/POSEIDON",
+          "NOAA-17",
+          "GRACE",
+          "OSTM/JASON-2",
+          "DMSP 5D-2/F10",
+          "DMSP 5D-2/F11",
+          "ERS-2",
+          "GFO",
+          "NOAA-16",
+          "NOAA-19",
+          "ENVISAT",
+          "QUIKSCAT",
+          "DMSP 5D-2/F14",
+          "ERS-1",
+          "DMSP 5D-2/F13",
+          "NOAA-20",
+          "METOP-A",
+          "JASON-3"
+        ],
+        "instruments": [
+          "AVHRR-2",
+          "JASON-1 Microwave Radiometer",
+          "POSEIDON-2",
+          "ALT (TOPEX)",
+          "TMR",
+          "SSALT",
+          "AVHRR-3",
+          "GRACE-FO ACC",
+          "GRACE-FO KBR",
+          "GRACE SCA",
+          "AMR",
+          "POSEIDON-3",
+          "SSM/I",
+          "SSM/I",
+          "ERS-2 Altimeter",
+          "GFO Altimeter",
+          "AVHRR-3",
+          "AVHRR-3",
+          "RA-2",
+          "SEAWINDS",
+          "SSM/I",
+          "ERS-1 ALTIMETER",
+          "SSM/I",
+          "AVHRR-3",
+          "AVHRR-3",
+          "POSEIDON-3B"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for direct data access and S3 credentials. Provides JPEG previews and raw data (e.g., NetCDF) for visualization, direct download, and analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "VIIRS_N20-STAR-L2P-v2.80_2.80",
+      "title": "GHRSST Level 2P NOAA STAR SST  v2.80 from VIIRS on NOAA-20 Satellite",
+      "description": "NOAA-20 (N20/JPSS-1/J1) is the second satellite in the US NOAA latest generation Joint Polar Satellite System (JPSS), launched on November 18, 2017. NOAA is responsible for all JPSS products, including SST from the Visible Infrared Imaging Radiometer Suite (VIIRS). The L2P SST product is derived at the native sensor resolution (~0.75 km at nadir, ~1.5 km at swath edge) using NOAA's Advanced Clear-Sky Processor for Ocean (ACSPO) system, and reported in 10-minute granules in netCDF4 format, compliant with the Group for High Resolution Sea Surface Temperature (GHRSST) Data Specification version 2 (GDS2). SSTs are derived from Brightness Temperatures (BTs) using the Non-Linear SST (NLSST) algorithms (Petrenko et al., 2014). An ACSPO clear-sky mask (ACSM) is provided in each pixel as part of variable l2p_flags, which also includes day/night, land, ice, twilight, and glint flags (Petrenko et al., 2010). Only ACSM confidently clear pixels are recommended (equivalent to GDS2 quality level=5). Per GDS2 specifications, two additional Sensor-Specific Error Statistics layers (SSES bias and standard deviation) are reported in each pixel with QL=5. The ACSPO VIIRS L2P product is monitored and validated against quality controlled in situ data provided by NOAA in situ SST Quality Monitor system (iQuam) using another NOAA system, SST Quality Monitor (SQUAM). A reduced size (0.5GB/day), equal-angle gridded (0.02-deg resolution), ACSPO L3U product is also available at https://podaac.jpl.nasa.gov/dataset/VIIRS_N20-STAR-L3U-v2.80, where gridded L2P SSTs with QL=5 only are reported. The v2.80 is an updated version from the v2.61 with several algorithm improvements including two added thermal front layers, reduced L2P SST data size, mitigated warm biases in the high latitudes, and improved clear-sky mask. ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-01-05T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/VIIRS_N20-STAR-L2P-v2.80.jpg",
+          "title": "Download VIIRS_N20-STAR-L2P-v2.80.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/VIIRS_N20-STAR-L2P-v2.80.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2147478146-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_VIIRS_N20_STAR_L2P_v2_80_": {
+          "href": "s3://podaac-ops-cumulus-protected/VIIRS_N20-STAR-L2P-v2.80/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_VIIRS_N20_STAR_L2P_v2_80_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_VIIRS_N20_STAR_L2P_v2_80_": {
+          "href": "s3://podaac-ops-cumulus-public/VIIRS_N20-STAR-L2P-v2.80/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_VIIRS_N20_STAR_L2P_v2_80_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147478146-POCLOUD.xml",
+          "title": "CMR XML metadata for C2147478146-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147478146-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147478146-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147478146-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147478146-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147478146-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/VIIRS_N20-STAR-L2P-v2.80_2.80",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/VIIRS_N20-STAR-L2P-v2.80_2.80/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN TEMPERATURE",
+        "SEA SURFACE TEMPERATURE",
+        "SEA SURFACE SKIN TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "NOAA-20"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires free Earthdata Login for direct data access via S3 or HTTPS. Data is available in NetCDF, with JPEG browse images and metadata. Primary uses include data download, analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "OPERA_L3_DSWX-HLS_V1_1.0",
+      "title": "OPERA Dynamic Surface Water Extent from Harmonized Landsat Sentinel-2 product (Version 1)",
+      "description": "This dataset contains Level-3 Dynamic OPERA surface water extent product version 1.  The data are validated surface water extent observations beginning April 2023. Known issues and caveats on usage are described under Documentation. The input dataset for generating each product is the Harmonized Landsat-8 and Sentinel-2A/B/C (HLS) product version 2.0. HLS products provide surface reflectance (SR) data from the Operational Land Imager (OLI) aboard the Landsat 8 satellite and the MultiSpectral Instrument (MSI) aboard the Sentinel-2A/B/C satellite. The surface water extent products are distributed over projected map coordinates using the Universal Transverse Mercator (UTM) projection. Each UTM tile covers an area of 109.8 km × 109.8 km. This area is divided into 3,660 rows and 3,660 columns at 30-m pixel spacing. Each product is distributed as a set of 10 GeoTIFF (Geographic Tagged Image File Format) files including water classification, associated confidence, land cover classification, terrain shadow layer, cloud/cloud-shadow classification, Digital elevation model (DEM), and Diagnostic layer.\n<br><br>\nThe digital elevation model (DEM) provided as a layer of the DSWx-HLS product (band 10) was generated using the Copernicus DEM 30-m and Copernicus DEM 90-m models provided by the European Space Agency. The Copernicus DEM 30-m and Copernicus DEM 90-m were produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved. The organizations in charge of the OPERA project, the Copernicus programme, and Airbus Defence and Space GmbH by law or by delegation do not assume any legal responsibility or liability, whether express or implied, arising from the use of this DEM.\n<br><br>\nThe OPERA DSWx-HLS product contains modified Copernicus Sentinel data (2023-2025).\n<br><br>\nTo access the calibration/validation database for OPERA Dynamic Surface Water Extent Products, please contact podaac@podaac.jpl.nasa.gov ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -84,
+              180,
+              84
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-04-04T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://go.nasa.gov/3KBfGGs",
+          "title": "Download 3KBfGGs",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/OPERA_L3_DSWX-HLS_PROVISIONAL_V0.png",
+          "title": "Thumbnail [0]",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://go.nasa.gov/3KBfGGs",
+          "title": "Thumbnail [1]",
+          "description": "OPERA DSWx-HLS in Worldview",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2617126679-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_OPERA_L3_DSWX_HLS_V1": {
+          "href": "s3://podaac-ops-cumulus-protected/OPERA_L3_DSWX-HLS_V1",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_OPERA_L3_DSWX_HLS_V1",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_OPERA_L3_DSWX_HLS_V1": {
+          "href": "s3://podaac-ops-cumulus-public/OPERA_L3_DSWX-HLS_V1",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_OPERA_L3_DSWX_HLS_V1",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2617126679-POCLOUD.xml",
+          "title": "CMR XML metadata for C2617126679-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2617126679-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2617126679-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2617126679-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2617126679-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2617126679-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/OPERA_L3_DSWX-HLS_V1_1.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/OPERA_L3_DSWX-HLS_V1_1.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "TERRESTRIAL HYDROSPHERE",
+        "SURFACE WATER",
+        "SURFACE WATER PROCESSES/MEASUREMENTS",
+        "TOTAL SURFACE WATER"
+      ],
+      "summaries": {
+        "platform": [
+          "LANDSAT-8",
+          "Sentinel-2A",
+          "Sentinel-2B",
+          "Sentinel-2C"
+        ],
+        "instruments": [
+          "OLI",
+          "Sentinel-2 MSI",
+          "Sentinel-2 MSI",
+          "Sentinel-2 MSI"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires free Earthdata Login for direct and S3 data access; S3 credentials for programmatic use. Available in GeoTIFF, JPEG/PNG, and XML/HTML formats. Primary use is direct data download and analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "MODIS_T-JPL-L2P-v2019.0_2019.0",
+      "title": "GHRSST Level 2P Global Sea Surface Skin Temperature from the Moderate Resolution Imaging Spectroradiometer (MODIS) on the NASA Terra satellite (GDS2)",
+      "description": "NASA produces skin sea surface temperature (SST) products from the Infrared (IR) channels of the Moderate-resolution Imaging Spectroradiometer (MODIS) onboard the Terra satellite. Terra was launched by NASA on December 18, 1999, into a sun synchronous, polar orbit with a daylight descending node at 10:30 am, to study the global dynamics of the Earth atmosphere, land and oceans. The MODIS captures data in 36 spectral bands at a variety of spatial resolutions.  Two SST products can be present in these files. The first is a skin SST produced for both day and night observations, derived from the long wave IR 11 and 12 micron wavelength channels, using a modified nonlinear SST algorithm intended to provide continuity with SST derived from heritage and current NASA sensors. At night, a second SST product is produced using the mid-infrared 3.95 and 4.05 micron channels which are unique to MODIS; the SST derived from these measurements is identified as SST4. The SST4 product has lower uncertainty, but due to sun glint can only be produced at night. MODIS L2P SST data have a 1 km spatial resolution at nadir and are stored in 288 five minute granules per day. Full global coverage is obtained every two days, with coverage poleward of 32.3 degree being complete each day. The production of MODIS L2P SST files is part of the Group for High Resolution Sea Surface Temperature (GHRSST) project, and is a joint collaboration between the NASA Jet Propulsion Laboratory (JPL), the NASA Ocean Biology Processing Group (OBPG), and the Rosenstiel School of Marine and Atmospheric Science (RSMAS). Researchers at RSMAS are responsible for SST algorithm development, error statistics and quality flagging, while the OBPG, as the NASA ground data system, is responsible for the production of daily MODIS ocean products. JPL acquires MODIS ocean granules from the OBPG and reformats them to the GHRSST L2P netCDF specification with complete metadata and ancillary variables, and distributes the data as the official Physical Oceanography Data Archive (PO.DAAC) for SST.  The R2019.0 supersedes the previous R2014.0 datasets which can be found at  https://doi.org/10.5067/GHMDT-2PJ02",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2000-02-24T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/MODIS_T-JPL-L2P-v2019.0.jpg",
+          "title": "Download MODIS_T-JPL-L2P-v2019.0.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/MODIS_T-JPL-L2P-v2019.0.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C1940475563-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_MODIS_T_JPL_L2P_v2019_0_": {
+          "href": "s3://podaac-ops-cumulus-public/MODIS_T-JPL-L2P-v2019.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_MODIS_T_JPL_L2P_v2019_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_MODIS_T_JPL_L2P_v2019_0_": {
+          "href": "s3://podaac-ops-cumulus-protected/MODIS_T-JPL-L2P-v2019.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_MODIS_T_JPL_L2P_v2019_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1940475563-POCLOUD.xml",
+          "title": "CMR XML metadata for C1940475563-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1940475563-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1940475563-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1940475563-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1940475563-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1940475563-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/MODIS_T-JPL-L2P-v2019.0_2019.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/MODIS_T-JPL-L2P-v2019.0_2019.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN TEMPERATURE",
+        "SEA SURFACE TEMPERATURE",
+        "SEA SURFACE SKIN TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "Terra"
+        ],
+        "instruments": [
+          "MODIS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires NASA Earthdata login/registration for full data. Available formats: NetCDF, PNG/JPEG, OPeNDAP. Primary usage: scientific analysis, visualization, data download, and streaming."
+    },
+    {
+      "type": "Collection",
+      "id": "AVHRRF_MB-STAR-L2P-v2.80_2.80",
+      "title": "GHRSST NOAA/STAR Metop-B AVHRR FRAC ACSPO v2.80 1km L2P Dataset (GDS v2)",
+      "description": "The MetOp First Generation (FG) is a European multi-satellite program jointly established by ESA and EUMETSAT, comprising three satellites, MetOp-A, -B and -C. The primary sensor onboard MetOp-FG, the Advanced Very High Resolution Radiometer/3 (AVHRR/3) contributed by NOAA, measures Earth emissions and reflectances in 5 out of 6 available bands (centered at 0.63, 0.83, 1.61, 3.7, 11 and 12 microns), in a swath of 2,600km from an 817km altitude. These data are collected in a Full Resolution Area Coverage (FRAC) mode, with pixel size of 1.1km at nadir. Metop-B launched on 17 September 2012 is the second in the MetOp-FG series. The NOAA Advanced Clear-Sky Processor for Ocean (ACSPO) Level 2 Preprocessed (L2P) SST product is derived at the full AVHRR FRAC resolution and reported in 10 minute granules in NetCDF4 format, compliant with the GHRSST Data Specification version 2 (GDS2). Subskin SSTs are derived using the regression Nonlinear SST (NLSST) algorithm, which employs three bands (3.7, 11 and 12 microns) at night and two bands (11 and 12 microns) during the day. The ACSPO AVHRR FRAC L2P product is monitored and validated against quality controlled in situ data, provided by the NOAA in situ SST Quality Monitor system (iQuam; Xu and Ignatov, 2014, https://doi.org/10.1175/JTECH-D-13-00121.1 ), in another NOAA system, SST Quality Monitor (SQUAM; Dash et al, 2010, https://doi.org/10.1175/2010JTECHO756.1 ). SST imagery and clear-sky masking are continuously evaluated, and checked for consistency with other sensors and platforms, in the ACSPO Regional Monitor for SST (ARMS) system. MetOp-A orbital characteristics and AVHRR/3 sensor performance are tracked in the NOAA 3S system (He et al., 2016, https://doi.org/10.3390/rs8040346 ).The L2P Near Real Time (NRT) SST files are archived at PO.DAAC with 3-6 hours latency, and then replaced by the Re-ANalysis (RAN) SST after about 2 months later with identical file names. Two features can be used to identify them: different file name time stamps and netCDF global attribute metadata source=NOAA-NCEP-GFS for NRT and source=MERRA-2 for RAN.  A reduced size (0.45GB/day), equal-angle gridded (0.02-deg resolution) ACSPO L3U product is available at https://doi.org/10.5067/GHMTB-3US28",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-10-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/AVHRRF_MB-STAR-L2P-v2.80.jpg",
+          "title": "Download AVHRRF_MB-STAR-L2P-v2.80.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/AVHRRF_MB-STAR-L2P-v2.80.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2205121394-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_AVHRRF_MB_STAR_L2P_v2_80_": {
+          "href": "s3://podaac-ops-cumulus-protected/AVHRRF_MB-STAR-L2P-v2.80/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_AVHRRF_MB_STAR_L2P_v2_80_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_AVHRRF_MB_STAR_L2P_v2_80_": {
+          "href": "s3://podaac-ops-cumulus-public/AVHRRF_MB-STAR-L2P-v2.80/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_AVHRRF_MB_STAR_L2P_v2_80_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121394-POCLOUD.xml",
+          "title": "CMR XML metadata for C2205121394-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121394-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121394-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121394-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121394-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121394-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/AVHRRF_MB-STAR-L2P-v2.80_2.80",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/AVHRRF_MB-STAR-L2P-v2.80_2.80/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN TEMPERATURE",
+        "SEA SURFACE TEMPERATURE",
+        "SEA SURFACE SKIN TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "METOP-B"
+        ],
+        "instruments": [
+          "AVHRR-3"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Earthdata Login required for raw NetCDF data download and analysis from protected S3. Browse/thumbnail images (JPEG/PNG) are publicly accessible for visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "AVHRRF_MC-STAR-L2P-v2.80_2.80",
+      "title": "GHRSST NOAA/STAR Metop-C AVHRR FRAC ACSPO v2.80 1km L2P Dataset (GDS v2)",
+      "description": "The MetOp First Generation (FG) is a European multi-satellite program jointly established by ESA and EUMETSAT, comprising three satellites, MetOp-A, -B and -C. The primary sensor onboard MetOp-FG, the Advanced Very High Resolution Radiometer/3 (AVHRR/3) contributed by NOAA, measures Earth emissions and reflectances in 5 out of 6 available bands (centered at 0.63, 0.83, 1.61, 3.7, 11 and 12 microns), in a swath of 2,600km from an 817km altitude. These data are collected in a Full Resolution Area Coverage (FRAC) mode, with pixel size of 1.1km at nadir. Metop-C launched on 7 November 2018 is the third and last in the MetOp-FG series. The NOAA Advanced Clear-Sky Processor for Ocean (ACSPO) Level 2 Preprocessed (L2P) SST product is derived at the full AVHRR FRAC resolution and reported in 10 minute granules in NetCDF4 format, compliant with the GHRSST Data Specification version 2 (GDS2). Subskin SSTs are derived using the regression Nonlinear SST (NLSST) algorithm, which employs three bands (3.7, 11 and 12 microns) at night and two bands (11 and 12 microns) during the day. The ACSPO AVHRR FRAC L2P product is monitored and validated against quality controlled in situ data, provided by the NOAA in situ SST Quality Monitor system (iQuam; Xu and Ignatov, 2014, https://doi.org/10.1175/JTECH-D-13-00121.1 ), in another NOAA system, SST Quality Monitor (SQUAM; Dash et al, 2010, https://doi.org/10.1175/2010JTECHO756.1 ). SST imagery and clear-sky masking are continuously evaluated, and checked for consistency with other sensors and platforms, in the ACSPO Regional Monitor for SST (ARMS) system. MetOp-A orbital characteristics and AVHRR/3 sensor performance are tracked in the NOAA 3S system (He et al., 2016, https://doi.org/10.3390/rs8040346 ).The L2P Near Real Time (NRT) SST files are archived at PO.DAAC with 3-6 hours latency, and then replaced by the Re-ANalysis (RAN) SST after about 2 months later with identical file names. Two features can be used to identify them: different file name time stamps and netCDF global attribute metadata source=NOAA-NCEP-GFS for NRT and source=MERRA-2 for RAN.  A reduced size (0.45GB/day), equal-angle gridded (0.02-deg resolution) ACSPO L3U product is available at https://doi.org/10.5067/GHMTC-3US28",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-12-04T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/AVHRRF_MC-STAR-L2P-v2.80.jpg",
+          "title": "Download AVHRRF_MC-STAR-L2P-v2.80.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/AVHRRF_MC-STAR-L2P-v2.80.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2205121400-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_AVHRRF_MC_STAR_L2P_v2_80_": {
+          "href": "s3://podaac-ops-cumulus-protected/AVHRRF_MC-STAR-L2P-v2.80/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_AVHRRF_MC_STAR_L2P_v2_80_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_AVHRRF_MC_STAR_L2P_v2_80_": {
+          "href": "s3://podaac-ops-cumulus-public/AVHRRF_MC-STAR-L2P-v2.80/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_AVHRRF_MC_STAR_L2P_v2_80_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121400-POCLOUD.xml",
+          "title": "CMR XML metadata for C2205121400-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121400-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121400-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121400-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121400-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121400-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/AVHRRF_MC-STAR-L2P-v2.80_2.80",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/AVHRRF_MC-STAR-L2P-v2.80_2.80/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN TEMPERATURE",
+        "SEA SURFACE TEMPERATURE",
+        "SEA SURFACE SKIN TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "METOP-C"
+        ],
+        "instruments": [
+          "AVHRR-3"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires NASA Earthdata Login for data. Available formats: NetCDF4 (data), JPEG/PNG (browse/thumbnails), XML (metadata). Primary usage: direct download for scientific analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "OSCAR_L4_OC_NRT_V2.0_2.0",
+      "title": "Ocean Surface Current Analyses Real-time (OSCAR) Surface Currents - Near Real Time 0.25 Degree (Version 2.0)",
+      "description": "Ocean Surface Current Analyses Real-time (OSCAR) is a global surface current database and NASA funded research project. OSCAR ocean mixed layer velocities are calculated from satellite-sensed sea surface height gradients, ocean vector winds, and sea surface temperature gradients using a simplified physical model for geostrophy, Ekman, and thermal wind dynamics. Daily averaged surface currents are provided on a global 0.25 x 0.25 degree grid as an average over an assumed well-mixed top 30 m of the ocean from 1993 to present day.  OSCAR currents are provided at three quality levels: final, interim and nrt with a respective latency of each of approximately 1 year, 1 month, and 2 days. OSCAR is generated by Earth & Space Research (ESR) https://www.esr.org/research/oscar/.  More details on the source datasets, file structure, and methodology can be found in oscarv2guide.pdf.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -89.75,
+              180,
+              89.75
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-01-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/OSCAR_L4_OC_NRT_V2.0.png",
+          "title": "Download OSCAR_L4_OC_NRT_V2.0.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/OSCAR_L4_OC_NRT_V2.0.png",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2102958977-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_OSCAR_L4_OC_NRT_V2_0_": {
+          "href": "s3://podaac-ops-cumulus-protected/OSCAR_L4_OC_NRT_V2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_OSCAR_L4_OC_NRT_V2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_OSCAR_L4_OC_NRT_V2_0_": {
+          "href": "s3://podaac-ops-cumulus-public/OSCAR_L4_OC_NRT_V2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_OSCAR_L4_OC_NRT_V2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2102958977-POCLOUD.xml",
+          "title": "CMR XML metadata for C2102958977-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2102958977-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2102958977-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2102958977-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2102958977-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2102958977-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/OSCAR_L4_OC_NRT_V2.0_2.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/OSCAR_L4_OC_NRT_V2.0_2.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN CIRCULATION",
+        "OCEAN CURRENTS"
+      ],
+      "summaries": {
+        "platform": [
+          "NOAA-14",
+          "JASON-1",
+          "TOPEX/POSEIDON",
+          "NOAA-17",
+          "GRACE",
+          "OSTM/JASON-2",
+          "DMSP 5D-2/F10",
+          "DMSP 5D-2/F11",
+          "ERS-2",
+          "GFO",
+          "NOAA-16",
+          "NOAA-19",
+          "ENVISAT",
+          "QUIKSCAT",
+          "DMSP 5D-2/F14",
+          "ERS-1",
+          "DMSP 5D-2/F13",
+          "NOAA-20",
+          "METOP-A",
+          "JASON-3"
+        ],
+        "instruments": [
+          "AVHRR-2",
+          "JASON-1 Microwave Radiometer",
+          "POSEIDON-2",
+          "ALT (TOPEX)",
+          "TMR",
+          "SSALT",
+          "AVHRR-3",
+          "GRACE-FO ACC",
+          "GRACE-FO KBR",
+          "GRACE SCA",
+          "AMR",
+          "POSEIDON-3",
+          "SSM/I",
+          "SSM/I",
+          "ERS-2 Altimeter",
+          "GFO Altimeter",
+          "AVHRR-3",
+          "AVHRR-3",
+          "RA-2",
+          "SEAWINDS",
+          "SSM/I",
+          "ERS-1 ALTIMETER",
+          "SSM/I",
+          "AVHRR-3",
+          "AVHRR-3",
+          "POSEIDON-3B"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for S3 access. Provides NetCDF data, JPEG browse images, and metadata. Primary usage is direct data download for analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "SWOT_L2_HR_PIXC_2.0_2.0",
+      "title": "SWOT Level 2 Water Mask Pixel Cloud Data Product, Version C",
+      "description": "Point cloud of water mask pixels (“pixel cloud”) with geolocated heights, backscatter, geophysical fields, and flags. Point cloud over tile (approx 64x64 km2); half swath (left or right side of full swath). Available in netCDF-4 file format.<br>\r\nPlease note that this collection contains SWOT Version C science data products.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-12-16T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/SWOT_L2_HR_PIXC_2.0.jpg",
+          "title": "Download SWOT_L2_HR_PIXC_2.0.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/SWOT_L2_HR_PIXC_2.0.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2799438266-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_swot_ops_cumulus_protected_SWOT_L2_HR_PIXC_2_0_": {
+          "href": "s3://podaac-swot-ops-cumulus-protected/SWOT_L2_HR_PIXC_2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_swot_ops_cumulus_protected_SWOT_L2_HR_PIXC_2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_swot_ops_cumulus_public_SWOT_L2_HR_PIXC_2_0_": {
+          "href": "s3://podaac-swot-ops-cumulus-public/SWOT_L2_HR_PIXC_2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_swot_ops_cumulus_public_SWOT_L2_HR_PIXC_2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.swot.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.swot.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438266-POCLOUD.xml",
+          "title": "CMR XML metadata for C2799438266-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438266-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438266-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438266-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438266-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438266-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/SWOT_L2_HR_PIXC_2.0_2.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/SWOT_L2_HR_PIXC_2.0_2.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "TERRESTRIAL HYDROSPHERE",
+        "SURFACE WATER",
+        "SURFACE WATER FEATURES",
+        "RIVERS/STREAMS",
+        "SURFACE WATER PROCESSES/MEASUREMENTS",
+        "LAKES/RESERVOIRS"
+      ],
+      "summaries": {
+        "platform": [
+          "SWOT"
+        ],
+        "instruments": [
+          "KaRIn",
+          "Jason-class Altimeter",
+          "AMR",
+          "DORIS",
+          "GPSP",
+          "LRA"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-swot-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for direct download or S3 access via credentials API. NetCDF-4, JPEG/PNG images, and metadata formats available. Used for analysis, visualization, and programmatic S3 access."
+    },
+    {
+      "type": "Collection",
+      "id": "CCMP_WINDS_10M6HR_L4_V3.1_3.1",
+      "title": "RSS CCMP 6-Hourly 10 Meter Surface Winds Level 4 Version 3.1",
+      "description": "This data set contains a 6-hourly, 0.25 degree resolution, near-global gridded analysis of ocean surface vector winds from the Cross-Calibrated Multi-Platform (CCMP) project, produced by Remote Sensing Systems (RSS). CCMP is a combination of inter-calibrated 10 m ocean surface wind retrievals from multiple types of satellite microwave sensors and a background field from reanalysis. The wind retrievals are derived by RSS and include most of the wind-sensing U.S., Japanese, and European satellites flown to date. The background field is from ERA5 10m Neutral Stability winds. The result is a product that remains closely tied to the satellite retrievals where they are available and closely collocated in time and space. Data files are available in netCDF format, with one file per day. This time record is ongoing, with an expected latency of 2-3 months for new files.\r\n<br><br>\r\nVersion 3.1 updates include but are not limited to: (1) Improved performance and agreement with satellite winds at high wind speed, (2) Minimized spurious trends caused by the interaction between the amount of satellite measurements available and the satellite/model biases, and (3) improving the quality of the wind after 2012. \r\n<br><br>\r\nVersion 3.1 is produced and maintained by RSS with support from a NASA grant (ROSES proposal 17-OVWST-17-0023). Previous versions were funded by the NASA Making Earth Science data records for Use in Research Environments (MEaSUREs) program, with the original V1.0 led by Dr. Robert Atlas at Goddard Space Flight Center.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -80,
+              180,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1993-01-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/CCMP_WINDS_10M6HR_L4_V3.1.jpg",
+          "title": "Download CCMP_WINDS_10M6HR_L4_V3.1.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/CCMP_WINDS_10M6HR_L4_V3.1.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2916514952-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "1_virtual_https": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/virtual_collections/CCMP_WINDS_10M6HR_L4_V3.1/CCMP_WINDS_10M6HR_L4_V3.1_virtual_https.json",
+          "title": "Direct Download [2]",
+          "description": "HTTPS virtual dataset reference file (out-of-cloud use)",
+          "roles": [
+            "data"
+          ]
+        },
+        "1_virtual_s3": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/virtual_collections/CCMP_WINDS_10M6HR_L4_V3.1/CCMP_WINDS_10M6HR_L4_V3.1_virtual_s3.json",
+          "title": "Direct Download [3]",
+          "description": "S3 virtual dataset reference file (in-cloud use)",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_CCMP_RSS_L3_0_WIND_VECTORS_V2_0_": {
+          "href": "s3://podaac-ops-cumulus-protected/CCMP_RSS_L3.0_WIND_VECTORS_V2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_CCMP_RSS_L3_0_WIND_VECTORS_V2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_CCMP_RSS_L3_0_WIND_VECTORS_V2_0_": {
+          "href": "s3://podaac-ops-cumulus-public/CCMP_RSS_L3.0_WIND_VECTORS_V2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_CCMP_RSS_L3_0_WIND_VECTORS_V2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2916514952-POCLOUD.xml",
+          "title": "CMR XML metadata for C2916514952-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2916514952-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2916514952-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2916514952-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2916514952-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2916514952-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/CCMP_WINDS_10M6HR_L4_V3.1_3.1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/CCMP_WINDS_10M6HR_L4_V3.1_3.1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN WINDS",
+        "SURFACE WINDS",
+        "OCEAN SURFACE WIND VECTORS"
+      ],
+      "summaries": {
+        "platform": [
+          "TRMM",
+          "DMSP 5D-3/F15",
+          "DMSP 5D-2/F8",
+          "Aqua",
+          "GCOM-W1",
+          "DMSP 5D-3/F16",
+          "QUIKSCAT",
+          "GPM",
+          "DMSP 5D-2/F14",
+          "DMSP 5D-2/F10",
+          "CORIOLIS",
+          "DMSP 5D-2/F11",
+          "DMSP 5D-3/F17",
+          "DMSP 5D-2/F13",
+          "METOP-A",
+          "METOP-B"
+        ],
+        "instruments": [
+          "TMI",
+          "SSM/I",
+          "SSM/I",
+          "AMSR-E",
+          "AMSR2",
+          "SSMIS",
+          "SEAWINDS",
+          "GMI",
+          "SSM/I",
+          "SSM/I",
+          "WINDSAT",
+          "SSM/I",
+          "SSMIS",
+          "SSM/I",
+          "ASCAT",
+          "ASCAT"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires free NASA Earthdata account for authentication to access protected S3/HTTPS endpoints. Data available in NetCDF, with JPEG previews/thumbnails. Primarily for direct download and scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "CYGNSS_NOAA_L2_SWSP_25KM_V1.2_1.2",
+      "title": "NOAA CYGNSS Level 2 Science Wind Speed 25-km Product Version 1.2",
+      "description": "This dataset contains the Version 1.2 NOAA CYGNSS Level 2 Science Wind Speed Product Version 1.2 which provides the time-tagged and geolocated average wind speed (m/s) in 25x25 kilometer grid cells along the measurement tracks from the Delay Doppler Mapping Instrument (DDMI) aboard the CYGNSS satellite constellation. This version corresponds to the second science-quality released through the PO.DAAC, as produced by NOAA/NESDIS using a specific geophysical model function (GMF version 1.0) and a track-wise debiasing algorithm as part of the wind speed retrieval process. The reported retrieval locations are determined by averaging the specular point locations falling within each 25 km grid cell. Version 1.2 includes four major updates compared to Version 1.1 ( https://doi.org/10.5067/CYGNN-22511 ), namely: 1) the inclusion of data associated to a spacecraft roll angle exceeding +/- 5 degrees; 2) an improved wind speed performance in the higher wind speed regime; 3) a full revision of the quality flags; 4) the inclusion of a wind speed retrieval error variable. Only one netCDF-4 data file is produced for each day (each file containing data from up to 8 unique CYGNSS spacecraft) with a latency of approximately 6 days (or better) from the last recorded measurement time. Formatting of the data variables and metadata designed to be consistent with the netCDF-4 formatting provided by the legacy CYGNSS mission Level 2 wind speed science data record (SDR).",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -40,
+              180,
+              40
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-05-01T00:00:02.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/CYGNSS_NOAA_L2_SWSP_25KM_V1.2.jpg",
+          "title": "Download CYGNSS_NOAA_L2_SWSP_25KM_V1.2.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/CYGNSS_NOAA_L2_SWSP_25KM_V1.2.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2254232941-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_CYGNSS_NOAA_L2_SWSP_25KM_V1_2_": {
+          "href": "s3://podaac-ops-cumulus-protected/CYGNSS_NOAA_L2_SWSP_25KM_V1.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_CYGNSS_NOAA_L2_SWSP_25KM_V1_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_CYGNSS_NOAA_L2_SWSP_25KM_V1_2_": {
+          "href": "s3://podaac-ops-cumulus-public/CYGNSS_NOAA_L2_SWSP_25KM_V1.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_CYGNSS_NOAA_L2_SWSP_25KM_V1_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2254232941-POCLOUD.xml",
+          "title": "CMR XML metadata for C2254232941-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2254232941-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2254232941-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2254232941-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2254232941-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2254232941-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/CYGNSS_NOAA_L2_SWSP_25KM_V1.2_1.2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/CYGNSS_NOAA_L2_SWSP_25KM_V1.2_1.2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "RADAR",
+        "RADAR CROSS-SECTION",
+        "BISTATIC RADAR CROSS-SECTION",
+        "OCEANS",
+        "OCEAN WINDS",
+        "SURFACE WINDS",
+        "OCEAN SURFACE WIND SPEED"
+      ],
+      "summaries": {
+        "platform": [
+          "CYGNSS"
+        ],
+        "instruments": [
+          "DDMI"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires a NASA Earthdata account and S3 credentials. Available formats include NetCDF data, JPEG/PNG images, and XML/JSON metadata. Primarily used for scientific analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "N21-VIIRS-L2P-ACSPO-v2.80_2.80",
+      "title": "GHRSST Level 2P NOAA ACSPO SST  v2.80 from VIIRS on NOAA-21 Satellite",
+      "description": "The N21-VIIRS-L2P-ACSPO-v2.80 dataset produced by the NOAA ACSPO system derives the Subskin Sea Surface Temperature (SST) from the Visible Infrared Imaging Radiometer Suite (VIIRS) onboard the The Joint Polar Satellite System (JPSS)-2 satellite, renamed as NOAA-21 (N21). N21 was launched on Nov. 10, 2022, the 3rd satellite in the US NOAA latest JPSS series.  <br><br>\r\n\r\nVIIRS L2P SST products are derived at the native sensor resolution (~0.75 km at nadir, ~1.5 km at swath edge) using NOAA's Advanced Clear-Sky Processor for Ocean (ACSPO) system (Jonasson et al. 2022). Data are reported in 10-minute granules in netCDF4 format, compliant with the Group for High Resolution Sea Surface Temperature (GHRSST) Data Specification version 2 (GDS2). The ACSPO N21 VIIRS SST record is available back to 19 Mar 2023. In ACSPO products, SSTs are derived using the Non-Linear SST (NLSST) algorithms (Petrenko et al., 2014). An ACSPO clear-sky mask (ACSM) is provided in each pixel as part of variable l2p_flags, which also includes day/night, land, ice, twilight, and glint flags (Petrenko et al., 2010). Only ACSM confidently clear pixels with quality level QL=5 are recommended. Per GDS2 specifications, two additional Sensor-Specific Error Statistics layers (SSES bias and standard deviation) are reported in each pixel with QL=5. <br><br>\r\n\r\nThe ACSPO VIIRS L2P product is monitored and validated against quality controlled in situ data provided by NOAA in situ SST Quality Monitor system (iQuam) using another NOAA system, SST Quality Monitor (SQUAM). A reduced size (0.5GB/day), equal-angle gridded (0.02-deg resolution), ACSPO N21 VIIRS L3U product is also available  (10.5067/GHV21-3U280) (Ignatov et al., 2017).",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-03-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2754895884-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_N21_VIIRS_L2P_ACSPO_v2_80_": {
+          "href": "s3://podaac-ops-cumulus-protected/N21-VIIRS-L2P-ACSPO-v2.80/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_N21_VIIRS_L2P_ACSPO_v2_80_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_N21_VIIRS_L2P_ACSPO_v2_80_": {
+          "href": "s3://podaac-ops-cumulus-public/N21-VIIRS-L2P-ACSPO-v2.80/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_N21_VIIRS_L2P_ACSPO_v2_80_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2754895884-POCLOUD.xml",
+          "title": "CMR XML metadata for C2754895884-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2754895884-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2754895884-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2754895884-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2754895884-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2754895884-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/N21-VIIRS-L2P-ACSPO-v2.80_2.80",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/N21-VIIRS-L2P-ACSPO-v2.80_2.80/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN TEMPERATURE",
+        "SEA SURFACE TEMPERATURE",
+        "SEA SURFACE SKIN TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "NOAA-21"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata account and S3 credentials for data access. Available in NetCDF4 for analysis, plus public PNG browse/thumbnails for visualization. Primarily used for data download and scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "OSTIA-UKMO-L4-GLOB-REP-v2.0_2.0",
+      "title": "GHRSST Level 4 OSTIA Global Historical Reprocessed Foundation Sea Surface Temperature Analysis produced by the UK Meteorological Office",
+      "description": "The Operational Sea Surface Temperature and Sea Ice Analysis Reprocessed (OSTIA-REP) is a  GHRSST reprocessed Level-4 sea surface temperature and ice-concentration analysis produced by the UK Met Office (UKMO) using optimal interpolation (OI) on a global 0.05 degree grid. It is a sister product of the Near Real Time version (OSTIA-NRT), but incorporates satellite data from over 25 different SST sensors as well as in situ data from drifting and moored buoys. The OSTIA-REP is produced on a biannual frequency when more satellite and climatology observations are available from existing geostationary IR, and polar orbiting IR and MW satellites in addition to the data used in OSTIA-NRT. <br><br>\r\nWhile OSTIA-NRT is produced to mainly serve as a lower boundary condition in Numerical Weather Prediction (NWP) models, this OSTIA-REP aims to provide a more accurate and consistent record of SST measurements over time, which is crucial for detecting long-term climate trends and variability. Both versions follow GHRSST Data Processing Specification (GDS) version 2 format guidelines.<br><br>\r\nData to June 2022 are also distributed through the E.U. Copernicus Marine Service Information (https://marine.copernicus.eu/, DOI: https://doi.org/10.48670/moi-00168 with the following license). Please refer to the user guide for more information. ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1982-01-01T00:00:00.000Z",
+              "2024-01-01T00:00:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/OSTIA-UKMO-L4-GLOB-REP-v2.0.jpg",
+          "title": "Download OSTIA-UKMO-L4-GLOB-REP-v2.0.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/OSTIA-UKMO-L4-GLOB-REP-v2.0.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2586786218-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "0_virtual_https": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/virtual_collections/OSTIA-UKMO-L4-GLOB-REP-v2.0/OSTIA-UKMO-L4-GLOB-REP-v2.0_virtual_https.json",
+          "title": "Direct Download [2]",
+          "description": "HTTPS virtual dataset reference file (out-of-cloud use)",
+          "roles": [
+            "data"
+          ]
+        },
+        "0_virtual_s3": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/virtual_collections/OSTIA-UKMO-L4-GLOB-REP-v2.0/OSTIA-UKMO-L4-GLOB-REP-v2.0_virtual_s3.json",
+          "title": "Direct Download [3]",
+          "description": "S3 virtual dataset reference file (in-cloud use)",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_OSTIA_UKMO_L4_GLOB_REP_v2_0_": {
+          "href": "s3://podaac-ops-cumulus-protected/OSTIA-UKMO-L4-GLOB-REP-v2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_OSTIA_UKMO_L4_GLOB_REP_v2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_OSTIA_UKMO_L4_GLOB_REP_v2_0_": {
+          "href": "s3://podaac-ops-cumulus-public/OSTIA-UKMO-L4-GLOB-REP-v2.0/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_OSTIA_UKMO_L4_GLOB_REP_v2_0_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2586786218-POCLOUD.xml",
+          "title": "CMR XML metadata for C2586786218-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2586786218-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2586786218-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2586786218-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2586786218-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2586786218-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/OSTIA-UKMO-L4-GLOB-REP-v2.0_2.0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/OSTIA-UKMO-L4-GLOB-REP-v2.0_2.0/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "SEA ICE",
+        "SEA ICE CONCENTRATION",
+        "Sea Ice Fraction",
+        "OCEAN TEMPERATURE",
+        "SEA SURFACE TEMPERATURE",
+        "Foundation Sea Surface Temperature"
+      ],
+      "summaries": {
+        "platform": [
+          "GOES-16",
+          "METEOSAT-9",
+          "BUOYS",
+          "METOP-A",
+          "Sentinel-3A",
+          "GCOM-W1",
+          "ENVISAT",
+          "GOES-13",
+          "METOP-B",
+          "NOAA-19",
+          "GPM",
+          "TRMM",
+          "NOAA-18",
+          "NOAA-17",
+          "NOAA-16",
+          "NOAA-15",
+          "NOAA-14",
+          "NOAA-12",
+          "NOAA-11",
+          "NOAA-10",
+          "NOAA-9",
+          "NOAA-8",
+          "NOAA-7",
+          "NOAA-6",
+          "Sentinel-3B"
+        ],
+        "instruments": [
+          "ABI",
+          "SEVIRI",
+          "DRIFTING BUOYS",
+          "AVHRR",
+          "SLSTR",
+          "AMSR2",
+          "AATSR",
+          "ABI",
+          "AVHRR",
+          "AVHRR",
+          "GMI",
+          "TMI",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "AVHRR",
+          "SLSTR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login or S3 credentials for authentication. Provides NetCDF data, JPEG images, and metadata. Primarily for scientific analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "VIIRS_NPP-STAR-L2P-v2.80_2.80",
+      "title": "GHRSST Level 2P NOAA STAR SST v2.80 from VIIRS on S-NPP Satellite",
+      "description": "The Joint Polar Satellite System (JPSS), starting with S-NPP launched on 28 October 2011, is the new generation of the US Polar Operational Environmental Satellites (POES). NOAA is responsible for all JPSS products, including SST from the Visible Infrared Imaging Radiometer Suite (VIIRS). The L2P SST product is derived at the native sensor resolution (~0.75 km at nadir, ~1.5 km at swath edge) using NOAA's Advanced Clear-Sky Processor for Ocean (ACSPO) system, and reported in 10-minute granules in netCDF4 format, compliant with the Group for High Resolution Sea Surface Temperature (GHRSST) Data Specification version 2 (GDS2). SSTs are derived from Brightness Temperatures (BTs) using the Non-Linear SST (NLSST) algorithms (Petrenko et al., 2014). An ACSPO clear-sky mask (ACSM) is provided in each pixel as part of variable l2p_flags, which also includes day/night, land, ice, twilight, and glint flags (Petrenko et al., 2010). Only ACSM confidently clear pixels are recommended (equivalent to GDS2 quality level=5). Per GDS2 specifications, two additional Sensor-Specific Error Statistics layers (SSES bias and standard deviation) are reported in each pixel with QL=5. The ACSPO VIIRS L2P product is monitored and validated against quality controlled in situ data provided by NOAA in situ SST Quality Monitor system (iQuam) using another NOAA system, SST Quality Monitor (SQUAM). A reduced size (0.5GB/day), equal-angle gridded (0.02-deg resolution), ACSPO L3U product is also available at https://podaac.jpl.nasa.gov/dataset/VIIRS_NPP-STAR-L3U-v2.80, where gridded L2P SSTs with QL=5 only are reported. The v2.80 is an updated version from the v2.61 with several algorithm improvements including two added thermal front layers, reduced L2P SST data size, mitigated warm biases in the high latitudes, and improved clear-sky mask.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-02-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/VIIRS_NPP-STAR-L2P-v2.80.jpg",
+          "title": "Download VIIRS_NPP-STAR-L2P-v2.80.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/VIIRS_NPP-STAR-L2P-v2.80.jpg",
+          "title": "Thumbnail",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2147480877-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_VIIRS_NPP_STAR_L2P_v2_80_": {
+          "href": "s3://podaac-ops-cumulus-protected/VIIRS_NPP-STAR-L2P-v2.80/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_VIIRS_NPP_STAR_L2P_v2_80_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_VIIRS_NPP_STAR_L2P_v2_80_": {
+          "href": "s3://podaac-ops-cumulus-public/VIIRS_NPP-STAR-L2P-v2.80/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_VIIRS_NPP_STAR_L2P_v2_80_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147480877-POCLOUD.xml",
+          "title": "CMR XML metadata for C2147480877-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147480877-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147480877-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147480877-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147480877-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2147480877-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/VIIRS_NPP-STAR-L2P-v2.80_2.80",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/VIIRS_NPP-STAR-L2P-v2.80_2.80/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN TEMPERATURE",
+        "SEA SURFACE TEMPERATURE",
+        "SEA SURFACE SKIN TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "Suomi-NPP"
+        ],
+        "instruments": [
+          "VIIRS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires free NASA Earthdata account for S3 credentials. Provides NetCDF data for analysis; JPEG/PNG for visualization; XML metadata. Primary usage is direct data download for scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "CYGNSS_L2_SURFACE_FLUX_V3.2_3.2",
+      "title": "CYGNSS Level 2 Ocean Surface Heat Flux Science Data Record Version 3.2",
+      "description": "The CYGNSS level 2 ocean surface heat flux science data record version 3.2 dataset is provided as a service to the oceanographic and meteorological research communities on behalf of the CYGNSS Science Team in direct collaboration with the Cyclone Global Navigation Satellite System (CYGNSS) Mission. CYGNSS was launched on 15 December 2016, it is a NASA Earth System Science Pathfinder Mission that was launched with the purpose of collecting the first frequent space‐based measurements of surface wind speeds in the inner core of tropical cyclones. Originally made up of a constellation of eight micro-satellites, the observatories provide nearly gap-free Earth coverage using an orbital inclination of approximately 35° from the equator, with a mean (i.e., average) revisit time of seven hours and a median revisit time of three hours. \r\n<br><br>\r\nThis dataset provides time-tagged and geolocated ocean surface heat flux parameters with 25x25 kilometer footprint resolution from the Delay Doppler Mapping Instrument (DDMI) aboard the CYGNSS satellite constellation. The reported sample locations are determined by the specular points corresponding to the Delay Doppler Maps (DDMs). Version 3.2 uses CYGNSS Level 2 (L2) Science Data Record (SDR) Version 3.2 surface wind speeds and ECMWF Reanalysis, Version 5 (ERA5). The Coupled Ocean-Atmosphere Response Experiment (COARE) algorithm is what is used in this dataset to estimate the latent and sensible heat fluxes and their respective transfer coefficients. While COARE's initial intentions were for low to moderate wind speeds, the version used for this product, COARE 3.5, has been verified with direct in situ flux measurements for wind speeds up to 25 m/s. As CYGNSS does not provide air/sea temperature, humidity, surface pressure or density, the producer of this dataset obtains these values from this dataset obtains these values from ERA5. This dataset is made available from 1 August 2018 to present with an approximate 1 week latency in the netCDF-4 formatted data files, where each file contains data within a 24-hour UTC period from a combination of up to 8 unique CYGNSS spacecraft. More information on CYGNSS can be found on the CYGNSS mission page.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -39.8,
+              180,
+              39.8
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2927907727-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_CYGNSS_L2_SURFACE_FLUX_V3_2_": {
+          "href": "s3://podaac-ops-cumulus-protected/CYGNSS_L2_SURFACE_FLUX_V3.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_CYGNSS_L2_SURFACE_FLUX_V3_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_CYGNSS_L2_SURFACE_FLUX_V3_2_": {
+          "href": "s3://podaac-ops-cumulus-public/CYGNSS_L2_SURFACE_FLUX_V3.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_CYGNSS_L2_SURFACE_FLUX_V3_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2927907727-POCLOUD.xml",
+          "title": "CMR XML metadata for C2927907727-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2927907727-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2927907727-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2927907727-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2927907727-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2927907727-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/CYGNSS_L2_SURFACE_FLUX_V3.2_3.2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/CYGNSS_L2_SURFACE_FLUX_V3.2_3.2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN HEAT BUDGET",
+        "HEAT FLUX",
+        "OCEAN SURFACE LATENT AND SENSIBLE HEAT FLUXES",
+        "OCEAN TEMPERATURE",
+        "SEA SURFACE TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "CYGNSS"
+        ],
+        "instruments": [
+          "DDMI"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login or S3 credentials for access. Data is available in NetCDF-4 format. Primarily for direct download and scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "MUR25-JPL-L4-GLOB-v04.2_4.2",
+      "title": "GHRSST Level 4 MUR 0.25deg Global Foundation Sea Surface Temperature Analysis (v4.2)",
+      "description": "A Group for High Resolution Sea Surface Temperature (GHRSST) Level 4 sea surface temperature analysis produced as a retrospective dataset  at the JPL Physical Oceanography DAAC using wavelets as basis functions in an optimal interpolation approach on a global 0.25 degree grid. The version 4 Multiscale Ultrahigh Resolution (MUR) L4 analysis is based upon nighttime GHRSST L2P skin and subskin SST observations from several instruments including the NASA Advanced Microwave Scanning Radiometer-EOS (AMSR-E), the JAXA Advanced Microwave Scanning Radiometer 2 on GCOM-W1, the Moderate Resolution Imaging Spectroradiometers (MODIS) on the NASA Aqua and Terra platforms, the US Navy microwave WindSat radiometer, the Advanced Very High Resolution Radiometer (AVHRR) on several NOAA satellites, and in situ SST observations from the NOAA iQuam project. The ice concentration data are from the archives at the EUMETSAT Ocean and Sea Ice Satellite Application Facility (OSI SAF) High Latitude Processing Center and are also used for an improved SST parameterization for the high-latitudes. The dataset also contains an additional SST anomaly variable derived from a MUR climatology (average between 2003 and 2014). This dataset was originally funded by the NASA MEaSUREs program (http://earthdata.nasa.gov/our-community/community-data-system-programs/measures-projects ) and the NASA CEOS COVERAGE project and created by a team led by Dr. Toshio M. Chin from JPL. It adheres to the GHRSST Data Processing Specification (GDS) version 2 format specifications.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2002-08-31T21:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/MUR25-JPL-L4-GLOB-v04.2.jpg",
+          "title": "Download MUR25-JPL-L4-GLOB-v04.2.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://soto.podaac.earthdatacloud.nasa.gov/?l=GHRSST_L4_MUR25_Sea_Surface_Temperature,BlueMarble_ShadedRelief_Bathymetry,Coastlines_15m",
+          "title": "Thumbnail [0]",
+          "description": "SOTO (State of the Ocean) Visualization",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://podaac.jpl.nasa.gov/Podaac/thumbnails/MUR25-JPL-L4-GLOB-v04.2.jpg",
+          "title": "Thumbnail [1]",
+          "description": "Thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2036880657-POCLOUD",
+          "title": "Direct Download [1]",
+          "description": "Browse granule search results in Earthdata Search",
+          "roles": [
+            "data"
+          ]
+        },
+        "2_virtual_https": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/virtual_collections/MUR25-JPL-L4-GLOB-v04.2/MUR25-JPL-L4-GLOB-v04.2_virtual_https.json",
+          "title": "Direct Download [2]",
+          "description": "HTTPS virtual dataset reference file (out-of-cloud use)",
+          "roles": [
+            "data"
+          ]
+        },
+        "2_virtual_s3": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/virtual_collections/MUR25-JPL-L4-GLOB-v04.2/MUR25-JPL-L4-GLOB-v04.2_virtual_s3.json",
+          "title": "Direct Download [3]",
+          "description": "S3 virtual dataset reference file (in-cloud use)",
+          "roles": [
+            "data"
+          ]
+        },
+        "s3_podaac_ops_cumulus_public_MUR25_JPL_L4_GLOB_v04_2_": {
+          "href": "s3://podaac-ops-cumulus-public/MUR25-JPL-L4-GLOB-v04.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_public_MUR25_JPL_L4_GLOB_v04_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_podaac_ops_cumulus_protected_MUR25_JPL_L4_GLOB_v04_2_": {
+          "href": "s3://podaac-ops-cumulus-protected/MUR25-JPL-L4-GLOB-v04.2/",
+          "roles": [
+            "data"
+          ],
+          "title": "podaac_ops_cumulus_protected_MUR25_JPL_L4_GLOB_v04_2_",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://archive.podaac.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2036880657-POCLOUD.xml",
+          "title": "CMR XML metadata for C2036880657-POCLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "POCLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2036880657-POCLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2036880657-POCLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2036880657-POCLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2036880657-POCLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2036880657-POCLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/MUR25-JPL-L4-GLOB-v04.2_4.2",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/POCLOUD/collections/MUR25-JPL-L4-GLOB-v04.2_4.2/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "OCEANS",
+        "OCEAN TEMPERATURE",
+        "SEA SURFACE TEMPERATURE",
+        "FOUNDATION SEA SURFACE TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "Aqua",
+          "CORIOLIS",
+          "Terra",
+          "NOAA-19",
+          "BUOYS",
+          "GCOM-W1"
+        ],
+        "instruments": [
+          "MODIS",
+          "AMSR-E",
+          "WINDSAT",
+          "MODIS",
+          "AVHRR-3",
+          "DRIFTING BUOYS",
+          "AMSR2"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "podaac-ops-cumulus-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for direct and S3 access. Available formats include NetCDF data and JPEG images. Primary usage involves direct download for analysis, cloud processing, and visualization."
+    }
+  ]
+}

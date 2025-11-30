@@ -1,0 +1,19 @@
+{
+  "stacApiUrl": "https://app.iconem.com/api/stac/",
+  "exportedAt": "2025-10-19T22:09:00.064Z",
+  "collections": [
+    {
+      "id": "projects",
+      "title": "projects",
+      "description": "This is a sub-catalog. Select it to see its items or further sub-catalogs.",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://app.iconem.com/api/stac/collections/"
+        }
+      ],
+      "accessibility": "Restricted",
+      "userNote": "Not available; endpoint didn't return valid list of items nt"
+    }
+  ]
+}

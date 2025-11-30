@@ -1,0 +1,11 @@
+{
+  "weather": {
+    "api_key": "your_openweathermap_api_key_here",
+    "provider": "openweathermap"
+  },
+  "stac": {
+    "api_url": "https://planetarycomputer.microsoft.com/api/stac/v1",
+    "api_key": null
+  }
+}
+

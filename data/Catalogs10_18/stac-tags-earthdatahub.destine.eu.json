@@ -1,0 +1,691 @@
+{
+  "stacApiUrl": "https://earthdatahub.destine.eu/api/stac/v1/",
+  "exportedAt": "2025-10-19T15:21:11.864Z",
+  "collections": [
+    {
+      "stac_extensions": [
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/earthdatahub.json",
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/dublincore.json",
+        "https://stac-extensions.github.io/xarray-assets/v1.0.0/schema.json"
+      ],
+      "type": "Collection",
+      "edh:maturity": "published",
+      "dc:abstract": "ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather. Data is available from 1940 onwards. we propose a selection of the original data based on the most popular datasets and variables",
+      "stac_version": "1.0.0",
+      "id": "era5",
+      "title": "ERA5, ECMWF fifth generation reanalysis",
+      "description": "ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 8 decades.\nData is available from 1940 onwards on ECWMF [Copernicus Data Store](https://cds.climate.copernicus.eu/).\n\nERA5 provides hourly estimates of a large number of atmospheric, land and oceanic climate variables. The data cover the Earth on a 30km grid and resolve the atmosphere using 137 levels from the surface up to a height of 80km. ERA5 includes information about uncertainties for all variables at reduced spatial and temporal resolutions.\n\nWe propose a subset of the whole corpus of data based on the most popular datasets and variables. Specifically speaking ERA5 Land, ERA5 Single Levels, ERA5 pressure level and Essential Climate Variables (ECV) on selected variables. Furthermore ERA5 monthly data on single level have been added.\n\nDatasets are presented as Zarr archives optimised specifically for time analysis and covering the whole available geographical and temporal extent of the original data. Also, resolution is preserved and data are updated until the last closed month with monthly updates.S\n\nPlease refer to the specific datasets for detailed information about extent, resolution, updates and access rights.\n\n\n<!--- Reanalysis combines model data with observations.\nThis principle, called data assimilation, is based on the method used by numerical\nweather prediction centres, where every so many hours (12 hours at ECMWF) a previous\nforecast is combined with newly available observations to produce\na new best estimate of the state of the atmosphere, called analysis, from which an updated,\nimproved forecast is issued.\n\nReanalysis works in the same way, but at reduced resolution\nto allow for the provision of a dataset spanning back several decades.\nReanalysis does not have the constraint of issuing timely forecasts,\nso there is more time to collect observations, and when going further back in time,\nto allow for the ingestion of improved versions of the original observations,\nwhich all benefit the quality of the reanalysis product.\n\nERA5 provides hourly estimates for a large number of atmospheric,\nocean-wave and land-surface quantities. An uncertainty estimate is sampled by an underlying\n10-member ensemble at three-hourly intervals. Ensemble mean and spread have been pre-computed for convenience. Such uncertainty estimates are closely related to the information content of the available observing system\nwhich has evolved considerably over time. They also indicate flow-dependent sensitive areas.--->\n",
+      "links": [
+        {
+          "href": "https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation",
+          "rel": "derived_from",
+          "type": "text/html",
+          "title": "ERA5 documentation"
+        },
+        {
+          "href": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "rel": "license",
+          "type": "application/pdf",
+          "title": "CC-BY licence"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/era5",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/era5/items",
+          "rel": "items",
+          "type": "application/json"
+        }
+      ],
+      "keywords": [
+        "ERA5",
+        "ECMWF",
+        "reanalysis",
+        "weather"
+      ],
+      "license": "other",
+      "providers": [
+        {
+          "name": "European Union",
+          "roles": [
+            "licensor"
+          ],
+          "url": "https://european-union.europa.eu"
+        },
+        {
+          "name": "ECMWF",
+          "roles": [
+            "producer"
+          ],
+          "url": "https://www.ecmwf.int"
+        },
+        {
+          "name": "B-Open",
+          "roles": [
+            "processor"
+          ],
+          "url": "https://www.bopen.eu"
+        },
+        {
+          "name": "DestinE Platform",
+          "roles": [
+            "host"
+          ],
+          "url": "https://platform.destine.eu"
+        }
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1940-01-01T00:00:00Z",
+              "2025-01-01T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://s3.gra.cloud.ovh.net/v1/AUTH_954d6a1ff56543e5860809415ceebf17/edh-static/desp-edh/catalogue/era5/thumbnail_5f4b32d493db27aaf83c74576bf773864934f10e0911f0b3ad6f84b3f7da52e9.png",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "data/thumbnail"
+    },
+    {
+      "stac_extensions": [
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/earthdatahub.json",
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/dublincore.json",
+        "https://stac-extensions.github.io/xarray-assets/v1.0.0/schema.json"
+      ],
+      "type": "Collection",
+      "edh:maturity": "published",
+      "dc:abstract": "The DestinE Digital Twin for Climate Change Adaptation (Climate DT) supports adaptation activities through the provision of innovative climate information on multi-decadal timescales, at km-scale resolutions of 5 to 10km.",
+      "stac_version": "1.0.0",
+      "id": "d1-climate-dt-ScenarioMIP-SSP3-7.0-IFS-NEMO",
+      "title": "DestinE Climate Adaptation DT, activity ScenarioMIP, experiment SSP3-7.0, model IFS-NEMO",
+      "description": "The DestinE Digital Twin for Climate Change Adaptation (Climate DT) supports adaptation activities through the provision of innovative climate information on multi-decadal timescales, at scales at which the impacts of climate change are observed.\n\nThis initiative presents the first ever attempt to operationalise the production of global multi-decadal climate projections at km-scale resolutions of 5 to 10km, leveraging the world- leading supercomputing facilities of the EuroHPC Joint Undertaking along with some of the leading European climate models. It also enables performing bespoke simulations to assess the impacts of new scenarios or of extreme events in a rapidly warming world and inform adaptation activities.\n\nHere we propose a selection of datasets derived from the DestinE Climate Change Adaptation Digital Twin according to the output of the IFS-NEMO model coupled with the Shared Socioeconomic Pathway 3-7.0 (experiment: SSP3-7.0) as defined in the Scenario Model Intercomparison Project (activity: ScenarioMIP). Datasets are presented as Zarr archives regridded from the original HEALPix grid to a regular latitude-longitude grid. The chunking is optimised for time based and regional analysis.\n\nPlease refer to the specific datasets for detailed information about extent, resolution, updates and access rights.\n",
+      "links": [
+        {
+          "href": "https://confluence.ecmwf.int/pages/viewpage.action?pageId=414254710",
+          "rel": "derived_from",
+          "type": "text/html",
+          "title": "DestinE Digital Twin for Climate Change Adaptation"
+        },
+        {
+          "href": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "rel": "license",
+          "type": "application/pdf",
+          "title": "CC-BY licence"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/d1-climate-dt-ScenarioMIP-SSP3-7.0-IFS-NEMO",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/d1-climate-dt-ScenarioMIP-SSP3-7.0-IFS-NEMO/items",
+          "rel": "items",
+          "type": "application/json"
+        }
+      ],
+      "keywords": [
+        "DestinE",
+        "digital twin",
+        "ECMWF",
+        "forecast",
+        "weather"
+      ],
+      "license": "other",
+      "providers": [
+        {
+          "name": "European Union",
+          "roles": [
+            "licensor"
+          ],
+          "url": "https://european-union.europa.eu"
+        },
+        {
+          "name": "ECMWF",
+          "roles": [
+            "producer"
+          ],
+          "url": "https://www.ecmwf.int"
+        },
+        {
+          "name": "B-Open",
+          "roles": [
+            "processor"
+          ],
+          "url": "https://www.bopen.eu"
+        },
+        {
+          "name": "DestinE Platform",
+          "roles": [
+            "host"
+          ],
+          "url": "https://platform.destine.eu"
+        }
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01T00:00:00Z",
+              "2040-01-01T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://s3.gra.cloud.ovh.net/v1/AUTH_954d6a1ff56543e5860809415ceebf17/edh-static/desp-edh/catalogue/d1-climate-dt-ScenarioMIP-SSP3-7.0-IFS-NEMO/thumbnail_022d86f19681d35a56fb0a580b02134f9e50fb230ef77fc6a8bdee960da6ab9e.png",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "thumbnail"
+    },
+    {
+      "stac_extensions": [
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/earthdatahub.json",
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/dublincore.json",
+        "https://stac-extensions.github.io/xarray-assets/v1.0.0/schema.json"
+      ],
+      "type": "Collection",
+      "edh:maturity": "published",
+      "dc:abstract": "The DestinE Digital Twin for Climate Change Adaptation (Climate DT) supports adaptation activities through the provision of innovative climate information on multi-decadal timescales, at km-scale resolutions of 5 to 10km.",
+      "stac_version": "1.0.0",
+      "id": "d1-climate-dt-ScenarioMIP-SSP3-7.0-ICON",
+      "title": "DestinE Climate Adaptation DT, activity ScenarioMIP, experiment SSP3-7.0, model ICON",
+      "description": "The DestinE Digital Twin for Climate Change Adaptation (Climate DT) supports adaptation activities through the provision of innovative climate information on multi-decadal timescales, at scales at which the impacts of climate change are observed.\n\nThis initiative presents the first ever attempt to operationalise the production of global multi-decadal climate projections at km-scale resolutions of 5 to 10km, leveraging the world- leading supercomputing facilities of the EuroHPC Joint Undertaking along with some of the leading European climate models. It also enables performing bespoke simulations to assess the impacts of new scenarios or of extreme events in a rapidly warming world and inform adaptation activities.\n\nHere we propose a selection of datasets derived from the DestinE Climate Change Adaptation Digital Twin according to the output of the ICON model coupled with the Shared Socioeconomic Pathway 3-7.0 (experiment: SSP3-7.0) as defined in the Scenario Model Intercomparison Project (activity: ScenarioMIP). Datasets are presented as Zarr archives regridded from the original HEALPix grid to a regular latitude-longitude grid. The chunking is optimised for time based and regional analysis.\n\nPlease refer to the specific datasets for detailed information about extent, resolution, updates and access rights.\n",
+      "links": [
+        {
+          "href": "https://confluence.ecmwf.int/pages/viewpage.action?pageId=414254710",
+          "rel": "derived_from",
+          "type": "text/html",
+          "title": "DestinE Digital Twin for Climate Change Adaptation"
+        },
+        {
+          "href": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "rel": "license",
+          "type": "application/pdf",
+          "title": "CC-BY licence"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/d1-climate-dt-ScenarioMIP-SSP3-7.0-ICON",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/d1-climate-dt-ScenarioMIP-SSP3-7.0-ICON/items",
+          "rel": "items",
+          "type": "application/json"
+        }
+      ],
+      "keywords": [
+        "DestinE",
+        "digital twin",
+        "ECMWF",
+        "forecast",
+        "weather"
+      ],
+      "license": "other",
+      "providers": [
+        {
+          "name": "European Union",
+          "roles": [
+            "licensor"
+          ],
+          "url": "https://european-union.europa.eu"
+        },
+        {
+          "name": "ECMWF",
+          "roles": [
+            "producer"
+          ],
+          "url": "https://www.ecmwf.int"
+        },
+        {
+          "name": "B-Open",
+          "roles": [
+            "processor"
+          ],
+          "url": "https://www.bopen.eu"
+        },
+        {
+          "name": "DestinE Platform",
+          "roles": [
+            "host"
+          ],
+          "url": "https://platform.destine.eu"
+        }
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-01-01T00:00:00Z",
+              "2031-01-01T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://s3.gra.cloud.ovh.net/v1/AUTH_954d6a1ff56543e5860809415ceebf17/edh-static/desp-edh/catalogue/d1-climate-dt-ScenarioMIP-SSP3-7.0-ICON/thumbnail_9324b6fbbb246839ad738faf87720f1bae26c3e1dba82985600447b366912d5b.png",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "thumbnail"
+    },
+    {
+      "stac_extensions": [
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/earthdatahub.json",
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/dublincore.json",
+        "https://stac-extensions.github.io/xarray-assets/v1.0.0/schema.json"
+      ],
+      "type": "Collection",
+      "edh:maturity": "published",
+      "dc:abstract": "This is a hybrid gridded dataset of demographic data for the world, given as 5-year population bands at a 0.25 degree grid resolution.",
+      "stac_version": "1.0.0",
+      "id": "derived-GPWv4-Histsoc",
+      "title": "Hybrid gridded demographic data for the world",
+      "description": "This is a hybrid gridded dataset of demographic data for the world, given as 5-year population bands at a 0.25 degree grid resolution.\n\nThis dataset combines the NASA SEDAC Gridded Population of the World version 4 (GPWv4) with the ISIMIP Histsoc gridded population data and the United Nations World Population Program (WPP) demographic modelling data.\n\nDemographic fractions are given for the time period covered by the UN WPP model (1950-2050) while demographic totals are given for the time period covered by the combination of GPWv4 and Histsoc (1950-2020).\n",
+      "links": [
+        {
+          "href": "https://zenodo.org/records/3768003",
+          "rel": "derived_from",
+          "type": "text/html",
+          "title": "Hybrid gridded demographic data for the world, 1950-2020n"
+        },
+        {
+          "href": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "rel": "license",
+          "type": "text/html",
+          "title": "Creative Commons Attribution 4.0 International"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/derived-GPWv4-Histsoc",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/derived-GPWv4-Histsoc/items",
+          "rel": "items",
+          "type": "application/json"
+        }
+      ],
+      "keywords": [
+        "Zenodo",
+        "population"
+      ],
+      "license": "other",
+      "providers": [
+        {
+          "name": "Jonathan Chambers",
+          "roles": [
+            "licensor"
+          ]
+        },
+        {
+          "name": "Jonathan Chambers",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "B-Open",
+          "roles": [
+            "processor"
+          ],
+          "url": "https://www.bopen.eu"
+        },
+        {
+          "name": "DestinE Platform",
+          "roles": [
+            "host"
+          ],
+          "url": "https://platform.destine.eu"
+        }
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              0,
+              -90,
+              360,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1950-01-01T00:00:00Z",
+              "2020-01-01T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://s3.gra.cloud.ovh.net/v1/AUTH_954d6a1ff56543e5860809415ceebf17/edh-static/desp-edh/catalogue/derived-GPWv4-Histsoc/thumbnail_fb907d31cf99b678d9f31928201f3739de17940ec44e0c9d10b499c9d8828025.png",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "data/thumbnail"
+    },
+    {
+      "stac_extensions": [
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/earthdatahub.json",
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/dublincore.json",
+        "https://stac-extensions.github.io/xarray-assets/v1.0.0/schema.json"
+      ],
+      "type": "Collection",
+      "edh:maturity": "published",
+      "dc:abstract": "The Copernicus DEM is a Digital Surface Model (DSM) that represents the surface of the Earth including buildings, infrastructure and vegetation. Data were acquired through the TanDEM-X mission between 2011 and 2015. The datasets were made available for use in 2019 and will be maintained until 2026. We propose a subset of the whole corpus of data based on the most popular datasets.",
+      "stac_version": "1.0.0",
+      "id": "copernicus-dem",
+      "title": "Copernicus Digital Elevation Model (DEM)",
+      "description": "The Copernicus DEM is a Digital Surface Model (DSM) that represents the surface of the Earth including buildings, infrastructure and vegetation. Data were acquired through the TanDEM-X mission between 2011 and 2015. The datasets were made available for use in 2019 and will be maintained until 2026.\n\n\n  We propose a subset of the whole corpus of data based on the most popular datasets.\n",
+      "links": [
+        {
+          "href": "https://doi.org/10.5270/ESA-c5d3d65",
+          "rel": "derived_from",
+          "type": "text/html",
+          "title": "Copernicus DEM documentation"
+        },
+        {
+          "href": "https://spacedata.copernicus.eu/documents/20123/121286/CSCDA_ESA_Mission-specific+Annex_31_Oct_22.pdf/fb109818-56ad-bbee-053c-d972aed25ce6",
+          "rel": "license",
+          "type": "application/pdf",
+          "title": "Licence to use Copernicus DEM"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/copernicus-dem",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/copernicus-dem/items",
+          "rel": "items",
+          "type": "application/json"
+        }
+      ],
+      "keywords": [
+        "Copernicus",
+        "DEM"
+      ],
+      "license": "other",
+      "providers": [
+        {
+          "name": "European Union",
+          "roles": [
+            "licensor"
+          ],
+          "url": "https://european-union.europa.eu"
+        },
+        {
+          "name": "ESA",
+          "roles": [
+            "producer"
+          ],
+          "url": "https://www.esa.int"
+        },
+        {
+          "name": "B-Open",
+          "roles": [
+            "processor"
+          ],
+          "url": "https://www.bopen.eu"
+        },
+        {
+          "name": "DestinE Platform",
+          "roles": [
+            "host"
+          ],
+          "url": "https://platform.destine.eu"
+        }
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-01-01T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://s3.gra.cloud.ovh.net/v1/AUTH_954d6a1ff56543e5860809415ceebf17/edh-static/desp-edh/catalogue/copernicus-dem/thumbnail_9671613d2600774193adde9386ea43d8fa4c930d79c922a0c264c316f74a4675.png",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "data/thumbnail"
+    },
+    {
+      "stac_extensions": [
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/earthdatahub.json",
+        "https://raw.githubusercontent.com/bopen/earthdatahub-catalogue/main/schema/extensions/dublincore.json",
+        "https://stac-extensions.github.io/xarray-assets/v1.0.0/schema.json"
+      ],
+      "type": "Collection",
+      "edh:maturity": "published",
+      "dc:abstract": "The Copernicus DEM is a Digital Surface Model (DSM) that represents the surface of the Earth including buildings, infrastructure and vegetation. We propose a subset of the whole corpus of data based on the most popular datasets.",
+      "stac_version": "1.0.0",
+      "id": "copernicus-dem-utm",
+      "title": "Copernicus Digital Elevation Model (DEM) UTM / UPS",
+      "description": "**This dataset collection is intended for expert user only.**\n\nThe Copernicus DEM is a Digital Surface Model (DSM) that represents\nthe surface of the Earth including buildings, infrastructure and vegetation.\nData were acquired through the TanDEM-X mission between 2011 and 2015.\nThe datasets were made available for use in 2019 and will be maintained until 2026 by Copernicus.\n\nThe Copernicus DEM is reprojected on a 20m by 20m grid in UTM / UPS zones\nand cropped to the MGRS tiles used in the Sentinel-2 Level 2 products.\n\n**This dataset collection is intended for expert user only.**\n",
+      "links": [
+        {
+          "href": "https://doi.org/10.5270/ESA-c5d3d65",
+          "rel": "derived_from",
+          "type": "text/html",
+          "title": "Copernicus DEM documentation"
+        },
+        {
+          "href": "https://spacedata.copernicus.eu/documents/20123/121286/CSCDA_ESA_Mission-specific+Annex_31_Oct_22.pdf/fb109818-56ad-bbee-053c-d972aed25ce6",
+          "rel": "license",
+          "type": "application/pdf",
+          "title": "Licence to use Copernicus DEM"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "root",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/",
+          "rel": "parent",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/copernicus-dem-utm",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://earthdatahub.destine.eu/api/stac/v1/collections/copernicus-dem-utm/items",
+          "rel": "items",
+          "type": "application/json"
+        }
+      ],
+      "keywords": [
+        "Copernicus",
+        "DEM",
+        "geobrowser"
+      ],
+      "license": "other",
+      "providers": [
+        {
+          "name": "European Union",
+          "roles": [
+            "licensor"
+          ],
+          "url": "https://european-union.europa.eu"
+        },
+        {
+          "name": "ESA",
+          "roles": [
+            "producer"
+          ],
+          "url": "https://www.esa.int"
+        },
+        {
+          "name": "B-Open",
+          "roles": [
+            "processor"
+          ],
+          "url": "https://www.bopen.eu"
+        },
+        {
+          "name": "DestinE Platform",
+          "roles": [
+            "host"
+          ],
+          "url": "https://platform.destine.eu"
+        }
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-01-01T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "thumbnail": {
+          "href": "https://s3.gra.cloud.ovh.net/v1/AUTH_954d6a1ff56543e5860809415ceebf17/edh-static/desp-edh/catalogue/copernicus-dem-utm/thumbnail_9671613d2600774193adde9386ea43d8fa4c930d79c922a0c264c316f74a4675.png",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "accessibility": "Public",
+      "userNote": "data/thumbnail"
+    }
+  ]
+}

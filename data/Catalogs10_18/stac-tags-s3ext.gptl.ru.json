@@ -1,0 +1,58 @@
+{
+  "stacApiUrl": "https://s3ext.gptl.ru/stac-web-free/catalog.json",
+  "exportedAt": "2025-10-19T15:27:21.380Z",
+  "collections": [
+    {
+      "id": "Arktika-M collection",
+      "title": "Arktika-M collection",
+      "description": "This is a sub-catalog. Select it to see its items or further sub-catalogs.",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://s3.gptl.ru/stac-web-free/Arctic-M/collection.json"
+        }
+      ],
+      "accessibility": "Restricted",
+      "userNote": "available on development seed, data/thumbnail"
+    },
+    {
+      "id": "Elektro-L collection",
+      "title": "Elektro-L collection",
+      "description": "This is a sub-catalog. Select it to see its items or further sub-catalogs.",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://s3.gptl.ru/stac-web-free/Electro-L/collection.json"
+        }
+      ],
+      "accessibility": "Restricted",
+      "userNote": "available on development seed, data/thumbnail"
+    },
+    {
+      "id": "Global mosaics (Arktika-M and Elektro-L) collection",
+      "title": "Global mosaics (Arktika-M and Elektro-L) collection",
+      "description": "This is a sub-catalog. Select it to see its items or further sub-catalogs.",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://s3.gptl.ru/stac-web-free/EL_ARCM/collection.json"
+        }
+      ],
+      "accessibility": "Restricted",
+      "userNote": "available on development seed, data/thumbnail"
+    },
+    {
+      "id": "Global mosaics (Meteor-M) collection",
+      "title": "Global mosaics (Meteor-M) collection",
+      "description": "This is a sub-catalog. Select it to see its items or further sub-catalogs.",
+      "links": [
+        {
+          "rel": "items",
+          "href": "https://s3.gptl.ru/stac-web-free/MM/collection.json"
+        }
+      ],
+      "accessibility": "Restricted",
+      "userNote": "available on development seed, data/thumbnail"
+    }
+  ]
+}

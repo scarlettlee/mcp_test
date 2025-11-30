@@ -1,0 +1,2034 @@
+{
+  "stacApiUrl": "https://eocat.esa.int/eo-catalogue/",
+  "exportedAt": "2025-10-19T15:33:42.249Z",
+  "collections": [
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "license": "various",
+      "itemType": "feature",
+      "description": "Metadata records representing EO datasets (a.k.a. EO products)",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/datasets",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "parent",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "items",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/datasets/items",
+          "type": "application/geo+json",
+          "title": "Datasets"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/datasets?httpAccept=text/html",
+          "type": "text/html",
+          "title": "Self as HTML"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/datasets?httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "Self as JSON-LD"
+        },
+        {
+          "rel": "describedBy",
+          "href": "http://schemas.opengis.net/eo-geojson/1.0/eo-geojson-schema.json",
+          "type": "application/schema+json",
+          "title": "JSON schema for items belonging to this collection"
+        }
+      ],
+      "id": "datasets",
+      "title": "EO Products",
+      "type": "Collection",
+      "accessibility": "Public",
+      "userNote": "data/thumbnail"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "license": "various",
+      "itemType": "feature",
+      "description": "Metadata records representing EO services and applications",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/services",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "parent",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "items",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/services/items",
+          "type": "application/geo+json",
+          "title": "Services and applications"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/services?httpAccept=text/html",
+          "type": "text/html",
+          "title": "Self as HTML"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/services?httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "Self as JSON-LD"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/services/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables for services"
+        },
+        {
+          "rel": "describedBy",
+          "href": "http://schemas.opengis.net/eopad-geojson/1.0/eopad-geojson-schema.json",
+          "type": "application/schema+json",
+          "title": "JSON schema for items belonging to this collection"
+        }
+      ],
+      "id": "services",
+      "title": "EO services and applications",
+      "type": "Collection",
+      "accessibility": "Restricted",
+      "userNote": "no items found in collection"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -86.3,
+              180,
+              86.3
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2020-09-02T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "Aerosols",
+        "EARTH SCIENCE > ATMOSPHERE > AEROSOLS",
+        "Air Quality",
+        "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY",
+        "Atmospheric Chemistry",
+        "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY",
+        "Environmental Impacts",
+        "EARTH SCIENCE > HUMAN DIMENSIONS > ENVIRONMENTAL IMPACTS",
+        "Fisheries",
+        "EARTH SCIENCE > AGRICULTURE > AGRICULTURAL AQUATIC SCIENCES > FISHERIES",
+        "EARTH SCIENCE > OCEANS > AQUATIC SCIENCES > FISHERIES",
+        "Atmospheric Indicators",
+        "Sun-synchronous",
+        "SWIR (1.3 - 3.0 µm)",
+        "Medium Resolution - MR (20 - 500 m)",
+        "523 km",
+        "< 20km",
+        "Radiometers",
+        "GHGSat-C2",
+        "GHGSat-C1",
+        "WAF-P"
+      ],
+      "created": "2021-03-19T00:00:00.000Z",
+      "description": "GHGSat data produce measures of vertical column densities of greenhouse gas emissions (currently CH4, but eventually CO2), provided on a pre-defined area of 12 km x 12 km, from the full sensor field-of-view.\r\nGHGSat Catalogue and New Collect data are available in three different data types:\r\n•\tSingle Observation: a single observation of a scene.\r\n•\tMonthly Monitoring: guaranteed 12 successful observations in a year over a given site (once per month or flexible best effort cadence depending on weather).\r\n•\tWeekly Monitoring: guaranteed 52 successful observations in a year over a given site (once a week or flexible best effort cadence based on weather), to accommodate large &amp; persistent monitoring needs.\r\nData are provided as an Emissions package containing the following products:\r\n•\tAbundance dataset (Level 2): Set of per-pixel abundances in excess of the local background (ppb) for a single species, and per-pixel measurement error expressed as a standard deviation for a single site on a single satellite pass. Data format is 16-bit GeoTIFF.\r\n•\tConcentration Maps (Level 2): High readability pseudocolour map combining surface reflectance, and column density expressed in ppb for a single species in PNG format. The relevant abundance dataset is provided as well.\r\n•\tEmission Rates (Level 4): Instantaneous rate for a detected emission from a targeted source estimated using abundance datasets from a single satellite pass and applying dispersion modelling techniques. The delivered product includes the emission rate estimate with uncertainty and key dispersion parameters (in CSV format) as well as the abundance dataset used for the emission estimate. This product is only delivered in the Emissions package if an emission is detected within the abundance dataset. The Level 2 products will be delivered regardless of whether or not an emission is detected.\r\nThe properties of the available products are summarised in the following table:\r\nBand(s) / Beam Mode(s) and Polarisation\tSWIR\t(1635-1675 nm), multiple bands, unpolarised\r\nSpatial Resolution\t&lt;30 m\r\nScene Size\t12 km x 12 km\r\nSpecies Measured\tCH4\r\nGeometric Corrections\tRadial distortion, perspective projection\r\nRadiometric Corrections\tDetector pixel response, ghosting, spectral response, atmospheric correction including trace gas modelling and surface reflectance\r\n\r\nDetails about the data provision, data access conditions and quota assignment procedure are described in the GHGSat _$$Terms of Applicability$$ https://earth.esa.int/eogateway/documents/20142/37627/GHGSat-Terms-of-Applicability.pdf .",
+      "collection": "EOP:ESA:EARTH-ONLINE",
+      "type": "Collection",
+      "title": "GHGSat archive and tasking",
+      "version": "9.0",
+      "license": "other",
+      "assets": {
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "parent",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/GHGSat-DATA-SAT-Product-Specifications.pdf",
+          "type": "application/pdf",
+          "title": "GHGSAT-C1/C2 Satellite Imagery and Data - Product Description"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/GHGSat-Terms-of-Applicability.pdf",
+          "type": "application/pdf",
+          "title": "GHGSat Terms of Applicability - Access Guide"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://spectra.ghgsat.com/",
+          "type": "text/html",
+          "title": "GHGSat Spectra Catalogue - Catalogue"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/search?text=GHGSat-DATA-SAT-Product-Specifications.pdf",
+          "type": "application/pdf",
+          "title": "GHGSAT Software Tools - Product Guide"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://esatellus.service-now.com/csp?id=esa_simple_request",
+          "type": "text/html",
+          "title": "Get Help? - ESA Earth Observation User Services Portal"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/GHGSat.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        }
+      ],
+      "id": "GHGSat.archive.and.tasking",
+      "updated": "2025-01-07T12:47:18Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/version/v1.2.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "ESA/ESRIN",
+          "url": "http://www.esa.int"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "ESA Catalog",
+          "url": "https://eocat.esa.int/eo-catalogue"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "WAF-P",
+          "WAF-P"
+        ],
+        "platform": [
+          "GHGSat-C1",
+          "GHGSat-C2"
+        ]
+      },
+      "accessibility": "Restricted",
+      "userNote": "unavailable in development seed"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2007-10-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "Agriculture",
+        "EARTH SCIENCE > AGRICULTURE",
+        "Forestry",
+        "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > TERRESTRIAL ECOSYSTEMS > FORESTS",
+        "Land Surface",
+        "EARTH SCIENCE > LAND SURFACE",
+        "Vegetation",
+        "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+        "Natural Hazards and Disaster Risk",
+        "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS",
+        "Oceans",
+        "EARTH SCIENCE > OCEANS",
+        "Snow and Ice",
+        "EARTH SCIENCE > CRYOSPHERE > SNOW/ICE",
+        "EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SNOW/ICE",
+        "Sun-synchronous",
+        "VIS (0.40 - 0.75 µm)",
+        "Very High Resolution - VHR (0 - 5m)",
+        "496 km",
+        "17.6 km",
+        "Cameras",
+        "WorldView-1",
+        "WV60"
+      ],
+      "created": "2019-05-23T00:00:00.000Z",
+      "description": "WorldView-1 high resolution optical products are available as part of the Maxar Standard Satellite Imagery products from the QuickBird, WorldView-1/-2/-3/-4, and GeoEye-1 satellites. All details about the data provision, data access conditions and quota assignment procedure are described into the Terms of Applicability available in Resources section.\r\n\r\nIn particular, WorldView-1 offers archive and tasking panchromatic products up to 0.50 m GSD resolution.\r\n\r\nBand Combination\tData Processing Level\tResolution\r\nPanchromatic\tStandard(2A)/View Ready STANDARD (OR2A)\t50 cm, 30 cm HD\r\nView Ready Stereo\t50 cm\r\nMap-Ready (Ortho) 1:12.000 Orthorectified\t50 cm, 30 cm HD\r\n \r\n\r\nNative 50 cm resolution products are processed with MAXAR HD Technology to generate the 30 cm HD products: the initial special resolution (GSD) is unchanged but the HD technique increases the number of pixels and improves the visual clarity achieving aesthetically refined imagery with precise edges and well reconstructed details.\r\n\r\nAs per ESA policy, very high-resolution imagery of conflict areas cannot be provided.",
+      "collection": "EOP:ESA:EARTH-ONLINE",
+      "type": "Collection",
+      "title": "WorldView-1 full archive and tasking",
+      "version": "8.0",
+      "license": "other",
+      "assets": {
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "parent",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/Map-Ready-imagery-data-sheet.pdf/83b9a034-5548-1fc7-4744-8d0fdb922f52",
+          "type": "application/pdf",
+          "title": "Map Ready imagery data sheet - Product Specifications"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/DigitalGlobe-GeoStereo.pdf",
+          "type": "application/pdf",
+          "title": "GeoStereo product details - Product Specifications"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/DigitalGlobe-Stereo-Imagery.pdf",
+          "type": "application/pdf",
+          "title": "Stereo product details - Product Specifications"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/view-ready-imagery-data-sheet.pdf/e1476ac6-51cc-6052-c138-844dcc0200b8",
+          "type": "application/pdf",
+          "title": "View Ready imagery data sheet - Product Specifications"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/WorldView-GeoEye-QuickBird-Terms-Of-Applicability.pdf",
+          "type": "application/pdf",
+          "title": "WorldView, GeoEye, QuickBird Terms of Applicability - Access Guide"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/tools/sentinel-2-toolbox",
+          "type": "text/html",
+          "title": "WorldView Software Tools - Software Tools"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://esatellus.service-now.com/csp?id=esa_simple_request",
+          "type": "text/html",
+          "title": "Get Help? - ESA Earth Observation User Services Portal"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/WorldView-1.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        }
+      ],
+      "id": "WorldView-1.full.archive.and.tasking",
+      "updated": "2024-11-25T11:31:34Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/version/v1.2.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "ESA/ESRIN",
+          "url": "https://www.esa.int"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "ESA Catalog",
+          "url": "https://eocat.esa.int/eo-catalogue"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "WV60"
+        ],
+        "platform": [
+          "WorldView-1"
+        ]
+      },
+      "accessibility": "Restricted",
+      "userNote": "unavailable in development seed"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-11-15T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "Space Weather",
+        "Geomagnetism",
+        "Ionosphere and Magnetosphere Dynamics",
+        "EARTH SCIENCE > SUN-EARTH INTERACTIONS",
+        "EARTH SCIENCE > SOLID EARTH > GEOMAGNETISM",
+        "EARTH SCIENCE > SUN-EARTH INTERACTIONS > IONOSPHERE/MAGNETOSPHERE DYNAMICS",
+        "Drifting, near polar",
+        "at beginning of mission: 462 km for Swarm A and C, 511 km for Swarm B",
+        "Accelerometers",
+        "MAGNETOMETERS",
+        "Magnetic Field/Electric Field Instruments",
+        "Laser Ranging",
+        "GPS",
+        "Radar Altimeters",
+        "Swarm",
+        "ACC",
+        "ASM",
+        "EFI",
+        "LRR",
+        "GPSR",
+        "STR",
+        "VFM"
+      ],
+      "created": "2019-12-13T00:00:00.00Z",
+      "description": "Monthly gravity field of the Earth, non-gravitational accelerations",
+      "collection": "EOP:ESA:EARTH-ONLINE",
+      "type": "Collection",
+      "title": "Swarm Geodesy/Gravity",
+      "version": "3.0",
+      "license": "other",
+      "assets": {
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "parent",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/missions/swarm/product-data-handbook/level-1b-product-format",
+          "type": "text/html",
+          "title": "Level 1B product format - Level 1B product format"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/missions/swarm/product-data-handbook/level-1b-product-definitions",
+          "type": "text/html",
+          "title": "Level 1B Product Definitions - Level 1B Product Definitions"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/missions/swarm/product-data-handbook/level-2-product-definitions",
+          "type": "text/html",
+          "title": "Level2 Product Definitions - Level2 Product Definitions"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/missions/swarm/product-data-handbook/level-2-product-format",
+          "type": "text/html",
+          "title": "Level2 Product Format - Level2 Product Format"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/search?category=tools+and+toolboxes&mission=swarm&tools_type=analysis%2Cprocessing%2Cvisualisation%2Cother",
+          "type": "text/html",
+          "title": "SWARM Software tools - Software tools"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://esatellus.service-now.com/csp?id=esa_simple_request",
+          "type": "text/html",
+          "title": "Get Help? - ESA Earth Observation User Services Portal"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Geodesy_Gravity?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        }
+      ],
+      "id": "Swarm.Geodesy_Gravity",
+      "updated": "2019-12-13T00:00:00.00Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/version/v1.2.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "ESA/ESRIN",
+          "url": "http://www.esa.int"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "ESA Catalog",
+          "url": "https://eocat.esa.int/eo-catalogue"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "VFM"
+        ],
+        "platform": [
+          "Swarm"
+        ]
+      },
+      "accessibility": "Restricted",
+      "userNote": "unavailable in development seed"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-11-15T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "Solid Earth",
+        "Geomagnetism",
+        "EARTH SCIENCE > SOLID EARTH",
+        "EARTH SCIENCE > SOLID EARTH > GEOMAGNETISM",
+        "Drifting, near polar",
+        "at beginning of mission: 462 km for Swarm A and C, 511 km for Swarm B",
+        "Accelerometers",
+        "MAGNETOMETERS",
+        "Magnetic Field/Electric Field Instruments",
+        "Laser Ranging",
+        "GPS",
+        "Radar Altimeters",
+        "Swarm",
+        "ACC",
+        "ASM",
+        "EFI",
+        "LRR",
+        "GPSR",
+        "STR",
+        "VFM"
+      ],
+      "created": "2019-12-13T00:00:00.00Z",
+      "description": "Oceans tides, induced magnetic field",
+      "collection": "EOP:ESA:EARTH-ONLINE",
+      "type": "Collection",
+      "title": "Swarm Oceans",
+      "version": "3.0",
+      "license": "other",
+      "assets": {
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "parent",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/missions/swarm/product-data-handbook/level-1b-product-format",
+          "type": "text/html",
+          "title": "Level 1B product format - Level 1B product format"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/missions/swarm/product-data-handbook/level-1b-product-definitions",
+          "type": "text/html",
+          "title": "Level 1B Product Definitions - Level 1B Product Definitions"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/missions/swarm/product-data-handbook/level-2-product-definitions",
+          "type": "text/html",
+          "title": "Level2 Product Definitions - Level2 Product Definitions"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/missions/swarm/product-data-handbook/level-2-product-format",
+          "type": "text/html",
+          "title": "Level2 Product Format - Level2 Product Format"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/search?category=tools+and+toolboxes&mission=swarm&tools_type=analysis%2Cprocessing%2Cvisualisation%2Cother",
+          "type": "text/html",
+          "title": "SWARM Software tools - Software tools"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://esatellus.service-now.com/csp?id=esa_simple_request",
+          "type": "text/html",
+          "title": "Get Help? - ESA Earth Observation User Services Portal"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Swarm.Oceans?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        }
+      ],
+      "id": "Swarm.Oceans",
+      "updated": "2019-12-13T00:00:00.00Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/version/v1.2.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "ESA/ESRIN",
+          "url": "http://www.esa.int"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "ESA Catalog",
+          "url": "https://eocat.esa.int/eo-catalogue"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "VFM"
+        ],
+        "platform": [
+          "Swarm"
+        ]
+      },
+      "accessibility": "Restricted",
+      "userNote": "unavailable in development seed"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2003-08-13T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "Atmosphere",
+        "EARTH SCIENCE > ATMOSPHERE",
+        "Air Quality",
+        "EARTH SCIENCE > ATMOSPHERE > AIR QUALITY",
+        "Atmospheric Indicators",
+        "Inclined, non-sun-synchronous",
+        "UV (0.01 - 0.4 µm)",
+        "VIS (0.40 - 0.75 µm)",
+        "NIR (0.75 - 1.30 µm)",
+        "SWIR (1.3 - 3.0 µm)",
+        "MWIR (3.0 - 6.0 µm)",
+        "TIR (6.0 - 15.0 µnm)",
+        "Low Resolution - LR (500 - 1200 m)",
+        "Very Low Resolution - VLR (> 1200 m)",
+        "650 km",
+        "1.25 mrad",
+        "Spectrometers",
+        "SCISAT-1",
+        "ACE-FTS",
+        "MAESTRO"
+      ],
+      "created": "2019-05-30T00:00:00.000Z",
+      "description": "SCISAT-1 data aim at monitoring and analysing the chemical processes that control the distribution of ozone in the upper troposphere and stratosphere. It provides acquisitions from the 2 instruments MAESTRO and ACE-FTS.   • MAESTRO: Measurement of Aerosol Extinction in the Stratosphere and Troposphere Retrieved by Occultation. Dual-channel optical spectrometer in the spectral region of 285-1030 nm. The objective is to measure ozone, nitrogen dioxide and aerosol/cloud extinction (solar occultation measurements of atmospheric attenuation during satellite sunrise and sunset with the primary objective of assessing the stratospheric ozone budget). Solar occultation spectra are being used for retrieving vertical profiles of temperature and pressure, aerosols, and trace gases (O3, NO2, H2O, OClO, and BrO) involved in middle atmosphere ozone distribution. The use of two overlapping spectrometers (280 - 550 nm, 500 - 1030 nm) improves the stray-light performance. The spectral resolution is about 1-2 nm.   • ACE-FTS: Fourier Transform Spectrometer The objective is to measure the vertical distribution of atmospheric trace gases, in particular of the regional polar O3 budget, as well as pressure and temperature (derived from CO2 lines). The instrument is an adapted version of the classical sweeping Michelson interferometer, using an optimized optical layout. The ACE-FTS measurements are recorded every 2 s. This corresponds to a measurement spacing of 2-6 km which decreases at lower altitudes due to refraction. The typical altitude spacing changes with the orbital beta angle. For historical reasons, the retrieved results are interpolated onto a 1 km &quot;grid&quot; using a piecewise quadratic method. For ACE-FTS version 1.0, the results were reported only on the interpolated grid (every 1 km from 0.5 to 149.5 km). For versions 2.2, both the &quot;retrieval&quot; grid and the &quot;1 km&quot; grid profiles are available.   SCISAT-1 collection provides ACE-FTS and MAESTRO Level 2 Data. As of today, ACE-FTS products are available in version 4.1, while MAESTRO products are available in version 3.13.",
+      "collection": "EOP:ESA:EARTH-ONLINE",
+      "type": "Collection",
+      "title": "SciSat-1: ACE-FTS and MAESTRO",
+      "version": "4.0",
+      "license": "other",
+      "assets": {
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "parent",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "describedby",
+          "href": "http://www.ace.uwaterloo.ca/",
+          "type": "text/html",
+          "title": "Product details - Product Specifications"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://esatellus.service-now.com/csp?id=esa_simple_request",
+          "type": "text/html",
+          "title": "Get Help? - ESA Earth Observation User Services Portal"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/SciSat-1.Ace.FTS.and.Maestro?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        }
+      ],
+      "id": "SciSat-1.Ace.FTS.and.Maestro",
+      "updated": "2024-07-11T11:41:31Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/version/v1.2.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "ESA/ESRIN",
+          "url": "https://www.esa.int"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "ESA Catalog",
+          "url": "https://eocat.esa.int/eo-catalogue"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "ACE-FTS"
+        ],
+        "platform": [
+          "SCISAT-1"
+        ]
+      },
+      "accessibility": "Restricted",
+      "userNote": "unavailable in development seed"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2001-02-20T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "Atmosphere",
+        "EARTH SCIENCE > ATMOSPHERE",
+        "Aerosols",
+        "EARTH SCIENCE > ATMOSPHERE > AEROSOLS",
+        "Atmospheric Temperature",
+        "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE",
+        "Atmospheric Chemistry",
+        "EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC CHEMISTRY",
+        "Sun-synchronous",
+        "UV (0.01 - 0.4 µm)",
+        "VIS (0.40 - 0.75 µm)",
+        "NIR (0.75 - 1.30 µm)",
+        "SWIR (1.3 - 3.0 µm)",
+        "Ozone - Level 2 and 3 : v5.10 Aerosol - Level 2 and 3: v7.0 NO2 - Level 2: v6.0.3 BrO - Level 2: v5.1",
+        "620 km",
+        "Measures in altitude range 7-65 km",
+        "Profilers/Sounders",
+        "ODIN",
+        "OSIRIS"
+      ],
+      "created": "2021-04-23T00:00:00.000Z",
+      "description": "The Odin OSIRIS (Optical Spectrograph and Infra-Red Imaging System) data provides vertical profiles measures of spectrally dispersed, limb scattered sunlight from the upper troposphere into the lower mesosphere. The data products are regularly processed and provide Ozone density vertical profiles (both Level 2 and Level 3), vertical profiles of stratospheric Aerosol (both Level 2 and Level 3), slant column densities of nitrogen dioxide NO2 profiles (Level 2), stratospheric BrO profiles (Level 2)",
+      "collection": "EOP:ESA:EARTH-ONLINE",
+      "type": "Collection",
+      "title": "Odin OSIRIS data products",
+      "version": "4.0",
+      "license": "other",
+      "assets": {
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "parent",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://research-groups.usask.ca/osiris/index.php",
+          "type": "text/html",
+          "title": "Odin OSIRIS portal - Web site"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://research-groups.usask.ca/osiris/data-products.php",
+          "type": "text/html",
+          "title": "ODIN Software Tools - Product Guide"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://esatellus.service-now.com/csp?id=esa_simple_request",
+          "type": "text/html",
+          "title": "Get Help ? - ESA Earth Observation User Services Portal"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Odin.OSIRIS?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        }
+      ],
+      "id": "Odin.OSIRIS",
+      "updated": "2024-07-11T11:37:11Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/version/v1.2.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "ESA/ESRIN",
+          "url": "http://www.esa.int"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "ESA Catalog",
+          "url": "https://eocat.esa.int/eo-catalogue"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "OSIRIS"
+        ],
+        "platform": [
+          "ODIN"
+        ]
+      },
+      "accessibility": "Restricted",
+      "userNote": "unavailable in development seed"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2007-11-19T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "Soils",
+        "EARTH SCIENCE > AGRICULTURE > SOILS",
+        "EARTH SCIENCE > LAND SURFACE > SOILS",
+        "Vegetation",
+        "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+        "Oceans",
+        "EARTH SCIENCE > OCEANS",
+        "Coastal Processes",
+        "EARTH SCIENCE > OCEANS > MARINE ENVIRONMENT MONITORING > MARINE OBSTRUCTIONS",
+        "EARTH SCIENCE > LAND SURFACE > GEOMORPHIC LANDFORMS/PROCESSES > COASTAL PROCESSES",
+        "Natural Hazards and Disaster Risk",
+        "EARTH SCIENCE > HUMAN DIMENSIONS > NATURAL HAZARDS",
+        "Sun-synchronous",
+        "X-Band (2.8 - 5.2 cm)",
+        "Very High Resolution - VHR (0 - 5m)",
+        "High Resolution - HR (5 - 20 m)",
+        "Medium Resolution - MR (20 - 500 m)",
+        "514 km",
+        "5-10 km x 10 km for SpotLight, 30 km for StripMap, 100 km for ScanSAR",
+        "Imaging Radars",
+        "TerraSAR-X",
+        "TanDEM-X",
+        "TDX-1",
+        "TSX-1"
+      ],
+      "created": "2019-07-16T00:00:00.000Z",
+      "description": "TerraSAR-X/TanDEM-X full archive and new tasking products can be acquired in six image modes with flexible resolutions (from 0.25 m to 40 m) and scene sizes and are provided in different packages: Staring SpotLight (basic, Interferometric pack, and Maritime pack) High Resolution SpotLight (basic, Interferometric pack, and Maritime pack) SpotLight (basic, Interferometric pack, and Maritime pack) StripMap (basic, Interferometric pack, and Maritime pack) ScanSAR (basic and Maritime pack) Wide ScanSAR (basic and Maritime pack) Product Overview: >> Product: SAR-ST • Instrument mode: Staring SpotLight • Available resolutions (up to): 0.25 m • Scene size: 4x3.7 km2 >> Product: SAR-HS • Instrument mode: High Resolution SpotLight • Available resolutions (up to): 1 m • Scene size: 10x5 km2 >> Product: SAR-SL • Instrument mode: SpotLight • Available resolutions (up to): 2 m • Scene size: 10x10 km2 >> Product: SAR-SM • Instrument mode: StripMap • Available resolutions (up to): 3 m • Scene size: 30x50 km2 (up to 30x1650) • Basic products (SAR-SM) are intended as the products delivered as a standard scene. The available processing levels are: SSC (Single Look Slant Range Complex) in DLR-defined COSAR binary format, MGD (Multi Look Ground Range Detected) in GeoTiff format, GEC (Geocoded Ellipsoid Corrected) in GeoTiff format, EEC (Enhanced Ellipsoid Corrected) in GeoTiff format. >> Product: SAR-SC • Instrument mode: ScanSAR • Available resolutions (up to): 18 m • Scene size: 100x150 km2 (up to 100x1650) >> Product: SAR-WS • Instrument mode: Wide ScanSAR • Available resolutions (up to): 40 m • Scene size: 270x200 km2 (up to 270x1500) >> Available processing levels: • SSC (Single Look Slant Range Complex): azimuth - slant range (time domain) • MGD (Multi Look Ground Range Detected): azimuth - ground range (without terrain correction) • GEC (Geocoded Ellipsoid Corrected): map geometry with ellipsoidal corrections only (no terrain correction performed) • EEC (Enhanced Ellipsoid Corrected): map geometry with terrain correction, using a DEM >> Format: • SSC: DLR-defined COSAR binary • MGD: GeoTiff • GEC: GeoTiff • EEC: GeoTiff >> Spatial coverage: Worldwide >> Interferometry package: • InSAR-ST, InSAR-HS, InSAR-SL, InSAR-SM • Only SSC • At least five ordered scenes within six months from first order • N/A for SAR-SC and SAR-WS >> Maritime Monitoring package: • MmSAR-ST, MmSAR-HS, MmSAR-SL, MmSAR-SM, MmSAR-SC, MmSAR-WS • Only SSC, MGD, GEC • At least 75% of the scene area is water • More than five ordered scenes in three months The following WorldDEM products can be requested: Product: WorldDEMcore Description: WorldDEMcore is output of interferometric processing of StripMap data pairs without any post-processing Product: WorldDEMTM Description: WorldDEMTM is produced based on WorldDEMcore, representing the surface of the Earth (including buildings, infrastructure and vegetation). Hydrological consistency is ensured Product: WorldDEM DTM Description: In additional editing steps, WorldDEMTMis transformed into a Digital Terrain Model (DTM) representing bare Earth elevation Product: WorldDEM Bundle Description: Includes WorldDEMTM, WorldDEM DTM, and Quality Layers The main specifications of the WorldDEM products are: - Horizontal Coordinate Reference System: World Geodetic System 1984 (WGS84-G1150) - Vertical Coordinate Reference System: Earth Gravitational Model 2008 (EGM2008) - Absolute Horizontal Accuracy: <6 m - Vertical Accuracy: 2 m Relative, 4 m Absolute - Quality Layers (including water body mask) can be requested as an option with the WorldDEM and WorldDEM DTM - Auxiliary Layers are delivered together with the WorldDEMcore product The products are available as part of the Airbus provision from TerraSAR-X and Tandem-X missions with worldwide coverage: the TerraSAR-X/TanDEM-X Catalogue (https://terrasar-x-archive.terrasar.com/) can be accessed to discover and check the basic product data readiness; using the WorldDEM database viewers (https://worlddem-database.terrasar.com/ ). All details about the data provision, data access conditions and quota assignment procedure are described into the Terms of Applicability (https://earth.esa.int/eogateway/documents/20142/37627/TSX-TDX-Terms-Of-Applicability.pdf/265d10ac-6900-45de-8d31-ccfe3dd8d6e6) available in Resources section.",
+      "collection": "EOP:ESA:EARTH-ONLINE",
+      "type": "Collection",
+      "title": "TerraSAR-X/TanDEM-X full archive and tasking",
+      "version": "8.0",
+      "license": "other",
+      "assets": {
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "parent",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/WorldDEM-Product-Specification-Summary.pdf",
+          "type": "application/pdf",
+          "title": "WorldDEM Product Specification Summary - Product Specification"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/WorldDEM-Technical-Specification.pdf",
+          "type": "application/pdf",
+          "title": "WorldDEM Technical Specification - Product Specification"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/WorldDEM4Ortho-Technical-Specification.pdf",
+          "type": "application/pdf",
+          "title": "WorldDEM4Ortho Technical Specification - Product Specification"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/WorldDEM-DTMlite-Technical-Specification.pdf",
+          "type": "application/pdf",
+          "title": "WorldDEM DTMlite Technical Specification - Product Specification"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://radar.oneatlas.airbus.com/",
+          "type": "text/html",
+          "title": "TerraSAR-X/TanDEM-X Catalogue - Catalogue"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/TSX-TDX-Terms-Of-Applicability.pdf",
+          "type": "application/pdf",
+          "title": "TerraSAR-X/TanDEM-X Terms of Applicability - Technical Note"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/search?category=tools+and+toolboxes&mission=terrasar-x&tools_type=analysis%2Cprocessing",
+          "type": "text/html",
+          "title": "TerraSAR Software Tools - Software Tools"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://space-solutions.airbus.com/imagery/how-to-order-imagery-and-data/faq/radar-constellation-technical-documents/",
+          "type": "text/html",
+          "title": "TerraSAR-X/TanDEM-X technical documentation  - Technical Note"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://esatellus.service-now.com/csp?id=esa_simple_request",
+          "type": "text/html",
+          "title": "Get Help? - ESA Earth Observation User Services Portal"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/TerraSAR-X_TanDEM-X.full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        }
+      ],
+      "id": "TerraSAR-X_TanDEM-X.full.archive.and.tasking",
+      "updated": "2025-03-05T08:06:40Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "ESA/ESRIN",
+          "url": "http://www.esa.int"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "ESA Catalog",
+          "url": "https://eocat.esa.int/eo-catalogue"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "TSX-1",
+          "TDX-1"
+        ],
+        "processing:lineage": [
+          "No info available."
+        ],
+        "platform": [
+          "TerraSAR-X",
+          "TanDEM-X"
+        ]
+      },
+      "accessibility": "Restricted",
+      "userNote": "unavailable in development seed"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2014-07-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "Vegetation",
+        "EARTH SCIENCE > BIOSPHERE > VEGETATION",
+        "Agriculture",
+        "EARTH SCIENCE > AGRICULTURE",
+        "Forestry",
+        "EARTH SCIENCE > BIOSPHERE > ECOSYSTEMS > TERRESTRIAL ECOSYSTEMS > FORESTS",
+        "Sun-synchronous",
+        "VIS (0.40 - 0.75 Âµm)",
+        "NIR (0.75 - 1.30 Âµm)",
+        "Very High Resolution - VHR (0 - 5m)",
+        "620 km",
+        "12 km at Nadir",
+        "Imaging Spectrometers/Radiometers",
+        "GEOSAT-2",
+        "HiRAIS"
+      ],
+      "created": "2020-02-10T00:00:00.000Z",
+      "description": "GEOSAT-2 full archive and new tasking products are available in different bands combinations:\r\n\r\nPan-sharpened (4 bands, 321 Natural Colours or 432 False Colours): A four-band image, resulting from adding the information of each multispectral band to the panchromatic band. The fusion does not preserves all spectral features of the multispectral bands, so it should not be used for radiometric purposes. Resolution 1m (L1B), 0.75m (L1C) or 0.40m (L1D); Bands: All, R-G-B or Ni-R-G\r\nPanchromatic: Single-band image coming from the panchromatic sensor. Resolution 1m (L1B) or 0.75m (L1C)\r\nMultispectral: Four-band image coming for the multispectral sensor, with band co-registration. Resolution 4m (L1B) or 3m (L1C)\r\nBundle: Panchromatic + Multispectral bands: five-band image containing the panchromatic and multispectral products packaged together, with band co-registration. Resolution 1m+4m (L1B), 0.75m+3m (L1C) or 0.40m+1.6m (L1D);\r\nAnd in addition\r\n Stereo Pair: Obtained from two acquisitions of the same target performed from different viewpoints in the same pass by using the agility feature of the platform. It can be provided as a pair of pan-sharpened or panchromatic images.\r\n\r\nGEOSAT-2 full archive and new tasking products are available at up to 0.4m resolution as:\r\n\r\nL1 SR Pan-sharpened (4 bands, 321 Natural Colours or 432 False Colours): A four-band image, resulting from adding the information of each multispectral band to the panchromatic band. The fusion does not preserve all spectral features of the multispectral bands, so it should not be used for radiometric purposes. Enhanced GSD from AI based techniques. Resolution 0.4m enhanced ortho; Bands: All, R-G-B or Ni-R-G\r\nL1SR Bundle: Panchromatic + Multispectral bands: five-band image containing the panchromatic and multispectral products packaged together, with band co-registration. Enhanced GSD from AI based techniques. Resolution 0.4m (P), 1.6m (MS) enhanced ortho. \r\n\r\nThe image products are delivered in GeoTIFF image format by default. JPEG-2000 format is also available on demand.\r\n\r\nAvailable processing levels are ortho-ready L1B (not resampled) and ortho L1C (orthorectified and resampled). \r\nIn addition, for Pan-sharpened and Bundle, also L1D (enhanced ortho) super-resolution products are available: based on artificial intelligence, this technology increases the original resolution and detail of an image without losing quality with respect to the original product\r\n\r\n\r\n \t Processing Level and Spatial Resolution\t Spectral Bands\r\nProduct Type\r\n L1B (orthoready)\t L1C (ortho)\t L1D (Enhanced Ortho)\r\n\r\nPan-sharpened\t1.0m\t 0.75m\t 0.40m\t All\t R, G, B\tNI, R, G\r\nPan\t 1.0m\t 0.75m\t \t Only Pan band\r\nMS\t 4.0m\t 3.00m\t \t Only MS band\r\nBundle (PAN+MS) 1.0m (P), 4.0m (MS)\t0.75m (P), 3.0m(MS)\t0.40m (P), 1.6m(MS) All\r\n\r\nAs per ESA policy, very high-resolution imagery of conflict areas cannot be provided.",
+      "collection": "EOP:ESA:EARTH-ONLINE",
+      "type": "Collection",
+      "title": "GEOSAT-2 full archive and tasking",
+      "version": "9.0",
+      "license": "other",
+      "assets": {
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "type": "application/json",
+          "title": "ESA Catalog"
+        },
+        {
+          "rel": "parent",
+          "href": "https://eocat.esa.int/eo-catalogue",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/GEOSAT-2-Imagery-User-Guide.pdf",
+          "type": "application/pdf",
+          "title": "GEOSAT-2_P&S_GUIDE.pdf - Product Specifications"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/GEOSAT-1-2-Terms-Of-Applicability.pdf",
+          "type": "application/pdf",
+          "title": "GEOSAT-1&2 Terms of Applicability - Access guide"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://catalogue.geosat.space/cscda/extcat/",
+          "type": "text/html",
+          "title": "GEOSAT catalogue - Data Access information"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://earth.esa.int/eogateway/documents/20142/37627/GEOSAT-2-Imagery-User-Guide.pdf",
+          "type": "application/pdf",
+          "title": "Geosat 1-2 Software Tools - Product Guide"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://esatellus.service-now.com/csp?id=esa_simple_request",
+          "type": "text/html",
+          "title": "Get Help? - ESA Earth Observation User Services Portal"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://eocat.esa.int/eo-catalogue/collections/Geosat-2.Full.archive.and.tasking?parentIdentifier=EOP:ESA:EARTH-ONLINE&httpAccept=text/turtle",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        }
+      ],
+      "id": "Geosat-2.Full.archive.and.tasking",
+      "updated": "2025-03-26T08:45:03Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/version/v1.2.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "ESA/ESRIN",
+          "url": "https://earth.esa.int"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "ESA Catalog",
+          "url": "https://eocat.esa.int/eo-catalogue"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "HiRAIS"
+        ],
+        "processing:lineage": [
+          "No info available."
+        ],
+        "platform": [
+          "GEOSAT-2"
+        ]
+      },
+      "accessibility": "Restricted",
+      "userNote": "unavailable in development seed"
+    }
+  ]
+}

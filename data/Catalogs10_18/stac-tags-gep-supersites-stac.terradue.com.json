@@ -1,0 +1,1218 @@
+{
+  "stacApiUrl": "https://gep-supersites-stac.terradue.com/",
+  "exportedAt": "2025-10-19T15:18:48.530Z",
+  "collections": [
+    {
+      "id": "csk-nepal-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-nepal-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-nepal-supersite"
+        }
+      ],
+      "title": "Iceland Volcanoes Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-04-03T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data collected by the COSMO-SkyMed constellation (CSK and CSG) for the Nepal Supersite.",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-iran-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-iran-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-iran-supersite"
+        }
+      ],
+      "title": "Iceland Volcanoes Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-04-03T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data collected by the COSMO-SkyMed constellation (CSK and CSG) for the Iran Supersite.",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-nicaragua-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-nicaragua-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-nicaragua-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-nicaragua-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Nicaragua Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -87.76218279503792,
+              11.19916954471084,
+              -85.31019578541118,
+              13.29301777535185
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-08-03T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data captured by the COSMO-SkyMed constellation (CSK and CSG) for the Nicaragua Supersite in the Global Supersite Network for Landslides (GSNL). This collection provides continuous monitoring of ground deformation and potential landslide events in the critical area of Nicaragua.",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-haiti-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-haiti-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-haiti-supersite"
+        }
+      ],
+      "title": "Iceland Volcanoes Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-04-03T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data collected by the COSMO-SkyMed constellation (CSK and CSG) for the Haiti Supersite.",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-ecuador-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-ecuador-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-ecuador-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-ecuador-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Ecuadorian Volcanoes Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -78.99060076340743,
+              -2.101729533681655,
+              -77.49603018210462,
+              0.8433278271369999
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-04-26T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data collected by the COSMO-SkyMed constellation (CSK and CSG) for the Ecuadorian Volcanoes Supersite, providing critical insights into volcanic activity and ground deformation in this volcanic-rich region.",
+      "auth:schemes": {
+        "signed_url_auth": {
+          "type": "signedUrl",
+          "flows": {
+            "authorizationCode": {
+              "method": "POST",
+              "parameters": {
+                "url": {
+                  "in": "query",
+                  "schema": {
+                    "type": "string",
+                    "examples": "s3://gep-supersites/csk/south-andes/"
+                  },
+                  "required": true,
+                  "description": "asset URL"
+                },
+                "redirect": {
+                  "in": "query",
+                  "schema": {
+                    "type": "boolean",
+                    "examples": true
+                  },
+                  "required": false,
+                  "description": "indicate if the response include a 302 for an automatic redirect with 'Location' header"
+                },
+                "AuthorizationUrl": {
+                  "in": "header",
+                  "schema": {
+                    "type": "string",
+                    "examples": "Bearer secretKey1234567890"
+                  },
+                  "required": true,
+                  "description": "Authentication credentials"
+                }
+              },
+              "responseField": "signed_url",
+              "authorizationApi": "https://api.terradue.com/core/v1/storage/download"
+            }
+          },
+          "description": "Provides an authenticated download link for an asset URL"
+        }
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/authentication/v1.0.0/schema.json"
+      ],
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-san-andrea-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-san-andrea-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-san-andrea-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-san-andrea-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "San Andrea Fault Natural Laboratory CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -125.7246037509945,
+              31.50846797585743,
+              -112.8936780893357,
+              41.99461979430026
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-06-19T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data collected by the COSMO-SkyMed constellation (CSK and CSG) for the San Andrea Fault Natural Laboratory Supersite, providing more detailed (temporally and spatially) studies of interseismic and aseismic deformation processes and a better response to seismic events on the San Andreas Fault System.",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-iceland-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-iceland-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-iceland-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-iceland-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Iceland Volcanoes Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -22.99999999999994,
+              63.19999999999992,
+              -15.19999999999993,
+              66.39999999999998
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-04-03T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data collected by the COSMO-SkyMed constellation (CSK and CSG) for the Iceland Volcanoes Supersite, providing continuous monitoring of ground deformation and volcanic activities in this geologically active island.",
+      "auth:schemes": {
+        "signed_url_auth": {
+          "type": "signedUrl",
+          "flows": {
+            "authorizationCode": {
+              "method": "POST",
+              "parameters": {
+                "url": {
+                  "in": "query",
+                  "schema": {
+                    "type": "string",
+                    "examples": "s3://gep-supersites/csk/south-andes/"
+                  },
+                  "required": true,
+                  "description": "asset URL"
+                },
+                "redirect": {
+                  "in": "query",
+                  "schema": {
+                    "type": "boolean",
+                    "examples": true
+                  },
+                  "required": false,
+                  "description": "indicate if the response include a 302 for an automatic redirect with 'Location' header"
+                },
+                "AuthorizationUrl": {
+                  "in": "header",
+                  "schema": {
+                    "type": "string",
+                    "examples": "Bearer secretKey1234567890"
+                  },
+                  "required": true,
+                  "description": "Authentication credentials"
+                }
+              },
+              "responseField": "signed_url",
+              "authorizationApi": "https://api.terradue.com/core/v1/storage/download"
+            }
+          },
+          "description": "Provides an authenticated download link for an asset URL"
+        }
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/authentication/v1.0.0/schema.json"
+      ],
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-kamchatka-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-kamchatka-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-kamchatka-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-kamchatka-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Kamchatka_Kuriles Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              152.8248653403628,
+              47.73675216158216,
+              165.8814951759904,
+              58.70901563001384
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2008-10-20T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data acquired by the COSMO-SkyMed constellation (CSK and CSG) for the Kamchatka Kuriles Supersite, focused on monitoring ground displacement and deformation in the region known for its active volcanic and seismic activity.",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-flegrei-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-flegrei-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-flegrei-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-flegrei-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Vesuvius & Campi Flegrei Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              13.95875590665078,
+              40.75212768414112,
+              14.55097230616487,
+              40.9429712435987
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-01-07T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data collected by the COSMO-SkyMed constellation (CSK and CSG) for the Vesuvius & Campi Flegrei Supersite, offering continuous monitoring of ground deformation and volcanic activities in the Naples area of Italy.",
+      "auth:schemes": {
+        "signed_url_auth": {
+          "type": "signedUrl",
+          "flows": {
+            "authorizationCode": {
+              "method": "POST",
+              "parameters": {
+                "url": {
+                  "in": "query",
+                  "schema": {
+                    "type": "string",
+                    "examples": "s3://gep-supersites/csk/south-andes/"
+                  },
+                  "required": true,
+                  "description": "asset URL"
+                },
+                "redirect": {
+                  "in": "query",
+                  "schema": {
+                    "type": "boolean",
+                    "examples": true
+                  },
+                  "required": false,
+                  "description": "indicate if the response include a 302 for an automatic redirect with 'Location' header"
+                },
+                "AuthorizationUrl": {
+                  "in": "header",
+                  "schema": {
+                    "type": "string",
+                    "examples": "Bearer secretKey1234567890"
+                  },
+                  "required": true,
+                  "description": "Authentication credentials"
+                }
+              },
+              "responseField": "signed_url",
+              "authorizationApi": "https://api.terradue.com/core/v1/storage/download"
+            }
+          },
+          "description": "Provides an authenticated download link for an asset URL"
+        }
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/authentication/v1.0.0/schema.json"
+      ],
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-virunga-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-virunga-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-virunga-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-virunga-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Virunga Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              28.4895016467234,
+              -2.79152947959852,
+              29.9953132638948,
+              -0.758840897302285
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-04-13T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data captured by the COSMO-SkyMed constellation (CSK and CSG) for the Virunga Supersite, offering insights into ground deformation and volcanic activities in the Virunga volcanic area.",
+      "auth:schemes": {
+        "signed_url_auth": {
+          "type": "signedUrl",
+          "flows": {
+            "authorizationCode": {
+              "method": "POST",
+              "parameters": {
+                "url": {
+                  "in": "query",
+                  "schema": {
+                    "type": "string",
+                    "examples": "s3://gep-supersites/csk/south-andes/"
+                  },
+                  "required": true,
+                  "description": "asset URL"
+                },
+                "redirect": {
+                  "in": "query",
+                  "schema": {
+                    "type": "boolean",
+                    "examples": true
+                  },
+                  "required": false,
+                  "description": "indicate if the response include a 302 for an automatic redirect with 'Location' header"
+                },
+                "AuthorizationUrl": {
+                  "in": "header",
+                  "schema": {
+                    "type": "string",
+                    "examples": "Bearer secretKey1234567890"
+                  },
+                  "required": true,
+                  "description": "Authentication credentials"
+                }
+              },
+              "responseField": "signed_url",
+              "authorizationApi": "https://api.terradue.com/core/v1/storage/download"
+            }
+          },
+          "description": "Provides an authenticated download link for an asset URL"
+        }
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/authentication/v1.0.0/schema.json"
+      ],
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-turkey-event-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-turkey-event-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-turkey-event-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-turkey-event-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Turkey - Karamanmaras Event Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              35.01902252195001,
+              34.60628794721785,
+              39.93972948822928,
+              39.07496272312276
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-11-02T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data collected by the COSMO-SkyMed constellation (CSK and CSG) for the Turkey - Karamanmaras Event Supersite, focusing the scientific investigation of different aspects of the earthquake occurred on the East Anatolian, from the characteristics of its source to the impact on the human and natural environment.",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-china-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-china-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-china-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-china-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "China Earthquake Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              99.624222307587,
+              25.4437905859815,
+              104.748183162013,
+              32.0124172850316
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-10-09T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data captured by the COSMO-SkyMed constellation (CSK and CSG) for the China Earthquake Supersite, dedicated to monitoring ground movements and seismic activities in areas prone to earthquakes.",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-southern-andes-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-southern-andes-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-southern-andes-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-southern-andes-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Southern Andes Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -72.1558928781079,
+              -39.7511682990025,
+              -70.9703438290131,
+              -37.7492273497073
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-07-03T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data acquired by the COSMO-SkyMed constellation (CSK and CSG) for the Southern Andes Supersite, focusing on monitoring ground deformation and geological processes in this tectonically active region.",
+      "auth:schemes": {
+        "signed_url_auth": {
+          "type": "signedUrl",
+          "flows": {
+            "authorizationCode": {
+              "method": "POST",
+              "parameters": {
+                "url": {
+                  "in": "query",
+                  "schema": {
+                    "type": "string",
+                    "examples": "s3://gep-supersites/csk/south-andes/"
+                  },
+                  "required": true,
+                  "description": "asset URL"
+                },
+                "redirect": {
+                  "in": "query",
+                  "schema": {
+                    "type": "boolean",
+                    "examples": true
+                  },
+                  "required": false,
+                  "description": "indicate if the response include a 302 for an automatic redirect with 'Location' header"
+                },
+                "AuthorizationUrl": {
+                  "in": "header",
+                  "schema": {
+                    "type": "string",
+                    "examples": "Bearer secretKey1234567890"
+                  },
+                  "required": true,
+                  "description": "Authentication credentials"
+                }
+              },
+              "responseField": "signed_url",
+              "authorizationApi": "https://api.terradue.com/core/v1/storage/download"
+            }
+          },
+          "description": "Provides an authenticated download link for an asset URL"
+        }
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/authentication/v1.0.0/schema.json"
+      ],
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-hawaii-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-hawaii-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-hawaii-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-hawaii-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Hawaian Volcanoes Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -156.1421767202085,
+              18.82420456454206,
+              -154.6735071529823,
+              20.37580913292836
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-07-29T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data captured by the COSMO-SkyMed constellation (CSK and CSG) for the Hawaian Volcanoes Supersite, offering critical insights into ground deformation and volcanic activities in the Hawaiian volcanic chain.",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-marmara_supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-marmara_supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-marmara_supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-marmara_supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Marmara Region Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              26,
+              39,
+              31,
+              42
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2011-05-24T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data acquired by the COSMO-SkyMed constellation (CSK and CSG) for the Marmara Region Supersite, focusing on monitoring ground displacement and seismic activities in the Marmara region known for its tectonic complexity.",
+      "auth:schemes": {
+        "signed_url_auth": {
+          "type": "signedUrl",
+          "flows": {
+            "authorizationCode": {
+              "method": "POST",
+              "parameters": {
+                "url": {
+                  "in": "query",
+                  "schema": {
+                    "type": "string",
+                    "examples": "s3://gep-supersites/csk/south-andes/"
+                  },
+                  "required": true,
+                  "description": "asset URL"
+                },
+                "redirect": {
+                  "in": "query",
+                  "schema": {
+                    "type": "boolean",
+                    "examples": true
+                  },
+                  "required": false,
+                  "description": "indicate if the response include a 302 for an automatic redirect with 'Location' header"
+                },
+                "AuthorizationUrl": {
+                  "in": "header",
+                  "schema": {
+                    "type": "string",
+                    "examples": "Bearer secretKey1234567890"
+                  },
+                  "required": true,
+                  "description": "Authentication credentials"
+                }
+              },
+              "responseField": "signed_url",
+              "authorizationApi": "https://api.terradue.com/core/v1/storage/download"
+            }
+          },
+          "description": "Provides an authenticated download link for an asset URL"
+        }
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/authentication/v1.0.0/schema.json"
+      ],
+      "accessibility": "Public",
+      "userNote": "data"
+    },
+    {
+      "id": "csk-newzealand-supersite",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-newzealand-supersite/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-newzealand-supersite"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://gep-supersites-stac.terradue.com/collections/csk-newzealand-supersite/queryables",
+          "type": "application/schema+json"
+        }
+      ],
+      "title": "Taupo - New Zealand Volcanoes Supersite CSK and CSG data",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              175.096207033076,
+              -39.68465972177592,
+              177.2448610889174,
+              -37.48094996615928
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-02-02T05:21:06Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "proprietary",
+      "description": "Radar data captured by the COSMO-SkyMed constellation (CSK and CSG) for the Taupo - New Zealand Volcanoes Supersite, providing critical insights into ground deformation and volcanic activities in the Taupo volcanic zone of New Zealand.",
+      "auth:schemes": {
+        "signed_url_auth": {
+          "type": "signedUrl",
+          "flows": {
+            "authorizationCode": {
+              "method": "POST",
+              "parameters": {
+                "url": {
+                  "in": "query",
+                  "schema": {
+                    "type": "string",
+                    "examples": "s3://gep-supersites/csk/south-andes/"
+                  },
+                  "required": true,
+                  "description": "asset URL"
+                },
+                "redirect": {
+                  "in": "query",
+                  "schema": {
+                    "type": "boolean",
+                    "examples": true
+                  },
+                  "required": false,
+                  "description": "indicate if the response include a 302 for an automatic redirect with 'Location' header"
+                },
+                "AuthorizationUrl": {
+                  "in": "header",
+                  "schema": {
+                    "type": "string",
+                    "examples": "Bearer secretKey1234567890"
+                  },
+                  "required": true,
+                  "description": "Authentication credentials"
+                }
+              },
+              "responseField": "signed_url",
+              "authorizationApi": "https://api.terradue.com/core/v1/storage/download"
+            }
+          },
+          "description": "Provides an authenticated download link for an asset URL"
+        }
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/authentication/v1.0.0/schema.json"
+      ],
+      "accessibility": "Public",
+      "userNote": "data"
+    }
+  ]
+}

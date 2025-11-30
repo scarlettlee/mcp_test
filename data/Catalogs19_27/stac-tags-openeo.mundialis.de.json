@@ -1,0 +1,678 @@
+{
+  "stacApiUrl": "https://openeo.mundialis.de/api/v1.0/collections",
+  "exportedAt": "2025-10-19T22:36:56.500Z",
+  "collections": [
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /nc_spm_08/landsat",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "nc_spm_08.landsat.strds.lsat5_1987",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /nc_spm_08/landsat",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "nc_spm_08.landsat.strds.lsat5_1987_10",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /nc_spm_08/landsat",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "nc_spm_08.landsat.strds.lsat5_1987_30",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /nc_spm_08/landsat",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "nc_spm_08.landsat.strds.lsat5_1987_40",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /nc_spm_08/modis_lst",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "nc_spm_08.modis_lst.strds.LST_Day_monthly",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /utm32n/openeo",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "utm32n.openeo.strds.sentinel1_Sigma0_VH",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /utm32n/openeo",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "utm32n.openeo.strds.sentinel1_Sigma0_VV",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /utm32n/openeo",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "utm32n.openeo.strds.sentinel1_ratio_db",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /utm32n/openeo_bolzano",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "utm32n.openeo_bolzano.strds.openeo_bolzano_S2",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /latlong_wgs84/modis_ndvi_global",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "latlong_wgs84.modis_ndvi_global.strds.ndvi_16_5600m",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /latlong_wgs84/sentinel2A_openeo_subset",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "latlong_wgs84.sentinel2A_openeo_subset.strds.S2A_B04",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Space time raster dataset",
+      "description": "Space time raster dataset GRASS GIS  location/mapset path: /latlong_wgs84/sentinel2A_openeo_subset",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "latlong_wgs84.sentinel2A_openeo_subset.strds.S2A_B08",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Landsat-8 L1 Collection-1",
+      "description": "Landat-8 L1 Collection-1 imagery radiometrically calibrated and orthorectified using gound points and Digital Elevation Model (DEM) data to correct relief displacement.",
+      "license": "PDDL-1.0",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "stac.defaultStac.rastercube.landsat-8-l1-c1",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    },
+    {
+      "title": "Sentinel 2 L2A",
+      "description": "Sentinel-2a and Sentinel-2b imagery, processed to Level 2A (Surface Reflectance)",
+      "license": "proprietary",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1900-01-01T00:00:00",
+              "2100-01-01T00:00:00"
+            ]
+          ]
+        }
+      },
+      "links": [
+        {
+          "href": "http://www.mundialis.de",
+          "title": "mundialis",
+          "rel": "external"
+        }
+      ],
+      "stac_version": "0.6.2",
+      "id": "stac.defaultStac.rastercube.sentinel-s2-l2a",
+      "properties": {},
+      "cube:dimensions": {
+        "x": {
+          "type": "spatial",
+          "axis": "x"
+        },
+        "y": {
+          "type": "spatial",
+          "axis": "y"
+        }
+      },
+      "summaries": {},
+      "accessibility": "Restricted",
+      "userNote": "Not Available; no link "
+    }
+  ]
+}

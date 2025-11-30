@@ -9,7 +9,14 @@ from mcp_framework import MCPServer
 from tools import (
     calculator_tool,
     memory_tool,
-    weather_tool,
+    weather_tool
+)
+
+# Import STAC tools from student directory (example of how to import from personal directories)
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'team1a', 'scarlett'))
+from stac_tools import (
     stac_list_collections_tool,
     stac_search_tool,
     stac_download_tool,
@@ -42,9 +49,12 @@ def example_basic_tools():
     print(f"Result: {result['result']}")
     
     # Example 3: Weather
-    result = server.call_tool("weather", {"city": "Beijing"})
-    print(f"\nWeather: Beijing")
+    # Note: Weather tool requires API key in config.json
+    result = server.call_tool("weather", {"city": "New York"})
+    print(f"\nWeather: New York")
     print(f"Result: {result['result']}")
+    if "not available" in result.get('result', ''):
+        print("\nNote: Weather API requires API key in config.json. See README for setup instructions.")
 
 
 def example_stac_tools():
@@ -67,10 +77,10 @@ def example_stac_tools():
     print(result.get("result", "Error")[:500] + "...")  # Show first part
     
     # Example 2: Search for LULC data
-    print("\n2. Searching for Land Use/Land Cover data (Beijing area)...")
+    print("\n2. Searching for Land Use/Land Cover data (California area)...")
     result = server.call_tool("stac_search", {
         "collection": "io-lulc-annual-v02",
-        "bbox": [116.2, 39.8, 116.5, 40.0],  # Beijing
+        "bbox": [-122.5, 37.7, -122.3, 37.8],  # California
         "date_start": "2023-01-01",
         "date_end": "2023-12-31",
         "limit": 3
@@ -138,10 +148,12 @@ def main():
     print("All Examples Complete!")
     print("=" * 70)
     print("\nNext Steps:")
-    print("1. Read mcp_framework.py to understand the framework")
-    print("2. Study tools/basic_tools.py and tools/stac_tools.py for examples")
-    print("3. Create your own tools in tools/your_tools.py")
-    print("4. Register and use them in your own scripts")
+    print("1. Configure API keys in config.json (see README.md for instructions)")
+    print("2. Read mcp_framework.py to understand the framework")
+    print("3. Study tools/basic_tools.py for basic examples")
+    print("   Study team1a/scarlett/stac_tools.py as an example of student-developed tools")
+    print("4. Create your own tools in your personal directory (e.g., team1a/scarlett/)")
+    print("5. See CONTRIBUTING.md for detailed instructions on creating tools")
 
 
 if __name__ == "__main__":

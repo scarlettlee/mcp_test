@@ -1,0 +1,844 @@
+{
+  "stacApiUrl": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/",
+  "exportedAt": "2025-10-19T22:15:32.555Z",
+  "collections": [
+    {
+      "id": "dem-phase1",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/dem-phase1/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/dem-phase1"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/dem-phase1/queryables"
+        }
+      ],
+      "title": "Digital Elevation Model Phase 1",
+      "assets": {
+        "thumbnail": {
+          "href": "https://kyfromabove-stac.s3.us-west-2.amazonaws.com/collections/thumbnails/dem-phase1.jpg",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -89.704434,
+              36.456976,
+              -81.884235,
+              39.151921
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-03-18T00:00:00Z",
+              "2017-04-02T12:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "providers": [
+        {
+          "url": "https://registry.opendata.aws/kyfromabove/",
+          "name": "KyFromAbove",
+          "roles": [
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Phase 1 (2010 - 2017) Statewide LiDAR-derived Digital Elevation Model.\n\nThis dataset provides access to a LiDAR-derived 5 Foot Digital Elevation Model (DEM) for the entire Commonwealth of Kentucky. LiDAR was collected at Quality Level 3 or better from 2010 – 2017 for KYAPED project areas while no snow was on the ground and rivers were at or below normal levels.",
+      "stac_version": "1.1.0",
+      "accessibility": "Public",
+      "userNote": "Available "
+    },
+    {
+      "id": "dem-phase2",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/dem-phase2/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/dem-phase2"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/dem-phase2/queryables"
+        }
+      ],
+      "title": "Digital Elevation Model Phase 2",
+      "assets": {
+        "thumbnail": {
+          "href": "https://kyfromabove-stac.s3.us-west-2.amazonaws.com/collections/thumbnails/dem-phase2.jpg",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -89.704434,
+              36.456976,
+              -81.884235,
+              39.151921
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-02-19T00:00:00Z",
+              "2024-02-05T12:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "providers": [
+        {
+          "url": "https://registry.opendata.aws/kyfromabove/",
+          "name": "KyFromAbove Phase2 DEM Collection",
+          "roles": [
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Phase 2 (2019 - 2024) Statewide LiDAR-derived Digital Elevation Model.\n\nThis is the KyFromAbove Phase2 collection and provides access to a 2 Foot Digital Elevation Model (DEM) for Kentucky. Data will be added to this dataset as it becomes available through the KyFromAbove Program. LiDAR was collected at Quality Level 2 or better from 2019 - 2023 for KYAPED project areas while no snow was on the ground and rivers were at or below normal levels.",
+      "stac_version": "1.1.0",
+      "accessibility": "Public",
+      "userNote": "Available "
+    },
+    {
+      "id": "dem-phase3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/dem-phase3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/dem-phase3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/dem-phase3/queryables"
+        }
+      ],
+      "title": "Digital Elevation Model Phase 3",
+      "assets": {
+        "thumbnail": {
+          "href": "https://kyfromabove-stac.s3.us-west-2.amazonaws.com/collections/thumbnails/dem-phase3.jpg",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -89.704434,
+              36.456976,
+              -81.884235,
+              39.151921
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-12-12T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "providers": [
+        {
+          "url": "https://registry.opendata.aws/kyfromabove/",
+          "name": "KyFromAbove",
+          "roles": [
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Phase 3 (2023 - Present) Statewide LiDAR-derived Digital Elevation Model.\n\nThis collections contains Quality Level 2 or better data.  Currently, only portions of eastern Kentucky and Northern Kentucky are available.  Current statewide acquisition is ongoing.",
+      "stac_version": "1.1.0",
+      "accessibility": "Public",
+      "userNote": "Available "
+    },
+    {
+      "id": "laz-phase1",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/laz-phase1/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/laz-phase1"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/laz-phase1/queryables"
+        }
+      ],
+      "title": "Point Cloud Phase 1 (LAZ)",
+      "assets": {
+        "metadata": {
+          "href": "https://kyfromabove.s3-us-west-2.amazonaws.com/elevation/Metadata/KY_KYAPED_LAS_Phase1.xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "Phase1 LiDAR Metadata",
+          "media_type": "text/html"
+        },
+        "thumbnail": {
+          "href": "https://kyfromabove-stac.s3.us-west-2.amazonaws.com/collections/thumbnails/laz-phase1.jpg",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "tile-index": {
+          "href": "https://kyfromabove.s3-us-west-2.amazonaws.com/elevation/PointCloud/TileGrids/kyfromabove_phase1_pointcloud_5k_grid.gpkg",
+          "type": "application/geopackage+sqlite",
+          "roles": [
+            "index"
+          ],
+          "title": "Kentucky Tile Index (GPKG)"
+        }
+      },
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -89.704434,
+              36.456976,
+              -81.884235,
+              39.151921
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-03-18T00:00:00Z",
+              "2017-04-02T12:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "providers": [
+        {
+          "url": "https://registry.opendata.aws/kyfromabove/",
+          "name": "KyFromAbove Phase1 LiDAR Point Cloud",
+          "roles": [
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": " Phase 1 Statewide LiDAR data was collected from 2010 - 2017 and is a mix of USGS Quality Level 2 and 3. Data was collected while no snow was on the ground and rivers were at or below normal levels. All mapping products were delivered in Kentucky Single Zone State Plane coordinates (parameters defined in FIPS 1600, and units of U.S. Survey Feet), NAD83* geometric datum (NSRS2007 or CORS96 adjustment), and NAVD88 vertical datum. GPS derived NAVD88 heights will use the Geoid09* model. \n\n[* Use most current adjustment and geoid model available from the National Geodetic Survey at time of data processing]",
+      "stac_version": "1.1.0",
+      "accessibility": "Public",
+      "userNote": "Available "
+    },
+    {
+      "id": "laz-phase2",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/laz-phase2/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/laz-phase2"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/laz-phase2/queryables"
+        }
+      ],
+      "title": "Point Cloud Phase 2 (COPC)",
+      "assets": {
+        "metadata": {
+          "href": "https://kyfromabove.s3-us-west-2.amazonaws.com/elevation/Metadata/KY_KYAPED_LAS_Phase2.xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "Phase2 LiDAR Metadata",
+          "media_type": "text/html"
+        },
+        "thumbnail": {
+          "href": "https://kyfromabove-stac.s3.us-west-2.amazonaws.com/collections/thumbnails/laz-phase2.jpg",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "tile-index": {
+          "href": "https://kyfromabove.s3-us-west-2.amazonaws.com/elevation/PointCloud/TileGrids/kyfromabove_phase2_pointcloud_5k_grid.gpkg",
+          "type": "application/geopackage+sqlite",
+          "roles": [
+            "index"
+          ],
+          "title": "Kentucky Tile Index (GPKG)"
+        }
+      },
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -89.704434,
+              36.456976,
+              -81.884235,
+              39.151921
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-02-19T00:00:00Z",
+              "2024-02-05T12:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "providers": [
+        {
+          "url": "https://registry.opendata.aws/kyfromabove/",
+          "name": "KyFromAbove Phase2 DEM Collection",
+          "roles": [
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Phase 2 Statewide LiDAR data was collected from 2019 - 2024 at USGS Quality Level 2. The Kentucky Statewide 2019 LiDAR project called for the planning, acquisition, processing, and derivative products of lidar data to be collected at a nominal pulse spacing (NPS) of 0.71 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LiDAR Specification, Version 1.3. The data were developed based on a horizontal projection/datum of NAD 1983 2011 StatePlane Kentucky FIPS 1600 Ft US, Foot US and vertical datum of NAVD88 GEOID12B, Foot US. LiDAR data were delivered as processed Classified LAS 1.4 files formatted individual 5000' x 5000' tiles, as tiled intensity imagery, and as tiled bare earth DEMs; all tiled to the same 5000' x 5000' schema.",
+      "stac_version": "1.1.0",
+      "accessibility": "Public",
+      "userNote": "Available "
+    },
+    {
+      "id": "laz-phase3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/laz-phase3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/laz-phase3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/laz-phase3/queryables"
+        }
+      ],
+      "title": "Point Cloud Phase 3 (COPC)",
+      "assets": {
+        "metadata": {
+          "href": "https://kyfromabove.s3-us-west-2.amazonaws.com/elevation/Metadata/KY_KYAPED_LAS_Phase3.xml",
+          "roles": [
+            "metadata"
+          ],
+          "title": "Phase3 LiDAR Metadata",
+          "media_type": "text/html"
+        },
+        "thumbnail": {
+          "href": "https://kyfromabove-stac.s3.us-west-2.amazonaws.com/collections/thumbnails/laz-phase1.jpg",
+          "type": "image/png",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "tile-index": {
+          "href": "https://kyfromabove.s3-us-west-2.amazonaws.com/elevation/PointCloud/TileGrids/kyfromabove_phase3_pointcloud_5k_grid.gpkg",
+          "type": "application/geopackage+sqlite",
+          "roles": [
+            "index"
+          ],
+          "title": "Kentucky Tile Index (GPKG)"
+        }
+      },
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -89.704434,
+              36.456976,
+              -81.884235,
+              39.151921
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-12-12T00:00:00Z",
+              null
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "providers": [
+        {
+          "url": "https://registry.opendata.aws/kyfromabove/",
+          "name": "KyFromAbove Phase1 LiDAR Point Cloud",
+          "roles": [
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "Phase 3 Statewide LiDAR data collection started in 2022 and is ongoing.",
+      "stac_version": "1.1.0",
+      "accessibility": "Public",
+      "userNote": "Available "
+    },
+    {
+      "id": "orthos-phase1",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/orthos-phase1/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/orthos-phase1"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/orthos-phase1/queryables"
+        }
+      ],
+      "title": "Aerial Orthoimagery Phase 1 Leaf-off (3\" & 6\")",
+      "assets": {
+        "metadata": {
+          "href": "https://kyfromabove.s3.us-west-2.amazonaws.com/index.html#imagery/orthos/Phase1/Metadata/",
+          "roles": [
+            "metadata"
+          ],
+          "title": "Orthoimagery Metadata",
+          "media_type": "text/html"
+        },
+        "thumbnail": {
+          "href": "https://kyfromabove-stac.s3.us-west-2.amazonaws.com/collections/thumbnails/orthos-phase1.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "tile-index": {
+          "href": "https://kyfromabove.s3-us-west-2.amazonaws.com/imagery/orthos/Phase1/TileGrid/kyfromabove_phase1_aerial_5k_grid.gpkg",
+          "type": "application/geopackage+sqlite",
+          "roles": [
+            "index"
+          ],
+          "title": "Kentucky Tile Index (GPKG)"
+        },
+        "kyfromabove": {
+          "href": "https://kyfromabove.ky.gov/",
+          "roles": [
+            "external"
+          ],
+          "title": "KyFromAbove",
+          "media_type": "text/html"
+        },
+        "specifications": {
+          "href": "https://kygeonet.ky.gov/kyfromabove/pdfs/Specs_OrthoPhoto_Production.pdf",
+          "roles": [
+            "specifications"
+          ],
+          "title": "Orthophoto Technical Specifiations",
+          "media_type": "application/pdf"
+        }
+      },
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -89.83500861,
+              36.42668777,
+              -83.70100239,
+              39.21565113
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2012-10-12T08:00:00Z",
+              "2014-04-19T12:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "providers": [
+        {
+          "url": "https://registry.opendata.aws/kyfromabove/",
+          "name": "KyFromAbove",
+          "roles": [
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "This collection contains Phase 1 Kentucky From Above 4-band 6\" and 12\" orthoimagery collected between 2012 and 2014, consisting primarily of 1-foot resolution imagery. Statewide coverage was never achieved. \n\nAll acquisitions occurred during the Spring, leaf-off season during minimal shadow conditions and when the sun angle was greater than 30° above the horizon.  Other requirements included conditions free from clouds and shadows, smoke, haze, light streaks, snow, ice on water bodies, foliage, flooding, and excessive soil moisture.\n\nFor further information on technical specifications, refer to the KyFromAbove [Technical Specifications Documentation](https://kygeonet.ky.gov/kyfromabove/pdfs/Specs_OrthoPhoto_Production.pdf).",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available "
+    },
+    {
+      "id": "orthos-phase2",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/orthos-phase2/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/orthos-phase2"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/orthos-phase2/queryables"
+        }
+      ],
+      "title": "Aerial Orthoimagery Phase 2 Leaf-off (3\" & 6\")",
+      "assets": {
+        "metadata": {
+          "href": "https://kyfromabove.s3.us-west-2.amazonaws.com/index.html#imagery/orthos/Phase2/Metadata/",
+          "roles": [
+            "metadata"
+          ],
+          "title": "Orthoimagery Metadata",
+          "media_type": "text/html"
+        },
+        "thumbnail": {
+          "href": "https://kyfromabove-stac.s3.us-west-2.amazonaws.com/collections/thumbnails/orthos-phase2.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "tile-index": {
+          "href": "https://kyfromabove.s3-us-west-2.amazonaws.com/imagery/orthos/Phase2/TileGrid/kyfromabove_phase2_aerial_5k_grid.gpkg",
+          "type": "application/geopackage+sqlite",
+          "roles": [
+            "index"
+          ],
+          "title": "Kentucky Tile Index (GPKG)"
+        },
+        "kyfromabove": {
+          "href": "https://kyfromabove.ky.gov/",
+          "roles": [
+            "external"
+          ],
+          "title": "KyFromAbove",
+          "media_type": "text/html"
+        },
+        "specifications": {
+          "href": "https://kygeonet.ky.gov/kyfromabove/pdfs/Specs_OrthoPhoto_Production.pdf",
+          "roles": [
+            "specifications"
+          ],
+          "title": "Orthophoto Technical Specifiations",
+          "media_type": "application/pdf"
+        }
+      },
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -89.89993694,
+              35.92606273,
+              -81.68872801,
+              39.66024604
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-02-25T08:00:00Z",
+              "2023-04-01T12:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "providers": [
+        {
+          "url": "https://registry.opendata.aws/kyfromabove/",
+          "name": "KyFromAbove",
+          "roles": [
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "This collection contains Phase 2 Kentucky From Above 4-band 3\" and 6\" orthoimagery collected from 2019 - 2023.\n\nAerial imagery was acquired using a UltraCam Eagle camera and was supplemented with the simultaneous acquisition of airborne GPS/IMU data, which captured the ground coordinate for the nadir point of each photograph.\n\nAll acquisitions occurred during the Spring, leaf-off season during minimal shadow conditions and when the sun angle was greater than 30° above the horizon.  Other requirements included conditions free from clouds and shadows, smoke, haze, light streaks, snow, ice on water bodies, foliage, flooding, and excessive soil moisture.\n\nFor further information on technical specifications, refer to the KyFromAbove [Technical Specifications Documentation](https://kygeonet.ky.gov/kyfromabove/pdfs/Specs_OrthoPhoto_Production.pdf)",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available "
+    },
+    {
+      "id": "orthos-phase3",
+      "type": "Collection",
+      "links": [
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/orthos-phase3/items"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/"
+        },
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/orthos-phase3"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables",
+          "href": "https://spved5ihrl.execute-api.us-west-2.amazonaws.com/collections/orthos-phase3/queryables"
+        }
+      ],
+      "title": "Aerial Orthoimagery Phase 3 Leaf-off (3\")",
+      "assets": {
+        "thumbnail": {
+          "href": "https://kyfromabove-stac.s3.us-west-2.amazonaws.com/collections/thumbnails/orthos-phase3.jpg",
+          "type": "image/jpeg",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "tile-index": {
+          "href": "https://kyfromabove.s3-us-west-2.amazonaws.com/imagery/orthos/Phase3/TileGrid/kyfromabove_phase3_aerial_5k_grid.gpkg",
+          "type": "application/geopackage+sqlite",
+          "roles": [
+            "index"
+          ],
+          "title": "Kentucky Tile Index (GPKG)"
+        },
+        "kyfromabove": {
+          "href": "https://kyfromabove.ky.gov/",
+          "roles": [
+            "external"
+          ],
+          "title": "KyFromAbove",
+          "media_type": "text/html"
+        },
+        "specifications": {
+          "href": "https://kygeonet.ky.gov/kyfromabove/pdfs/Specs_OrthoPhoto_Production.pdf",
+          "roles": [
+            "specifications"
+          ],
+          "title": "Orthophoto Technical Specifiations",
+          "media_type": "application/pdf"
+        }
+      },
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -89.89993694,
+              35.92606273,
+              -81.68872801,
+              39.66024604
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-11-25T08:00:00Z",
+              "2024-02-01T12:00:00Z"
+            ]
+          ]
+        }
+      },
+      "license": "CC-BY-4.0",
+      "providers": [
+        {
+          "url": "https://registry.opendata.aws/kyfromabove/",
+          "name": "KyFromAbove",
+          "roles": [
+            "producer",
+            "processor",
+            "host"
+          ]
+        }
+      ],
+      "description": "This collection contains Phase 3 Kentucky From Above 4-band 3\" orthoimagery collected between 2022 - 2024.\n\nAll acquisitions occurred during the Spring, leaf-off season during minimal shadow conditions and when the sun angle was greater than 30° above the horizon.  Other requirements included conditions free from clouds and shadows, smoke, haze, light streaks, snow, ice on water bodies, foliage, flooding, and excessive soil moisture.\n\nFor further information on technical specifications, refer to the KyFromAbove [Technical Specifications Documentation](https://kygeonet.ky.gov/kyfromabove/pdfs/Specs_OrthoPhoto_Production.pdf)",
+      "stac_version": "1.0.0",
+      "accessibility": "Public",
+      "userNote": "Available "
+    }
+  ]
+}

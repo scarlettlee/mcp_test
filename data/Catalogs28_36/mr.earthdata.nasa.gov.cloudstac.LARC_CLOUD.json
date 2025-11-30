@@ -1,0 +1,3824 @@
+{
+  "stacApiUrl": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD",
+  "exportedAt": "2025-10-09T23:58:13.711Z",
+  "collections": [
+    {
+      "type": "Collection",
+      "id": "TEMPO_NO2_L3_V03",
+      "title": "TEMPO gridded NO2 tropospheric and stratospheric columns V03 (PROVISIONAL)",
+      "description": "Nitrogen dioxide Level 3 files provide trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on tropospheric, stratospheric and total nitrogen dioxide vertical columns, ancillary data used in air mass factor and stratospheric/tropospheric separation calculations, and retrieval quality flags. The re-gridding algorithm uses an area-weighted approach. These data reached provisional validation on December 9, 2024.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -170,
+              10,
+              -10,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-02T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Download tempo.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2930763263-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for TEMPO_NO2_L3_V03 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/IS-40e/TEMPO/NO2_L3.003",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for TEMPO_NO2_L3_V03",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_TEMPO_TEMPO_NO2_L3_V03": {
+          "href": "s3://asdc-prod-protected/TEMPO/TEMPO_NO2_L3_V03",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_TEMPO_TEMPO_NO2_L3_V03",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930763263-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C2930763263-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930763263-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930763263-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930763263-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930763263-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930763263-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_NO2_L3_V03",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_NO2_L3_V03/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "NITROGEN COMPOUNDS",
+        "NITROGEN DIOXIDE",
+        "AIR QUALITY",
+        "NITROGEN OXIDES"
+      ],
+      "summaries": {
+        "platform": [
+          "IS-40e"
+        ],
+        "instruments": [
+          "TEMPO"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires Earthdata login or S3 credentials. Available in netCDF4 for data, plus image browse/thumbnails. Primary use cases are data download, analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "TEMPO_HCHO_L3_V03",
+      "title": "TEMPO gridded formaldehyde total column V03 (PROVISIONAL)",
+      "description": "Formaldehyde Level 3 files provide trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on formaldehyde vertical columns, ancillary data used in air mass factor calculations and reference sector or de-striping corrections, and retrieval quality flags. The re-gridding algorithm uses an area-weighted approach. These data reached provisional validation on December 9, 2024.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -170,
+              10,
+              -10,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Download tempo.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2930761273-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for TEMPO_HCHO_L3_V03 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/IS-40e/TEMPO/HCHO_L3.003",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for TEMPO_HCHO_L3_V03",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_TEMPO_TEMPO_HCHO_L3_V03": {
+          "href": "s3://asdc-prod-protected/TEMPO/TEMPO_HCHO_L3_V03",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_TEMPO_TEMPO_HCHO_L3_V03",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930761273-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C2930761273-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930761273-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930761273-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930761273-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930761273-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930761273-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_HCHO_L3_V03",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_HCHO_L3_V03/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AIR QUALITY",
+        "VOLATILE ORGANIC COMPOUNDS",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "FORMALDEHYDE"
+      ],
+      "summaries": {
+        "platform": [
+          "IS-40e"
+        ],
+        "instruments": [
+          "TEMPO"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires NASA Earthdata login or S3 credentials. Data is available in netCDF4 for direct download and analysis; image previews support visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "TEMPO_O3TOT_L3_V03",
+      "title": "TEMPO gridded ozone total column V03 (PROVISIONAL)",
+      "description": "Total ozone Level 3 files provide ozone information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on total column ozone and some auxiliary derived and ancillary input parameters including effective cloud fraction, effective cloud pressure, radiative cloud fraction, SO2 index, and terrain pressure. The re-gridding algorithm uses an area-weighted approach. These data reached provisional validation on December 9, 2024.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -170,
+              10,
+              -10,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Download tempo.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2930764281-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for TEMPO_O3TOT_L3_V03 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/IS-40e/TEMPO/O3TOT_L3.003",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for TEMPO_O3TOT_L3_V03",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_TEMPO_TEMPO_O3TOT_L3_V03": {
+          "href": "s3://asdc-prod-protected/TEMPO/TEMPO_O3TOT_L3_V03",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_TEMPO_TEMPO_O3TOT_L3_V03",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930764281-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C2930764281-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930764281-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930764281-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930764281-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930764281-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930764281-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_O3TOT_L3_V03",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_O3TOT_L3_V03/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "OXYGEN COMPOUNDS",
+        "ATMOSPHERIC OZONE"
+      ],
+      "summaries": {
+        "platform": [
+          "IS-40e"
+        ],
+        "instruments": [
+          "TEMPO"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for direct download or S3 access via temporary credentials. Data available in netCDF4, browse/thumbnail images, and metadata. Primarily for download and analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "TEMPO_NO2_L2_V03",
+      "title": "TEMPO NO2 tropospheric and stratospheric columns V03 (PROVISIONAL)",
+      "description": "Nitrogen dioxide Level 2 files provide trace gas information at TEMPO’s native spatial resolution, ~10 km^2 at the center of the Field of Regard (FOR), for individual granules. Each granule covers the entire North-South TEMPO FOR but only a portion of the East-West FOR. The files are provided in netCDF4 format, and contain information on tropospheric, stratospheric and total nitrogen dioxide vertical columns, ancillary data used in air mass factor and stratospheric/tropospheric separation calculations, and retrieval quality flags. The retrieval uses a three-step approach: (1) spectral fitting of slant columns, (2) air mass factor calculation and derivation of vertical columns, and (3) stratospheric/tropospheric separation. These data reached provisional validation on December 9, 2024.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -170,
+              10,
+              -10,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Download tempo.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2930725014-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for TEMPO_NO2_L2_V03 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/IS-40e/TEMPO/NO2_L2.003",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for TEMPO_NO2_L2_V03",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_TEMPO_TEMPO_NO2_L2_V03": {
+          "href": "s3://asdc-prod-protected/TEMPO/TEMPO_NO2_L2_V03",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_TEMPO_TEMPO_NO2_L2_V03",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930725014-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C2930725014-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930725014-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930725014-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930725014-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930725014-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930725014-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_NO2_L2_V03",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_NO2_L2_V03/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "NITROGEN COMPOUNDS",
+        "NITROGEN DIOXIDE",
+        "AIR QUALITY",
+        "NITROGEN OXIDES"
+      ],
+      "summaries": {
+        "platform": [
+          "IS-40e"
+        ],
+        "instruments": [
+          "TEMPO"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires NASA Earthdata Login for data access. Available formats: NetCDF4 data, JPEG/PNG images, XML/JSON metadata. Primary usage: Direct download for analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "TEMPO_CLDO4_L3_V03",
+      "title": "TEMPO gridded cloud fraction and pressure (O2-O2 dimer) V03 (PROVISIONAL)",
+      "description": "O2-O2 cloud Level 3 files provide cloud information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on effective cloud fraction, cloud optical centroid pressure, and ancillary data. The re-gridding algorithm uses an area-weighted approach. These data reached provisional validation on December 9, 2024.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -170,
+              10,
+              -10,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Download tempo.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2930727817-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for TEMPO_CLDO4_L3_V03 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/IS-40e/TEMPO/CLDO4_L3.003",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for TEMPO_CLDO4_L3_V03",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_TEMPO_TEMPO_CLDO4_L3_V03": {
+          "href": "s3://asdc-prod-protected/TEMPO/TEMPO_CLDO4_L3_V03",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_TEMPO_TEMPO_CLDO4_L3_V03",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930727817-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C2930727817-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930727817-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930727817-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930727817-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930727817-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930727817-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_CLDO4_L3_V03",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_CLDO4_L3_V03/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "CLOUDS",
+        "CLOUD PROPERTIES",
+        "CLOUD TOP PRESSURE",
+        "CLOUD FRACTION"
+      ],
+      "summaries": {
+        "platform": [
+          "IS-40e"
+        ],
+        "instruments": [
+          "TEMPO"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for direct data access. NetCDF4, XML, JSON, and PNG formats are available. Primary usage includes raw data download for analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "TEMPO_NO2_L3_V04",
+      "title": "TEMPO gridded NO2 tropospheric and stratospheric columns V04  (PROVISIONAL)",
+      "description": "Nitrogen dioxide Level 3 (PROVISIONAL) files provide trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on tropospheric and stratospheric nitrogen dioxide vertical columns, ancillary data used in air mass factor and stratospheric/tropospheric separation calculations, and retrieval quality flags. The re-gridding algorithm uses an area-weighted approach. These data reached provisional validation on December 9, 2024.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -170,
+              10,
+              -10,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Download tempo.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3685896708-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for TEMPO_NO2_L3_V04 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/IS-40e/TEMPO/NO2_L3.004",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for TEMPO_NO2_L3_V04  (PROVISIONAL)",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_TEMPO_TEMPO_NO2_L3_V04": {
+          "href": "s3://asdc-prod-protected/TEMPO/TEMPO_NO2_L3_V04",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_TEMPO_TEMPO_NO2_L3_V04",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896708-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3685896708-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896708-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896708-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896708-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896708-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896708-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_NO2_L3_V04",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_NO2_L3_V04/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "NITROGEN COMPOUNDS",
+        "NITROGEN DIOXIDE",
+        "AIR QUALITY",
+        "NITROGEN OXIDES"
+      ],
+      "summaries": {
+        "platform": [
+          "IS-40e"
+        ],
+        "instruments": [
+          "TEMPO"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata account for S3/HTTPS data access via credentials. Available as netCDF4 data, JPEG previews, and XML/JSON metadata. Primary usage for scientific analysis and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "MI1AOBC_002",
+      "title": "MISR OBC Data V002",
+      "description": "MI1AOBC_2 is the Multi-angle Imaging SpectroRadiometer (MISR) OBC Data version 2. This file contains the output for the Level 1A On-board Calibrator Data, and it provides the radiometry from PIN and HQE diodes and goniometer mechanism readings collected during calibration mode operations near the north and south poles and over the dark side of the Earth (or during science mode operations over the sunlit side of the Earth). The diode radiometry acquired during the north and south pole calibration sequences will be used to determine an MISR diffuser panel's brightness and reflective characteristics as observed by each of the nine MISR cameras. The MISR instrument consists of nine push-broom cameras that measure radiance in four spectral bands. Global coverage is achieved in nine days. The cameras are arranged with one camera pointing toward the nadir, four forward, and four aftward. It takes seven minutes for all nine cameras to view the same surface location. The view angles relative to the surface reference ellipsoid are 0, 26.1, 45.6, 60.0, and 70.5 degrees. The spectral band shapes are nominally Gaussian, centered at 443, 555, 670, and 865 nm.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2003-07-30T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/documents/misr/imagery.html",
+          "title": "Download imagery.html",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/documents/misr/imagery.html",
+          "title": "Thumbnail",
+          "description": "ASDC List of MISR Imagery and Articles",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2917605198-LARC_CLOUD",
+          "title": "Direct Download [1]",
+          "description": "ASDC Direct Data Download for MI1AOBC_2",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/Terra/MISR/MI1AOBC_L1A.002",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for MI1AOBC_2",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_MISR_MI1AOBC_002": {
+          "href": "s3://asdc-prod-protected/MISR/MI1AOBC_002",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_MISR_MI1AOBC_002",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2917605198-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C2917605198-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2917605198-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2917605198-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2917605198-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2917605198-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2917605198-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/MI1AOBC_002",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/MI1AOBC_002/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "SPECTRAL/ENGINEERING",
+        "SENSOR CHARACTERISTICS",
+        "PLATFORM CHARACTERISTICS"
+      ],
+      "summaries": {
+        "platform": [
+          "Terra"
+        ],
+        "instruments": [
+          "MISR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires free NASA Earthdata account for authentication and S3 credentials. Data available as HDF files for scientific analysis and direct download, with HTML for browse/thumbnail visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "MIL2ASAF_002",
+      "title": "MISR Level 2 FIRSTLOOK Aerosol parameters V002",
+      "description": "This is the Level 2 FIRSTLOOK Aerosol Product. It contains Aerosol optical depth and particle type, with associated atmospheric data produced using ancillary inputs from the previous time period.\nMIL2ASAF_002 is the Multi-angle Imaging SpectroRadiometer (MISR) Level 2 FIRSTLOOK Aerosol parameters version 2. It contains Aerosol optical depth and particle type, with associated atmospheric data produced using ancillary inputs from the previous time period. Data collection for this product is ongoing.\nMulti-angle Imaging SpectroRadiometer (MISR) Level 2 Aerosol data products contain various information on the Earth's atmosphere. The aerosol data include tropospheric aerosol optical depth on 17. 6-km centers archived with a compositional model identifier and retrieval residuals, ancillary data including relative humidity, ozone optical depth, stratospheric aerosol optical depth, and retrieval flags. MISR multi-angle imagery will be used to monitor global and regional trends radiatively significant to optical properties (optical depth, single scattering albedo, and size distribution) and amounts (mass loading) of natural and anthropogenic aerosols, including those arising from industrial and volcanic emissions, slash-and-burn agriculture, and desertification. Coupled with MISR's determinations of top-of-atmosphere and surface albedos, these data will measure the global aerosol forcing of the shortwave planetary radiation budget. \nThe MISR instrument consists of nine push-broom cameras that measure radiance in four spectral bands. Global coverage is achieved in nine days. The cameras are arranged with one camera pointing toward the nadir, four forward, and four aftward. It takes seven minutes for all nine cameras to view the exact surface location. The view angles relative to the surface reference ellipsoid are 0, 26.1, 45.6, 60.0, and 70.5 degrees. The spectral band shapes are nominally Gaussian, centered at 443, 555, 670, and 865 nm.\nMISR is designed to view Earth with cameras in 9 different directions. As the instrument flies overhead, each piece of Earth's surface below is successfully imaged by all nine cameras in 4 wavelengths (blue, green, red, and near-infrared). The goal of MISR is to improve our understanding of the effects of sunlight on Earth and distinguish different types of clouds, particles, and surfaces. Specifically, MISR monitors the monthly, seasonal, and long-term trends in three areas: 1) amount and type of atmospheric particles (aerosols), including those formed by natural sources and by human activities; 2) amounts, types, and heights of clouds, and 3) distribution of land surface cover, including vegetation canopy structure.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1999-12-18T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2873769608-LARC_CLOUD",
+          "title": "Direct Download [1]",
+          "description": "Virtual Directory for MIL2ASAF_002",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/Terra/MISR/MIL2ASAF_L2.002",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for MIL2ASAF_002",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_MISR_MIL2ASAF_002": {
+          "href": "s3://asdc-prod-protected/MISR/MIL2ASAF_002",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_MISR_MIL2ASAF_002",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2873769608-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C2873769608-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2873769608-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2873769608-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2873769608-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2873769608-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2873769608-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/MIL2ASAF_002",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/MIL2ASAF_002/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "AEROSOL EXTINCTION",
+        "AEROSOL PARTICLE PROPERTIES",
+        "AIR QUALITY",
+        "PARTICULATES",
+        "TURBIDITY"
+      ],
+      "summaries": {
+        "platform": [
+          "Terra"
+        ],
+        "instruments": [
+          "MISR"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires NASA Earthdata Login registration. Data available in NetCDF format (.nc). Primary usage for direct download, scientific analysis, and research."
+    },
+    {
+      "type": "Collection",
+      "id": "PREFIRE_SAT1_2B-FLX_COG_R01",
+      "title": "Polar Radiant Energy in the Far InfraRed Experiment (PREFIRE) Spectral Flux from PREFIRE Satellite 1 COG R01",
+      "description": "Polar Radiant Energy in the Far InfraRed Experiment (PREFIRE) Spectral Flux from PREFIRE Satellite 1 COG (PREFIRE_SAT1_2B-FLX_COG) is derived from data collected by the PREFIRE Thermal Infrared Spectrometer (TIRS-PREFIRE) aboard PREFIRE-SAT1. Dual CubeSats each carry a PREFIRE Thermal Infrared Spectrometer (TIRS-PREFIRE), a push broom spectrometer with 63 channels measuring mid- and far-infrared (FIR) radiation from approximately 5 to 53 µm. Most polar emissions are in the FIR but have not been measured on a large scale. PREFIRE aims to fill knowledge gaps in the global energy budget by more accurately characterizing polar emissions. This information will then be assimilated into global circulation and other models to predict future conditions more accurately.\n\nPREFIRE_SAT1_2B-FLX_COG contains Cloud-Optimized GeoTIFF (COG) files that each contain a georeferenced rendering of derived outgoing longwave radiation (OLR) values. Those OLR data values are computed from a single granule of PREFIRE Spectral Radiance (PREFIRE_SAT1_1B-RAD) data, along with inputs from PREFIRE_SAT1_2B-MSK (cloud mask), PREFIRE_SAT1_AUX-MET, PREFIRE_SAT1_AUX-SAT, and PREFIRE_SAT1_2B-CLD. As part of the rendering process, mean derived OLR values are computed for a global grid of raster elements (each approximately 2.23 km in width), based on which raster elements each PREFIRE ground footprint overlaps.  This procedure is done in order to better visualize the PREFIRE data despite substantial overlap of adjacent along-track ground footprints – but it is important to remember that the individual PREFIRE ground footprints are much bigger (by about 80x, in terms of area) than each of the GeoTIFF raster elements. These cloud-optimized GeoTIFF images may be viewed using many geographic information systems (GIS), such as the freely available QGIS.\n\nScience data retrieval started July 24, 2024 and is ongoing. Currently, the geographic coverage is for latitudes between approximately 60° to 84° in both polar regions, although future releases may include data for all latitudes equatorward of about 84°.  Within the orbital swath there are eight distinct tracks of data associated with the eight separate spatial scenes for each TIRS-PREFIRE. At the beginning of the mission, the approximate scene footprint sizes were 11.8 km x 34.8 km (cross-track x along-track), with gaps between each scene of approximately 24.2 km. The entire swath was about 264 km across. Note that the scene footprint and swath sizes quoted here are for the orbit altitude soon after launch. However, the footprint and swath sizes will slowly become smaller as the orbit altitude decreases with time.\n\nSimilar OLR GeoTIFF renderings for the sister instrument aboard PREFIRE-SAT2 can be found in the PREFIRE_SAT2_2B-FLX_COG collection.\n\n",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-07-24T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/prefire.png",
+          "title": "Download prefire.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/prefire.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3550250575-LARC_CLOUD",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search for PREFIRE_SAT1_2B-FLX_COG_R01 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "https://zenodo": {
+          "href": "https://zenodo.org/records/16638853",
+          "title": "Direct Download [4]",
+          "description": "PREFIRE Spectral Response Function data (SRFs): v13",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata_0": {
+          "href": "https://asdc.larc.nasa.gov/project/PREFIRE",
+          "title": "Provider Metadata [0]",
+          "description": "PREFIRE Data Set Landing Page ASDC",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "provider_metadata_1": {
+          "href": "https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/FLX_COG_L2B.R01",
+          "title": "Provider Metadata [1]",
+          "description": "DOI data set landing page for PREFIRE_SAT1_2B-FLX_COG_R01",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_PREFIRE_PREFIRE_SAT1_2B_FLX_COG_R01": {
+          "href": "s3://asdc-prod-protected/PREFIRE/PREFIRE_SAT1_2B-FLX_COG_R01",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_PREFIRE_PREFIRE_SAT1_2B_FLX_COG_R01",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550250575-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3550250575-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550250575-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550250575-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550250575-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550250575-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3550250575-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/PREFIRE_SAT1_2B-FLX_COG_R01",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/PREFIRE_SAT1_2B-FLX_COG_R01/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC RADIATION",
+        "EARTH RADIATION BUDGET",
+        "OUTGOING LONGWAVE RADIATION",
+        "LONGWAVE RADIATION",
+        "UPWELLING LONGWAVE RADIATION",
+        "RADIATIVE FLUX"
+      ],
+      "summaries": {
+        "platform": [
+          "PREFIRE-SAT1"
+        ],
+        "instruments": [
+          "TIRS-PREFIRE"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires free Earthdata registration for direct/S3 access. Provides Cloud-Optimized GeoTIFFs (COG) and images. Primarily for GIS visualization, data download, and cloud-based analysis of polar emissions."
+    },
+    {
+      "type": "Collection",
+      "id": "PREFIRE_SAT2_2B-FLX_COG_R01",
+      "title": "Polar Radiant Energy in the Far InfraRed Experiment (PREFIRE) Spectral Flux from PREFIRE Satellite 2 COG R01",
+      "description": "Polar Radiant Energy in the Far InfraRed Experiment (PREFIRE) Spectral Flux from PREFIRE Satellite 2 COG (PREFIRE_SAT2_2B-FLX_COG) is derived from data collected by the PREFIRE Thermal Infrared Spectrometer (TIRS-PREFIRE) aboard PREFIRE-SAT2. Dual CubeSats each carry a PREFIRE Thermal Infrared Spectrometer (TIRS-PREFIRE), a push broom spectrometer with 63 channels measuring mid- and far-infrared (FIR) radiation from approximately 5 to 53 µm. Most polar emissions are in the FIR but have not been measured on a large scale. PREFIRE aims to fill knowledge gaps in the global energy budget by more accurately characterizing polar emissions. This information will then be assimilated into global circulation and other models to predict future conditions more accurately.\n\nPREFIRE_SAT2_2B-FLX_COG contains Cloud-Optimized GeoTIFF (COG) files that each contain a georeferenced rendering of derived outgoing longwave radiation (OLR) values. Those OLR data values are computed from a single granule of PREFIRE Spectral Radiance (PREFIRE_SAT2_1B-RAD) data, along with inputs from PREFIRE_SAT2_2B-MSK (cloud mask), PREFIRE_SAT2_AUX-MET, PREFIRE_SAT2_AUX-SAT, and PREFIRE_SAT2_2B-CLD. As part of the rendering process, mean derived OLR values are computed for a global grid of raster elements (each approximately 2.23 km in width), based on which raster elements each PREFIRE ground footprint overlaps.  This procedure is done in order to better visualize the PREFIRE data despite substantial overlap of adjacent along-track ground footprints – but it is important to remember that the individual PREFIRE ground footprints are much bigger (by about 80x, in terms of area) than each of the GeoTIFF raster elements. These cloud-optimized GeoTIFF images may be viewed using many geographic information systems (GIS), such as the freely available QGIS.\n\nScience data retrieval started June 29, 2024 and is ongoing. Currently, the geographic coverage is for latitudes between approximately 60° to 84° in both polar regions, although future releases may include data for all latitudes equatorward of about 84°.  Within the orbital swath there are eight distinct tracks of data associated with the eight separate spatial scenes for each TIRS-PREFIRE. At the beginning of the mission, the approximate scene footprint sizes were 11.8 km x 34.8 km (cross-track x along-track), with gaps between each scene of approximately 24.2 km. The entire swath was about 264 km across. Note that the scene footprint and swath sizes quoted here are for the orbit altitude soon after launch. However, the footprint and swath sizes will slowly become smaller as the orbit altitude decreases with time.\n\nSimilar OLR GeoTIFF renderings for the sister instrument aboard PREFIRE-SAT1 can be found in the PREFIRE_SAT1_2B-FLX_COG collection.\n\n",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-06-29T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/prefire.png",
+          "title": "Download prefire.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/prefire.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3499264410-LARC_CLOUD",
+          "title": "Direct Download [0]",
+          "description": "Earthdata Search for PREFIRE_SAT2_2B-FLX_COG_R01 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "https://zenodo": {
+          "href": "https://zenodo.org/records/16638853",
+          "title": "Direct Download [4]",
+          "description": "PREFIRE Spectral Response Function data (SRFs): v13",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata_0": {
+          "href": "https://asdc.larc.nasa.gov/project/PREFIRE",
+          "title": "Provider Metadata [0]",
+          "description": "PREFIRE Data Set Landing Page ASDC",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "provider_metadata_1": {
+          "href": "https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/FLX_COG_L2B.R01",
+          "title": "Provider Metadata [1]",
+          "description": "DOI data set landing page for PREFIRE_SAT2_2B-FLX_COG_R01",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_PREFIRE_PREFIRE_SAT2_2B_FLX_COG_R01": {
+          "href": "s3://asdc-prod-protected/PREFIRE/PREFIRE_SAT2_2B-FLX_COG_R01",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_PREFIRE_PREFIRE_SAT2_2B_FLX_COG_R01",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3499264410-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3499264410-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3499264410-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3499264410-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3499264410-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3499264410-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3499264410-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/PREFIRE_SAT2_2B-FLX_COG_R01",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/PREFIRE_SAT2_2B-FLX_COG_R01/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC RADIATION",
+        "RADIATIVE FLUX",
+        "EARTH RADIATION BUDGET",
+        "OUTGOING LONGWAVE RADIATION",
+        "LONGWAVE RADIATION",
+        "UPWELLING LONGWAVE RADIATION"
+      ],
+      "summaries": {
+        "platform": [
+          "PREFIRE-SAT2"
+        ],
+        "instruments": [
+          "TIRS-PREFIRE"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata login for S3/HTTPS access. Available as Cloud-Optimized GeoTIFF (COG) for data and JPEG for visualization. Primarily used for direct download, GIS analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "TEMPO_CLDO4_L3_V04",
+      "title": "TEMPO gridded cloud fraction and pressure (O2-O2 dimer) Version V04 (PROVISIONAL)",
+      "description": "O2-O2 cloud Level 3 (PROVISIONAL) files provide cloud information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on effective cloud fraction, cloud optical centroid pressure, and ancillary data. The re-gridding algorithm uses an area-weighted approach. These data reached provisional validation on December 9, 2024.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -170,
+              10,
+              -10,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Download tempo.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail_0": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail [0]",
+          "description": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "thumbnail_1": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail [1]",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3685896149-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for TEMPO_CLDO4_L3_V04 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/IS-40e/TEMPO/CLDO4_L3.004",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for TEMPO_CLDO4_L3_V04",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_TEMPO_TEMPO_CLDO4_L3_V04": {
+          "href": "s3://asdc-prod-protected/TEMPO/TEMPO_CLDO4_L3_V04",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_TEMPO_TEMPO_CLDO4_L3_V04",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896149-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3685896149-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896149-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896149-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896149-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896149-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896149-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_CLDO4_L3_V04",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_CLDO4_L3_V04/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "CLOUDS",
+        "CLOUD PROPERTIES",
+        "CLOUD TOP PRESSURE",
+        "CLOUD FRACTION"
+      ],
+      "summaries": {
+        "platform": [
+          "IS-40e"
+        ],
+        "instruments": [
+          "TEMPO"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires free Earthdata Login and S3 credentials. Data available in NetCDF4, plus JPEG previews. Primarily for direct data download, scientific analysis, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "TEMPO_HCHO_L2_V03",
+      "title": "TEMPO formaldehyde total column V03 (PROVISIONAL)",
+      "description": "Formaldehyde Level 2 files provide trace gas information at TEMPO’s native spatial resolution, ~10 km^2 at the center of the Field of Regard (FOR), for individual granules. Each granule covers the entire North-South TEMPO FOR but only a portion of the East-West FOR. The files are provided in netCDF4 format, and contain information on vertical columns, ancillary data used in air mass factor calculations and reference sector corrections, and retrieval quality flags. The retrieval uses a three-step approach: (1) spectral fitting of slant columns, (2) air mass factor calculation and derivation of vertical columns, and (3) reference sector corrections. These data reached provisional validation on December 9, 2024.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -170,
+              10,
+              -10,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Download tempo.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C2930730944-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for TEMPO_HCHO_L2_V03 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/IS-40e/TEMPO/HCHO_L2.003",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for TEMPO_HCHO_L2_V03",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_TEMPO_TEMPO_HCHO_L2_V03": {
+          "href": "s3://asdc-prod-protected/TEMPO/TEMPO_HCHO_L2_V03",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_TEMPO_TEMPO_HCHO_L2_V03",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930730944-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C2930730944-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930730944-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930730944-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930730944-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930730944-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2930730944-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_HCHO_L2_V03",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_HCHO_L2_V03/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AIR QUALITY",
+        "VOLATILE ORGANIC COMPOUNDS",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "FORMALDEHYDE"
+      ],
+      "summaries": {
+        "platform": [
+          "IS-40e"
+        ],
+        "instruments": [
+          "TEMPO"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for data access. Data in netCDF4, with PNG browse/thumbnails, and XML/JSON metadata. Primary usage for analysis via direct download, discovery, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "TEMPO_HCHO_L3_V04",
+      "title": "TEMPO gridded formaldehyde total column V04  (PROVISIONAL)",
+      "description": "Formaldehyde Level 3 (PROVISIONAL) files provide trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on formaldehyde vertical columns, ancillary data used in air mass factor calculations and reference sector or de-striping corrections, and retrieval quality flags. The re-gridding algorithm uses an area-weighted approach. These data reached provisional validation on December 9, 2024.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -170,
+              10,
+              -10,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Download tempo.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3685897141-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for TEMPO_HCHO_L3_V04 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/IS-40e/TEMPO/HCHO_L3.004",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for TEMPO_HCHO_L3_V04",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_TEMPO_TEMPO_HCHO_L3_V04": {
+          "href": "s3://asdc-prod-protected/TEMPO/TEMPO_HCHO_L3_V04",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_TEMPO_TEMPO_HCHO_L3_V04",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685897141-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3685897141-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685897141-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685897141-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685897141-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685897141-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685897141-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_HCHO_L3_V04",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_HCHO_L3_V04/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AIR QUALITY",
+        "VOLATILE ORGANIC COMPOUNDS",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "FORMALDEHYDE"
+      ],
+      "summaries": {
+        "platform": [
+          "IS-40e"
+        ],
+        "instruments": [
+          "TEMPO"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires NASA Earthdata account registration and authentication for direct data access. Data available in NetCDF4 for analysis; images for visualization. Primary use is data download for scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "TEMPO_O3TOT_L3_V04",
+      "title": "TEMPO gridded ozone total column V04 (PROVISIONAL) ",
+      "description": "Total ozone Level 3 (PROVISIONAL) files provide ozone information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on total column ozone and some auxiliary derived and ancillary input parameters including effective cloud fraction, effective cloud pressure, radiative cloud fraction, SO2 index, and terrain pressure. The re-gridding algorithm uses an area-weighted approach. These data reached provisional validation on December 9, 2024.",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -170,
+              10,
+              -10,
+              80
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-08-01T00:00:00.000Z",
+              null
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "browse": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Download tempo.png",
+          "type": "image/jpeg",
+          "roles": [
+            "browse"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://asdc.larc.nasa.gov/static/images/project_logos/tempo.png",
+          "title": "Thumbnail",
+          "description": "Mission Logo",
+          "roles": [
+            "thumbnail"
+          ]
+        },
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3685896625-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for TEMPO_O3TOT_L3_V04 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/IS-40e/TEMPO/O3TOT_L3.004",
+          "title": "Provider Metadata",
+          "description": "DOI data set landing page for TEMPO_O3TOT_L3_V04",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_TEMPO_TEMPO_O3TOT_L3_V04": {
+          "href": "s3://asdc-prod-protected/TEMPO/TEMPO_O3TOT_L3_V04",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_TEMPO_TEMPO_O3TOT_L3_V04",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896625-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3685896625-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896625-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896625-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896625-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896625-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3685896625-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_O3TOT_L3_V04",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/TEMPO_O3TOT_L3_V04/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "OXYGEN COMPOUNDS",
+        "ATMOSPHERIC OZONE",
+        "AEROSOLS",
+        "AEROSOL OPTICAL DEPTH/THICKNESS",
+        "UV AEROSOL INDEX",
+        "CLOUDS",
+        "CLOUD PROPERTIES",
+        "CLOUD FRACTION"
+      ],
+      "summaries": {
+        "platform": [
+          "IS-40e"
+        ],
+        "instruments": [
+          "TEMPO"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires NASA Earthdata Login/S3 credentials for data access. Available in NetCDF4, JPEG/PNG, XML. Primary uses are direct download for analysis, programmatic access, and visualization."
+    },
+    {
+      "type": "Collection",
+      "id": "ABLE-2A_Aerosol_AircraftInSitu_Electra_Data_1",
+      "title": "ABLE-2A Electra In-Situ Aerosol Data",
+      "description": "ABLE-2A_Aerosol_AircraftInSitu_Electra_Data is the in-situ aerosol data collected onboard the NASA Electra aircraft during the Amazon Boundary Layer Experiment - 2A (ABLE-2A) suborbital campaign. Data collection for this product is complete. \r\n\r\nFrom 1983-2001, NASA conducted a collection of field campaigns as part of the Global Tropospheric Experiment (GTE). Among those were the Amazon Boundary Layer Experiment (ABLE 2) campaigns. ABLE 2 was divided into two sub-campaigns, ABLE 2A (dry season) and ABLE 2B (wet season). ABLE 2A took place from July-August 1985, while ABLE 2B took place from April-May 1987. The goal of ABLE 2 was to better understand the role of tropics in global atmospheric chemistry and investigate processes which might lead to the enhanced concentrations of carbon monoxide (CO) in the tropical upper troposphere. ABLE 2 was a partnership with NASA and the Brazilian agency, Instituto Nacional de Pesquisas Espaciais (INPE), along with the Instituto Nacional de Pesquisas da Amazonia (INPA) providing facilities and logistical information.  \r\n\r\n \r\n\r\nTo accomplish its objectives, the ABLE 2 science team deployed the NASA Lockheed Electra aircraft, balloons, and free-flying sondes. Flights took place over the Amazon region in Brazil for both sub-campaigns. ABLE 2A consisted of 15 flights while ABLE 2B consisted of 21 flights with the fully equipped Electra. For most ABLE 2A flights, the data collected included in-situ measurements of CO2, CO, MHC, NO (nitric oxide), N2O, O3, DMS (dimethyl sulfide), aerosol composition, and meteorological parameters. ABLE 2B had the Electra instrumented with remote and in-situ techniques for measuring the atmospheric distribution of a variety of carbon, nitrogen, and sulfur gases; aerosol size and composition; and to measure ozone. The typical approach to flights involved high-altitude passes over research areas using the downward facing UV Differential Absorption Lidar (DIAL). The ABLE 2 campaign represents a modest advance in understanding the influence of the tropical rain forest ecosystem on the chemistry of the troposphere. Detailed descriptions related to the motivation, implementation, and instrument payloads are available in the ABLE 2A overview paper and the ABLE 2B overview paper. A collection of the publications based on ABLE 2A and 2B observation are available in the Journal of Geophysical Research special issues: Global Tropospheric Experiment/Chemical Instrumentation Test and Evaluation Results (GTE/ABLE 2A) and The Amazon Boundary Layer Experiment 2B. ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -76.3,
+              -7.2,
+              -47.48,
+              37.1
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1985-07-11T00:00:00.000Z",
+              "1985-08-15T00:00:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3165326945-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for ABLE-2A_Aerosol_AircraftInSitu_Electra_Data_1 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/ASDC/SUBORBITAL/ABLE-2A_Aerosol_AircraftInSitu_Electra_Data_1",
+          "title": "Provider Metadata",
+          "description": "DOI Dataset Landing Page for ABLE-2A_Aerosol_AircraftInSitu_Electra_Data_1",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001": {
+          "href": "s3://asdc-prod-protected/FIELDCAMPAIGN/ABLE/ABLE-2_001",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165326945-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3165326945-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165326945-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165326945-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165326945-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165326945-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165326945-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_Aerosol_AircraftInSitu_Electra_Data_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_Aerosol_AircraftInSitu_Electra_Data_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "OCEANS",
+        "OCEAN CHEMISTRY",
+        "NITRIC ACID",
+        "ATMOSPHERIC CHEMISTRY",
+        "SULFUR COMPOUNDS",
+        "NITROGEN COMPOUNDS",
+        "CARBON AND HYDROCARBON COMPOUNDS"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ELECTRA"
+        ],
+        "instruments": [
+          "NOT APPLICABLE"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires Earthdata Login for authenticated access. Available as raw data files and metadata. Primary usage is direct download for scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "ABLE-2A_Ground_Data_1",
+      "title": "ABLE-2A Ground Data",
+      "description": "ABLE-2A_Ground_Data is the ground site data collected during the Amazon Boundary Layer Experiment - 2A (ABLE-2A) suborbital campaign.  Data collection for this product is complete. \r\n\r\nFrom 1983-2001, NASA conducted a collection of field campaigns as part of the Global Tropospheric Experiment (GTE). Among those were the Amazon Boundary Layer Experiment (ABLE 2) campaigns. ABLE 2 was divided into two sub-campaigns, ABLE 2A (dry season) and ABLE 2B (wet season). ABLE 2A took place from July-August 1985, while ABLE 2B took place from April-May 1987. The goal of ABLE 2 was to better understand the role of tropics in global atmospheric chemistry and investigate processes which might lead to the enhanced concentrations of carbon monoxide (CO) in the tropical upper troposphere. ABLE 2 was a partnership with NASA and the Brazilian agency, Instituto Nacional de Pesquisas Espaciais (INPE), along with the Instituto Nacional de Pesquisas da Amazonia (INPA) providing facilities and logistical information.  \r\n\r\n \r\n\r\nTo accomplish its objectives, the ABLE 2 science team deployed the NASA Lockheed Electra aircraft, balloons, and free-flying sondes. Flights took place over the Amazon region in Brazil for both sub-campaigns. ABLE 2A consisted of 15 flights while ABLE 2B consisted of 21 flights with the fully equipped Electra. For most ABLE 2A flights, the data collected included in-situ measurements of CO2, CO, MHC, NO (nitric oxide), N2O, O3, DMS (dimethyl sulfide), aerosol composition, and meteorological parameters. ABLE 2B had the Electra instrumented with remote and in-situ techniques for measuring the atmospheric distribution of a variety of carbon, nitrogen, and sulfur gases; aerosol size and composition; and to measure ozone. The typical approach to flights involved high-altitude passes over research areas using the downward facing UV Differential Absorption Lidar (DIAL). The ABLE 2 campaign represents a modest advance in understanding the influence of the tropical rain forest ecosystem on the chemistry of the troposphere. Detailed descriptions related to the motivation, implementation, and instrument payloads are available in the ABLE 2A overview paper and the ABLE 2B overview paper. A collection of the publications based on ABLE 2A and 2B observation are available in the Journal of Geophysical Research special issues: Global Tropospheric Experiment/Chemical Instrumentation Test and Evaluation Results (GTE/ABLE 2A) and The Amazon Boundary Layer Experiment 2B. ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -76.3,
+              -7.2,
+              -47.48,
+              37.1
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1985-07-11T00:00:00.000Z",
+              "1985-08-15T00:00:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3165325881-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for ABLE-2A_Ground_Data_1 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/ASDC/SUBORBITAL/ABLE-2A_Ground_Data_1",
+          "title": "Provider Metadata",
+          "description": "DOI Dataset Landing Page for ABLE-2A_Ground_Data_1",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001": {
+          "href": "s3://asdc-prod-protected/FIELDCAMPAIGN/ABLE/ABLE-2_001",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165325881-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3165325881-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165325881-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165325881-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165325881-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165325881-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165325881-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_Ground_Data_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_Ground_Data_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "AEROSOLS",
+        "NITRATE PARTICLES",
+        "SULFATE PARTICLES",
+        "ATMOSPHERIC CHEMISTRY",
+        "SULFUR COMPOUNDS",
+        "SULFATE",
+        "AMMONIUM AEROSOLS"
+      ],
+      "summaries": {
+        "platform": [
+          "GROUND-BASED OBSERVATIONS"
+        ],
+        "instruments": [
+          "NOT APPLICABLE"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires NASA Earthdata account registration and authentication for direct data downloads (e.g., .a2a files). Primary use is for scientific analysis and research of raw observational data."
+    },
+    {
+      "type": "Collection",
+      "id": "ABLE-2A_Merge_Data_1",
+      "title": "ABLE-2A Merge Data",
+      "description": "ABLE-2A_Merge_Data is the merge data collected onboard the NASA Electra aircraft during the Amazon Boundary Layer Experiment - 2A (ABLE-2A) suborbital campaign. Data collection for this product is complete. \r\n\r\nFrom 1983-2001, NASA conducted a collection of field campaigns as part of the Global Tropospheric Experiment (GTE). Among those were the Amazon Boundary Layer Experiment (ABLE 2) campaigns. ABLE 2 was divided into two sub-campaigns, ABLE 2A (dry season) and ABLE 2B (wet season). ABLE 2A took place from July-August 1985, while ABLE 2B took place from April-May 1987. The goal of ABLE 2 was to better understand the role of tropics in global atmospheric chemistry and investigate processes which might lead to the enhanced concentrations of carbon monoxide (CO) in the tropical upper troposphere. ABLE 2 was a partnership with NASA and the Brazilian agency, Instituto Nacional de Pesquisas Espaciais (INPE), along with the Instituto Nacional de Pesquisas da Amazonia (INPA) providing facilities and logistical information.  \r\n\r\n \r\n\r\nTo accomplish its objectives, the ABLE 2 science team deployed the NASA Lockheed Electra aircraft, balloons, and free-flying sondes. Flights took place over the Amazon region in Brazil for both sub-campaigns. ABLE 2A consisted of 15 flights while ABLE 2B consisted of 21 flights with the fully equipped Electra. For most ABLE 2A flights, the data collected included in-situ measurements of CO2, CO, MHC, NO (nitric oxide), N2O, O3, DMS (dimethyl sulfide), aerosol composition, and meteorological parameters. ABLE 2B had the Electra instrumented with remote and in-situ techniques for measuring the atmospheric distribution of a variety of carbon, nitrogen, and sulfur gases; aerosol size and composition; and to measure ozone. The typical approach to flights involved high-altitude passes over research areas using the downward facing UV Differential Absorption Lidar (DIAL). The ABLE 2 campaign represents a modest advance in understanding the influence of the tropical rain forest ecosystem on the chemistry of the troposphere. Detailed descriptions related to the motivation, implementation, and instrument payloads are available in the ABLE 2A overview paper and the ABLE 2B overview paper. A collection of the publications based on ABLE 2A and 2B observation are available in the Journal of Geophysical Research special issues: Global Tropospheric Experiment/Chemical Instrumentation Test and Evaluation Results (GTE/ABLE 2A) and The Amazon Boundary Layer Experiment 2B. ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -76.3,
+              -7.2,
+              -47.48,
+              37.1
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1985-07-11T00:00:00.000Z",
+              "1985-08-15T00:00:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3165312896-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for ABLE-2A_Merge_Data_1 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/ASDC/SUBORBITAL/ABLE-2A_Merge_Data_1",
+          "title": "Provider Metadata",
+          "description": "DOI Dataset Landing Page for ABLE-2A_Merge_Data_1",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001": {
+          "href": "s3://asdc-prod-protected/FIELDCAMPAIGN/ABLE/ABLE-2_001",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165312896-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3165312896-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165312896-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165312896-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165312896-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165312896-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165312896-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_Merge_Data_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_Merge_Data_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC WINDS",
+        "UPPER LEVEL WINDS",
+        "WIND DIRECTION",
+        "ATMOSPHERIC CHEMISTRY",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "SULFUR COMPOUNDS",
+        "NITROGEN COMPOUNDS",
+        "ATMOSPHERIC PRESSURE",
+        "STATIC PRESSURE",
+        "ATMOSPHERIC TEMPERATURE",
+        "SURFACE TEMPERATURE",
+        "STATIC TEMPERATURE",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR INDICATORS",
+        "HUMIDITY",
+        "RELATIVE HUMIDITY"
+      ],
+      "summaries": {
+        "platform": [
+          "Data Analysis",
+          "NASA ELECTRA"
+        ],
+        "instruments": [
+          "NOT APPLICABLE",
+          "NOT APPLICABLE"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Requires NASA Earthdata registration/credentials for S3 access. Data available for direct download (e.g., compressed files) for scientific analysis and research."
+    },
+    {
+      "type": "Collection",
+      "id": "ABLE-2A_MetNav_AircraftInSitu_Electra_Data_1",
+      "title": "ABLE-2A Electra Meteorological and Navigational Data",
+      "description": "ABLE-2A_MetNav_AircraftInSitu_Electra_Data is the in-situ meteorology and navigational data collected onboard the NASA Electra aircraft during the Amazon Boundary Layer Experiment - 2A (ABLE-2A) suborbital campaign. Data collection for this product is complete. \r\n\r\nFrom 1983-2001, NASA conducted a collection of field campaigns as part of the Global Tropospheric Experiment (GTE). Among those were the Amazon Boundary Layer Experiment (ABLE 2) campaigns. ABLE 2 was divided into two sub-campaigns, ABLE 2A (dry season) and ABLE 2B (wet season). ABLE 2A took place from July-August 1985, while ABLE 2B took place from April-May 1987. The goal of ABLE 2 was to better understand the role of tropics in global atmospheric chemistry and investigate processes which might lead to the enhanced concentrations of carbon monoxide (CO) in the tropical upper troposphere. ABLE 2 was a partnership with NASA and the Brazilian agency, Instituto Nacional de Pesquisas Espaciais (INPE), along with the Instituto Nacional de Pesquisas da Amazonia (INPA) providing facilities and logistical information.  \r\n\r\n \r\n\r\nTo accomplish its objectives, the ABLE 2 science team deployed the NASA Lockheed Electra aircraft, balloons, and free-flying sondes. Flights took place over the Amazon region in Brazil for both sub-campaigns. ABLE 2A consisted of 15 flights while ABLE 2B consisted of 21 flights with the fully equipped Electra. For most ABLE 2A flights, the data collected included in-situ measurements of CO2, CO, MHC, NO (nitric oxide), N2O, O3, DMS (dimethyl sulfide), aerosol composition, and meteorological parameters. ABLE 2B had the Electra instrumented with remote and in-situ techniques for measuring the atmospheric distribution of a variety of carbon, nitrogen, and sulfur gases; aerosol size and composition; and to measure ozone. The typical approach to flights involved high-altitude passes over research areas using the downward facing UV Differential Absorption Lidar (DIAL). The ABLE 2 campaign represents a modest advance in understanding the influence of the tropical rain forest ecosystem on the chemistry of the troposphere. Detailed descriptions related to the motivation, implementation, and instrument payloads are available in the ABLE 2A overview paper and the ABLE 2B overview paper. A collection of the publications based on ABLE 2A and 2B observation are available in the Journal of Geophysical Research special issues: Global Tropospheric Experiment/Chemical Instrumentation Test and Evaluation Results (GTE/ABLE 2A) and The Amazon Boundary Layer Experiment 2B. ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -76.3,
+              -7.2,
+              -47.48,
+              37.1
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1985-07-11T00:00:00.000Z",
+              "1985-08-15T00:00:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3165179338-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for ABLE-2A_MetNav_AircraftInSitu_Electra_Data_1 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/ASDC/SUBORBITAL/ABLE-2A_MetNav_AircraftInSitu_Electra_Data_1",
+          "title": "Provider Metadata",
+          "description": "DOI Dataset Landing Page for ABLE-2A_MetNav_AircraftInSitu_Electra_Data_1",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001": {
+          "href": "s3://asdc-prod-protected/FIELDCAMPAIGN/ABLE/ABLE-2_001",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165179338-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3165179338-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165179338-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165179338-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165179338-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165179338-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165179338-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_MetNav_AircraftInSitu_Electra_Data_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_MetNav_AircraftInSitu_Electra_Data_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC TEMPERATURE",
+        "SURFACE TEMPERATURE",
+        "DEW POINT TEMPERATURE",
+        "SPECTRAL/ENGINEERING",
+        "PLATFORM CHARACTERISTICS",
+        "AIRSPEED/GROUND SPEED",
+        "ATMOSPHERIC PRESSURE",
+        "STATIC PRESSURE",
+        "STATIC TEMPERATURE",
+        "ATMOSPHERIC WINDS",
+        "SURFACE WINDS",
+        "WIND SPEED",
+        "WIND DIRECTION"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ELECTRA"
+        ],
+        "instruments": [
+          "TAMMS"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires NASA Earthdata Login or S3 API credentials. Data is available as raw .a2a files. Primary usage is for direct download and scientific analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "ABLE-2A_Sondes_Data_1",
+      "title": "ABLE-2A Sondes Data",
+      "description": "ABLE-2A_Sondes_Data is the radiosonde and rawinsonde data collected during the Amazon Boundary Layer Experiment - 2A (ABLE-2A) suborbital campaign. Data collection for this product is complete. \r\n\r\nFrom 1983-2001, NASA conducted a collection of field campaigns as part of the Global Tropospheric Experiment (GTE). Among those were the Amazon Boundary Layer Experiment (ABLE 2) campaigns. ABLE 2 was divided into two sub-campaigns, ABLE 2A (dry season) and ABLE 2B (wet season). ABLE 2A took place from July-August 1985, while ABLE 2B took place from April-May 1987. The goal of ABLE 2 was to better understand the role of tropics in global atmospheric chemistry and investigate processes which might lead to the enhanced concentrations of carbon monoxide (CO) in the tropical upper troposphere. ABLE 2 was a partnership with NASA and the Brazilian agency, Instituto Nacional de Pesquisas Espaciais (INPE), along with the Instituto Nacional de Pesquisas da Amazonia (INPA) providing facilities and logistical information.  \r\n\r\n \r\n\r\nTo accomplish its objectives, the ABLE 2 science team deployed the NASA Lockheed Electra aircraft, balloons, and free-flying sondes. Flights took place over the Amazon region in Brazil for both sub-campaigns. ABLE 2A consisted of 15 flights while ABLE 2B consisted of 21 flights with the fully equipped Electra. For most ABLE 2A flights, the data collected included in-situ measurements of CO2, CO, MHC, NO (nitric oxide), N2O, O3, DMS (dimethyl sulfide), aerosol composition, and meteorological parameters. ABLE 2B had the Electra instrumented with remote and in-situ techniques for measuring the atmospheric distribution of a variety of carbon, nitrogen, and sulfur gases; aerosol size and composition; and to measure ozone. The typical approach to flights involved high-altitude passes over research areas using the downward facing UV Differential Absorption Lidar (DIAL). The ABLE 2 campaign represents a modest advance in understanding the influence of the tropical rain forest ecosystem on the chemistry of the troposphere. Detailed descriptions related to the motivation, implementation, and instrument payloads are available in the ABLE 2A overview paper and the ABLE 2B overview paper. A collection of the publications based on ABLE 2A and 2B observation are available in the Journal of Geophysical Research special issues: Global Tropospheric Experiment/Chemical Instrumentation Test and Evaluation Results (GTE/ABLE 2A) and The Amazon Boundary Layer Experiment 2B. ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -76.3,
+              -7.2,
+              -47.48,
+              37.1
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1985-07-11T00:00:00.000Z",
+              "1985-08-15T00:00:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3165316389-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for ABLE-2A_Sondes_Data_1 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/ASDC/SUBORBITAL/ABLE-2A_Sondes_Data_1",
+          "title": "Provider Metadata",
+          "description": "DOI Dataset Landing Page for ABLE-2A_Sondes_Data_1",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001": {
+          "href": "s3://asdc-prod-protected/FIELDCAMPAIGN/ABLE/ABLE-2_001",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165316389-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3165316389-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165316389-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165316389-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165316389-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165316389-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165316389-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_Sondes_Data_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_Sondes_Data_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC TEMPERATURE",
+        "SURFACE TEMPERATURE",
+        "DEW POINT TEMPERATURE",
+        "ATMOSPHERIC PRESSURE",
+        "STATIC PRESSURE",
+        "STATIC TEMPERATURE",
+        "ATMOSPHERIC WINDS",
+        "SURFACE WINDS",
+        "WIND SPEED",
+        "WIND DIRECTION",
+        "ATMOSPHERIC WATER VAPOR",
+        "WATER VAPOR INDICATORS",
+        "HUMIDITY",
+        "RELATIVE HUMIDITY",
+        "POTENTIAL TEMPERATURE"
+      ],
+      "summaries": {
+        "platform": [
+          "RADIOSONDES"
+        ],
+        "instruments": [
+          "RAWINSONDES",
+          "TETHERSONDES"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Earthdata Login required for access credentials. Provides raw data files for direct download and S3 programmatic access. Primary use is for scientific data analysis."
+    },
+    {
+      "type": "Collection",
+      "id": "ABLE-2A_TraceGas_AircraftInSitu_Electra_Data_1",
+      "title": "ABLE-2A Electra In-Situ Trace Gas Data",
+      "description": "ABLE-2A_TraceGas_AircraftInSitu_Electra_Data is the in-situ trace gas data collected onboard the NASA Electra aircraft during the Amazon Boundary Layer Experiment - 2A (ABLE-2A) suborbital campaign. Data using chemiluminescence, gas traps, cryogenic air samples, and IR lasers are featured in this collection. Data collection for this product is complete. \r\n\r\nFrom 1983-2001, NASA conducted a collection of field campaigns as part of the Global Tropospheric Experiment (GTE). Among those were the Amazon Boundary Layer Experiment (ABLE 2) campaigns. ABLE 2 was divided into two sub-campaigns, ABLE 2A (dry season) and ABLE 2B (wet season). ABLE 2A took place from July-August 1985, while ABLE 2B took place from April-May 1987. The goal of ABLE 2 was to better understand the role of tropics in global atmospheric chemistry and investigate processes which might lead to the enhanced concentrations of carbon monoxide (CO) in the tropical upper troposphere. ABLE 2 was a partnership with NASA and the Brazilian agency, Instituto Nacional de Pesquisas Espaciais (INPE), along with the Instituto Nacional de Pesquisas da Amazonia (INPA) providing facilities and logistical information.  \r\n\r\n \r\n\r\nTo accomplish its objectives, the ABLE 2 science team deployed the NASA Lockheed Electra aircraft, balloons, and free-flying sondes. Flights took place over the Amazon region in Brazil for both sub-campaigns. ABLE 2A consisted of 15 flights while ABLE 2B consisted of 21 flights with the fully equipped Electra. For most ABLE 2A flights, the data collected included in-situ measurements of CO2, CO, MHC, NO (nitric oxide), N2O, O3, DMS (dimethyl sulfide), aerosol composition, and meteorological parameters. ABLE 2B had the Electra instrumented with remote and in-situ techniques for measuring the atmospheric distribution of a variety of carbon, nitrogen, and sulfur gases; aerosol size and composition; and to measure ozone. The typical approach to flights involved high-altitude passes over research areas using the downward facing UV Differential Absorption Lidar (DIAL). The ABLE 2 campaign represents a modest advance in understanding the influence of the tropical rain forest ecosystem on the chemistry of the troposphere. Detailed descriptions related to the motivation, implementation, and instrument payloads are available in the ABLE 2A overview paper and the ABLE 2B overview paper. A collection of the publications based on ABLE 2A and 2B observation are available in the Journal of Geophysical Research special issues: Global Tropospheric Experiment/Chemical Instrumentation Test and Evaluation Results (GTE/ABLE 2A) and The Amazon Boundary Layer Experiment 2B. ",
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v2.0.0/schema.json"
+      ],
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -76.3,
+              -7.2,
+              -47.48,
+              37.1
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1985-07-11T00:00:00.000Z",
+              "1985-08-15T00:00:00.000Z"
+            ]
+          ]
+        }
+      },
+      "assets": {
+        "nasa": {
+          "href": "https://search.earthdata.nasa.gov/search/granules?p=C3165188064-LARC_CLOUD",
+          "title": "Direct Download",
+          "description": "Earthdata Search for ABLE-2A_TraceGas_AircraftInSitu_Electra_Data_1 (NASA Application to search, discover, visualize, refine, and access NASA Earth Observation data)",
+          "roles": [
+            "data"
+          ]
+        },
+        "provider_metadata": {
+          "href": "https://doi.org/10.5067/ASDC/SUBORBITAL/ABLE-2A_TraceGas_AircraftInSitu_Electra_Data_1",
+          "title": "Provider Metadata",
+          "description": "DOI Dataset Landing Page for ABLE-2A_TraceGas_AircraftInSitu_Electra_Data_1",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001": {
+          "href": "s3://asdc-prod-protected/FIELDCAMPAIGN/ABLE/ABLE-2_001",
+          "roles": [
+            "data"
+          ],
+          "title": "asdc_prod_protected_FIELDCAMPAIGN_ABLE_ABLE_2_001",
+          "storage:refs": [
+            "aws"
+          ]
+        },
+        "s3_credentials": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentials",
+          "title": "S3 credentials API endpoint",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "s3_credentials_documentation": {
+          "href": "https://data.asdc.earthdata.nasa.gov/s3credentialsREADME",
+          "title": "S3 credentials API endpoint documentation",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165188064-LARC_CLOUD.xml",
+          "title": "CMR XML metadata for C3165188064-LARC_CLOUD",
+          "type": "application/xml",
+          "roles": [
+            "metadata"
+          ]
+        }
+      },
+      "providers": [
+        {
+          "name": "LARC_CLOUD",
+          "roles": [
+            "producer"
+          ]
+        },
+        {
+          "name": "NASA EOSDIS",
+          "roles": [
+            "host"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "license",
+          "href": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+          "title": "EOSDIS Data Use Policy",
+          "type": "text/html"
+        },
+        {
+          "rel": "about",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165188064-LARC_CLOUD.html",
+          "title": "HTML metadata for collection",
+          "type": "text/html"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165188064-LARC_CLOUD.native",
+          "title": "Native metadata for collection",
+          "type": "application/xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165188064-LARC_CLOUD.echo10",
+          "title": "ECHO10 metadata for collection",
+          "type": "application/echo10+xml"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165188064-LARC_CLOUD.json",
+          "title": "CMR JSON metadata for collection",
+          "type": "application/json"
+        },
+        {
+          "rel": "via",
+          "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3165188064-LARC_CLOUD.umm_json",
+          "title": "CMR UMM_JSON metadata for collection",
+          "type": "application/vnd.nasa.cmr.umm+json"
+        },
+        {
+          "rel": "self",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_TraceGas_AircraftInSitu_Electra_Data_1",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://cmr.earthdata.nasa.gov/cloudstac/LARC_CLOUD/collections/ABLE-2A_TraceGas_AircraftInSitu_Electra_Data_1/items",
+          "type": "application/geo+json",
+          "title": "Collection Items"
+        }
+      ],
+      "license": "proprietary",
+      "keywords": [
+        "EARTH SCIENCE",
+        "ATMOSPHERE",
+        "ATMOSPHERIC CHEMISTRY",
+        "TRACE GASES/TRACE SPECIES",
+        "SULFUR COMPOUNDS",
+        "DIMETHYL SULFIDE",
+        "NITROGEN COMPOUNDS",
+        "NITRIC OXIDE",
+        "OXYGEN COMPOUNDS",
+        "ATMOSPHERIC OZONE",
+        "OZONE PROFILES",
+        "CARBON AND HYDROCARBON COMPOUNDS",
+        "METHANE",
+        "HALOCARBONS AND HALOGENS",
+        "CHLOROFLUOROCARBONS",
+        "CFC-11",
+        "CFC-12",
+        "ATMOSPHERIC CARBON DIOXIDE",
+        "ATMOSPHERIC CARBON MONOXIDE"
+      ],
+      "summaries": {
+        "platform": [
+          "NASA ELECTRA"
+        ],
+        "instruments": [
+          "CHEMILUMINESCENCE",
+          "INFRARED LASER SPECTROSCOPY"
+        ]
+      },
+      "storage:schemes": {
+        "aws": {
+          "type": "aws-s3",
+          "platform": "https://{bucket}.s3.{region}.amazonaws.com",
+          "bucket": "asdc-prod-protected",
+          "region": "us-west-2"
+        }
+      },
+      "accessibility": "Auth",
+      "userNote": "Access requires NASA Earthdata registration and S3 credentials. Provides raw data files and metadata for direct download and S3 access. Primarily used for scientific analysis."
+    }
+  ]
+}
