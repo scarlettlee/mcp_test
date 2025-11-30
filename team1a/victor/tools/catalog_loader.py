@@ -45,8 +45,10 @@ def load_catalog(catalog_name: str = "earth-search") -> Dict[str, Any]:
     if catalog_name not in catalog_files:
         raise ValueError(f"Unknown catalog: {catalog_name}. Available: {list(catalog_files.keys())}")
     
-    # Look for catalog file in cat_10_18 directory
-    catalog_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "cat_10_18")
+    # Look for catalog file in data/Catalogs10_18 directory
+    # From tools/ go up to victor/, then to team1a/, then to mcp_test/, then into data/Catalogs10_18/
+    catalog_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "..", "..", "..", "data", "Catalogs10_18")
+    catalog_dir = os.path.abspath(catalog_dir)  # Normalize the path
     catalog_path = os.path.join(catalog_dir, catalog_files[catalog_name])
     
     if not os.path.exists(catalog_path):
