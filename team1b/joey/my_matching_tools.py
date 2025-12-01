@@ -4,6 +4,7 @@ import os
 import csv
 import io
 from openai import OpenAI
+from anthropic import Anthropic
 from config import get_api_key 
 
 def esg_data_mapping_tool(args: Dict[str, Any], context: Dict[str, Any]) -> str:
@@ -15,17 +16,20 @@ def esg_data_mapping_tool(args: Dict[str, Any], context: Dict[str, Any]) -> str:
     catalog_data = args.get("catalog_data")
     model = args.get("model", "gpt-4")
     output_file = args.get("output_file", "esg_mapping_output.csv")
+    provider = args.get("provider", "openai")
     
     # ═══════════════════════════════════════════════════════
     # LOAD OPENAI KEY FROM CONFIG.JSON (instead of from args)
     # ═══════════════════════════════════════════════════════
     try:
-        api_key = get_api_key('openai')  
+        api_key = get_api_key(provider)   # "openai" or "anthropic"
     except Exception as e:
-        return f"Error loading OpenAI API key from config.json: {str(e)}"
-    
-    # Optional: Allow override via args if needed
-    api_key = args.get("openai_api_key", api_key)
+        return f"Error loading {provider} API key from config.json: {str(e)}"
+
+    if not catalog_data:
+        return "Error: catalog_data is required"
+    if not api_key:
+        return f"Error: {provider} API key not found in config.json"
     
     # Validate inputs
     if not catalog_data:
@@ -129,59 +133,105 @@ def esg_data_mapping_tool(args: Dict[str, Any], context: Dict[str, Any]) -> str:
         Remember: Match datasets based on what they ACTUALLY MEASURE vs what the metric requires.
     """
 
-    
-    # Call OpenAI API
     try:
-        client = OpenAI(api_key=api_key)  # ← Uses key from config.json
-                
-        response = client.chat.completions.create(
-            model="gpt-4o-2024-08-06",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_message}
-            ],
-            response_format={
-                "type": "json_schema",
-                "json_schema": {
-                    "name": "esg_mapping",
-                    "schema": {
-                        "type": "object",
-                        "properties": {
-                            "rows": {
-                                "type": "array",
-                                "minItems": 33,
-                                "maxItems": 33,
-                                "items": {
-                                    "type": "object",
-                                    "properties": {
-                                        "sector": {"type": "string"},
-                                        "topic": {"type": "string"},
-                                        "metric": {"type": "string"},
-                                        "category": {"type": "string"},
-                                        "unit_of_measure": {"type": "string"},
-                                        "code": {"type": "string"},
-                                        "direct_measurement": {"type": "string"},  # Can contain multiple datasets separated by ;
-                                        "risk_assessment": {"type": "string"},
-                                        "risk_insights": {"type": "string"},
-                                        "trend_analysis": {"type": "string"},
-                                        "benchmarking": {"type": "string"},
-                                        "regulatory_support": {"type": "string"}
-                                    },
-                                    "required": ["sector", "topic", "metric", "category", "unit_of_measure", "code"]
+        if provider == "openai":
+            client = OpenAI(api_key=api_key)
+            response = client.chat.completions.create(
+                model=model,   # ← now uses args["model"]
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_message}
+                ],
+                response_format={
+                    "type": "json_schema",
+                    "json_schema": {
+                        "name": "esg_mapping",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "rows": {
+                                    "type": "array",
+                                    "minItems": 33,
+                                    "maxItems": 33,
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "sector": {"type": "string"},
+                                            "topic": {"type": "string"},
+                                            "metric": {"type": "string"},
+                                            "category": {"type": "string"},
+                                            "unit_of_measure": {"type": "string"},
+                                            "code": {"type": "string"},
+                                            "direct_measurement": {"type": "string"},  # Can contain multiple datasets separated by ;
+                                            "risk_assessment": {"type": "string"},
+                                            "risk_insights": {"type": "string"},
+                                            "trend_analysis": {"type": "string"},
+                                            "benchmarking": {"type": "string"},
+                                            "regulatory_support": {"type": "string"}
+                                        },
+                                        "required": ["sector", "topic", "metric", "category", "unit_of_measure", "code"]
+                                    }
                                 }
-                            }
-                        },
-                        "required": ["rows"]
+                            },
+                            "required": ["rows"]
+                        }
                     }
-                }
-            },
-            temperature=0.3
-)
-        
-        # Extract the mapping result
-        mapping_result = response.choices[0].message.content
-        
-        # Convert to CSV
+                },
+                temperature=0.3,
+            )
+            mapping_result = response.choices[0].message.content
+
+        elif provider == "anthropic":
+            client = Anthropic(api_key=api_key)
+            response = client.messages.create(
+                model=model,              # e.g. "claude-3-5-sonnet-20241022"
+                max_tokens=4000,
+                system=system_prompt,
+                messages=[{"role": "user", "content": user_message}],
+                extra_body={
+                    "output_format": {          # Anthropic structured JSON output
+                        "type": "json_schema",
+                        "json_schema": {        # same schema you used in response_format
+                            "name": "esg_mapping",
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "rows": {
+                                        "type": "array",
+                                        "minItems": 33,
+                                        "maxItems": 33,
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "sector": {"type": "string"},
+                                                "topic": {"type": "string"},
+                                                "metric": {"type": "string"},
+                                                "category": {"type": "string"},
+                                                "unit_of_measure": {"type": "string"},
+                                                "code": {"type": "string"},
+                                                "direct_measurement": {"type": "string"},
+                                                "risk_assessment": {"type": "string"},
+                                                "risk_insights": {"type": "string"},
+                                                "trend_analysis": {"type": "string"},
+                                                "benchmarking": {"type": "string"},
+                                                "regulatory_support": {"type": "string"}
+                                            },
+                                            "required": ["sector", "topic", "metric", "category", "unit_of_measure", "code"]
+                                        }
+                                    }
+                                },
+                                "required": ["rows"]
+                            }
+                        }
+                    }
+                },
+                temperature=0.3,
+            )
+            # Anthropic returns content as a list of text blocks
+            mapping_result = response.content[0].text  # JSON string
+        else:
+            return f"Error: Unknown provider '{provider}'"
+
         csv_output = convert_to_csv(mapping_result)
         
         # Save to file
