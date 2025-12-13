@@ -1,168 +1,126 @@
-# ESG Data Mapping Tool
-
-This project provides an LLM-powered tool for mapping geospatial and environmental datasets (e.g. STAC catalogs) to **SASB ESG metrics** for the **Software & IT Services** sector.  
-It produces a **single, structured 33-row CSV** suitable for Excel-based ESG analysis and reporting.
-
-The system supports both **OpenAI** and **Anthropic** models and enforces strict formatting, relevance, and data-quality rules through a detailed system prompt.
+# International Elite Capital Team 1B: AI-Powered ESG Data Mapping Tool
 
 ---
 
-## Repository Contents
-.
-├── my_matching_tools.py
-├── test_my_matching_tools.py
-└── ESG_Data_Mapping_Prompt_REVISED.txt
+### 👥 **Team Members**
 
-
-### 1. `my_matching_tools.py`
-
-Core implementation of the ESG data mapping tool.
-
-**Key components:**
-
-- `esg_data_mapping_tool(args, context)`
-  - Main entry point for mapping dataset catalogs to SASB ESG metrics.
-  - Accepts STAC catalogs as:
-    - a file path
-    - a Python dictionary
-    - a JSON string
-  - Calls an LLM (OpenAI or Anthropic) to generate a structured JSON mapping.
-  - Converts the result into a CSV with exactly **33 rows**.
-  - Saves output to disk and stores metadata in the execution context.
-
-- `convert_to_csv(mapping_result)`
-  - Validates that exactly 33 metrics are returned.
-  - Converts structured JSON into a CSV formatted for Excel import.
-
-- `get_esg_mapping_prompt()`
-  - Loads the ESG system prompt from `ESG_Data_Mapping_Prompt_REVISED.txt`.
-  - Falls back to an embedded prompt if the file is missing.
-
-**Supported providers**
-- OpenAI (`openai`)
-- Anthropic (`anthropic`)
-
-API keys are loaded via a `config.json` file using `get_api_key(provider)`.
+| Name             | GitHub Handle | Contribution                                                             |
+|------------------|---------------|--------------------------------------------------------------------------|
+| Joey Zhou        | @joeyzhouu    | Tool design and implementation, prompt engineering, ESG logic, testing   |
+| Furkan Ay        | @FurkanBeratAy| Tool design and implementation, prompt engineering, ESG logic, testing   |
+| Neeti Ingle      | @neetii       | Tool design and implementation, prompt engineering, ESG logic, testing   |
+| Ashleigh Wong    | @AshleighWong | Tool design and implementation, prompt engineering, ESG logic, testing   |
 
 ---
 
-### 2. `ESG_Data_Mapping_Prompt_REVISED.txt`
+## 🎯 **Project Highlights**
 
-The authoritative **system prompt** used by the LLM.
-
-**What this prompt enforces:**
-- Exact compliance with **33 SASB metrics** (no more, no less)
-- Strict definitions for relevance categories:
-  - Direct Measurement
-  - Risk Assessment
-  - Risk Insights
-  - Trend Analysis
-  - Benchmarking
-  - Regulatory Support
-- Correct dataset formatting: catalog-name-#. dataset_id, Dataset Title (matching reason)
-- Restarting dataset numbering **per catalog per column**
-- Proper use of climate models (risk/trends only, not direct measurement)
-- A single consolidated table across all catalogs
-
-This file defines the ESG logic and quality controls for the entire system.
+- Built an AI-driven mapping tool that aligns geospatial datasets to `33 SASB ESG metrics` with strict formatting and compliance rules.
+- Designed a robust `system prompt` that enforces metric relevance, dataset categorization, and audit-ready output.
+- Supported both `OpenAI` and `Anthropic` models with structured JSON outputs and CSV conversion.
+- Produced a consolidated ESG mapping table suitable for `Excel, auditing, and sustainability reporting` workflows.
 
 ---
 
-### 3. `test_my_matching_tools.py`
+## 👩🏽‍💻 **Setup and Installation**
 
-Test and demonstration script for running the ESG mapping tool end-to-end.
+### 1. Clone the repository
+```bash
+git clone https://github.com/scarlettlee/mcp_test.git
+cd team1B
+```
 
-**Includes:**
-
-- Utilities for:
-- Slimming large STAC catalogs to reduce token usage
-- Previewing generated CSV output
-- Two test scenarios:
-1. **Single catalog test**
-   - `fedeo.ceos.org`
-2. **Multi-catalog test**
-   - `fedeo.ceos.org`
-   - `planetarycomputer.microsoft.com`
-- Automatic validation:
-- Confirms exactly **33 rows** are generated
-- Prints sample output for inspection
-
-Tests are run via an `MCPServer` and demonstrate realistic usage of the tool.
-
----
-
-## Quick Start
-
-Follow these steps to run the ESG Data Mapping Tool end-to-end and generate a 33-row SASB-aligned ESG mapping CSV.
-
----
-
-### 1. Install Dependencies
-
-Ensure you are using **Python 3.9+**.
-
+### 2. Install dependencies
 ```bash
 pip install openai anthropic
 ```
+Python 3.9+ is required.
 
-### 2. Configure API Keys
-
+### 3. Configure API keys
 Create a config.json file at the project root:
-
 ```bash
 {
   "openai": "YOUR_OPENAI_API_KEY",
   "anthropic": "YOUR_ANTHROPIC_API_KEY"
 }
 ```
+The tool automatically selects the correct key based on the chosen provider.
+---
 
-The tool automatically loads keys using:
+## 🏗️ **Project Overview**
 
-provider=`openai`
-provider=`anthropic`
+This project was developed as part of the Break Through Tech AI Program – AI Studio.
 
+**Objective:**
+Enable ESG analysts and sustainability teams to systematically map Earth observation and environmental datasets to SASB ESG metrics, prioritizing what is actually being measured rather than proxy or projected data.
 
-### 3. Prepare a STAC Catalog
+**Scope:**
+- Software & IT Services sector
+- 33 SASB-defined ESG metrics
+- Multi-catalog geospatial dataset support
+- Strict relevance categorization and formatting rules
 
-You can pass catalog data in one of three formats:
+**Real-world impact:**
+This tool helps bridge the gap between Earth observation data and corporate ESG disclosure, improving transparency, auditability, and consistency in sustainability reporting.
 
-Option A: File path (recommended)
+---
 
-```bash
-"catalog_data": "stac-tags-fedeo.ceos.org.json"
-```
+## 📊 **Data Exploration**
 
-Option B: Python dictionary
+- Data sources: STAC catalog JSON files (e.g., `fedeo.ceos.org`, `planetarycomputer.microsoft.com`)
+- Data type: Geospatial metadata describing satellite, climate, and environmental datasets
+- Preprocessing: Description truncation and collection filtering for large catalogs
+- Key challenges: Enforcing consistent dataset numbering across catalogs, Maintaining exact compliance with SASB metric definitions
 
-```bash
-"catalog_data": catalog_dict
-```
-Option C: JSON string
+---
 
-```bash
-"catalog_data": json.dumps(catalog_dict)
-```
+## 🧠 **Model Development**
 
-For large catalogs, consider trimming descriptions or collections to reduce token usage.
+### Models Used
+- OpenAI GPT models  
+- Anthropic Claude models  
 
-### 4. Run the Mapping Tool
+### Approach
+- Prompt-driven structured reasoning with enforced JSON schema output  
+- Dataset-to-metric matching based on **measurement validity**, not keyword similarity  
 
-```bash
-from my_matching_tools import esg_data_mapping_tool
+### Key Design Choices
+- Exactly **33 rows** returned (no more, no less)  
+- Each dataset assigned to **only one relevance category**  
+- Climate projections restricted to **risk assessment** or **trend analysis**  
 
-context = {}
+---
 
-result = esg_data_mapping_tool(
-    {
-        "catalog_data": "stac-tags-fedeo.ceos.org.json",
-        "provider": "openai",
-        "model": "gpt-5.1",
-        "output_file": "esg_mapping_output.csv"
-    },
-    context
-)
+## 📈 **Results & Key Findings**
 
-print(result)
-```
+- Successfully generated **33-row ESG mapping tables** across:
+  - Single-catalog inputs  
+  - Multi-catalog combined inputs  
 
-On success, a CSV file will be written to disk and metadata will be stored in context["last_esg_mapping"].
+### Output CSV Characteristics
+- Pass structural validation  
+- Preserve all SASB-required fields  
+- Leave cells blank where no valid dataset applies  
+
+- Demonstrated that LLMs can reliably perform **structured ESG reasoning** when guided by strict prompt constraints  
+
+---
+
+## 🚀 **Next Steps**
+
+- Extend support to additional SASB sectors  
+- Add automated validation checks for dataset unit compatibility  
+- Improve scalability for very large catalogs  
+- Explore integration with ESG reporting platforms and dashboards  
+
+---
+
+## 📝 **License**
+
+This project is intended for **internal, academic, or research use** unless otherwise specified.
+
+---
+
+## 🙏 **Acknowledgements** (Optional but encouraged)
+
+Thank your Challenge Advisors, Annabelle Zhange and Scarlett Lee, AI coach Yin Su, and others who supported our project.
