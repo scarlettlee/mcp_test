@@ -36,8 +36,6 @@ team1B/
 ├── my_matching_tools.py              # Main tool implementation
 ├── test_my_matching_tools.py         # Test scripts for single and multi-catalog runs
 ├── ESG_Data_Mapping_Prompt_REVISED.txt  # System prompt with ESG mapping rules
-├── config.py                         # API key configuration module
-├── config.json                       # API keys (user-created, not in repo)
 ├── stac-tags-fedeo.ceos.org.json    # Sample STAC catalog (CEOS)
 ├── stac-tags-planetarycomputer.microsoft.com.json  # Sample STAC catalog (Microsoft)
 └── README.md                         # Project documentation
