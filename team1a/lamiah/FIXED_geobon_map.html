@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c213e0ec1807e44e4a1d2235a015bacf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; 
+                top: 10px; right: 10px; width: 320px; 
+                background-color: rgba(255, 255, 255, 0.95); 
+                border: 3px solid #D32F2F; 
+                z-index: 9999; 
+                font-size: 11px; 
+                padding: 10px; 
+                border-radius: 5px; 
+                box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+                font-family: Arial, sans-serif;">
+    <div style="font-size: 13px; font-weight: bold; margin-bottom: 6px; color: #D32F2F;">
+        🌲 GEO BON Forest Loss
+    </div>
+    <div style="line-height: 1.5; font-size: 10px;">
+        <b>Collection:</b> gfw-lossyear<br>
+        <b>Item:</b> _80N_180W<br>
+        <b>Region:</b> Global<br>
+        <b>Date:</b> 2000-01-01
+    </div>
+    <hr style="margin: 6px 0; border: none; border-top: 1px solid #ddd;">
+    <div style="background-color: #fff3f3; padding: 6px; border-radius: 3px;">
+        <b style="color: #D32F2F; font-size: 10px;">🎯 ESG Uses:</b>
+        <ul style="margin: 3px 0; padding-left: 18px; font-size: 9px; color: #555; line-height: 1.4;">
+            <li>Supply chain deforestation</li>
+            <li>Climate risk assessment</li>
+            <li>Biodiversity monitoring</li>
+        </ul>
+    </div>
+    <div style="font-size: 8px; color: #999; margin-top: 4px; font-style: italic;">
+        💡 Click marker/box for details
+    </div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_c213e0ec1807e44e4a1d2235a015bacf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c213e0ec1807e44e4a1d2235a015bacf = L.map(
+                "map_c213e0ec1807e44e4a1d2235a015bacf",
+                {
+                    center: [75.0, -175.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "maxBounds": [
+[
+-90,
+-180,
+],
+[
+90,
+180,
+],
+],
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+  "worldCopyJump": false,
+  "noWrap": true,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_17eaa5bb34cddc401a8b2fef0b54dca1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 2,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_17eaa5bb34cddc401a8b2fef0b54dca1.addTo(map_c213e0ec1807e44e4a1d2235a015bacf);
+        
+    
+            var tile_layer_48244ca305c70d5d735ab898eef74b8b = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": true,
+  "attribution": "Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_48244ca305c70d5d735ab898eef74b8b.addTo(map_c213e0ec1807e44e4a1d2235a015bacf);
+        
+    
+            var rectangle_b91be3bcd68609b1bb146c434ace21a0 = L.rectangle(
+                [[70.0, -180.0], [80.0, -170.0]],
+                {"bubblingMouseEvents": true, "color": "#D32F2F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EF5350", "fillOpacity": 0.15, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c213e0ec1807e44e4a1d2235a015bacf);
+        
+    
+        var popup_242b6d57ed10af2dcacef7403a1d9e5a = L.popup({
+  "maxWidth": 320,
+  "keepInView": true,
+  "autoPan": true,
+});
+
+        
+            
+                var html_a0f91d284fe9d71cc5c41f5c21b558eb = $(`<div id="html_a0f91d284fe9d71cc5c41f5c21b558eb" style="width: 100.0%; height: 100.0%;">             <div style="width: 280px; font-family: Arial, sans-serif; font-size: 14px; padding: 5px; line-height: 1.8;">                 <b style="color: #D32F2F; font-size: 16px;">🌲 Coverage Area</b><br><br>                 <b>Collection:</b> gfw-lossyear<br>                 <b>Item:</b> _80N_180W<br>                 <b>Region:</b> Global<br>                 <hr style="margin: 10px 0; border: none; border-top: 2px solid #ddd;">                 <div style="font-size: 12px; color: #666;">                     <b>Bounding Box:</b><br>                     West: -180.00°, South: 70.00°<br>                     East: -170.00°, North: 80.00°                 </div>             </div>             </div>`)[0];
+                popup_242b6d57ed10af2dcacef7403a1d9e5a.setContent(html_a0f91d284fe9d71cc5c41f5c21b558eb);
+            
+        
+
+        rectangle_b91be3bcd68609b1bb146c434ace21a0.bindPopup(popup_242b6d57ed10af2dcacef7403a1d9e5a)
+        ;
+
+        
+    
+    
+            var marker_26ac8018d251e0bd545b91da0e419f2e = L.marker(
+                [75.0, -175.0],
+                {
+}
+            ).addTo(map_c213e0ec1807e44e4a1d2235a015bacf);
+        
+    
+            var icon_a1b84e8b8fee324265327d287be2dab1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "tree",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93b945bf9aa760eff8025d89b3cd143b = L.popup({
+  "maxWidth": 350,
+  "keepInView": true,
+  "autoPan": true,
+});
+
+        
+            
+                var html_82919af9004dc11945f76b315a9d4951 = $(`<div id="html_82919af9004dc11945f76b315a9d4951" style="width: 100.0%; height: 100.0%;">         <div style="width: 300px; font-family: Arial, sans-serif; line-height: 1.8; padding: 5px;">             <div style="font-size: 16px; font-weight: bold; color: #D32F2F; margin-bottom: 10px;">                 🌍 GEO BON Data             </div>             <div style="font-size: 14px;">                 <b>Collection:</b> gfw-lossyear<br>                 <b>Item:</b> _80N_180W<br>                 <b>Region:</b> Global<br>                 <b>Date:</b> 2000-01-01             </div>             <hr style="margin: 10px 0; border: none; border-top: 2px solid #ddd;">             <div style="background-color: #f5f5f5; padding: 10px; border-radius: 3px; font-size: 13px;">                 <b style="color: #D32F2F;">🌲 ESG Applications:</b><br>                 • Deforestation tracking<br>                 • Climate risk analysis<br>                 • Biodiversity monitoring<br>                 • Supply chain sustainability             </div>         </div>         </div>`)[0];
+                popup_93b945bf9aa760eff8025d89b3cd143b.setContent(html_82919af9004dc11945f76b315a9d4951);
+            
+        
+
+        marker_26ac8018d251e0bd545b91da0e419f2e.bindPopup(popup_93b945bf9aa760eff8025d89b3cd143b)
+        ;
+
+        
+    
+    
+                marker_26ac8018d251e0bd545b91da0e419f2e.setIcon(icon_a1b84e8b8fee324265327d287be2dab1);
+            
+    
+            var layer_control_f689184b42ff195eba4b207967b27da5_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_17eaa5bb34cddc401a8b2fef0b54dca1,
+                    "Satellite Imagery" : tile_layer_48244ca305c70d5d735ab898eef74b8b,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_f689184b42ff195eba4b207967b27da5 = L.control.layers(
+                layer_control_f689184b42ff195eba4b207967b27da5_layers.base_layers,
+                layer_control_f689184b42ff195eba4b207967b27da5_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_c213e0ec1807e44e4a1d2235a015bacf);
+
+        
+</script>
+</html>
