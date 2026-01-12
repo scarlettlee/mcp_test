@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a5723b1bd866c378d8a197961e6a3eb3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; 
+                top: 10px; left: 50px; width: 450px; 
+                background-color: white; border:3px solid #FF4444; z-index:9999; 
+                font-size:14px; padding: 15px; border-radius: 5px; box-shadow: 2px 2px 6px rgba(0,0,0,0.3);">
+    <b style="font-size:16px;">🗺️ BAFU Environmental Data Visualization</b><br>
+    <hr style="margin: 10px 0;">
+    <b>Collection:</b> ch.bafu.gefaehrdungskarte-oberflaechenabfluss<br>
+    <b>Item:</b> gefaehrdungskarte-oberflaechenabfluss<br>
+    <b>Date:</b> 2018-05-22T00:00:00Z<br>
+    <br>
+    <i style="font-size:12px; color:#666;">
+    ℹ️ This map shows the geographic coverage area (red box).<br>
+    For detailed flood zones, download the GIS files using bafu_download_asset.
+    </i>
+    </div>
+    
+    
+            <div class="folium-map" id="map_a5723b1bd866c378d8a197961e6a3eb3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a5723b1bd866c378d8a197961e6a3eb3 = L.map(
+                "map_a5723b1bd866c378d8a197961e6a3eb3",
+                {
+                    center: [46.815, 8.225],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bb43e62a67cb3e376b5066a5284e7eba = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_bb43e62a67cb3e376b5066a5284e7eba.addTo(map_a5723b1bd866c378d8a197961e6a3eb3);
+        
+    
+            var rectangle_cdb59a5d77b148cd2bc66ee7a5c9c37c = L.rectangle(
+                [[45.82, 5.96], [47.81, 10.49]],
+                {"bubblingMouseEvents": true, "color": "#FF4444", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF8888", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a5723b1bd866c378d8a197961e6a3eb3);
+        
+    
+        var popup_c3b764597e27f812d85f2148668d679c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cf6fc1915bc8ab6f7a2a4b6fe4de0a9 = $(`<div id="html_4cf6fc1915bc8ab6f7a2a4b6fe4de0a9" style="width: 100.0%; height: 100.0%;">             <b>Data Coverage Area</b><br>             Collection: ch.bafu.gefaehrdungskarte-oberflaechenabfluss<br>             Item: gefaehrdungskarte-oberflaechenabfluss             </div>`)[0];
+                popup_c3b764597e27f812d85f2148668d679c.setContent(html_4cf6fc1915bc8ab6f7a2a4b6fe4de0a9);
+            
+        
+
+        rectangle_cdb59a5d77b148cd2bc66ee7a5c9c37c.bindPopup(popup_c3b764597e27f812d85f2148668d679c)
+        ;
+
+        
+    
+    
+            var marker_084dc3f1699ecf69840cea8a49014b3a = L.marker(
+                [46.815, 8.225],
+                {
+}
+            ).addTo(map_a5723b1bd866c378d8a197961e6a3eb3);
+        
+    
+            var icon_40d5e083145c871b40866dc1d6ea21ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_793c37a8cb048224e37a61843cfd1677 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0420e99de1a3302c90f0eebddc40897 = $(`<div id="html_f0420e99de1a3302c90f0eebddc40897" style="width: 100.0%; height: 100.0%;">         <div style="width:200px">         <b>BAFU Environmental Data</b><br><br>         <b>Collection:</b> ch.bafu.gefaehrdungskarte-oberflaechenabfluss<br>         <b>Item:</b> gefaehrdungskarte-oberflaechenabfluss<br>         <b>Date:</b> 2018-05-22T00:00:00Z<br>         <br>         <i>The red box shows the geographic coverage area of this dataset.</i>         </div>         </div>`)[0];
+                popup_793c37a8cb048224e37a61843cfd1677.setContent(html_f0420e99de1a3302c90f0eebddc40897);
+            
+        
+
+        marker_084dc3f1699ecf69840cea8a49014b3a.bindPopup(popup_793c37a8cb048224e37a61843cfd1677)
+        ;
+
+        
+    
+    
+                marker_084dc3f1699ecf69840cea8a49014b3a.setIcon(icon_40d5e083145c871b40866dc1d6ea21ab);
+            
+</script>
+</html>
