@@ -1,0 +1,2383 @@
+{
+  "stacApiUrl": "https://fedeo.ceos.org/",
+  "exportedAt": "2025-10-19T14:37:15.160Z",
+  "collections": [
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "license": "various",
+      "itemType": "feature",
+      "description": "Metadata records representing EO series (a.k.a. EO collections).",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://fedeo.ceos.org/collections/series",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "parent",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "items",
+          "href": "https://fedeo.ceos.org/collections/series/items",
+          "type": "application/geo+json",
+          "title": "Series"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/series?httpAccept=text/html",
+          "type": "text/html",
+          "title": "Self as HTML"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/series?httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "Self as JSON-LD"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://fedeo.ceos.org/collections/series/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables for series"
+        },
+        {
+          "rel": "describedBy",
+          "href": "http://schemas.opengis.net/eoc-geojson/1.0/eoc-geojson-schema.json",
+          "type": "application/schema+json",
+          "title": "JSON schema for items belonging to this collection"
+        }
+      ],
+      "id": "series",
+      "title": "EO Series",
+      "type": "Collection",
+      "accessibility": "Restricted",
+      "userNote": "unavailable"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "license": "various",
+      "itemType": "feature",
+      "description": "Metadata records representing EO datasets (a.k.a. EO products)",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://fedeo.ceos.org/collections/datasets",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "parent",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "items",
+          "href": "https://fedeo.ceos.org/collections/datasets/items?httpAccept=application/geo%2Bjson;profile=https://stacspec.org",
+          "type": "application/geo+json",
+          "title": "Datasets"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/datasets?httpAccept=text/html",
+          "type": "text/html",
+          "title": "Self as HTML"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/datasets?httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "Self as JSON-LD"
+        },
+        {
+          "rel": "describedBy",
+          "href": "http://schemas.opengis.net/eo-geojson/1.0/eo-geojson-schema.json",
+          "type": "application/schema+json",
+          "title": "JSON schema for items belonging to this collection"
+        }
+      ],
+      "id": "datasets",
+      "title": "EO Products",
+      "type": "Collection",
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              null,
+              null
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "license": "various",
+      "itemType": "feature",
+      "description": "Metadata records representing EO services and applications",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://fedeo.ceos.org/collections/services",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "parent",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "items",
+          "href": "https://fedeo.ceos.org/collections/services/items?httpAccept=application/geo%2Bjson;profile=https://stacspec.org",
+          "type": "application/geo+json",
+          "title": "Services and applications"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/services?httpAccept=text/html",
+          "type": "text/html",
+          "title": "Self as HTML"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/services?httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "Self as JSON-LD"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://fedeo.ceos.org/collections/services/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables for services"
+        },
+        {
+          "rel": "describedBy",
+          "href": "http://schemas.opengis.net/eopad-geojson/1.0/eopad-geojson-schema.json",
+          "type": "application/schema+json",
+          "title": "JSON schema for items belonging to this collection"
+        }
+      ],
+      "id": "services",
+      "title": "EO services and applications",
+      "type": "Collection",
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -62.1,
+              -23.6,
+              -42.9,
+              0
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-01-01T00:00:00Z",
+              "2019-12-31T23:59:59Z"
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "license": "various",
+      "assets": {
+        "enclosure": {
+          "roles": [
+            "data"
+          ],
+          "href": "http://data.ceda.ac.uk/neodc/esacci/high_resolution_land_cover/data/land_cover_maps/A02_Amazonia/static/v1.2/geotiff/HRLC10/",
+          "type": "application/x-binary",
+          "title": "DOWNLOAD - Download Data"
+        },
+        "metadata_ogc_17_069r3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI",
+          "title": "OGC 17-069r3 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/ogcapi-features-1/1.0\""
+        },
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "keywords": [
+        "Land Cover",
+        "CCI",
+        "High Resolution",
+        "orthoimagery",
+        "EARTH SCIENCE>LAND SURFACE>LAND USE/LAND COVER"
+      ],
+      "description": "This dataset contains high resolution (HR) land cover (LC) maps of a subregion of Amazonia, produced by the ESA High Resolution Land Cover (HRLC) Climate Change Initiative (CCI) project.  It consists of the following products:1) HRLC10: High Resolution Land Cover Maps at 10m spatial resolution for year 2019 (also referred to as static maps).2) Associated uncertainty products.They cover the geographic range (23.6Â°S â 0Â°S; 42.9Â°W â 62.1Â°W).The data are provided as both GeoTIFF tiles following the Sentinel-2 MGRS tiling scheme and as a GeoTiff format mosaic. These maps are also referred to as static maps.",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "parent",
+          "href": "https://fedeo.ceos.org",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0/items?httpAccept=application/geo%2Bjson;profile=https://stacspec.org",
+          "type": "application/geo+json",
+          "title": "Datasets search for the series 0bc7042123984c69aa45cb6788bfdaa0"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables for 0bc7042123984c69aa45cb6788bfdaa0"
+        },
+        {
+          "rel": "license",
+          "href": "https://artefacts.ceda.ac.uk/licences/specific_licences/esacci_high_resolution_land_cover_terms_and_conditions.pdf",
+          "type": "application/pdf",
+          "title": "Other Constraints"
+        },
+        {
+          "rel": "search",
+          "href": "https://fedeo.ceos.org/collections/series/items/0bc7042123984c69aa45cb6788bfdaa0/api",
+          "type": "application/opensearchdescription+xml",
+          "title": "OpenSearch Description Document"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://catalogue.ceda.ac.uk/uuid/0bc7042123984c69aa45cb6788bfdaa0",
+          "title": "CEDA Data Catalogue Page - Detail and access information for the resource"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/",
+          "title": "ESA Climate Change Initiative website - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/projects/high-resolution-land-cover/",
+          "title": "ESA CCI High Resolution Land Cover project website - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/documents/2514/CCI_HRLC_Ph1-D4.3_PUG_v2.2.pdf",
+          "type": "application/pdf",
+          "title": "Product User Guide - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://artefacts.ceda.ac.uk/badc_datadocs/esacci_portal/high_resolution_land_cover/Quick_User_Guide_v1.0.pdf",
+          "type": "application/pdf",
+          "title": "Quick User Guide v1.0 - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://data.ceda.ac.uk/neodc/esacci/high_resolution_land_cover/metadata/land_cover_maps/qgis_legends",
+          "title": "QGIS legends - No further details."
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "JSON-LD metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=http://data.europa.eu/930/",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml",
+          "title": "RDF/XML metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=http://data.europa.eu/930/",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle",
+          "type": "text/turtle",
+          "title": "Turtle metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/0bc7042123984c69aa45cb6788bfdaa0?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=http://data.europa.eu/930/",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:organisationName/CEDA",
+          "title": "More collections for CEDA"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:organisationName/Unavailable",
+          "title": "More collections for Unavailable"
+        }
+      ],
+      "id": "0bc7042123984c69aa45cb6788bfdaa0",
+      "type": "Collection",
+      "title": "ESA High Resolution Land Cover Climate Change Initiative (High_Resolution_Land_Cover_cci): High Resolution Land Cover Maps in Amazonia (Eastern Amazonas region) at 10m spatial resolution for 2019 in Geotiff format, v1.2",
+      "updated": "2025-10-10T10:23:04Z",
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "CEDA"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "FedEO",
+          "url": "https://fedeo.ceos.org/readme.html"
+        }
+      ],
+      "accessibility": "Restricted",
+      "userNote": "CORS error"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              25,
+              180,
+              85
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1997-01-01T00:00:00Z",
+              "2021-12-31T00:00:00Z"
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "DIF10",
+        "Permafrost",
+        "CCI",
+        "Ground Temperature",
+        "orthoimagery",
+        "EARTH SCIENCE>AGRICULTURE>SOILS",
+        "EARTH SCIENCE>LAND SURFACE>FROZEN GROUND>PERMAFROST",
+        "EARTH SCIENCE>BIOSPHERE>VEGETATION",
+        "EARTH SCIENCE>AGRICULTURE>SOILS>PERMAFROST",
+        "Aqua",
+        "ENVISAT",
+        "Sentinel-1A",
+        "Sentinel-2",
+        "Terra",
+        "C-SAR",
+        "MERIS",
+        "MODIS",
+        "Sentinel-2 MSI",
+        "Envisat",
+        "Sentinel-2A",
+        "Level 4",
+        "permafrost",
+        "VEGETATION",
+        "PROBA-V",
+        "SAR-C (Sentinel-1)",
+        "MSI (Sentinel-2)",
+        "AQUA",
+        "TERRA",
+        "MSI"
+      ],
+      "description": "This dataset contains permafrost ground temperature data produced as part of the European Space Agency's (ESA) Climate Change Initiative (CCI) Permafrost project. It forms part of the second version of their Climate Research Data Package (CRDP v4). It is derived from a thermal model driven and constrained by satellite data. Grid products of CRDP v4 are released in annual files, covering the start to the end of the Julian year. This corresponds to average annual ground temperatures and is provided for specific depths (surface, 1m, 2m, 5m, 10m). Case A: It covers the Northern Hemisphere (north of 30Â°N) for the period 2003-2023 based on MODIS Land Surface temperature merged with downscaled ERA5 reanalysis near-surface air temperature data.e.g. ESACCI-PERMAFROST-L4-GTD-MODISLST_CRYOGRID-AREA4_PP-****-fv05.0.ncCase B: It covers the Northern Hemisphere (north of 30Â°N) for the period 1997-2002 based on downscaled ERA5 reanalysis near-surface air temperature data which are bias-corrected with the Case A product for the overlap period 2003-2023 using a pixel-specific statistics for each day of the year.e.g. ESACCI-PERMAFROST-L4-GTD-ERA5_MODISLST_BIASCORRECTED-AREA4_PP-****-fv05.0.nc",
+      "type": "Collection",
+      "title": "ESA Permafrost Climate Change Initiative (Permafrost_cci): Permafrost Ground Temperature for the Northern Hemisphere, v5.0",
+      "license": "various",
+      "assets": {
+        "enclosure": {
+          "roles": [
+            "data"
+          ],
+          "href": "http://data.ceda.ac.uk/neodc/esacci/permafrost/data/ground_temperature/L4/area4/pp/v05.0/northern_hemisphere/",
+          "type": "application/x-binary",
+          "title": "DOWNLOAD - Download Data"
+        },
+        "metadata_ogc_17_069r3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI",
+          "title": "OGC 17-069r3 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/ogcapi-features-1/1.0\""
+        },
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "parent",
+          "href": "https://fedeo.ceos.org",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011/items?httpAccept=application/geo%2Bjson;profile=https://stacspec.org",
+          "type": "application/geo+json",
+          "title": "Datasets search for the series 5675b0be944f45a8af0e7ddbeb47a011"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables for 5675b0be944f45a8af0e7ddbeb47a011"
+        },
+        {
+          "rel": "license",
+          "href": "https://artefacts.ceda.ac.uk/licences/specific_licences/esacci_permafrost_terms_and_conditions.pdf",
+          "type": "application/pdf",
+          "title": "Other Constraints"
+        },
+        {
+          "rel": "search",
+          "href": "https://fedeo.ceos.org/collections/series/items/5675b0be944f45a8af0e7ddbeb47a011/api",
+          "type": "application/opensearchdescription+xml",
+          "title": "OpenSearch Description Document"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://catalogue.ceda.ac.uk/uuid/5675b0be944f45a8af0e7ddbeb47a011",
+          "title": "CEDA Data Catalogue Page - Detail and access information for the resource"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://dap.ceda.ac.uk/neodc/esacci/permafrost/docs/v4.0/CCI_PERMA_PUG_v4.1.pdf",
+          "type": "application/pdf",
+          "title": "Product User Guide (CRDPv4) - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int",
+          "title": "ESA Climate Change Initiative website - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/projects/permafrost/",
+          "title": "ESA CCI Permafrost project website - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/en/projects/permafrost/key-documents/",
+          "title": "Technical documentation for the Permafrost CCI project - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/documents/2929/CCI_PERMA_D2.2_ATBD_v5.0.pdf",
+          "type": "application/pdf",
+          "title": "Algorithm Theoretical Basis Document - No further details."
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "JSON-LD metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=http://data.europa.eu/930/",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml",
+          "title": "RDF/XML metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=http://data.europa.eu/930/",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle",
+          "type": "text/turtle",
+          "title": "Turtle metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5675b0be944f45a8af0e7ddbeb47a011?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=http://data.europa.eu/930/",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:organisationName/CEDA",
+          "title": "More collections for CEDA"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/AQUA",
+          "title": "More collections for AQUA platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/Envisat",
+          "title": "More collections for Envisat platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/Sentinel-1A",
+          "title": "More collections for Sentinel-1A platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/Sentinel-2",
+          "title": "More collections for Sentinel-2 platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/TERRA",
+          "title": "More collections for TERRA platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/PROBA-V",
+          "title": "More collections for PROBA-V platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/concepts/instruments/a2cb7dbe-6433-5737-9d3c-b974e6f643b2",
+          "title": "More collections for C-SAR instrument"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/concepts/instruments/003ed1d0-9f6c-59cb-a427-1fa4c4a92107",
+          "title": "More collections for MERIS instrument"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/concepts/instruments/ada8f84c-48ef-50a6-b2ba-635a1bdb7d14",
+          "title": "More collections for MODIS instrument"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/concepts/instruments/b9e0c526-c992-55e2-af93-4dc67aa71774",
+          "title": "More collections for MSI instrument"
+        }
+      ],
+      "id": "5675b0be944f45a8af0e7ddbeb47a011",
+      "updated": "2025-10-10T10:19:52Z",
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "CEDA"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "FedEO",
+          "url": "https://fedeo.ceos.org/readme.html"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "MODIS",
+          "MERIS",
+          "C-SAR",
+          "MSI",
+          "MODIS"
+        ],
+        "platform": [
+          "AQUA",
+          "Envisat",
+          "Sentinel-1A",
+          "Sentinel-2",
+          "TERRA",
+          "PROBA-V"
+        ]
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1991-08-05T00:00:00Z",
+              "2019-12-31T23:59:59Z"
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "DIF10",
+        "ESA",
+        "Soil Moisture",
+        "CCI",
+        "Active",
+        "orthoimagery",
+        "EARTH SCIENCE>CLIMATE INDICATORS>LAND SURFACE/AGRICULTURE INDICATORS>SOIL MOISTURE",
+        "EARTH SCIENCE>SPECTRAL/ENGINEERING>RADAR",
+        "EARTH SCIENCE>AGRICULTURE>SOILS>SOIL MOISTURE/WATER CONTENT",
+        "ERS-1",
+        "ERS-2",
+        "METOP-A",
+        "METOP-B",
+        "ERS WIND SCATTEROMETER",
+        "ASCAT",
+        "soil moisture",
+        "Metop-A",
+        "Metop-B",
+        "AMI-SCAT",
+        "AMI/Scatterometer"
+      ],
+      "sci:publications": [
+        {
+          "citation": "Gruber, A., Dorigo, W. A., Crow, W., Wagner W. (2017). Triple Collocation-Based Merging of Satellite Soil Moisture Retrievals. IEEE Transactions on Geoscience and Remote Sensing. PP. 1-13. 10.1109/TGRS.2017.2734070",
+          "doi": "10.1109/TGRS.2017.2734070"
+        },
+        {
+          "citation": "Gruber, A., Scanlon, T., van der Schalie, R., Wagner, W., and Dorigo, W. (2019). Evolution of the ESA CCI Soil Moisture climate data records and their underlying merging methodology, Earth Syst. Sci. Data, 11, 717â739, https://doi.org/10.5194/essd-11-717-2019",
+          "doi": "10.5194/essd-11-717-2019"
+        },
+        {
+          "citation": "Dorigo, W.A., Wagner, W., Albergel, C., Albrecht, F., Balsamo, G., Brocca, L., Chung, D., Ertl, M., Forkel, M., Gruber, A., Haas, E., Hamer, D. P. Hirschi, M., Ikonen, J., De Jeu, R. Kidd, R. Lahoz, W., Liu, Y.Y., Miralles, D., Lecomte, P. (2017). ESA CCI Soil Moisture for improved Earth system understanding: State-of-the art and future directions. In Remote Sensing of Environment, 2017, ISSN 0034-4257, https://doi.org/10.1016/j.rse.2017.07.001",
+          "doi": "10.1016/j.rse.2017.07.001"
+        }
+      ],
+      "description": "The Soil Moisture CCI ACTIVE dataset is one of the three datasets created as part of the European Space Agency's (ESA) Soil Moisture Essential Climate Variable (ECV) Climate Change Initiative (CCI) project. The product has been created by fusing scatterometer soil moisture products, derived from the instruments AMI-WS and ASCAT. PASSIVE and COMBINED products have also been created.The v05.2 ACTIVE product, provided as global daily images in NetCDF-4 classic file format, presents a global coverage of surface soil moisture at a spatial resolution of 0.25 degrees. It is provided in percent of saturation [%] and covers the period (yyyy-mm-dd) 1991-08-05 to 2019-12-31. For information regarding the theoretical and algorithmic base of the product, please see the Algorithm Theoretical Baseline Document. Other additional reference documents and information relating to the dataset can also be found on the CCI Soil Moisture project website.The data set should be cited using all three of the following references:1. Gruber, A., Scanlon, T., van der Schalie, R., Wagner, W., and Dorigo, W. (2019). Evolution of the ESA CCI Soil Moisture climate data records and their underlying merging methodology, Earth Syst. Sci. Data, 11, 717â739, https://doi.org/10.5194/essd-11-717-20192. Dorigo, W.A., Wagner, W., Albergel, C., Albrecht, F., Balsamo, G., Brocca, L., Chung, D., Ertl, M., Forkel, M., Gruber, A., Haas, E., Hamer, D. P. Hirschi, M., Ikonen, J., De Jeu, R. Kidd, R. Lahoz, W., Liu, Y.Y., Miralles, D., Lecomte, P. (2017). ESA CCI Soil Moisture for improved Earth system understanding: State-of-the art and future directions. In Remote Sensing of Environment, 2017, ISSN 0034-4257, https://doi.org/10.1016/j.rse.2017.07.0013. Gruber, A., Dorigo, W. A., Crow, W., Wagner W. (2017). Triple Collocation-Based Merging of Satellite Soil Moisture Retrievals. IEEE Transactions on Geoscience and Remote Sensing. PP. 1-13. 10.1109/TGRS.2017.2734070",
+      "type": "Collection",
+      "title": "ESA Soil Moisture Climate Change Initiative (Soil_Moisture_cci): ACTIVE Product, Version 05.2",
+      "license": "various",
+      "assets": {
+        "enclosure": {
+          "roles": [
+            "data"
+          ],
+          "href": "http://data.ceda.ac.uk/neodc/esacci/soil_moisture/data/daily_files/ACTIVE/v05.2",
+          "type": "application/x-binary",
+          "title": "DOWNLOAD - Download Data"
+        },
+        "metadata_ogc_17_069r3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI",
+          "title": "OGC 17-069r3 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/ogcapi-features-1/1.0\""
+        },
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "parent",
+          "href": "https://fedeo.ceos.org",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02/items?httpAccept=application/geo%2Bjson;profile=https://stacspec.org",
+          "type": "application/geo+json",
+          "title": "Datasets search for the series dd3da2570363429791b51120bdd29c02"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables for dd3da2570363429791b51120bdd29c02"
+        },
+        {
+          "rel": "license",
+          "href": "https://artefacts.ceda.ac.uk/licences/specific_licences/esacci_soilmoisture_terms_and_conditions.pdf",
+          "type": "application/pdf",
+          "title": "Other Constraints"
+        },
+        {
+          "rel": "search",
+          "href": "https://fedeo.ceos.org/collections/series/items/dd3da2570363429791b51120bdd29c02/api",
+          "type": "application/opensearchdescription+xml",
+          "title": "OpenSearch Description Document"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://catalogue.ceda.ac.uk/uuid/dd3da2570363429791b51120bdd29c02",
+          "title": "CEDA Data Catalogue Page - Detail and access information for the resource"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://doi.org/10.1109/TGRS.2017.2734070",
+          "title": "Gruber, A., Dorigo, W. A., Crow, W., Wagner W. (2017). Triple Collocation-Based Merging of Satellite Soil Moisture Retrievals. IEEE Transactions on Geoscience and Remote Sensing. PP. 1-13. 10.1109/TGRS.2017.2734070 - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "http://data.ceda.ac.uk/neodc/esacci/soil_moisture/metadata/sample_images/ESACCI-SOILMOISTURE-L3S-SSMS-ACTIVE-20080401000000-fv02.1.png",
+          "title": "Sample Image - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://doi.org/10.5194/essd-11-717-2019",
+          "title": "Gruber, A., Scanlon, T., van der Schalie, R., Wagner, W., and Dorigo, W. (2019). Evolution of the ESA CCI Soil Moisture climate data records and their underlying merging methodology, Earth Syst. Sci. Data, 11, 717â739, https://doi.org/10.5194/essd-11-717-2019 - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/en/projects/soil-moisture/",
+          "title": "ESA CCI Soil Moisture project website - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://doi.org/10.1016/j.rse.2017.07.001",
+          "title": "Dorigo, W.A., Wagner, W., Albergel, C., Albrecht, F., Balsamo, G., Brocca, L., Chung, D., Ertl, M., Forkel, M., Gruber, A., Haas, E., Hamer, D. P. Hirschi, M., Ikonen, J., De Jeu, R. Kidd, R. Lahoz, W., Liu, Y.Y., Miralles, D., Lecomte, P. (2017). ESA CCI Soil Moisture for improved Earth system understanding: State-of-the art and future directions. In Remote Sensing of Environment, 2017, ISSN 0034-4257, https://doi.org/10.1016/j.rse.2017.07.001 - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "http://dap.ceda.ac.uk/neodc/esacci/soil_moisture/docs/v05.2/ESA_CCI_SM_RD_D2.1_v1_ATBD_v05.2.pdf",
+          "type": "application/pdf",
+          "title": "Algorithm Theoretical Baseline Document (ATBD) for V05.2 soil moisture data - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "http://dap.ceda.ac.uk/neodc/esacci/soil_moisture/docs/v05.2/ESA_CCI_SM_RD_D4.2_v1_Product_Users_Guide_v05.2.pdf",
+          "type": "application/pdf",
+          "title": "Product User Guide - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/",
+          "title": "ESA Climate Change Initiative website - No further details."
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "JSON-LD metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=http://data.europa.eu/930/",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml",
+          "title": "RDF/XML metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=http://data.europa.eu/930/",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle",
+          "type": "text/turtle",
+          "title": "Turtle metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/dd3da2570363429791b51120bdd29c02?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=http://data.europa.eu/930/",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:organisationName/CEDA",
+          "title": "More collections for CEDA"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/ERS-1",
+          "title": "More collections for ERS-1 platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/ERS-2",
+          "title": "More collections for ERS-2 platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/Metop-A",
+          "title": "More collections for Metop-A platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/Metop-B",
+          "title": "More collections for Metop-B platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/concepts/instruments/2659e931-c15f-5b28-82e4-36c69ee2f848",
+          "title": "More collections for AMI/Scatterometer instrument"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/concepts/instruments/d00a0208-7c2f-5bb9-b141-511b8a9b3b77",
+          "title": "More collections for ASCAT instrument"
+        }
+      ],
+      "id": "dd3da2570363429791b51120bdd29c02",
+      "updated": "2025-10-10T10:25:29Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "CEDA"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "FedEO",
+          "url": "https://fedeo.ceos.org/readme.html"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "AMI/Scatterometer",
+          "AMI/Scatterometer",
+          "ASCAT",
+          "ASCAT"
+        ],
+        "platform": [
+          "ERS-1",
+          "ERS-2",
+          "Metop-A",
+          "Metop-B"
+        ]
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2010-01-01T00:00:00Z",
+              "2019-12-31T23:59:59Z"
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "DIF10",
+        "ESA Climate Change Initiative",
+        "CCI",
+        "Sea Surface Salinity",
+        "orthoimagery",
+        "EARTH SCIENCE>SPECTRAL/ENGINEERING>MICROWAVE",
+        "SMOS",
+        "MIRAS",
+        "sea surface salinity",
+        "SAC-D",
+        "SMAP",
+        "Aquarius"
+      ],
+      "sci:publications": [
+        {
+          "citation": "Boutin, J., N. Reul, J. Koehler, A. Martin, R. Catany, S. Guimbard, F. Rouffi, et al. (2021), Satellite-Based Sea Surface Salinity Designed for Ocean and Climate Studies, Journal of Geophysical Research: Oceans, 126(11), e2021JC017676, doi:https://doi.org/10.1029/2021JC017676.",
+          "doi": "10.1029/2021JC017676"
+        }
+      ],
+      "description": "The ESA Sea Surface Salinity CCI consortium has produced global, level 4, multi-sensor Sea Surface Salinity maps covering the 2010-2019 period.This dataset contains Sea Surface Salinity (SSS) v2.31 data at a spatial resolution of 50 km and a time resolution of 1 week. It has been spatially sampled on a 25 km EASE (Equal Area Scalable Earth) grid and 1 day of time sampling. A monthly product is also available. In addition to salinity, information on errors are provided (see more in the user guide and product documentation available below and on the Sea Surface Salinity CCI web page).An overview paper about CCI SSS is now published:Boutin, J., N. Reul, J. Koehler, A. Martin, R. Catany, S. Guimbard, F. Rouffi, et al. (2021), Satellite-Based Sea Surface Salinity Designed for Ocean and Climate Studies, Journal of Geophysical Research: Oceans, 126(11), e2021JC017676, doi:https://doi.org/10.1029/2021JC017676.An updated version of CCI SSS (version 3.21) is now available on: https://catalogue.ceda.ac.uk/uuid/5920a2c77e3c45339477acd31ce62c3c ; version 3 SSS and associated uncertainties are more precise and cover a longer period (Jan 2010-sept 2020); version 3 SSS are provided closer to land than version 2 SSS, with a possible degraded quality. Users might remove these additional near land data by using the lsc_qc flag.",
+      "type": "Collection",
+      "title": "ESA Sea Surface Salinity Climate Change Initiative (Sea_Surface_Salinity_cci): Weekly sea surface salinity product, v2.31, for 2010 to 2019",
+      "license": "various",
+      "assets": {
+        "enclosure": {
+          "roles": [
+            "data"
+          ],
+          "href": "http://data.ceda.ac.uk/neodc/esacci/sea_surface_salinity/data/v02.31/7days",
+          "type": "application/x-binary",
+          "title": "DOWNLOAD - Download Data"
+        },
+        "metadata_ogc_17_069r3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI",
+          "title": "OGC 17-069r3 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/ogcapi-features-1/1.0\""
+        },
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "parent",
+          "href": "https://fedeo.ceos.org",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828/items?httpAccept=application/geo%2Bjson;profile=https://stacspec.org",
+          "type": "application/geo+json",
+          "title": "Datasets search for the series eacb7580e1b54afeaabb0fd2b0a53828"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables for eacb7580e1b54afeaabb0fd2b0a53828"
+        },
+        {
+          "rel": "license",
+          "href": "https://artefacts.ceda.ac.uk/licences/specific_licences/esacci_salinity_terms_and_conditions.pdf",
+          "type": "application/pdf",
+          "title": "Other Constraints"
+        },
+        {
+          "rel": "search",
+          "href": "https://fedeo.ceos.org/collections/series/items/eacb7580e1b54afeaabb0fd2b0a53828/api",
+          "type": "application/opensearchdescription+xml",
+          "title": "OpenSearch Description Document"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://catalogue.ceda.ac.uk/uuid/eacb7580e1b54afeaabb0fd2b0a53828",
+          "title": "CEDA Data Catalogue Page - Detail and access information for the resource"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/projects/sea-surface-salinity/",
+          "title": "ESA CCI Sea Surface Salinity project website - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://doi.org/10.1029/2021JC017676",
+          "title": "Boutin, J., N. Reul, J. Koehler, A. Martin, R. Catany, S. Guimbard, F. Rouffi, et al. (2021), Satellite-Based Sea Surface Salinity Designed for Ocean and Climate Studies, Journal of Geophysical Research: Oceans, 126(11), e2021JC017676, doi:https://doi.org/10.1029/2021JC017676. - No further details."
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "JSON-LD metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=http://data.europa.eu/930/",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml",
+          "title": "RDF/XML metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=http://data.europa.eu/930/",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle",
+          "type": "text/turtle",
+          "title": "Turtle metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/eacb7580e1b54afeaabb0fd2b0a53828?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=http://data.europa.eu/930/",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:organisationName/CEDA",
+          "title": "More collections for CEDA"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/SMOS",
+          "title": "More collections for SMOS platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/SAC-D",
+          "title": "More collections for SAC-D platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/SMAP",
+          "title": "More collections for SMAP platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/concepts/instruments/5cda1e1d-7fb8-59c0-8a37-eaceff0ce027",
+          "title": "More collections for MIRAS instrument"
+        }
+      ],
+      "id": "eacb7580e1b54afeaabb0fd2b0a53828",
+      "updated": "2025-10-10T10:26:16Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "CEDA"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "FedEO",
+          "url": "https://fedeo.ceos.org/readme.html"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "MIRAS"
+        ],
+        "platform": [
+          "SMOS",
+          "SAC-D",
+          "SMAP"
+        ]
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2018-11-17T00:00:00Z",
+              "2020-12-31T23:59:59Z"
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "DIF10",
+        "land surface temperature",
+        "ESA",
+        "CCI",
+        "orthoimagery",
+        "EARTH SCIENCE>LAND SURFACE>SURFACE THERMAL PROPERTIES>LAND SURFACE TEMPERATURE",
+        "Sentinel-3",
+        "SLSTR"
+      ],
+      "description": "This dataset contains land surface temperatures (LSTs) and their uncertainty estimates from the Sea and Land Surface Temperature Radiometer (SLSTR) on Sentinel 3B. Satellite land surface temperatures are skin temperatures, which means, for example, the temperature of the ground surface in bare soil areas, the temperature of the canopy over forests, and a mix of the soil and leaf temperature over sparse vegetation. The skin temperature is an important variable when considering surface fluxes of, for instance, heat and water.Daytime and night-time temperatures are provided in separate files corresponding to the morning and evening Sentinel 3B equator crossing times which are 10:00 and 22:00 local solar time. Per pixel uncertainty estimates are given in two forms, first, an estimate of the total uncertainty for the pixel and second, a breakdown of the uncertainty into components by correlation length. Also provided in the files, on a per pixel basis, are the observation time, the satellite viewing and solar geometry angles, a quality flag, and land cover class.The dataset coverage is global over the land surface. LSTs are provided on a global equal angle grid at a resolution of 0.01Â° longitude and 0.01Â° latitude. SLSTRB achieves full Earth coverage in 1 day so the daily files have gaps where the surface is not covered by the satellite swath during day or night on that day. Furthermore, LSTs are not produced where clouds are present since under these circumstances the IR radiometer observes the cloud top which is usually much colder than the surface.Dataset coverage starts on 17th November 2018 and ends on 31st December 2020. There are minor interruptions (1-10 days) during satellite/instrument maintenance periods or instrument anomalies.The dataset was produced by the University of Leicester (UoL) and LSTs were retrieved using the (UoL) LST retrieval algorithm and data were processed in the UoL processing chain.The dataset was produced as part of the ESA Land Surface Temperature Climate Change Initiative which strives to improve satellite datasets to Global Climate Observing System (GCOS) standards.",
+      "type": "Collection",
+      "title": "ESA Land Surface Temperature Climate Change Initiative (LST_cci): Land Surface Temperature from SLSTR (Sea and Land Surface Temperature Radiometer) on Sentinel 3B, level 3 collated (L3C) global product (2018-2020), version 3.00",
+      "license": "various",
+      "assets": {
+        "enclosure": {
+          "roles": [
+            "data"
+          ],
+          "href": "http://data.ceda.ac.uk/neodc/esacci/land_surface_temperature/data/SENTINEL3B_SLSTR/L3C/0.01/v3.00/daily/",
+          "type": "application/x-binary",
+          "title": "DOWNLOAD - Download Data"
+        },
+        "metadata_ogc_17_069r3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI",
+          "title": "OGC 17-069r3 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/ogcapi-features-1/1.0\""
+        },
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "parent",
+          "href": "https://fedeo.ceos.org",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea/items?httpAccept=application/geo%2Bjson;profile=https://stacspec.org",
+          "type": "application/geo+json",
+          "title": "Datasets search for the series 5f66a881adf846bfaad58b0e6068f0ea"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables for 5f66a881adf846bfaad58b0e6068f0ea"
+        },
+        {
+          "rel": "license",
+          "href": "https://artefacts.ceda.ac.uk/licences/specific_licences/esacci_lst_terms_and_conditions.pdf",
+          "type": "application/pdf",
+          "title": "Other Constraints"
+        },
+        {
+          "rel": "search",
+          "href": "https://fedeo.ceos.org/collections/series/items/5f66a881adf846bfaad58b0e6068f0ea/api",
+          "type": "application/opensearchdescription+xml",
+          "title": "OpenSearch Description Document"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://catalogue.ceda.ac.uk/uuid/5f66a881adf846bfaad58b0e6068f0ea",
+          "title": "CEDA Data Catalogue Page - Detail and access information for the resource"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/en/projects/land-surface-temperature/about",
+          "title": "ESA LST_cci webpages - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://admin.climate.esa.int/media/documents/LST-CCI-D4.3-PUG_-_i2r0_-_Product_User_Guide.pdf",
+          "type": "application/pdf",
+          "title": "Product User Guide - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/sites/default/files/LST-CCI-D2.2-ATBD%20-%20i1r1%20-%20Algorithm%20Theoretical%20Basis%20Document.pdf",
+          "type": "application/pdf",
+          "title": "Algorithm Theoretical Basis Document v1.1 - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://admin.climate.esa.int/media/documents/LST-CCI-D4.1-PVIR_-_i1r0_-_Product_Validation_and_Intercomparison_Report.pdf",
+          "type": "application/pdf",
+          "title": "Validation and Intercomparison Report (PVIR) V1.0 - No further details."
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "JSON-LD metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=http://data.europa.eu/930/",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml",
+          "title": "RDF/XML metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=http://data.europa.eu/930/",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle",
+          "type": "text/turtle",
+          "title": "Turtle metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/5f66a881adf846bfaad58b0e6068f0ea?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=http://data.europa.eu/930/",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:organisationName/CEDA",
+          "title": "More collections for CEDA"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/Sentinel-3",
+          "title": "More collections for Sentinel-3 platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/concepts/instruments/cb64234b-e08f-545f-b508-b47ce03c4123",
+          "title": "More collections for SLSTR instrument"
+        }
+      ],
+      "id": "5f66a881adf846bfaad58b0e6068f0ea",
+      "updated": "2025-10-10T10:22:26Z",
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "CEDA"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "FedEO",
+          "url": "https://fedeo.ceos.org/readme.html"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "SLSTR"
+        ],
+        "platform": [
+          "Sentinel-3"
+        ]
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -80,
+              60,
+              -10,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2015-01-26T00:00:00Z",
+              "2017-03-22T23:59:59Z"
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "DIF10",
+        "Greenland",
+        "Ice sheet",
+        "CCI",
+        "ESA",
+        "orthoimagery",
+        "EARTH SCIENCE>CRYOSPHERE>GLACIERS/ICE SHEETS>ICE SHEETS",
+        "EARTH SCIENCE>AGRICULTURE>SOILS",
+        "Sentinel-1A",
+        "Sentinel-1B",
+        "C-SAR",
+        "ice sheets",
+        "SAR-C (Sentinel-1)"
+      ],
+      "description": "This dataset contains a time series of ice velocities for the Zachariae  glacier in Greenland, derived from Sentinel-1 SAR (Synthetic Aperture Radar) data acquired between January 2015 and March 2017. It has been produced by the ESA Greenland Ice Sheet Climate Change Initiative (CCI) project.Data files are delivered in NetCDF format at 250m grid spacing in North Polar Stereographic projection (EPSG: 3413). The horizontal velocity components are provided in true meters per day, towards the EASTING(x) and NORTHING(y) directions of the grid.",
+      "type": "Collection",
+      "title": "ESA Greenland Ice Sheet Climate Change Initiative (Greenland_Ice_Sheet_cci): Ice Velocity time series for the Zachariae Glacier for 2015-2017 from Sentinel-1 data, v1.1",
+      "license": "various",
+      "assets": {
+        "enclosure": {
+          "roles": [
+            "data"
+          ],
+          "href": "http://data.ceda.ac.uk/neodc/esacci/ice_sheets_greenland/data/greenland_ice_velocity/greenland_iv_250m_s1_zachariae/v1.1/",
+          "type": "application/x-binary",
+          "title": "DOWNLOAD - Download Data"
+        },
+        "metadata_ogc_17_069r3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI",
+          "title": "OGC 17-069r3 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/ogcapi-features-1/1.0\""
+        },
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "parent",
+          "href": "https://fedeo.ceos.org",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205/items?httpAccept=application/geo%2Bjson;profile=https://stacspec.org",
+          "type": "application/geo+json",
+          "title": "Datasets search for the series e3dbdc32f7b6476e949d52d8d3990205"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables for e3dbdc32f7b6476e949d52d8d3990205"
+        },
+        {
+          "rel": "license",
+          "href": "https://artefacts.ceda.ac.uk/licences/specific_licences/esacci_icesheets_greenland_terms_and_conditions.pdf",
+          "type": "application/pdf",
+          "title": "Other Constraints"
+        },
+        {
+          "rel": "search",
+          "href": "https://fedeo.ceos.org/collections/series/items/e3dbdc32f7b6476e949d52d8d3990205/api",
+          "type": "application/opensearchdescription+xml",
+          "title": "OpenSearch Description Document"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://catalogue.ceda.ac.uk/uuid/e3dbdc32f7b6476e949d52d8d3990205",
+          "title": "CEDA Data Catalogue Page - Detail and access information for the resource"
+        },
+        {
+          "rel": "describedby",
+          "href": "http://www.esa-icesheets-greenland-cci.org/index.php?q=webfm_send/165",
+          "title": "Product User Guide - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "http://esa-icesheets-greenland-cci.org/index.php?q=webfm_send/168",
+          "title": "Product Specification Document - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/",
+          "title": "ESA Climate Change Initiative website - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/projects/ice-sheets-greenland/",
+          "title": "ESA CCI Greenland Ice Sheet project website - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "http://data.ceda.ac.uk/neodc/esacci/ice_sheets_greenland/metadata/sample_images/greenland_iv_250m_s1_20150126_20170322_zachariae_isstroem_v1_1_quicklook.png",
+          "title": "Sample Image - No further details."
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "JSON-LD metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=http://data.europa.eu/930/",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml",
+          "title": "RDF/XML metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=http://data.europa.eu/930/",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle",
+          "type": "text/turtle",
+          "title": "Turtle metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/e3dbdc32f7b6476e949d52d8d3990205?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=http://data.europa.eu/930/",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:organisationName/CEDA",
+          "title": "More collections for CEDA"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/Sentinel-1A",
+          "title": "More collections for Sentinel-1A platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:platform/Sentinel-1B",
+          "title": "More collections for Sentinel-1B platform"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/concepts/instruments/a2cb7dbe-6433-5737-9d3c-b974e6f643b2",
+          "title": "More collections for C-SAR instrument"
+        }
+      ],
+      "id": "e3dbdc32f7b6476e949d52d8d3990205",
+      "updated": "2025-10-10T10:20:40Z",
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "CEDA"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "FedEO",
+          "url": "https://fedeo.ceos.org/readme.html"
+        }
+      ],
+      "summaries": {
+        "instruments": [
+          "C-SAR",
+          "C-SAR"
+        ],
+        "platform": [
+          "Sentinel-1A",
+          "Sentinel-1B"
+        ]
+      },
+      "accessibility": "Public",
+      "userNote": "available"
+    },
+    {
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -180,
+              -90,
+              180,
+              90
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "1978-11-01T00:00:00Z",
+              "2021-12-31T23:59:59Z"
+            ]
+          ]
+        }
+      },
+      "stac_version": "1.0.0",
+      "keywords": [
+        "ESA",
+        "CCI",
+        "Passive",
+        "Soil Moisture",
+        "orthoimagery",
+        "EARTH SCIENCE>AGRICULTURE>SOILS>SOIL MOISTURE/WATER CONTENT"
+      ],
+      "sci:publications": [
+        {
+          "citation": "Gruber, A., Scanlon, T., van der Schalie, R., Wagner, W., and Dorigo, W. (2019). Evolution of the ESA CCI Soil Moisture climate data records and their underlying merging methodology, Earth Syst. Sci. Data, 11, 717â739, https://doi.org/10.5194/essd-11-717-2019",
+          "doi": "10.5194/essd-11-717-2019"
+        },
+        {
+          "citation": "Dorigo, W.A., Wagner, W., Albergel, C., Albrecht, F., Balsamo, G., Brocca, L., Chung, D., Ertl, M., Forkel, M., Gruber, A., Haas, E., Hamer, D. P. Hirschi, M., Ikonen, J., De Jeu, R. Kidd, R. Lahoz, W., Liu, Y.Y., Miralles, D., Lecomte, P. (2017). ESA CCI Soil Moisture for improved Earth system understanding: State-of-the art and future directions. In Remote Sensing of Environment, 2017, ISSN 0034-4257, https://doi.org/10.1016/j.rse.2017.07.001",
+          "doi": "10.1016/j.rse.2017.07.001"
+        }
+      ],
+      "description": "The Soil Moisture CCI PASSIVE dataset is one of three datasets created as part of the European Space Agency's (ESA) Soil Moisture Essential Climate Variable (ECV) Climate Change Initiative (CCI) project. The product has been created by merging data from the SMMR, SSM/I, TMI, AMSR-E, WindSat, AMSR2, SMOS, SMAP, FY-3B and GPM satellite instruments. ACTIVE and COMBINED products have also been created.The v06.2 PASSIVE product, provided as global daily images in NetCDF-4 classic file format, presents a global coverage of surface soil moisture at a spatial resolution of 0.25 degrees. It is provided in volumetric units [m3 m-3] and covers the period (yyyy-mm-dd) 1978-11-01 to 2021-12-31. For information regarding the theoretical and algorithmic base of the product, please see the Algorithm Theoretical Baseline Document. Additional reference documents and information relating to the dataset can also be found on the CCI Soil Moisture project website.The data set should be cited using the following references:1. Gruber, A., Scanlon, T., van der Schalie, R., Wagner, W., and Dorigo, W. (2019). Evolution of the ESA CCI Soil Moisture climate data records and their underlying merging methodology, Earth Syst. Sci. Data, 11, 717â739, https://doi.org/10.5194/essd-11-717-20192. Dorigo, W.A., Wagner, W., Albergel, C., Albrecht, F., Balsamo, G., Brocca, L., Chung, D., Ertl, M., Forkel, M., Gruber, A., Haas, E., Hamer, D. P. Hirschi, M., Ikonen, J., De Jeu, R. Kidd, R. Lahoz, W., Liu, Y.Y., Miralles, D., Lecomte, P. (2017). ESA CCI Soil Moisture for improved Earth system understanding: State-of-the art and future directions. In Remote Sensing of Environment, 2017, ISSN 0034-4257, https://doi.org/10.1016/j.rse.2017.07.001",
+      "type": "Collection",
+      "title": "ESA Soil Moisture Climate Change Initiative (Soil_Moisture_cci): PASSIVE product, Version 06.2",
+      "license": "various",
+      "assets": {
+        "enclosure": {
+          "roles": [
+            "data"
+          ],
+          "href": "http://data.ceda.ac.uk/neodc/esacci/soil_moisture/data/daily_files/PASSIVE/v06.2",
+          "type": "application/x-binary",
+          "title": "DOWNLOAD - Download Data"
+        },
+        "metadata_ogc_17_069r3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI",
+          "title": "OGC 17-069r3 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/ogcapi-features-1/1.0\""
+        },
+        "metadata_iso_19139": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139%2Bxml",
+          "title": "ISO 19139 metadata",
+          "type": "application/vnd.iso.19139+xml"
+        },
+        "metadata_iso_19139_2": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19139-2%2Bxml",
+          "title": "ISO 19139-2 metadata",
+          "type": "application/vnd.iso.19139-2+xml"
+        },
+        "metadata_dif_10": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/dif10%2Bxml",
+          "title": "DIF-10 metadata",
+          "type": "application/dif10+xml"
+        },
+        "metadata_ogc_17_084r1": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&mode=owc",
+          "title": "OGC 17-084r1 metadata",
+          "type": "application/geo+json;profile=\"http://www.opengis.net/spec/eoc-geojson/1.0\""
+        },
+        "metadata_html": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/html",
+          "title": "HTML",
+          "type": "text/html"
+        },
+        "metadata_iso_191115_3": {
+          "roles": [
+            "metadata"
+          ],
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/vnd.iso.19115-3%2Bxml",
+          "title": "ISO 19115-3 metadata",
+          "type": "application/vnd.iso.19115-3+xml"
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8",
+          "type": "application/json"
+        },
+        {
+          "rel": "root",
+          "href": "https://fedeo.ceos.org",
+          "type": "application/json",
+          "title": "FedEO Clearinghouse"
+        },
+        {
+          "rel": "parent",
+          "href": "https://fedeo.ceos.org",
+          "title": "collections",
+          "type": "application/json"
+        },
+        {
+          "rel": "items",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8/items?httpAccept=application/geo%2Bjson;profile=https://stacspec.org",
+          "type": "application/geo+json",
+          "title": "Datasets search for the series 4dd145a7060143cd875325390d3b01c8"
+        },
+        {
+          "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8/queryables",
+          "type": "application/schema+json",
+          "title": "Queryables for 4dd145a7060143cd875325390d3b01c8"
+        },
+        {
+          "rel": "license",
+          "href": "https://artefacts.ceda.ac.uk/licences/specific_licences/esacci_soilmoisture_terms_and_conditions.pdf",
+          "type": "application/pdf",
+          "title": "Other Constraints"
+        },
+        {
+          "rel": "search",
+          "href": "https://fedeo.ceos.org/collections/series/items/4dd145a7060143cd875325390d3b01c8/api",
+          "type": "application/opensearchdescription+xml",
+          "title": "OpenSearch Description Document"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://catalogue.ceda.ac.uk/uuid/4dd145a7060143cd875325390d3b01c8",
+          "title": "CEDA Data Catalogue Page - Detail and access information for the resource"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://data.cci.ceda.ac.uk/thredds/fileServer/esacci/soil_moisture/docs/v06.1/ESA_CCI_SM_D4.2_v2_Product_Users_Guide_v06.1_i1.0.pdf",
+          "type": "application/pdf",
+          "title": "Product User Guide - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://data.cci.ceda.ac.uk/thredds/fileServer/esacci/soil_moisture/docs/v06.1/ESA_CCI_SM_RD_D2.1_v2_ATBD_v06.1_issue_1.1.pdf",
+          "type": "application/pdf",
+          "title": "Algorithm Theoretical Basis Document (ATBD) for v06.1 soil moisture data - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://doi.org/10.5194/essd-11-717-2019",
+          "title": "Gruber, A., Scanlon, T., van der Schalie, R., Wagner, W., and Dorigo, W. (2019). Evolution of the ESA CCI Soil Moisture climate data records and their underlying merging methodology, Earth Syst. Sci. Data, 11, 717â739, https://doi.org/10.5194/essd-11-717-2019 - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int",
+          "title": "ESA Climate Change Initiative website - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://climate.esa.int/projects/soil-moisture/",
+          "title": "ESA CCI Soil Moisture project website - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "https://doi.org/10.1016/j.rse.2017.07.001",
+          "title": "Dorigo, W.A., Wagner, W., Albergel, C., Albrecht, F., Balsamo, G., Brocca, L., Chung, D., Ertl, M., Forkel, M., Gruber, A., Haas, E., Hamer, D. P. Hirschi, M., Ikonen, J., De Jeu, R. Kidd, R. Lahoz, W., Liu, Y.Y., Miralles, D., Lecomte, P. (2017). ESA CCI Soil Moisture for improved Earth system understanding: State-of-the art and future directions. In Remote Sensing of Environment, 2017, ISSN 0034-4257, https://doi.org/10.1016/j.rse.2017.07.001 - No further details."
+        },
+        {
+          "rel": "describedby",
+          "href": "http://data.ceda.ac.uk/neodc/esacci/soil_moisture/metadata/sample_images/ESACCI-SOILMOISTURE-L3S-SSMV-PASSIVE-20080401000000-fv02.1.png",
+          "title": "Sample Image - No further details."
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/atom%2Bxml",
+          "type": "application/atom+xml",
+          "title": "Atom format"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/xml",
+          "type": "application/xml",
+          "title": "Dublin Core metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson",
+          "type": "application/ld+json",
+          "title": "JSON-LD metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=https://schema.org",
+          "type": "application/ld+json;profile=\"https://schema.org\"",
+          "title": "JSON-LD (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/ld%2Bjson;profile=http://data.europa.eu/930/",
+          "type": "application/ld+json;profile=\"http://data.europa.eu/930/\"",
+          "title": "JSON-LD (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml",
+          "type": "application/rdf+xml",
+          "title": "RDF/XML metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=https://schema.org",
+          "type": "application/rdf+xml;profile=\"https://schema.org\"",
+          "title": "RDF/XML (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=application/rdf%2Bxml;profile=http://data.europa.eu/930/",
+          "type": "application/rdf+xml;profile=\"http://data.europa.eu/930/\"",
+          "title": "RDF/XML (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle",
+          "type": "text/turtle",
+          "title": "Turtle metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=https://schema.org",
+          "type": "text/turtle;profile=\"https://schema.org\"",
+          "title": "Turtle (schema.org) metadata"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://fedeo.ceos.org/collections/4dd145a7060143cd875325390d3b01c8?parentIdentifier=EOP:STFC:CEDA-CCI&httpAccept=text/turtle;profile=http://data.europa.eu/930/",
+          "type": "text/turtle;profile=\"http://data.europa.eu/930/\"",
+          "title": "Turtle (GeoDCAT-AP) metadata"
+        },
+        {
+          "rel": "related",
+          "href": "https://fedeo.ceos.org/series/eo:organisationName/CEDA",
+          "title": "More collections for CEDA"
+        }
+      ],
+      "id": "4dd145a7060143cd875325390d3b01c8",
+      "updated": "2025-10-10T10:25:47Z",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+      ],
+      "providers": [
+        {
+          "roles": [
+            "producer"
+          ],
+          "name": "CEDA"
+        },
+        {
+          "roles": [
+            "host"
+          ],
+          "name": "FedEO",
+          "url": "https://fedeo.ceos.org/readme.html"
+        }
+      ],
+      "accessibility": "Public",
+      "userNote": "available"
+    }
+  ]
+}
