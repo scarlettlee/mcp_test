@@ -26,6 +26,7 @@ stac_map.html
 *.tif
 *.jpg
 *.png
+*.qgz
 
 # OS
 .DS_Store
