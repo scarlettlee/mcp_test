@@ -1,0 +1,82 @@
+======================================================================
+ESG Data Analysis Report
+======================================================================
+
+Analysis Date: 2025-12-05T22:46:44.577343
+Location: San Francisco Area
+Bounding Box: [-122.5, 37.7, -122.3, 37.8]
+
+======================================================================
+Summary
+======================================================================
+Collections Analyzed: 3
+Successful Analyses: 2
+
+======================================================================
+Detailed Analysis
+======================================================================
+
+
+Collection: nasa-nex-gddp-cmip6
+Title: Earth Exchange Global Daily Downscaled Projections
+ESG Relevance: NEX-GDDP-CMIP6
+----------------------------------------------------------------------
+Variables Analyzed:
+  • hurs:
+    Mean: 4.465639591217041 %
+    Max: 179.44483947753906
+    Min: -94.10932159423828
+  • huss:
+    Mean: 0.0010905149392783642 1
+    Max: 3.807260036468506
+    Min: -0.0026651688385754824
+  • pr:
+    Mean: 1.127375890064286e-05 kg m-2 s-1
+    Max: 0.007159842178225517
+    Min: 0.0
+  • tas:
+    Mean: 29.626358032226562 K
+    Max: 326.3973083496094
+    Min: 193.7540740966797
+
+
+Collection: era5-pds
+Title: ERA5 - PDS
+ESG Relevance: provides hourly precipitation accumulation data for understanding regional water availability context
+----------------------------------------------------------------------
+
+
+Collection: modis-11A2-061
+Title: MODIS Land Surface Temperature/Emissivity 8-Day
+ESG Relevance: provides 8-day land surface temperature measurements for monitoring thermal conditions affecting data center cooling energy requirements
+----------------------------------------------------------------------
+Variables Analyzed:
+  • LST_Day:
+    Mean: 317.9381742136642 Kelvin
+    Max: 339.76
+    Min: 275.48
+  • LST_Night:
+    Mean: 291.4068121705609 Kelvin
+    Max: 325.90000000000003
+    Min: 269.32
+
+ESG Metrics:
+  • heat_island_effect: {
+    "status": "calculated",
+    "day_night_difference_kelvin": 26.531362043103286,
+    "day_night_difference_celsius": 26.531362043103286,
+    "day_mean_kelvin": 317.9381742136642,
+    "night_mean_kelvin": 291.4068121705609,
+    "day_mean_celsius": 44.788174213664206,
+    "night_mean_celsius": 18.25681217056092,
+    "intensity": "high"
+}
+  • cooling_energy_risk: {
+    "status": "calculated",
+    "risk_level": "high",
+    "metrics": {
+        "mean_lst_celsius": 44.788174213664206,
+        "max_lst_celsius": 66.61000000000001
+    }
+}
+

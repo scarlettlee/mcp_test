@@ -1,0 +1,62 @@
+{
+  "bbox": [
+    13.0,
+    52.3,
+    13.8,
+    52.7
+  ],
+  "collections_requested": 19,
+  "collections_processed": 6,
+  "collections_successful": 0,
+  "collections_failed": 0,
+  "collection_results": [
+    {
+      "dataset_id": "dd3da2570363429791b51120bdd29c02",
+      "dataset_title": "ESA Soil Moisture CCI: ACTIVE Product v05.2",
+      "matching_reason": "provides daily soil moisture data from scatterometers 1991-2019 for understanding regional water availability and storage",
+      "status": "info_only",
+      "message": "FedEO collections identified. Full retrieval requires authentication.",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "4dd145a7060143cd875325390d3b01c8",
+      "dataset_title": "ESA Soil Moisture CCI: PASSIVE Product v06.2",
+      "matching_reason": "offers multi-sensor soil moisture measurements 1978-2021 for long-term water content assessment",
+      "status": "info_only",
+      "message": "FedEO collections identified. Full retrieval requires authentication.",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "5f66a881adf846bfaad58b0e6068f0ea",
+      "dataset_title": "ESA Land Surface Temperature CCI: SLSTR Sentinel-3B LST",
+      "matching_reason": "provides consistent land surface temperature measurements for thermal assessment of potential data center sites",
+      "status": "info_only",
+      "message": "FedEO collections identified. Full retrieval requires authentication.",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "0bc7042123984c69aa45cb6788bfdaa0",
+      "dataset_title": "ESA High Resolution Land Cover CCI: Amazon 10m LC Maps",
+      "matching_reason": "offers 10m resolution land cover mapping for detailed site selection and land use context assessment",
+      "status": "info_only",
+      "message": "FedEO collections identified. Full retrieval requires authentication.",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "5675b0be944f45a8af0e7ddbeb47a011",
+      "dataset_title": "ESA Permafrost CCI: Ground Temperature Northern Hemisphere",
+      "matching_reason": "monitors permafrost stability affecting infrastructure continuity in northern regions",
+      "status": "info_only",
+      "message": "FedEO collections identified. Full retrieval requires authentication.",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "e3dbdc32f7b6476e949d52d8d3990205",
+      "dataset_title": "ESA Greenland Ice Sheet CCI: Zachariae Glacier Ice Velocity",
+      "matching_reason": "tracks glacier dynamics and ice sheet changes relevant to sea level rise risk assessment",
+      "status": "info_only",
+      "message": "FedEO collections identified. Full retrieval requires authentication.",
+      "items_found": 0
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "bbox": [
+    13.0,
+    52.3,
+    13.8,
+    52.7
+  ],
+  "collections_requested": 26,
+  "collections_processed": 0,
+  "collections_successful": 0,
+  "collections_failed": 0,
+  "collection_results": [
+    {
+      "dataset_id": "GWP_P1M",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "GWP_P1Y",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "SWIM_WE",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "GSP_SCDE_P1Y",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "GSP_SCDL_P1Y",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "GSP_SCE_P1D",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "GSP_SCD_MEAN",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "TIMELINE_AVHRR_P1M_LSTD",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "WSF_2019",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "WSF_Evolution",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "TDM_DEM_90",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "SUPERSITES",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "D4H",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "GWP_P1D",
+      "status": "no_items",
+      "items_found": 0
+    },
+    {
+      "dataset_id": "GSP_SCD_P1Y",
+      "status": "no_items",
+      "items_found": 0
+    }
+  ]
+}

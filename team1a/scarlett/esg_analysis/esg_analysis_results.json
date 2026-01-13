@@ -1,0 +1,216 @@
+{
+  "analysis_date": "2025-12-05T22:46:44.577343",
+  "bbox": [
+    -122.5,
+    37.7,
+    -122.3,
+    37.8
+  ],
+  "collections_analyzed": [
+    {
+      "dataset_id": "nasa-nex-gddp-cmip6",
+      "dataset_title": "Earth Exchange Global Daily Downscaled Projections",
+      "matching_reason": "NEX-GDDP-CMIP6",
+      "matching_reasons": [
+        "NEX-GDDP-CMIP6"
+      ],
+      "relevant_variables": [],
+      "variables_analyzed": {
+        "hurs": {
+          "status": "success",
+          "files_analyzed": 5,
+          "data_shape": [
+            1813,
+            600,
+            1440
+          ],
+          "statistics": {
+            "mean": 4.465639591217041,
+            "max": 179.44483947753906,
+            "min": -94.10932159423828,
+            "std": 23.907733917236328,
+            "units": "%",
+            "p95": 95.13927459716797,
+            "p5": 21.137006759643555
+          }
+        },
+        "huss": {
+          "status": "success",
+          "files_analyzed": 5,
+          "data_shape": [
+            1813,
+            600,
+            1440
+          ],
+          "statistics": {
+            "mean": 0.0010905149392783642,
+            "max": 3.807260036468506,
+            "min": -0.0026651688385754824,
+            "std": 0.005087620113044977,
+            "units": "1",
+            "p95": 0.020992964506149292,
+            "p5": 0.0002918655809480697
+          }
+        },
+        "pr": {
+          "status": "success",
+          "files_analyzed": 5,
+          "data_shape": [
+            1813,
+            600,
+            1440
+          ],
+          "statistics": {
+            "mean": 1.127375890064286e-05,
+            "max": 0.007159842178225517,
+            "min": 0.0,
+            "std": 4.7661444114055485e-05,
+            "units": "kg m-2 s-1",
+            "p95": 0.00013028067769482732,
+            "p5": 0.0
+          }
+        },
+        "tas": {
+          "status": "success",
+          "files_analyzed": 11,
+          "data_shape": [
+            1093,
+            600,
+            1440
+          ],
+          "statistics": {
+            "mean": 29.626358032226562,
+            "max": 326.3973083496094,
+            "min": 193.7540740966797,
+            "std": 87.0881576538086,
+            "units": "K",
+            "p95": 303.81158447265625,
+            "p5": 243.19583129882812
+          }
+        }
+      },
+      "esg_metrics": {},
+      "risk_assessment": {},
+      "status": "success",
+      "data_type": "climate_projections",
+      "requirements": {
+        "analyze_temperature": false,
+        "analyze_precipitation": false,
+        "analyze_water_stress": false,
+        "analyze_cooling_energy": false,
+        "trend_through_2100": false,
+        "trend_through_2050": false,
+        "focus_variables": []
+      },
+      "trends": {}
+    },
+    {
+      "dataset_id": "era5-pds",
+      "dataset_title": "ERA5 - PDS",
+      "matching_reason": "provides hourly precipitation accumulation data for understanding regional water availability context",
+      "matching_reasons": [
+        "provides hourly precipitation accumulation data for understanding regional water availability context"
+      ],
+      "relevant_variables": [
+        "pr",
+        "def",
+        "pet",
+        "precipitation",
+        "prcp",
+        "soil",
+        "aet",
+        "pdsi"
+      ],
+      "variables_analyzed": {},
+      "esg_metrics": {},
+      "risk_assessment": {},
+      "status": "no_files",
+      "message": "No downloaded files found"
+    },
+    {
+      "dataset_id": "modis-11A2-061",
+      "dataset_title": "MODIS Land Surface Temperature/Emissivity 8-Day",
+      "matching_reason": "provides 8-day land surface temperature measurements for monitoring thermal conditions affecting data center cooling energy requirements",
+      "matching_reasons": [
+        "provides 8-day land surface temperature measurements for monitoring thermal conditions affecting data center cooling energy requirements"
+      ],
+      "relevant_variables": [
+        "tas",
+        "tmin",
+        "LST_Day",
+        "tmax",
+        "LST_Night",
+        "tasmax"
+      ],
+      "variables_analyzed": {
+        "LST_Day": {
+          "status": "success",
+          "files_analyzed": 5,
+          "data_points": 5648317,
+          "statistics": {
+            "mean": 317.9381742136642,
+            "max": 339.76,
+            "min": 275.48,
+            "std": 8.415708107024791,
+            "mean_celsius": 44.788174213664206,
+            "max_celsius": 66.61000000000001,
+            "min_celsius": 2.330000000000041,
+            "units": "Kelvin"
+          }
+        },
+        "LST_Night": {
+          "status": "success",
+          "files_analyzed": 5,
+          "data_points": 5636092,
+          "statistics": {
+            "mean": 291.4068121705609,
+            "max": 325.90000000000003,
+            "min": 269.32,
+            "std": 5.981043903586153,
+            "mean_celsius": 18.25681217056092,
+            "max_celsius": 52.75000000000006,
+            "min_celsius": -3.829999999999984,
+            "units": "Kelvin"
+          }
+        }
+      },
+      "esg_metrics": {
+        "heat_island_effect": {
+          "status": "calculated",
+          "day_night_difference_kelvin": 26.531362043103286,
+          "day_night_difference_celsius": 26.531362043103286,
+          "day_mean_kelvin": 317.9381742136642,
+          "night_mean_kelvin": 291.4068121705609,
+          "day_mean_celsius": 44.788174213664206,
+          "night_mean_celsius": 18.25681217056092,
+          "intensity": "high"
+        },
+        "cooling_energy_risk": {
+          "status": "calculated",
+          "risk_level": "high",
+          "metrics": {
+            "mean_lst_celsius": 44.788174213664206,
+            "max_lst_celsius": 66.61000000000001
+          }
+        }
+      },
+      "risk_assessment": {},
+      "status": "success",
+      "data_type": "thermal"
+    }
+  ],
+  "summary": {
+    "total_collections": 3,
+    "successful_analyses": 2,
+    "key_findings": [
+      {
+        "dataset": "modis-11A2-061",
+        "metrics": [
+          "heat_island_effect",
+          "cooling_energy_risk"
+        ]
+      }
+    ],
+    "risk_summary": {}
+  }
+}

@@ -1,0 +1,24 @@
+# Requirements for ERA5 ABFS Access Script
+# Install with: pip install -r requirements_era5.txt
+
+# Core data access libraries
+adlfs>=2023.1.0          # Azure Data Lake File System access
+xarray>=2023.1.0          # Multi-dimensional arrays and Zarr support
+zarr>=2.14.0              # Zarr format support
+fsspec>=2023.1.0          # Filesystem interface
+
+# STAC API libraries
+planetary-computer>=1.0.0  # Planetary Computer authentication and utilities
+pystac-client>=0.7.0      # STAC API client
+
+# Data processing
+numpy>=1.24.0             # Numerical computing
+pandas>=2.0.0             # Data manipulation (for time series)
+
+# Visualization
+matplotlib>=3.7.0         # Plotting library
+
+# Optional but recommended
+netcdf4>=1.6.0            # NetCDF support (if needed for other data)
+h5py>=3.8.0               # HDF5 support (if needed for other data)
+

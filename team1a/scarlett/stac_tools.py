@@ -204,9 +204,18 @@ def stac_download_tool(args: Dict[str, Any], context: Dict[str, Any]) -> str:
         if not asset_url:
             return "Error: No URL found for asset"
         
-        # Sign URL
+        # Sign URL using planetary-computer package
+        # This follows Microsoft's official documentation:
+        # https://planetarycomputer.microsoft.com/docs/concepts/sas/
+        # The planetary_computer.sign() function automatically:
+        # - Calls the SAS token API endpoint
+        # - Handles token caching and expiration
+        # - Signs Azure Blob Storage URLs properly
         if PLANETARY_COMPUTER_AVAILABLE:
-            signed_url = planetary_computer.sign(asset_url)
+            try:
+                signed_url = planetary_computer.sign(asset_url)
+            except Exception as e:
+                return f"Error signing URL: {str(e)}. Make sure the URL is a valid Azure Blob Storage URL."
         else:
             return "Error: planetary-computer package required. Install: pip install planetary-computer"
         
